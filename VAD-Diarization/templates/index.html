@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎤 AI Speech Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎤 AI Speech Analyzer</h1>
+            <p>Complete speech analysis with transcription, speaker diarization, and silence detection</p>
+        </header>
+
+        <div class="system-info">
+            <h3>📊 System Information</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Device:</strong> {{ device_info.device }}
+                </div>
+                <div class="info-item">
+                    <strong>CUDA:</strong> {{ "Available" if device_info.cuda_available else "Not Available" }}
+                </div>
+                <div class="info-item">
+                    <strong>Models:</strong> {{ "Loaded ✅" if device_info.models_loaded else "Not Loaded ❌" }}
+                </div>
+            </div>
+        </div>
+
+        {% if not device_info.models_loaded %}
+        <div class="model-loading">
+            <h3>🔧 Load AI Models</h3>
+            <p>Using HF_TOKEN from .env file</p>
+            
+            <form id="load-models-form" method="POST" action="/load_models">
+                <div class="form-group">
+                    <label for="whisper_model">🎵 Whisper Model:</label>
+                    <select id="whisper_model" name="whisper_model">
+                        <option value="tiny">Tiny (Fastest)</option>
+                        <option value="base" selected>Base (Recommended)</option>
+                        <option value="small">Small (Better Quality)</option>
+                        <option value="medium">Medium (High Quality)</option>
+                        <option value="large">Large (Best Quality)</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">🚀 Load Models</button>
+            </form>
+        </div>
+        {% endif %}
+
+        {% if device_info.models_loaded %}
+        <div class="upload-section">
+            <h3>📁 Upload Audio File</h3>
+            <form id="upload-form" method="POST" action="/upload" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="file" class="file-input-label">
+                        <input type="file" id="file" name="file" accept=".wav,.mp3,.flac,.m4a,.ogg,.webm" required>
+                        <span class="file-input-text">Choose audio file or drag & drop</span>
+                    </label>
+                </div>
+                
+                <div class="speaker-settings">
+                    <h4>👥 Speaker Settings</h4>
+                    <div class="settings-grid">
+                        <div class="form-group">
+                            <label for="min_speakers">Min Speakers:</label>
+                            <input type="number" id="min_speakers" name="min_speakers" min="1" max="20" placeholder="Auto">
+                        </div>
+                        <div class="form-group">
+                            <label for="max_speakers">Max Speakers:</label>
+                            <input type="number" id="max_speakers" name="max_speakers" min="1" max="20" placeholder="Auto">
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-success">🚀 Analyze Audio</button>
+            </form>
+        </div>
+        {% endif %}
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ 'danger' if category == 'error' else 'info' }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div class="features">
+            <h3>✨ Features</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4>🎵 Speech Transcription</h4>
+                    <p>High-accuracy speech-to-text with OpenAI Whisper</p>
+                </div>
+                <div class="feature-card">
+                    <h4>👥 Speaker Diarization</h4>
+                    <p>Identify who spoke when with PyAnnote 3.1</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🤫 Silence Detection</h4>
+                    <p>Detect periods where nobody is speaking</p>
+                </div>
+                <div class="feature-card">
+                    <h4>⏰ Word Timestamps</h4>
+                    <p>Precise timing for every word</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

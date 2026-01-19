@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results - AI Speech Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📊 Analysis Results</h1>
+            <p>File: {{ results.filename }}</p>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary">← Back to Upload</a>
+        </header>
+
+        {% if results.warning %}
+        <div class="alert alert-warning">
+            ⚠️ {{ results.warning }}
+        </div>
+        {% endif %}
+
+        <div class="results-summary">
+            <h3>📈 Summary</h3>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <strong>Duration:</strong> {{ "%.1f"|format(results.duration) }}s
+                </div>
+                <div class="summary-item">
+                    <strong>Speech Time:</strong> {{ "%.1f"|format(results.speech_segments|map(attribute='duration')|sum) }}s
+                </div>
+                <div class="summary-item">
+                    <strong>Silence Time:</strong> {{ "%.1f"|format(results.duration - results.speech_segments|map(attribute='duration')|sum) }}s
+                </div>
+                <div class="summary-item">
+                    <strong>Speakers:</strong> {{ results.unique_speakers_count|default(0) }}
+                </div>
+                <div class="summary-item">
+                    <strong>Segments:</strong> {{ results.segments|length }}
+                </div>
+            </div>
+        </div>
+
+        {% if results.segments %}
+        <div class="transcript-section">
+            <h3>💬 Transcript with Speakers</h3>
+            
+            {% set all_events = [] %}
+            
+            {# Add speech segments #}
+            {% for segment in results.segments %}
+                {% if all_events.append({
+                    'start': segment.start,
+                    'end': segment.end,
+                    'type': 'speech',
+                    'speaker': segment.speaker,
+                    'text': segment.text,
+                    'duration': segment.duration
+                }) %}{% endif %}
+            {% endfor %}
+            
+            {# Add silence segments #}
+            {% for silence in results.silence_segments %}
+                {% if silence.duration >= 0.5 %}
+                    {% if all_events.append({
+                        'start': silence.start,
+                        'end': silence.end,
+                        'type': 'silence',
+                        'speaker': None,
+                        'text': '[SILENCE]',
+                        'duration': silence.duration
+                    }) %}{% endif %}
+                {% endif %}
+            {% endfor %}
+            
+            {# Sort by start time #}
+            {% set sorted_events = all_events|sort(attribute='start') %}
+            
+            <div class="timeline">
+                {% for event in sorted_events %}
+                    {% if event.type == 'speech' %}
+                        <div class="speech-segment">
+                            <div class="segment-header">
+                                <strong>🎤 {{ event.speaker }}</strong>
+                                <span class="timestamp">{{ "%.1f"|format(event.start) }}s - {{ "%.1f"|format(event.end) }}s ({{ "%.1f"|format(event.duration) }}s)</span>
+                            </div>
+                            <div class="segment-text">"{{ event.text }}"</div>
+                        </div>
+                    {% else %}
+                        <div class="silence-segment">
+                            <div class="segment-header">
+                                <strong>🤫 Nobody Speaking</strong>
+                                <span class="timestamp">{{ "%.1f"|format(event.start) }}s - {{ "%.1f"|format(event.end) }}s ({{ "%.1f"|format(event.duration) }}s silence)</span>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h3>💾 Download Results</h3>
+            <div class="download-buttons">
+                <button class="btn btn-primary" onclick="downloadCSV()">📊 Download CSV</button>
+                <button class="btn btn-primary" onclick="downloadJSON()">📋 Download JSON</button>
+                <button class="btn btn-primary" onclick="downloadRTTM()">📄 Download RTTM</button>
+            </div>
+        </div>
+        {% else %}
+            <div class="no-results">
+                <h3>⚠️ No Speech Detected</h3>
+                <p>The audio file contains only silence or no recognizable speech.</p>
+                
+                {% if results.silence_segments %}
+                    <h4>🤫 Silence Analysis:</h4>
+                    {% for silence in results.silence_segments %}
+                        <p>Silence {{ loop.index }}: {{ "%.1f"|format(silence.start) }}s - {{ "%.1f"|format(silence.end) }}s ({{ "%.1f"|format(silence.duration) }}s)</p>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+
+    <script>
+        const results = {{ results|tojson }};
+        
+        function downloadCSV() {
+            let csv = 'Speaker,Start,End,Duration,Text\n';
+            results.segments.forEach(segment => {
+                csv += `"${segment.speaker}",${segment.start},${segment.end},${segment.duration},"${segment.text.replace(/"/g, '""')}"\n`;
+            });
+            
+            downloadFile(csv, `${results.filename}_transcript.csv`, 'text/csv');
+        }
+        
+        function downloadJSON() {
+            const jsonData = JSON.stringify(results, null, 2);
+            downloadFile(jsonData, `${results.filename}_analysis.json`, 'application/json');
+        }
+        
+        function downloadRTTM() {
+            let rttm = '';
+            results.segments.forEach(segment => {
+                rttm += `SPEAKER ${results.filename} 1 ${segment.start.toFixed(3)} ${segment.duration.toFixed(3)} <NA> <NA> ${segment.speaker} <NA> <NA>\n`;
+            });
+            
+            downloadFile(rttm, `${results.filename}_diarization.rttm`, 'text/plain');
+        }
+        
+        function downloadFile(content, filename, contentType) {
+            const a = document.createElement('a');
+            const file = new Blob([content], {type: contentType});
+            
+            a.href = URL.createObjectURL(file);
+            a.download = filename;
+            a.click();
+            
+            URL.revokeObjectURL(a.href);
+        }
+    </script>
+</body>
+</html>
