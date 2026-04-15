@@ -1,0 +1,594 @@
+{
+  "duration": 64.2031875,
+  "filename": "Happy_birthday_to_David_Schwimmer__FRIENDS_jWLvnA0hJ9Q.mp3",
+  "segments": [
+    {
+      "duration": 1.26,
+      "end": 1.26,
+      "end_time": "0:00:01",
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "Welcome to the Chess and in Mr. B.",
+      "word_count": 8
+    },
+    {
+      "duration": 1.02,
+      "end": 2.52,
+      "end_time": "0:00:02",
+      "speaker": "SPEAKER_01",
+      "start": 1.5,
+      "start_time": "0:00:01",
+      "text": "So where are you joining us from?",
+      "word_count": 7
+    },
+    {
+      "duration": 0.5,
+      "end": 4.04,
+      "end_time": "0:00:04",
+      "speaker": "SPEAKER_02",
+      "start": 3.54,
+      "start_time": "0:00:03",
+      "text": "The Big Apple.",
+      "word_count": 3
+    },
+    {
+      "duration": 1.54,
+      "end": 7.76,
+      "end_time": "0:00:07",
+      "speaker": "SPEAKER_02",
+      "start": 6.22,
+      "start_time": "0:00:06",
+      "text": "I'm sorry he's a little bit wound up.",
+      "word_count": 8
+    },
+    {
+      "duration": 2.28,
+      "end": 10.16,
+      "end_time": "0:00:10",
+      "speaker": "SPEAKER_02",
+      "start": 7.88,
+      "start_time": "0:00:07",
+      "text": "We had to stop at every maple candy stand on the way here.",
+      "word_count": 13
+    },
+    {
+      "duration": 1.38,
+      "end": 11.94,
+      "end_time": "0:00:11",
+      "speaker": "SPEAKER_00",
+      "start": 10.56,
+      "start_time": "0:00:10",
+      "text": "I ate all my gifts for everybody.",
+      "word_count": 7
+    },
+    {
+      "duration": 1.04,
+      "end": 16.12,
+      "end_time": "0:00:16",
+      "speaker": "SPEAKER_01",
+      "start": 15.08,
+      "start_time": "0:00:15",
+      "text": "I'm sorry, Mr. B.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.86,
+      "end": 18.04,
+      "end_time": "0:00:18",
+      "speaker": "SPEAKER_01",
+      "start": 16.18,
+      "start_time": "0:00:16",
+      "text": "There's no record of your reservation in the computer.",
+      "word_count": 9
+    },
+    {
+      "duration": 1.04,
+      "end": 19.56,
+      "end_time": "0:00:19",
+      "speaker": "SPEAKER_02",
+      "start": 18.52,
+      "start_time": "0:00:18",
+      "text": "Well, that's impossible.",
+      "word_count": 3
+    },
+    {
+      "duration": 0.82,
+      "end": 20.68,
+      "end_time": "0:00:20",
+      "speaker": "SPEAKER_02",
+      "start": 19.86,
+      "start_time": "0:00:19",
+      "text": "Can you check again, please?",
+      "word_count": 5
+    },
+    {
+      "duration": 0.78,
+      "end": 21.6,
+      "end_time": "0:00:21",
+      "speaker": "SPEAKER_02",
+      "start": 20.82,
+      "start_time": "0:00:20",
+      "text": "You can check again, please.",
+      "word_count": 5
+    },
+    {
+      "duration": 1.36,
+      "end": 25.36,
+      "end_time": "0:00:25",
+      "speaker": "SPEAKER_01",
+      "start": 24,
+      "start_time": "0:00:24",
+      "text": "I'm sorry, it's not here.",
+      "word_count": 5
+    },
+    {
+      "duration": 1.26,
+      "end": 29.02,
+      "end_time": "0:00:29",
+      "speaker": "SPEAKER_02",
+      "start": 27.76,
+      "start_time": "0:00:27",
+      "text": "Let me get this straight.",
+      "word_count": 5
+    },
+    {
+      "duration": 2.04,
+      "end": 31.72,
+      "end_time": "0:00:31",
+      "speaker": "SPEAKER_02",
+      "start": 29.68,
+      "start_time": "0:00:29",
+      "text": "I called yesterday to try to cancel my reservation,",
+      "word_count": 9
+    },
+    {
+      "duration": 1.58,
+      "end": 33.58,
+      "end_time": "0:00:33",
+      "speaker": "SPEAKER_02",
+      "start": 32,
+      "start_time": "0:00:32",
+      "text": "and was told it's not refundable.",
+      "word_count": 6
+    },
+    {
+      "duration": 1.98,
+      "end": 35.86,
+      "end_time": "0:00:35",
+      "speaker": "SPEAKER_02",
+      "start": 33.88,
+      "start_time": "0:00:33",
+      "text": "Then we drove six hours all the way up here,",
+      "word_count": 10
+    },
+    {
+      "duration": 1.66,
+      "end": 37.62,
+      "end_time": "0:00:37",
+      "speaker": "SPEAKER_02",
+      "start": 35.96,
+      "start_time": "0:00:35",
+      "text": "and now you're telling me that we don't have a reservation?",
+      "word_count": 11
+    },
+    {
+      "duration": 0.76,
+      "end": 38.94,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_01",
+      "start": 38.18,
+      "start_time": "0:00:38",
+      "text": "I don't know what to say.",
+      "word_count": 6
+    },
+    {
+      "duration": 0.68,
+      "end": 39.78,
+      "end_time": "0:00:39",
+      "speaker": "SPEAKER_02",
+      "start": 39.1,
+      "start_time": "0:00:39",
+      "text": "She doesn't know what to say.",
+      "word_count": 6
+    },
+    {
+      "duration": 1.82,
+      "end": 43.32,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_02",
+      "start": 41.5,
+      "start_time": "0:00:41",
+      "text": "Just give us the cheapest room you have.",
+      "word_count": 8
+    },
+    {
+      "duration": 1.48,
+      "end": 45.38,
+      "end_time": "0:00:45",
+      "speaker": "SPEAKER_01",
+      "start": 43.9,
+      "start_time": "0:00:43",
+      "text": "Unfortunately, the only thing we have available",
+      "word_count": 7
+    },
+    {
+      "duration": 2.02,
+      "end": 47.4,
+      "end_time": "0:00:47",
+      "speaker": "SPEAKER_01",
+      "start": 45.38,
+      "start_time": "0:00:45",
+      "text": "is our deluxe suite, the rate of $600.",
+      "word_count": 8
+    },
+    {
+      "duration": 0.72,
+      "end": 48.92,
+      "end_time": "0:00:48",
+      "speaker": "SPEAKER_00",
+      "start": 48.2,
+      "start_time": "0:00:48",
+      "text": "That's insane.",
+      "word_count": 2
+    },
+    {
+      "duration": 0.98,
+      "end": 50.36,
+      "end_time": "0:00:50",
+      "speaker": "SPEAKER_00",
+      "start": 49.38,
+      "start_time": "0:00:49",
+      "text": "It was totally insane.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.1,
+      "end": 52.02,
+      "end_time": "0:00:52",
+      "speaker": "SPEAKER_00",
+      "start": 50.92,
+      "start_time": "0:00:50",
+      "text": "Dude, let's drive home.",
+      "word_count": 4
+    },
+    {
+      "duration": 2.4,
+      "end": 54.52,
+      "end_time": "0:00:54",
+      "speaker": "SPEAKER_00",
+      "start": 52.12,
+      "start_time": "0:00:52",
+      "text": "We'll hit all the maple candy stores on the way back.",
+      "word_count": 11
+    },
+    {
+      "duration": 3.18,
+      "end": 57.7,
+      "end_time": "0:00:57",
+      "speaker": "SPEAKER_00",
+      "start": 54.52,
+      "start_time": "0:00:54",
+      "text": "And if they're closed, then maybe we'll tap a tree",
+      "word_count": 10
+    },
+    {
+      "duration": 0.8,
+      "end": 58.5,
+      "end_time": "0:00:58",
+      "speaker": "SPEAKER_00",
+      "start": 57.7,
+      "start_time": "0:00:57",
+      "text": "and make some of ourselves.",
+      "word_count": 5
+    },
+    {
+      "duration": 2.58,
+      "end": 63.58,
+      "end_time": "0:01:03",
+      "speaker": "SPEAKER_00",
+      "start": 61,
+      "start_time": "0:01:01",
+      "text": "Does that room have a closet I can lock him in?",
+      "word_count": 11
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 4.23,
+      "end": 4.24,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 5.89,
+      "end": 12.33,
+      "start": 6.44,
+      "type": "speech"
+    },
+    {
+      "duration": 6.67,
+      "end": 21.79,
+      "start": 15.12,
+      "type": "speech"
+    },
+    {
+      "duration": 2.95,
+      "end": 25.51,
+      "start": 22.56,
+      "type": "speech"
+    },
+    {
+      "duration": 0.48,
+      "end": 26.51,
+      "start": 26.04,
+      "type": "speech"
+    },
+    {
+      "duration": 0.87,
+      "end": 29.16,
+      "start": 28.29,
+      "type": "speech"
+    },
+    {
+      "duration": 7.93,
+      "end": 37.78,
+      "start": 29.86,
+      "type": "speech"
+    },
+    {
+      "duration": 1.6,
+      "end": 39.89,
+      "start": 38.29,
+      "type": "speech"
+    },
+    {
+      "duration": 16.91,
+      "end": 58.67,
+      "start": 41.76,
+      "type": "speech"
+    },
+    {
+      "duration": 2.46,
+      "end": 63.81,
+      "start": 61.35,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 1.26,
+      "end": 1.26,
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "text": "Welcome to the Chess and in Mr. B.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.02,
+      "end": 2.52,
+      "speaker": "SPEAKER_01",
+      "start": 1.5,
+      "text": "So where are you joining us from?",
+      "type": "speech"
+    },
+    {
+      "duration": 0.5,
+      "end": 4.04,
+      "speaker": "SPEAKER_02",
+      "start": 3.54,
+      "text": "The Big Apple.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.54,
+      "end": 7.76,
+      "speaker": "SPEAKER_02",
+      "start": 6.22,
+      "text": "I'm sorry he's a little bit wound up.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.28,
+      "end": 10.16,
+      "speaker": "SPEAKER_02",
+      "start": 7.88,
+      "text": "We had to stop at every maple candy stand on the way here.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.38,
+      "end": 11.94,
+      "speaker": "SPEAKER_00",
+      "start": 10.56,
+      "text": "I ate all my gifts for everybody.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.04,
+      "end": 16.12,
+      "speaker": "SPEAKER_01",
+      "start": 15.08,
+      "text": "I'm sorry, Mr. B.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.86,
+      "end": 18.04,
+      "speaker": "SPEAKER_01",
+      "start": 16.18,
+      "text": "There's no record of your reservation in the computer.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.04,
+      "end": 19.56,
+      "speaker": "SPEAKER_02",
+      "start": 18.52,
+      "text": "Well, that's impossible.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.82,
+      "end": 20.68,
+      "speaker": "SPEAKER_02",
+      "start": 19.86,
+      "text": "Can you check again, please?",
+      "type": "speech"
+    },
+    {
+      "duration": 0.78,
+      "end": 21.6,
+      "speaker": "SPEAKER_02",
+      "start": 20.82,
+      "text": "You can check again, please.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.36,
+      "end": 25.36,
+      "speaker": "SPEAKER_01",
+      "start": 24,
+      "text": "I'm sorry, it's not here.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.26,
+      "end": 29.02,
+      "speaker": "SPEAKER_02",
+      "start": 27.76,
+      "text": "Let me get this straight.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.04,
+      "end": 31.72,
+      "speaker": "SPEAKER_02",
+      "start": 29.68,
+      "text": "I called yesterday to try to cancel my reservation,",
+      "type": "speech"
+    },
+    {
+      "duration": 1.58,
+      "end": 33.58,
+      "speaker": "SPEAKER_02",
+      "start": 32,
+      "text": "and was told it's not refundable.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.98,
+      "end": 35.86,
+      "speaker": "SPEAKER_02",
+      "start": 33.88,
+      "text": "Then we drove six hours all the way up here,",
+      "type": "speech"
+    },
+    {
+      "duration": 1.66,
+      "end": 37.62,
+      "speaker": "SPEAKER_02",
+      "start": 35.96,
+      "text": "and now you're telling me that we don't have a reservation?",
+      "type": "speech"
+    },
+    {
+      "duration": 0.76,
+      "end": 38.94,
+      "speaker": "SPEAKER_01",
+      "start": 38.18,
+      "text": "I don't know what to say.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.68,
+      "end": 39.78,
+      "speaker": "SPEAKER_02",
+      "start": 39.1,
+      "text": "She doesn't know what to say.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.82,
+      "end": 43.32,
+      "speaker": "SPEAKER_02",
+      "start": 41.5,
+      "text": "Just give us the cheapest room you have.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.48,
+      "end": 45.38,
+      "speaker": "SPEAKER_01",
+      "start": 43.9,
+      "text": "Unfortunately, the only thing we have available",
+      "type": "speech"
+    },
+    {
+      "duration": 2.02,
+      "end": 47.4,
+      "speaker": "SPEAKER_01",
+      "start": 45.38,
+      "text": "is our deluxe suite, the rate of $600.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.72,
+      "end": 48.92,
+      "speaker": "SPEAKER_00",
+      "start": 48.2,
+      "text": "That's insane.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.98,
+      "end": 50.36,
+      "speaker": "SPEAKER_00",
+      "start": 49.38,
+      "text": "It was totally insane.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.1,
+      "end": 52.02,
+      "speaker": "SPEAKER_00",
+      "start": 50.92,
+      "text": "Dude, let's drive home.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.4,
+      "end": 54.52,
+      "speaker": "SPEAKER_00",
+      "start": 52.12,
+      "text": "We'll hit all the maple candy stores on the way back.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.18,
+      "end": 57.7,
+      "speaker": "SPEAKER_00",
+      "start": 54.52,
+      "text": "And if they're closed, then maybe we'll tap a tree",
+      "type": "speech"
+    },
+    {
+      "duration": 0.8,
+      "end": 58.5,
+      "speaker": "SPEAKER_00",
+      "start": 57.7,
+      "text": "and make some of ourselves.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.58,
+      "end": 63.58,
+      "speaker": "SPEAKER_00",
+      "start": 61,
+      "text": "Does that room have a closet I can lock him in?",
+      "type": "speech"
+    }
+  ],
+  "unique_speakers_count": 3
+}
