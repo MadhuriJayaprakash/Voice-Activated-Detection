@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results — Distil-Whisper Speech Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+
+    <header class="header">
+        <div class="header-badge">Distil-Whisper + pyannote 3.1</div>
+        <h1>📊 Analysis Results</h1>
+        <p>{{ results.filename }}</p>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">← Analyse Another File</a>
+    </header>
+
+    {% if results.warning %}
+    <div class="alert alert-warning">⚠️ {{ results.warning }}</div>
+    {% endif %}
+
+    <!-- Summary -->
+    <div class="card">
+        <h3>📈 Summary</h3>
+        <div class="summary-grid">
+            <div class="summary-item">
+                <span class="s-label">Duration</span>
+                <span class="s-value">{{ "%.1f"|format(results.duration) }} s</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Speech</span>
+                <span class="s-value">{{ "%.1f"|format(results.speech_segments|map(attribute='duration')|sum) }} s</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Silence</span>
+                <span class="s-value">{{ "%.1f"|format(results.duration - results.speech_segments|map(attribute='duration')|sum) }} s</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Speakers</span>
+                <span class="s-value">{{ results.unique_speakers_count|default(0) }}</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Segments</span>
+                <span class="s-value">{{ results.segments|length }}</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Timing -->
+    {% if results.timing %}
+    <div class="card">
+        <h3>⏱️ Pipeline Timing</h3>
+        <div class="timing-grid">
+            <div class="timing-item">
+                <span class="t-label">ASR Model</span>
+                <span class="t-value model-name">{{ results.timing.asr_model or 'Distil-Whisper' }}</span>
+            </div>
+            <div class="timing-item">
+                <span class="t-label">Preprocessing</span>
+                <span class="t-value">{{ results.timing.stage_preprocessing_s }} s</span>
+            </div>
+            <div class="timing-item">
+                <span class="t-label">VAD Inference</span>
+                <span class="t-value">{{ results.timing.stage_vad_s }} s</span>
+            </div>
+            <div class="timing-item highlight">
+                <span class="t-label">Distil-Whisper ASR</span>
+                <span class="t-value">{{ results.timing.stage_asr_s }} s</span>
+            </div>
+            <div class="timing-item">
+                <span class="t-label">Diarization</span>
+                <span class="t-value">{{ results.timing.stage_diarization_s }} s</span>
+            </div>
+            <div class="timing-item total">
+                <span class="t-label">Total Pipeline</span>
+                <span class="t-value">{{ results.timing.pipeline_total_s }} s</span>
+            </div>
+            <div class="timing-item total">
+                <span class="t-label">Real-Time Factor</span>
+                <span class="t-value">{{ results.timing.real_time_factor }}×</span>
+            </div>
+        </div>
+
+        <details class="model-load-details">
+            <summary>Model Load Times</summary>
+            <div class="timing-grid" style="margin-top:10px">
+                <div class="timing-item">
+                    <span class="t-label">Distil-Whisper</span>
+                    <span class="t-value">{{ results.timing.model_load_distil_whisper_s }} s</span>
+                </div>
+                <div class="timing-item">
+                    <span class="t-label">Diarization</span>
+                    <span class="t-value">{{ results.timing.model_load_diarization_s }} s</span>
+                </div>
+                <div class="timing-item">
+                    <span class="t-label">VAD</span>
+                    <span class="t-value">{{ results.timing.model_load_vad_s }} s</span>
+                </div>
+                <div class="timing-item total">
+                    <span class="t-label">Total Load</span>
+                    <span class="t-value">{{ results.timing.model_load_total_s }} s</span>
+                </div>
+            </div>
+        </details>
+    </div>
+    {% endif %}
+
+    <!-- Transcript -->
+    {% if results.segments %}
+    <div class="card">
+        <h3>💬 Transcript with Speakers</h3>
+
+        <!-- Speaker colour legend -->
+        {% set speakers = results.segments|map(attribute='speaker')|unique|list %}
+        <div class="speaker-legend">
+            {% for spk in speakers %}
+            <span class="spk-badge spk-{{ loop.index0 % 6 }}">{{ spk }}</span>
+            {% endfor %}
+        </div>
+
+        <div class="timeline">
+            {% set all_events = [] %}
+            {% for s in results.segments %}
+                {% if all_events.append({'start':s.start,'end':s.end,'type':'speech','speaker':s.speaker,'text':s.text,'duration':s.duration}) %}{% endif %}
+            {% endfor %}
+            {% for sil in results.silence_segments %}
+                {% if sil.duration >= 0.5 %}
+                    {% if all_events.append({'start':sil.start,'end':sil.end,'type':'silence','speaker':None,'text':'[SILENCE]','duration':sil.duration}) %}{% endif %}
+                {% endif %}
+            {% endfor %}
+            {% set sorted_events = all_events|sort(attribute='start') %}
+
+            {% for event in sorted_events %}
+                {% if event.type == 'speech' %}
+                    {% set spk_idx = speakers.index(event.speaker) % 6 %}
+                    <div class="speech-segment spk-border-{{ spk_idx }}">
+                        <div class="segment-header">
+                            <span class="spk-badge spk-{{ spk_idx }}">🎤 {{ event.speaker }}</span>
+                            <span class="timestamp">
+                                {{ "%.2f"|format(event.start) }}s – {{ "%.2f"|format(event.end) }}s
+                                &nbsp;({{ "%.1f"|format(event.duration) }}s)
+                            </span>
+                        </div>
+                        <div class="segment-text">"{{ event.text }}"</div>
+                    </div>
+                {% else %}
+                    <div class="silence-segment">
+                        <div class="segment-header">
+                            <span class="silence-label">🤫 Silence</span>
+                            <span class="timestamp">
+                                {{ "%.2f"|format(event.start) }}s – {{ "%.2f"|format(event.end) }}s
+                                &nbsp;({{ "%.1f"|format(event.duration) }}s)
+                            </span>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Downloads -->
+    <div class="card">
+        <h3>💾 Download Results</h3>
+        <div class="download-row">
+            <button class="btn btn-primary" onclick="downloadCSV()">📊 CSV Transcript</button>
+            <button class="btn btn-primary" onclick="downloadJSON()">📋 JSON Analysis</button>
+            <button class="btn btn-primary" onclick="downloadRTTM()">📄 RTTM (diarization)</button>
+        </div>
+    </div>
+
+    {% else %}
+    <div class="card no-results">
+        <h3>⚠️ No Speech Detected</h3>
+        <p>The audio file contains only silence or no recognisable speech.</p>
+        {% if results.silence_segments %}
+        <h4>🤫 Silence Segments:</h4>
+        {% for sil in results.silence_segments %}
+        <p>{{ loop.index }}. {{ "%.1f"|format(sil.start) }}s – {{ "%.1f"|format(sil.end) }}s ({{ "%.1f"|format(sil.duration) }}s)</p>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {% endif %}
+
+</div>
+
+<script>
+    const results = {{ results|tojson }};
+
+    function downloadCSV() {
+        let csv = 'Speaker,Start,End,Duration,Text\n';
+        results.segments.forEach(s => {
+            csv += `"${s.speaker}",${s.start},${s.end},${s.duration},"${s.text.replace(/"/g, '""')}"\n`;
+        });
+        downloadFile(csv, results.filename + '_transcript.csv', 'text/csv');
+    }
+
+    function downloadJSON() {
+        downloadFile(JSON.stringify(results, null, 2),
+                     results.filename + '_analysis.json', 'application/json');
+    }
+
+    function downloadRTTM() {
+        let rttm = '';
+        const base = results.filename.replace(/\.[^.]+$/, '');
+        results.segments.forEach(s => {
+            rttm += `SPEAKER ${base} 1 ${s.start.toFixed(3)} ${s.duration.toFixed(3)} <NA> <NA> ${s.speaker} <NA> <NA>\n`;
+        });
+        downloadFile(rttm, base + '_diarization.rttm', 'text/plain');
+    }
+
+    function downloadFile(content, filename, mime) {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(new Blob([content], {type: mime}));
+        a.download = filename;
+        a.click();
+        URL.revokeObjectURL(a.href);
+    }
+</script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
