@@ -1,0 +1,28 @@
+# ── Core web framework ────────────────────────────────────────────────────────
+flask==3.0.0
+flask-cors==4.0.0
+werkzeug==3.0.0
+jinja2==3.1.2
+python-dotenv==1.0.0
+
+# ── PyTorch (CPU build – swap for +cu121 if you have CUDA) ───────────────────
+torch==2.3.1
+torchaudio==2.3.1
+
+# ── NVIDIA NeMo toolkit (Canary-Qwen 2.5B) ───────────────────────────────────
+# Install order matters: install torch first, then nemo_toolkit
+nemo_toolkit[asr]>=2.0.0
+
+# ── HuggingFace (hub login + transformers fallback) ───────────────────────────
+huggingface_hub>=0.20.0
+transformers>=4.40.0
+accelerate>=0.27.0
+
+# ── PyAnnote (VAD + diarization) ─────────────────────────────────────────────
+pyannote.audio==3.1.1
+
+# ── Audio processing ──────────────────────────────────────────────────────────
+pydub==0.25.1
+librosa==0.10.1
+soundfile==0.12.1
+numpy==1.24.3

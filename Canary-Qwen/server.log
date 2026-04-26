@@ -1,0 +1,275 @@
+D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\pyannote\audio\core\io.py:43: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend("soundfile")
+D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\pyannote\audio\pipelines\speaker_verification.py:43: UserWarning: torchaudio._backend.get_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  backend = torchaudio.get_audio_backend()
+D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\pyannote\audio\pipelines\speaker_verification.py:45: UserWarning: Module 'speechbrain.pretrained' was deprecated, redirecting to 'speechbrain.inference'. Please update your script. This is a change from SpeechBrain 1.0. See: https://github.com/speechbrain/speechbrain/releases/tag/v1.0.0
+  from speechbrain.pretrained import (
+D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\pyannote\audio\pipelines\speaker_verification.py:53: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend(backend)
+D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\pyannote\audio\tasks\segmentation\mixins.py:37: UserWarning: `torchaudio.backend.common.AudioMetaData` has been moved to `torchaudio.AudioMetaData`. Please update the import path.
+  from torchaudio.backend.common import AudioMetaData
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.20:5001
+Press CTRL+C to quit
+127.0.0.1 - - [26/Apr/2026 21:02:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:02:23] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:02:23] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:02:25] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:02:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:05:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:05:51] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:05:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:05:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:05:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:06:10] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:06:15] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:06:16] "POST /load_models HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:06:17] "GET /loading_status HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 402, in hf_raise_for_status
+    response.raise_for_status()
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1800, in whoami
+    hf_raise_for_status(r)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 475, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2 (Request ID: Root=1-69ee6228-77b361c8658ed182467bc447;3a7509bc-06a9-4ce1-871b-17136f637819)
+
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\Canary-Qwen\app.py", line 86, in _load
+    huggingface_hub.login(token=hf_token)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 120, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 398, in _login
+    token_info = whoami(token)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1814, in whoami
+    raise HTTPError(error_message, request=e.request, response=e.response) from e
+requests.exceptions.HTTPError: Invalid user token. The token from HF_TOKEN environment variable is invalid. Note that HF_TOKEN takes precedence over `hf auth login`.
+127.0.0.1 - - [26/Apr/2026 21:06:18] "GET /loading_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:06:19] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:06:24] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:07:01] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:07:03] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:07:05] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:08] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:15:21] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:23] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:27] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:29] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:33] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:15:36] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:16:49] "POST /load_models HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:16:49] "GET /loading_status HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 402, in hf_raise_for_status
+    try:
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1800, in whoami
+    hf_raise_for_status(r)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 475, in hf_raise_for_status
+    # as well (request id and/or server error message)
+huggingface_hub.errors.HfHubHTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2 (Request ID: Root=1-69ee64a1-5027681318107e4c33bc7ff5;bac70962-d6e6-4a60-8c01-40d092c26699)
+
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\Canary-Qwen\app.py", line 86, in _load
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 120, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 398, in _login
+    token_info = whoami(token)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1814, in whoami
+    raise HTTPError(error_message, request=e.request, response=e.response) from e
+requests.exceptions.HTTPError: Invalid user token. The token from HF_TOKEN environment variable is invalid. Note that HF_TOKEN takes precedence over `hf auth login`.
+127.0.0.1 - - [26/Apr/2026 21:16:50] "GET /loading_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:17:00] "GET /loading_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:18:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:18:05] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:18:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:18:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:18:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:18:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:18:24] "POST /load_models HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 402, in hf_raise_for_status
+    try:
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1800, in whoami
+    hf_raise_for_status(r)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 475, in hf_raise_for_status
+    # as well (request id and/or server error message)
+huggingface_hub.errors.HfHubHTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2 (Request ID: Root=1-69ee6500-6463ad32174fa90668d96394;8038d829-4c73-4bdc-844c-a0073c3be858)
+
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\Canary-Qwen\app.py", line 86, in _load
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 120, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 398, in _login
+    token_info = whoami(token)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1814, in whoami
+    raise HTTPError(error_message, request=e.request, response=e.response) from e
+requests.exceptions.HTTPError: Invalid user token. The token from HF_TOKEN environment variable is invalid. Note that HF_TOKEN takes precedence over `hf auth login`.
+127.0.0.1 - - [26/Apr/2026 21:18:26] "GET /loading_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:19:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:19:23] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:19:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:19:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:19:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:19:32] "POST /load_models HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 402, in hf_raise_for_status
+    try:
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1800, in whoami
+    hf_raise_for_status(r)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 475, in hf_raise_for_status
+    # as well (request id and/or server error message)
+huggingface_hub.errors.HfHubHTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2 (Request ID: Root=1-69ee6544-7d8083bf34ef06210ecc9546;49100179-d6a4-4cdb-9c4e-de75e4d987db)
+
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\Canary-Qwen\app.py", line 86, in _load
+    import huggingface_hub
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 120, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 398, in _login
+    token_info = whoami(token)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1814, in whoami
+    raise HTTPError(error_message, request=e.request, response=e.response) from e
+requests.exceptions.HTTPError: Invalid user token. The token from HF_TOKEN environment variable is invalid. Note that HF_TOKEN takes precedence over `hf auth login`.
+127.0.0.1 - - [26/Apr/2026 21:19:35] "GET /loading_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:20:01] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:20:03] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:20:06] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:20:11] "GET /debug_token HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:20:16] "GET /loading_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:18] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:21:27] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:28] "POST /load_models HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 402, in hf_raise_for_status
+    try:
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1800, in whoami
+    hf_raise_for_status(r)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_http.py", line 475, in hf_raise_for_status
+    # as well (request id and/or server error message)
+huggingface_hub.errors.HfHubHTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/api/whoami-v2 (Request ID: Root=1-69ee65b8-47268d5d091e3f93487942bd;0ae452c6-da75-4ab4-992a-e5e78bf7f47e)
+
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\Canary-Qwen\app.py", line 86, in _load
+    from transformers import pipeline as hf_pipeline, AutoModelForSpeechSeq2Seq, AutoProcessor
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 120, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\_login.py", line 398, in _login
+    token_info = whoami(token)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "D:\MY PC\Madhu\thesis_new_version\thesis\VAD-Diarization\.venv\lib\site-packages\huggingface_hub\hf_api.py", line 1814, in whoami
+    raise HTTPError(error_message, request=e.request, response=e.response) from e
+requests.exceptions.HTTPError: Invalid user token. The token from HF_TOKEN environment variable is invalid. Note that HF_TOKEN takes precedence over `hf auth login`.
+127.0.0.1 - - [26/Apr/2026 21:21:30] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:32] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:33] "GET /loading_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:34] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:39] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:43] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:47] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:49] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:55] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:21:57] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:22:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:22:03] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:22:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:22:09] "GET /debug_token HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:22:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:22:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Apr/2026 21:22:13] "GET /?source_lang=en&target_lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2026 21:22:51] "GET /debug_token HTTP/1.1" 404 -

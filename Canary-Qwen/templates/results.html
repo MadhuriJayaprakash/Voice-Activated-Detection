@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results | Canary-Qwen 2.5B</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+
+        <!-- ── Header ──────────────────────────────────────────────────────── -->
+        <header class="header">
+            <div class="model-badge">NVIDIA &bull; Canary-Qwen 2.5B</div>
+            <h1>Analysis Results</h1>
+            <p>{{ results.filename }}</p>
+            <div class="header-tags">
+                <span class="tag">{{ results.get('source_lang', 'en')|upper }} → {{ results.get('target_lang', 'en')|upper }}</span>
+                <span class="tag">{{ results.model | default('nvidia/canary-qwen2.5-2b') }}</span>
+            </div>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary" style="margin-top:15px;">
+                ← Analyze Another File
+            </a>
+        </header>
+
+        <!-- ── Warning ──────────────────────────────────────────────────────── -->
+        {% if results.warning %}
+        <div class="alert alert-warning">{{ results.warning }}</div>
+        {% endif %}
+
+        <!-- ── Summary ──────────────────────────────────────────────────────── -->
+        <div class="card">
+            <h3>Summary</h3>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="summary-label">Duration</div>
+                    <div class="summary-value">{{ "%.1f"|format(results.duration) }} s</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">Speech Time</div>
+                    <div class="summary-value">
+                        {{ "%.1f"|format(results.speech_segments|map(attribute='duration')|sum) }} s
+                    </div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">Silence Time</div>
+                    <div class="summary-value">
+                        {{ "%.1f"|format(results.duration - results.speech_segments|map(attribute='duration')|sum) }} s
+                    </div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">Speakers</div>
+                    <div class="summary-value">{{ results.unique_speakers_count | default(0) }}</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">Segments</div>
+                    <div class="summary-value">{{ results.segments | length }}</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">Words</div>
+                    <div class="summary-value">
+                        {{ results.segments | map(attribute='word_count') | sum | default(0) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Timing report ────────────────────────────────────────────────── -->
+        {% if results.timing %}
+        <div class="card">
+            <h3>Pipeline Timing <span class="optional">(thesis data)</span></h3>
+            <div class="timing-grid">
+
+                <div class="timing-block">
+                    <h4>Model Load</h4>
+                    <div class="timing-row">
+                        <span>Canary-Qwen 2.5B</span>
+                        <span class="timing-val">{{ results.timing.get('model_load_canary_s', '—') }} s</span>
+                    </div>
+                    <div class="timing-row">
+                        <span>Diarization</span>
+                        <span class="timing-val">{{ results.timing.get('model_load_diarization_s', '—') }} s</span>
+                    </div>
+                    <div class="timing-row">
+                        <span>VAD</span>
+                        <span class="timing-val">{{ results.timing.get('model_load_vad_s', '—') }} s</span>
+                    </div>
+                    <div class="timing-row timing-total">
+                        <span>Total load</span>
+                        <span class="timing-val">{{ results.timing.get('model_load_total_s', '—') }} s</span>
+                    </div>
+                </div>
+
+                <div class="timing-block">
+                    <h4>Pipeline Stages</h4>
+                    <div class="timing-row">
+                        <span>Preprocessing</span>
+                        <span class="timing-val">{{ results.timing.get('stage_preprocessing_s', '—') }} s</span>
+                    </div>
+                    <div class="timing-row">
+                        <span>VAD Inference</span>
+                        <span class="timing-val">{{ results.timing.get('stage_vad_s', '—') }} s</span>
+                    </div>
+                    <div class="timing-row">
+                        <span>Canary-Qwen ASR</span>
+                        <span class="timing-val">{{ results.timing.get('stage_asr_s', '—') }} s</span>
+                    </div>
+                    <div class="timing-row">
+                        <span>Diarization</span>
+                        <span class="timing-val">{{ results.timing.get('stage_diarization_s', '—') }} s</span>
+                    </div>
+                    <div class="timing-row timing-total">
+                        <span>Pipeline Total</span>
+                        <span class="timing-val">{{ results.timing.get('pipeline_total_s', '—') }} s</span>
+                    </div>
+                </div>
+
+                <div class="timing-block rtf-block">
+                    <h4>Real-Time Factor</h4>
+                    <div class="rtf-value">{{ results.timing.get('real_time_factor', '—') }}x</div>
+                    <div class="rtf-sub">
+                        Audio: {{ results.timing.get('audio_duration_s', '—') }} s<br>
+                        Pipeline: {{ results.timing.get('pipeline_total_s', '—') }} s
+                    </div>
+                </div>
+
+            </div>
+            <a href="/timing_report" target="_blank" class="btn btn-outline" style="margin-top:12px;">
+                Download Full JSON Report
+            </a>
+        </div>
+        {% endif %}
+
+        <!-- ── Transcript timeline ───────────────────────────────────────────── -->
+        {% if results.segments %}
+
+        <!-- Speaker colour legend -->
+        {% set speakers = results.segments | map(attribute='speaker') | unique | list %}
+        {% set colours = ['#11998e','#e74c3c','#3498db','#f39c12','#9b59b6','#1abc9c','#e67e22','#2ecc71'] %}
+        <div class="card">
+            <h3>Speaker Legend</h3>
+            <div class="legend-row">
+                {% for spk in speakers %}
+                <div class="legend-item" style="border-left: 4px solid {{ colours[loop.index0 % colours|length] }};">
+                    {{ spk }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="card transcript-card">
+            <h3>Transcript &amp; Timeline</h3>
+
+            <!-- Build sorted event list -->
+            {% set all_events = [] %}
+            {% for seg in results.segments %}
+                {% if all_events.append({
+                    'start': seg.start, 'end': seg.end, 'type': 'speech',
+                    'speaker': seg.speaker, 'text': seg.text, 'duration': seg.duration
+                }) %}{% endif %}
+            {% endfor %}
+            {% for sil in results.silence_segments %}
+                {% if sil.duration >= 0.5 %}
+                    {% if all_events.append({
+                        'start': sil.start, 'end': sil.end, 'type': 'silence',
+                        'speaker': None, 'text': '[SILENCE]', 'duration': sil.duration
+                    }) %}{% endif %}
+                {% endif %}
+            {% endfor %}
+            {% set sorted_events = all_events | sort(attribute='start') %}
+
+            <div class="timeline-scroll">
+                {% for event in sorted_events %}
+                    {% if event.type == 'speech' %}
+                        {% set spk_idx = speakers.index(event.speaker) if event.speaker in speakers else 0 %}
+                        {% set spk_colour = colours[spk_idx % colours|length] %}
+                        <div class="event-speech" style="border-left-color: {{ spk_colour }};">
+                            <div class="event-header">
+                                <span class="event-speaker" style="color: {{ spk_colour }};">
+                                    &#127908; {{ event.speaker }}
+                                </span>
+                                <span class="event-time">
+                                    {{ "%.1f"|format(event.start) }}s –
+                                    {{ "%.1f"|format(event.end) }}s
+                                    ({{ "%.1f"|format(event.duration) }}s)
+                                </span>
+                            </div>
+                            <div class="event-text">"{{ event.text }}"</div>
+                        </div>
+                    {% else %}
+                        <div class="event-silence">
+                            <span class="silence-label">&#128263; Silence</span>
+                            <span class="event-time">
+                                {{ "%.1f"|format(event.start) }}s –
+                                {{ "%.1f"|format(event.end) }}s
+                                ({{ "%.1f"|format(event.duration) }}s)
+                            </span>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- ── Full transcript text ──────────────────────────────────────────── -->
+        <div class="card">
+            <h3>Full Transcript</h3>
+            <div class="full-transcript" id="full-transcript">
+                {% for seg in results.segments %}
+                    <p>
+                        <strong>[{{ seg.start_time }} – {{ seg.end_time }}]</strong>
+                        <em>{{ seg.speaker }}:</em> {{ seg.text }}
+                    </p>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- ── Downloads ─────────────────────────────────────────────────────── -->
+        <div class="card">
+            <h3>Download Results</h3>
+            <p class="card-sub">Export your analysis in multiple formats for thesis research</p>
+            <div class="download-row">
+                <button class="btn btn-primary" onclick="downloadCSV()">
+                    &#128202; CSV Transcript
+                </button>
+                <button class="btn btn-primary" onclick="downloadJSON()">
+                    &#128203; JSON Full Data
+                </button>
+                <button class="btn btn-primary" onclick="downloadRTTM()">
+                    &#128196; RTTM Diarization
+                </button>
+                <button class="btn btn-primary" onclick="downloadTXT()">
+                    &#128221; Plain Text
+                </button>
+                <a href="/timing_report" target="_blank" class="btn btn-outline">
+                    &#9201; Timing JSON
+                </a>
+            </div>
+        </div>
+
+        {% else %}
+        <!-- ── No speech detected ────────────────────────────────────────────── -->
+        <div class="card no-speech">
+            <h3>No Speech Detected</h3>
+            <p>The audio file contains only silence or no recognizable speech.</p>
+            {% if results.speech_segments %}
+            <p>VAD detected {{ results.speech_segments|length }} potential speech segment(s) but they were too short or quiet to transcribe.</p>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <footer class="footer">
+            Canary-Qwen 2.5B &bull; PyAnnote 3.1 &bull; Flask
+            &bull; <a href="/timing_report" target="_blank">JSON Timing Report</a>
+        </footer>
+
+    </div>
+
+    <script>
+        const results = {{ results | tojson }};
+
+        function downloadCSV() {
+            let csv = 'Speaker,Start(s),End(s),Duration(s),Word Count,Text\n';
+            results.segments.forEach(seg => {
+                const text = seg.text.replace(/"/g, '""');
+                csv += `"${seg.speaker}",${seg.start},${seg.end},${seg.duration},${seg.word_count},"${text}"\n`;
+            });
+            downloadFile(csv, `${results.filename}_canary_transcript.csv`, 'text/csv');
+        }
+
+        function downloadJSON() {
+            downloadFile(JSON.stringify(results, null, 2),
+                `${results.filename}_canary_analysis.json`, 'application/json');
+        }
+
+        function downloadRTTM() {
+            let rttm = '';
+            results.segments.forEach(seg => {
+                rttm += `SPEAKER ${results.filename} 1 ${seg.start.toFixed(3)} `
+                      + `${seg.duration.toFixed(3)} <NA> <NA> ${seg.speaker} <NA> <NA>\n`;
+            });
+            downloadFile(rttm, `${results.filename}_canary_diarization.rttm`, 'text/plain');
+        }
+
+        function downloadTXT() {
+            let txt = `Canary-Qwen 2.5B Transcript\n`;
+            txt    += `File: ${results.filename}\n`;
+            txt    += `Duration: ${results.duration.toFixed(1)}s\n`;
+            txt    += `Speakers: ${results.unique_speakers_count}\n`;
+            txt    += `Model: ${results.model || 'nvidia/canary-qwen2.5-2b'}\n\n`;
+            txt    += '─'.repeat(60) + '\n\n';
+            results.segments.forEach(seg => {
+                txt += `[${seg.start_time} – ${seg.end_time}] ${seg.speaker}:\n${seg.text}\n\n`;
+            });
+            downloadFile(txt, `${results.filename}_canary_transcript.txt`, 'text/plain');
+        }
+
+        function downloadFile(content, filename, type) {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(new Blob([content], { type }));
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(a.href);
+        }
+    </script>
+</body>
+</html>
