@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonshine Results | {{ results.filename }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+
+        <!-- ── Header ──────────────────────────────────────────────────────── -->
+        <header class="header">
+            <div class="model-badge">Useful Sensors &bull; Moonshine ASR</div>
+            <h1>Analysis Results</h1>
+            <p>{{ results.filename }} &bull; Moonshine {{ results.model_size | capitalize }}</p>
+        </header>
+
+        <!-- ── Back button ──────────────────────────────────────────────────── -->
+        <div style="margin-bottom: 16px;">
+            <a href="/" class="btn btn-secondary">&#8592; New Analysis</a>
+        </div>
+
+        <!-- ── Summary grid ─────────────────────────────────────────────────── -->
+        <div class="card">
+            <h3>Summary</h3>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="summary-value">{{ "%.1f"|format(results.duration) }}s</div>
+                    <div class="summary-label">Duration</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-value">
+                        {{ "%.1f"|format(results.speech_segments | sum(attribute='duration')) }}s
+                    </div>
+                    <div class="summary-label">Speech Time</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-value">
+                        {{ "%.1f"|format(results.duration - (results.speech_segments | sum(attribute='duration'))) }}s
+                    </div>
+                    <div class="summary-label">Silence Time</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-value">{{ results.unique_speakers_count }}</div>
+                    <div class="summary-label">Speakers</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-value">{{ results.segments | length }}</div>
+                    <div class="summary-label">Segments</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-value">
+                        {{ results.segments | sum(attribute='word_count') }}
+                    </div>
+                    <div class="summary-label">Words</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Pipeline timing ──────────────────────────────────────────────── -->
+        {% if results.timing %}
+        <div class="card">
+            <h3>Pipeline Timing</h3>
+            <div class="timing-grid">
+                <div class="timing-row header-row">
+                    <span>Stage</span><span>Time (s)</span>
+                </div>
+                {% if results.timing.model_load_asr_s is defined %}
+                <div class="timing-row">
+                    <span>Model Load — Moonshine {{ results.model_size | capitalize }}</span>
+                    <span>{{ results.timing.model_load_asr_s }}s</span>
+                </div>
+                {% endif %}
+                {% if results.timing.model_load_diarization_s is defined %}
+                <div class="timing-row">
+                    <span>Model Load — Diarization</span>
+                    <span>{{ results.timing.model_load_diarization_s }}s</span>
+                </div>
+                {% endif %}
+                {% if results.timing.model_load_vad_s is defined %}
+                <div class="timing-row">
+                    <span>Model Load — VAD</span>
+                    <span>{{ results.timing.model_load_vad_s }}s</span>
+                </div>
+                {% endif %}
+                {% if results.timing.model_load_total_s is defined %}
+                <div class="timing-row highlight-row">
+                    <span>Model Load Total</span>
+                    <span>{{ results.timing.model_load_total_s }}s</span>
+                </div>
+                {% endif %}
+                <div class="timing-row">
+                    <span>Preprocessing</span>
+                    <span>{{ results.timing.stage_preprocessing_s }}s</span>
+                </div>
+                <div class="timing-row">
+                    <span>VAD Inference</span>
+                    <span>{{ results.timing.stage_vad_s }}s</span>
+                </div>
+                <div class="timing-row">
+                    <span>Moonshine ASR Inference</span>
+                    <span>{{ results.timing.stage_asr_s }}s</span>
+                </div>
+                <div class="timing-row">
+                    <span>Speaker Diarization</span>
+                    <span>{{ results.timing.stage_diarization_s }}s</span>
+                </div>
+                <div class="timing-row highlight-row">
+                    <span>Pipeline Total</span>
+                    <span>{{ results.timing.pipeline_total_s }}s</span>
+                </div>
+                <div class="timing-row rtf-row">
+                    <span>Real-Time Factor (RTF)</span>
+                    <span>{{ results.timing.real_time_factor }}x</span>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- ── Resource usage table ──────────────────────────────────────────── -->
+        {% if results.resource_stats %}
+        {% set rs = results.resource_stats %}
+        <div class="card">
+            <h3>Resource Usage per Stage</h3>
+            <div class="resource-table-wrap">
+                <table class="resource-table">
+                    <thead>
+                        <tr>
+                            <th>Stage</th>
+                            <th>Time (s)</th>
+                            <th>RAM Before (MB)</th>
+                            <th>RAM After (MB)</th>
+                            <th>RAM &Delta; (MB)</th>
+                            <th>Peak RAM (MB)</th>
+                            <th>CPU Avg (%)</th>
+                            <th>Energy (J)</th>
+                            <th>Energy (Wh)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for key, label in [
+                            ('preprocessing', 'Preprocessing'),
+                            ('vad',           'VAD'),
+                            ('asr',           'ASR — Moonshine'),
+                            ('diarization',   'Diarization')
+                        ] %}
+                        {% if rs[key] is defined %}
+                        {% set s = rs[key] %}
+                        <tr>
+                            <td class="stage-name">{{ label }}</td>
+                            <td>{{ s.duration_s }}</td>
+                            <td>{{ s.ram_before_mb }}</td>
+                            <td>{{ s.ram_after_mb }}</td>
+                            <td class="{{ 'ram-up' if s.ram_delta_mb > 0 else 'ram-down' }}">
+                                {{ "%+.1f"|format(s.ram_delta_mb) }}
+                            </td>
+                            <td>{{ s.ram_peak_mb }}</td>
+                            <td>{{ s.cpu_avg_pct }}</td>
+                            <td>{{ s.energy_j }}</td>
+                            <td>{{ s.energy_wh }}</td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                    </tbody>
+                    {% if rs.pipeline_total is defined %}
+                    {% set pt = rs.pipeline_total %}
+                    <tfoot>
+                        <tr class="total-row">
+                            <td>Pipeline Total</td>
+                            <td>{{ results.timing.pipeline_total_s }}</td>
+                            <td colspan="3">—</td>
+                            <td>{{ pt.peak_ram_mb }}</td>
+                            <td>{{ pt.avg_cpu_pct }}</td>
+                            <td>{{ pt.total_energy_j }}</td>
+                            <td>{{ pt.total_energy_wh }}</td>
+                        </tr>
+                    </tfoot>
+                    {% endif %}
+                </table>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- ── Speaker legend ───────────────────────────────────────────────── -->
+        {% set speaker_colors = ['#e67e22', '#e74c3c', '#3498db', '#2ecc71', '#9b59b6', '#1abc9c', '#f39c12', '#e91e63'] %}
+        {% set speakers = results.segments | map(attribute='speaker') | unique | list %}
+        {% if speakers %}
+        <div class="card">
+            <h3>Speaker Legend</h3>
+            <div class="speaker-legend">
+                {% for spk in speakers %}
+                <div class="legend-item">
+                    <div class="legend-dot" style="background:{{ speaker_colors[loop.index0 % speaker_colors|length] }}"></div>
+                    <span>{{ spk }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- ── Transcript timeline ───────────────────────────────────────────── -->
+        <div class="card transcript-card">
+            <h3>Transcript &amp; Timeline</h3>
+            <div class="timeline-scroll">
+                {% for event in results.timeline %}
+                {% if event.type == 'speech' %}
+                    {% set spk_idx = speakers.index(event.speaker) if event.speaker in speakers else 0 %}
+                    <div class="timeline-event speech-event">
+                        <div class="event-time">
+                            {{ "%.2f"|format(event.start) }}s – {{ "%.2f"|format(event.end) }}s
+                        </div>
+                        <div class="event-body">
+                            <span class="event-speaker"
+                                  style="color:{{ speaker_colors[spk_idx % speaker_colors|length] }}">
+                                {{ event.speaker }}
+                            </span>
+                            <span class="event-text">{{ event.text }}</span>
+                        </div>
+                        <div class="event-meta">
+                            {{ "%.2f"|format(event.duration) }}s
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="timeline-event silence-event">
+                        <div class="event-time">
+                            {{ "%.2f"|format(event.start) }}s – {{ "%.2f"|format(event.end) }}s
+                        </div>
+                        <div class="event-body">
+                            <span class="event-speaker silence-label">&#128263; Silence</span>
+                        </div>
+                        <div class="event-meta">{{ "%.2f"|format(event.duration) }}s</div>
+                    </div>
+                {% endif %}
+                {% else %}
+                    <p class="no-events">No speech segments detected.</p>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- ── Full transcript ───────────────────────────────────────────────── -->
+        <div class="card">
+            <h3>Full Transcript</h3>
+            <div class="full-transcript" id="full-transcript">
+                {% for seg in results.segments %}{{ seg.text }} {% endfor %}
+            </div>
+            <p class="click-hint">Click transcript to copy to clipboard</p>
+        </div>
+
+        <!-- ── Downloads ─────────────────────────────────────────────────────── -->
+        <div class="card">
+            <h3>Download Results</h3>
+            <p class="card-sub">Transcript exports</p>
+            <div class="download-grid" style="margin-bottom:16px;">
+                <button class="btn btn-download" onclick="downloadCSV()">&#128202; CSV Transcript</button>
+                <button class="btn btn-download" onclick="downloadJSON()">&#123;&#125; JSON Results</button>
+                <button class="btn btn-download" onclick="downloadRTTM()">&#127908; RTTM Diarization</button>
+                <button class="btn btn-download" onclick="downloadTXT()">&#128441; Plain Text</button>
+            </div>
+            <p class="card-sub">Resource &amp; timing exports</p>
+            <div class="download-grid">
+                <button class="btn btn-download btn-download-resource" onclick="downloadResourceCSV()">&#128200; Resource Stats CSV</button>
+                <button class="btn btn-download btn-download-resource" onclick="downloadResourceJSON()">&#9881; Resource Stats JSON</button>
+                <button class="btn btn-download" onclick="downloadTiming()">&#9201; Full Timing JSON</button>
+            </div>
+        </div>
+
+        <footer class="footer">
+            Moonshine ASR &bull; PyAnnote 3.1 &bull; Flask
+            &bull; <a href="/timing_report" target="_blank">JSON Timing Report</a>
+        </footer>
+
+    </div>
+
+    <script>
+        const results = {{ results | tojson }};
+
+        function downloadFile(content, filename, mime) {
+            const a   = document.createElement('a');
+            a.href    = URL.createObjectURL(new Blob([content], {type: mime}));
+            a.download = filename;
+            a.click();
+        }
+
+        function downloadCSV() {
+            let csv = 'Speaker,Start(s),End(s),Duration(s),Word Count,Text\n';
+            results.segments.forEach(seg => {
+                const text = seg.text.replace(/"/g, '""');
+                csv += `"${seg.speaker}",${seg.start},${seg.end},${seg.duration},${seg.word_count},"${text}"\n`;
+            });
+            downloadFile(csv, `${results.filename}_moonshine_transcript.csv`, 'text/csv');
+        }
+
+        function downloadJSON() {
+            downloadFile(JSON.stringify(results, null, 2),
+                `${results.filename}_moonshine_results.json`, 'application/json');
+        }
+
+        function downloadRTTM() {
+            let rttm = '';
+            results.segments.forEach(seg => {
+                rttm += `SPEAKER ${results.filename} 1 ${seg.start} ${seg.duration} <NA> <NA> ${seg.speaker} <NA> <NA>\n`;
+            });
+            downloadFile(rttm, `${results.filename}_moonshine.rttm`, 'text/plain');
+        }
+
+        function downloadTXT() {
+            let txt = `Moonshine ASR Transcript\nFile: ${results.filename}\nModel: ${results.model}\n`;
+            txt += `Duration: ${results.duration}s\nSpeakers: ${results.unique_speakers_count}\n`;
+            txt += `\n${'─'.repeat(50)}\n\n`;
+            results.segments.forEach(seg => {
+                txt += `[${seg.start_time} → ${seg.end_time}] ${seg.speaker}\n${seg.text}\n\n`;
+            });
+            downloadFile(txt, `${results.filename}_moonshine_transcript.txt`, 'text/plain');
+        }
+
+        function downloadTiming() {
+            downloadFile(JSON.stringify(results.timing, null, 2),
+                `${results.filename}_moonshine_timing.json`, 'application/json');
+        }
+
+        function downloadResourceCSV() {
+            const rs = results.resource_stats;
+            if (!rs) { alert('No resource data available.'); return; }
+
+            const headers = [
+                'Stage', 'Time (s)', 'RAM Before (MB)', 'RAM After (MB)',
+                'RAM Delta (MB)', 'Peak RAM (MB)', 'CPU Avg (%)', 'Energy (J)', 'Energy (Wh)'
+            ];
+            const stages = [
+                ['Preprocessing', 'preprocessing'],
+                ['VAD',           'vad'],
+                ['ASR - Moonshine', 'asr'],
+                ['Diarization',   'diarization'],
+            ];
+
+            let csv = headers.join(',') + '\n';
+            stages.forEach(([label, key]) => {
+                const s = rs[key];
+                if (!s) return;
+                csv += [
+                    `"${label}"`,
+                    s.duration_s,
+                    s.ram_before_mb,
+                    s.ram_after_mb,
+                    s.ram_delta_mb,
+                    s.ram_peak_mb,
+                    s.cpu_avg_pct,
+                    s.energy_j,
+                    s.energy_wh
+                ].join(',') + '\n';
+            });
+
+            // Total row
+            const pt = rs.pipeline_total;
+            if (pt) {
+                csv += [
+                    '"Pipeline Total"',
+                    results.timing.pipeline_total_s,
+                    '""', '""', '""',
+                    pt.peak_ram_mb,
+                    pt.avg_cpu_pct,
+                    pt.total_energy_j,
+                    pt.total_energy_wh
+                ].join(',') + '\n';
+            }
+
+            // Metadata header block
+            const meta = [
+                `# Moonshine Resource Usage Report`,
+                `# File: ${results.filename}`,
+                `# Model: ${results.model}`,
+                `# Audio Duration: ${results.duration}s`,
+                `# RTF: ${results.timing.real_time_factor}x`,
+                `# Generated: ${new Date().toISOString()}`,
+                '',
+            ].join('\n');
+
+            downloadFile(meta + csv,
+                `${results.filename}_moonshine_resource_stats.csv`, 'text/csv');
+        }
+
+        function downloadResourceJSON() {
+            const rs = results.resource_stats;
+            if (!rs) { alert('No resource data available.'); return; }
+
+            const payload = {
+                file:           results.filename,
+                model:          results.model,
+                model_size:     results.model_size,
+                audio_duration_s: results.duration,
+                real_time_factor: results.timing.real_time_factor,
+                generated:      new Date().toISOString(),
+                stages: {
+                    preprocessing: rs.preprocessing,
+                    vad:           rs.vad,
+                    asr:           rs.asr,
+                    diarization:   rs.diarization,
+                },
+                pipeline_total: rs.pipeline_total,
+                timing_s: {
+                    model_load_asr:         results.timing.model_load_asr_s,
+                    model_load_diarization: results.timing.model_load_diarization_s,
+                    model_load_vad:         results.timing.model_load_vad_s,
+                    model_load_total:       results.timing.model_load_total_s,
+                    preprocessing:          results.timing.stage_preprocessing_s,
+                    vad:                    results.timing.stage_vad_s,
+                    asr:                    results.timing.stage_asr_s,
+                    diarization:            results.timing.stage_diarization_s,
+                    pipeline_total:         results.timing.pipeline_total_s,
+                },
+            };
+
+            downloadFile(JSON.stringify(payload, null, 2),
+                `${results.filename}_moonshine_resource_stats.json`, 'application/json');
+        }
+    </script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

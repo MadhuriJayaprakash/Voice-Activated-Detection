@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonshine ASR | Speech Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+
+        <!-- ── Header ──────────────────────────────────────────────────────── -->
+        <header class="header">
+            <div class="model-badge">Useful Sensors &bull; Moonshine ASR</div>
+            <h1>Speech Analyzer</h1>
+            <p>Lightweight edge-optimised ASR &bull; VAD &bull; Speaker Diarization</p>
+            <div class="header-tags">
+                <span class="tag">English Only</span>
+                <span class="tag">Tiny 27M &bull; Base 61M</span>
+                <span class="tag">Faster than Whisper</span>
+                <span class="tag">PyAnnote VAD</span>
+            </div>
+        </header>
+
+        <!-- ── System info ──────────────────────────────────────────────────── -->
+        <div class="card">
+            <h3>System Information</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">Device</div>
+                    <div class="info-value {{ 'gpu' if device_info.cuda_available else '' }}">
+                        {{ device_info.device }}
+                        {% if device_info.cuda_available %}<span class="badge-gpu">GPU</span>{% endif %}
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">CUDA</div>
+                    <div class="info-value">
+                        {{ "Available" if device_info.cuda_available else "Not Available" }}
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">ASR Model</div>
+                    <div class="info-value">{{ device_info.asr_model }}</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Models Status</div>
+                    <div class="info-value {{ 'status-ok' if device_info.models_loaded else 'status-warn' }}">
+                        {{ "Loaded" if device_info.models_loaded else "Not Loaded" }}
+                        {{ "✓" if device_info.models_loaded else "✗" }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Model loading ────────────────────────────────────────────────── -->
+        {% if not device_info.models_loaded %}
+        <div class="card" id="load-card">
+            <h3>Load AI Models</h3>
+            <p class="card-sub">
+                Using <code>HF_TOKEN</code> from your <code>.env</code> file &bull;
+                Models download once and are cached locally
+            </p>
+
+            <form id="load-models-form">
+
+                <div class="form-group">
+                    <label for="model_size">Moonshine Model Size</label>
+                    <select id="model_size" name="model_size">
+                        <option value="tiny">Moonshine Tiny — 27M params &bull; fastest, lowest memory</option>
+                        <option value="base" selected>Moonshine Base — 61M params &bull; better accuracy (recommended)</option>
+                    </select>
+                </div>
+
+                <div class="info-box">
+                    <strong>English Only:</strong> Moonshine is optimised for English speech recognition.
+                    It is significantly faster and lighter than Whisper at comparable accuracy.
+                </div>
+
+                <div class="size-compare">
+                    <div class="size-bar-wrap">
+                        <div class="size-label">Moonshine Tiny</div>
+                        <div class="size-bar"><div class="size-fill" style="width:4%"></div></div>
+                        <div class="size-num">27M</div>
+                    </div>
+                    <div class="size-bar-wrap">
+                        <div class="size-label">Moonshine Base</div>
+                        <div class="size-bar"><div class="size-fill" style="width:9%"></div></div>
+                        <div class="size-num">61M</div>
+                    </div>
+                    <div class="size-bar-wrap dimmed">
+                        <div class="size-label">Whisper Large-v3</div>
+                        <div class="size-bar"><div class="size-fill alt" style="width:100%"></div></div>
+                        <div class="size-num">1.5B</div>
+                    </div>
+                </div>
+
+                <!-- Progress bar -->
+                <div id="progress-wrap" style="display:none; margin: 18px 0;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+                    </div>
+                    <div id="progress-label" class="progress-label">Starting...</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="load-btn">
+                    Load Models
+                </button>
+
+                {% if not device_info.has_env_token %}
+                <div class="alert alert-warning" style="margin-top:15px;">
+                    No <code>HF_TOKEN</code> found in <code>.env</code>.
+                    Add your HuggingFace token before loading models.
+                </div>
+                {% endif %}
+            </form>
+        </div>
+        {% endif %}
+
+        <!-- ── Upload section ───────────────────────────────────────────────── -->
+        {% if device_info.models_loaded %}
+        <div class="card">
+            <h3>Upload Audio File</h3>
+            <p class="card-sub">
+                Supports WAV, MP3, FLAC, M4A, OGG, WEBM &bull; Max 500 MB
+                &bull; Model: <strong>{{ device_info.asr_model }}</strong>
+                &bull; Language: <strong>English</strong>
+            </p>
+
+            <form id="upload-form" method="POST" action="/upload" enctype="multipart/form-data">
+
+                <label class="file-drop-zone" id="drop-zone" for="file">
+                    <input type="file" id="file" name="file"
+                           accept=".wav,.mp3,.flac,.m4a,.ogg,.webm" required>
+                    <div class="drop-icon">&#127925;</div>
+                    <div class="drop-text" id="drop-text">
+                        Click to choose an audio file<br>
+                        <small>or drag &amp; drop here</small>
+                    </div>
+                </label>
+
+                <div class="speaker-settings">
+                    <h4>Speaker Constraints <span class="optional">(optional)</span></h4>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="min_speakers">Min Speakers</label>
+                            <input type="number" id="min_speakers" name="min_speakers"
+                                   min="1" max="20" placeholder="Auto">
+                        </div>
+                        <div class="form-group">
+                            <label for="max_speakers">Max Speakers</label>
+                            <input type="number" id="max_speakers" name="max_speakers"
+                                   min="1" max="20" placeholder="Auto">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="upload-progress-wrap" style="display:none; margin: 18px 0;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill indeterminate" id="upload-progress-fill"></div>
+                    </div>
+                    <div id="upload-progress-label" class="progress-label">Preparing...</div>
+                </div>
+
+                <button type="submit" class="btn btn-success" id="upload-btn">
+                    Analyze Audio
+                </button>
+            </form>
+        </div>
+        {% endif %}
+
+        <!-- ── Features ─────────────────────────────────────────────────────── -->
+        <div class="card features-card">
+            <h3>What Moonshine Brings</h3>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">&#9889;</div>
+                    <h4>Ultra Lightweight</h4>
+                    <p>Tiny (27M) and Base (61M) — up to 55x smaller than Whisper Large-v3 (1.5B)</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128640;</div>
+                    <h4>Faster than Whisper</h4>
+                    <p>5x faster inference than Whisper Tiny on CPU — built for real-time edge devices</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128483;</div>
+                    <h4>Speaker Diarization</h4>
+                    <p>Identify who spoke when using PyAnnote 3.1 speaker diarization pipeline</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128266;</div>
+                    <h4>PyAnnote VAD</h4>
+                    <p>Precise voice activity detection filters silence and noise before ASR</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#9201;</div>
+                    <h4>Timing Metrics</h4>
+                    <p>Full pipeline timing with RTF — download JSON report for thesis data</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">&#128190;</div>
+                    <h4>Export Results</h4>
+                    <p>Download transcripts as CSV, JSON, RTTM diarization, or plain TXT</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            Moonshine ASR &bull; PyAnnote 3.1 &bull; Flask
+            &bull; <a href="/timing_report" target="_blank">JSON Timing Report</a>
+        </footer>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

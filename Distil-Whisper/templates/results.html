@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results — Distil-Whisper Speech Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+
+    <header class="header">
+        <div class="header-badge">Distil-Whisper + pyannote 3.1</div>
+        <h1>📊 Analysis Results</h1>
+        <p>{{ results.filename }}</p>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">← Analyse Another File</a>
+    </header>
+
+    {% if results.warning %}
+    <div class="alert alert-warning">⚠️ {{ results.warning }}</div>
+    {% endif %}
+
+    <!-- Summary -->
+    <div class="card">
+        <h3>📈 Summary</h3>
+        <div class="summary-grid">
+            <div class="summary-item">
+                <span class="s-label">Duration</span>
+                <span class="s-value">{{ "%.1f"|format(results.duration) }} s</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Speech</span>
+                <span class="s-value">{{ "%.1f"|format(results.speech_segments|map(attribute='duration')|sum) }} s</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Silence</span>
+                <span class="s-value">{{ "%.1f"|format(results.duration - results.speech_segments|map(attribute='duration')|sum) }} s</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Speakers</span>
+                <span class="s-value">{{ results.unique_speakers_count|default(0) }}</span>
+            </div>
+            <div class="summary-item">
+                <span class="s-label">Segments</span>
+                <span class="s-value">{{ results.segments|length }}</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Timing -->
+    {% if results.timing %}
+    <div class="card">
+        <h3>⏱️ Pipeline Timing</h3>
+        <div class="timing-grid">
+            <div class="timing-item">
+                <span class="t-label">ASR Model</span>
+                <span class="t-value model-name">{{ results.timing.asr_model or 'Distil-Whisper' }}</span>
+            </div>
+            <div class="timing-item">
+                <span class="t-label">Preprocessing</span>
+                <span class="t-value">{{ results.timing.stage_preprocessing_s }} s</span>
+            </div>
+            <div class="timing-item">
+                <span class="t-label">VAD Inference</span>
+                <span class="t-value">{{ results.timing.stage_vad_s }} s</span>
+            </div>
+            <div class="timing-item highlight">
+                <span class="t-label">Distil-Whisper ASR</span>
+                <span class="t-value">{{ results.timing.stage_asr_s }} s</span>
+            </div>
+            <div class="timing-item">
+                <span class="t-label">Diarization</span>
+                <span class="t-value">{{ results.timing.stage_diarization_s }} s</span>
+            </div>
+            <div class="timing-item total">
+                <span class="t-label">Total Pipeline</span>
+                <span class="t-value">{{ results.timing.pipeline_total_s }} s</span>
+            </div>
+            <div class="timing-item total">
+                <span class="t-label">Real-Time Factor</span>
+                <span class="t-value">{{ results.timing.real_time_factor }}×</span>
+            </div>
+        </div>
+
+        <details class="model-load-details">
+            <summary>Model Load Times</summary>
+            <div class="timing-grid" style="margin-top:10px">
+                <div class="timing-item">
+                    <span class="t-label">Distil-Whisper</span>
+                    <span class="t-value">{{ results.timing.model_load_distil_whisper_s }} s</span>
+                </div>
+                <div class="timing-item">
+                    <span class="t-label">Diarization</span>
+                    <span class="t-value">{{ results.timing.model_load_diarization_s }} s</span>
+                </div>
+                <div class="timing-item">
+                    <span class="t-label">VAD</span>
+                    <span class="t-value">{{ results.timing.model_load_vad_s }} s</span>
+                </div>
+                <div class="timing-item total">
+                    <span class="t-label">Total Load</span>
+                    <span class="t-value">{{ results.timing.model_load_total_s }} s</span>
+                </div>
+            </div>
+        </details>
+    </div>
+    {% endif %}
+
+    <!-- Resource Usage -->
+    {% if results.resource_stats %}
+    {% set rs = results.resource_stats %}
+    <div class="card">
+        <h3>⚡ Memory &amp; Energy Consumption</h3>
+        <p class="hint" style="margin-bottom:12px">
+            Energy estimated from CPU usage × CPU TDP (65 W baseline).
+            RAM delta = memory added by each stage.
+        </p>
+
+        <!-- Per-stage table -->
+        <div class="table-wrap">
+        <table class="resource-table">
+            <thead>
+                <tr>
+                    <th>Stage</th>
+                    <th>Time (s)</th>
+                    <th>RAM Before (MB)</th>
+                    <th>RAM After (MB)</th>
+                    <th>RAM Δ (MB)</th>
+                    <th>Peak RAM (MB)</th>
+                    <th>CPU Avg (%)</th>
+                    <th>Energy (J)</th>
+                    <th>Energy (Wh)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for key, label in [('preprocessing','Preprocessing'),('vad','VAD'),('asr','ASR (Distil-Whisper)'),('diarization','Diarization')] %}
+                {% if rs[key] is defined %}
+                {% set s = rs[key] %}
+                <tr>
+                    <td><strong>{{ label }}</strong></td>
+                    <td>{{ s.duration_s }}</td>
+                    <td>{{ s.ram_before_mb }}</td>
+                    <td>{{ s.ram_after_mb }}</td>
+                    <td class="{{ 'ram-up' if s.ram_delta_mb > 0 else 'ram-down' }}">
+                        {{ "%+.1f"|format(s.ram_delta_mb) }}
+                    </td>
+                    <td>{{ s.ram_peak_mb }}</td>
+                    <td>{{ s.cpu_avg_pct }}</td>
+                    <td>{{ s.energy_j }}</td>
+                    <td>{{ s.energy_wh }}</td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                {% set pt = rs.pipeline_total %}
+                <tr class="totals-row">
+                    <td><strong>TOTAL</strong></td>
+                    <td><strong>{{ results.timing.pipeline_total_s }}</strong></td>
+                    <td colspan="2">—</td>
+                    <td>—</td>
+                    <td><strong>{{ pt.peak_ram_mb }} MB</strong></td>
+                    <td><strong>{{ pt.avg_cpu_pct }}%</strong></td>
+                    <td><strong>{{ pt.total_energy_j }} J</strong></td>
+                    <td><strong>{{ pt.total_energy_wh }} Wh</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+
+        <!-- Summary cards -->
+        <div class="resource-summary">
+            <div class="res-card">
+                <span class="res-icon">🧠</span>
+                <span class="res-label">Peak RAM</span>
+                <span class="res-value">{{ rs.pipeline_total.peak_ram_mb }} MB</span>
+            </div>
+            <div class="res-card">
+                <span class="res-icon">🖥️</span>
+                <span class="res-label">Avg CPU</span>
+                <span class="res-value">{{ rs.pipeline_total.avg_cpu_pct }}%</span>
+            </div>
+            <div class="res-card">
+                <span class="res-icon">⚡</span>
+                <span class="res-label">Total Energy</span>
+                <span class="res-value">{{ rs.pipeline_total.total_energy_j }} J</span>
+            </div>
+            <div class="res-card">
+                <span class="res-icon">🔋</span>
+                <span class="res-label">Total Energy</span>
+                <span class="res-value">{{ rs.pipeline_total.total_energy_wh }} Wh</span>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Transcript -->
+    {% if results.segments %}
+    <div class="card">
+        <h3>💬 Transcript with Speakers</h3>
+
+        <!-- Speaker colour legend -->
+        {% set speakers = results.segments|map(attribute='speaker')|unique|list %}
+        <div class="speaker-legend">
+            {% for spk in speakers %}
+            <span class="spk-badge spk-{{ loop.index0 % 6 }}">{{ spk }}</span>
+            {% endfor %}
+        </div>
+
+        <div class="timeline">
+            {% set all_events = [] %}
+            {% for s in results.segments %}
+                {% if all_events.append({'start':s.start,'end':s.end,'type':'speech','speaker':s.speaker,'text':s.text,'duration':s.duration}) %}{% endif %}
+            {% endfor %}
+            {% for sil in results.silence_segments %}
+                {% if sil.duration >= 0.5 %}
+                    {% if all_events.append({'start':sil.start,'end':sil.end,'type':'silence','speaker':None,'text':'[SILENCE]','duration':sil.duration}) %}{% endif %}
+                {% endif %}
+            {% endfor %}
+            {% set sorted_events = all_events|sort(attribute='start') %}
+
+            {% for event in sorted_events %}
+                {% if event.type == 'speech' %}
+                    {% set spk_idx = speakers.index(event.speaker) % 6 %}
+                    <div class="speech-segment spk-border-{{ spk_idx }}">
+                        <div class="segment-header">
+                            <span class="spk-badge spk-{{ spk_idx }}">🎤 {{ event.speaker }}</span>
+                            <span class="timestamp">
+                                {{ "%.2f"|format(event.start) }}s – {{ "%.2f"|format(event.end) }}s
+                                &nbsp;({{ "%.1f"|format(event.duration) }}s)
+                            </span>
+                        </div>
+                        <div class="segment-text">"{{ event.text }}"</div>
+                    </div>
+                {% else %}
+                    <div class="silence-segment">
+                        <div class="segment-header">
+                            <span class="silence-label">🤫 Silence</span>
+                            <span class="timestamp">
+                                {{ "%.2f"|format(event.start) }}s – {{ "%.2f"|format(event.end) }}s
+                                &nbsp;({{ "%.1f"|format(event.duration) }}s)
+                            </span>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Downloads -->
+    <div class="card">
+        <h3>💾 Download Results</h3>
+        <p class="hint" style="margin-bottom:10px;">Transcript exports</p>
+        <div class="download-row" style="margin-bottom:16px;">
+            <button class="btn btn-primary" onclick="downloadCSV()">📊 CSV Transcript</button>
+            <button class="btn btn-primary" onclick="downloadJSON()">📋 JSON Analysis</button>
+            <button class="btn btn-primary" onclick="downloadRTTM()">📄 RTTM (diarization)</button>
+            <button class="btn btn-primary" onclick="downloadTXT()">📝 Plain Text</button>
+        </div>
+        <p class="hint" style="margin-bottom:10px;">Resource &amp; timing exports</p>
+        <div class="download-row">
+            <button class="btn btn-resource" onclick="downloadResourceCSV()">📈 Resource Stats CSV</button>
+            <button class="btn btn-resource" onclick="downloadResourceJSON()">⚙ Resource Stats JSON</button>
+            <button class="btn btn-secondary" onclick="downloadTiming()">⏱ Full Timing JSON</button>
+        </div>
+    </div>
+
+    {% else %}
+    <div class="card no-results">
+        <h3>⚠️ No Speech Detected</h3>
+        <p>The audio file contains only silence or no recognisable speech.</p>
+        {% if results.silence_segments %}
+        <h4>🤫 Silence Segments:</h4>
+        {% for sil in results.silence_segments %}
+        <p>{{ loop.index }}. {{ "%.1f"|format(sil.start) }}s – {{ "%.1f"|format(sil.end) }}s ({{ "%.1f"|format(sil.duration) }}s)</p>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {% endif %}
+
+</div>
+
+<script>
+    const results = {{ results|tojson }};
+
+    function downloadCSV() {
+        let csv = 'Speaker,Start,End,Duration,Text\n';
+        results.segments.forEach(s => {
+            csv += `"${s.speaker}",${s.start},${s.end},${s.duration},"${s.text.replace(/"/g, '""')}"\n`;
+        });
+        downloadFile(csv, results.filename + '_transcript.csv', 'text/csv');
+    }
+
+    function downloadJSON() {
+        downloadFile(JSON.stringify(results, null, 2),
+                     results.filename + '_analysis.json', 'application/json');
+    }
+
+    function downloadRTTM() {
+        let rttm = '';
+        const base = results.filename.replace(/\.[^.]+$/, '');
+        results.segments.forEach(s => {
+            rttm += `SPEAKER ${base} 1 ${s.start.toFixed(3)} ${s.duration.toFixed(3)} <NA> <NA> ${s.speaker} <NA> <NA>\n`;
+        });
+        downloadFile(rttm, base + '_diarization.rttm', 'text/plain');
+    }
+
+    function downloadTXT() {
+        let txt = `Distil-Whisper Transcript\nFile: ${results.filename}\nModel: ${results.timing.asr_model || 'Distil-Whisper'}\n`;
+        txt += `Duration: ${results.duration}s\nSpeakers: ${results.unique_speakers_count}\n`;
+        txt += `\n${'─'.repeat(50)}\n\n`;
+        results.segments.forEach(seg => {
+            txt += `[${seg.start_time} → ${seg.end_time}] ${seg.speaker}\n${seg.text}\n\n`;
+        });
+        downloadFile(txt, results.filename + '_transcript.txt', 'text/plain');
+    }
+
+    function downloadTiming() {
+        downloadFile(JSON.stringify(results.timing, null, 2),
+            results.filename + '_distil_timing.json', 'application/json');
+    }
+
+    function downloadResourceCSV() {
+        const rs = results.resource_stats;
+        if (!rs) { alert('No resource data available.'); return; }
+
+        const headers = [
+            'Stage', 'Time (s)', 'RAM Before (MB)', 'RAM After (MB)',
+            'RAM Delta (MB)', 'Peak RAM (MB)', 'CPU Avg (%)', 'Energy (J)', 'Energy (Wh)'
+        ];
+        const stages = [
+            ['Preprocessing',        'preprocessing'],
+            ['VAD',                  'vad'],
+            ['ASR (Distil-Whisper)', 'asr'],
+            ['Diarization',          'diarization'],
+        ];
+
+        let csv = headers.join(',') + '\n';
+        stages.forEach(([label, key]) => {
+            const s = rs[key];
+            if (!s) return;
+            csv += [
+                `"${label}"`,
+                s.duration_s,
+                s.ram_before_mb,
+                s.ram_after_mb,
+                s.ram_delta_mb,
+                s.ram_peak_mb,
+                s.cpu_avg_pct,
+                s.energy_j,
+                s.energy_wh
+            ].join(',') + '\n';
+        });
+
+        const pt = rs.pipeline_total;
+        if (pt) {
+            csv += [
+                '"Pipeline Total"',
+                results.timing.pipeline_total_s,
+                '""', '""', '""',
+                pt.peak_ram_mb,
+                pt.avg_cpu_pct,
+                pt.total_energy_j,
+                pt.total_energy_wh
+            ].join(',') + '\n';
+        }
+
+        const meta = [
+            `# Distil-Whisper Resource Usage Report`,
+            `# File: ${results.filename}`,
+            `# Model: ${results.timing.asr_model || 'Distil-Whisper'}`,
+            `# Audio Duration: ${results.duration}s`,
+            `# RTF: ${results.timing.real_time_factor}x`,
+            `# Generated: ${new Date().toISOString()}`,
+            '',
+        ].join('\n');
+
+        downloadFile(meta + csv,
+            results.filename + '_distil_resource_stats.csv', 'text/csv');
+    }
+
+    function downloadResourceJSON() {
+        const rs = results.resource_stats;
+        if (!rs) { alert('No resource data available.'); return; }
+
+        const payload = {
+            file:             results.filename,
+            model:            results.timing.asr_model || 'Distil-Whisper',
+            audio_duration_s: results.duration,
+            real_time_factor: results.timing.real_time_factor,
+            generated:        new Date().toISOString(),
+            stages: {
+                preprocessing: rs.preprocessing,
+                vad:           rs.vad,
+                asr:           rs.asr,
+                diarization:   rs.diarization,
+            },
+            pipeline_total: rs.pipeline_total,
+            timing_s: {
+                model_load_distil_whisper: results.timing.model_load_distil_whisper_s,
+                model_load_diarization:    results.timing.model_load_diarization_s,
+                model_load_vad:            results.timing.model_load_vad_s,
+                model_load_total:          results.timing.model_load_total_s,
+                preprocessing:             results.timing.stage_preprocessing_s,
+                vad:                       results.timing.stage_vad_s,
+                asr:                       results.timing.stage_asr_s,
+                diarization:               results.timing.stage_diarization_s,
+                pipeline_total:            results.timing.pipeline_total_s,
+            },
+        };
+
+        downloadFile(JSON.stringify(payload, null, 2),
+            results.filename + '_distil_resource_stats.json', 'application/json');
+    }
+
+    function downloadFile(content, filename, mime) {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(new Blob([content], {type: mime}));
+        a.download = filename;
+        a.click();
+        URL.revokeObjectURL(a.href);
+    }
+</script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
