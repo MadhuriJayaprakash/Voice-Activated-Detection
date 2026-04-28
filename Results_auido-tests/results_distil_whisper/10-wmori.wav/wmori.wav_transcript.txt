@@ -1,0 +1,56 @@
+Distil-Whisper Transcript
+File: wmori.wav
+Model: distil-whisper/distil-small.en
+Duration: 120.12s
+Speakers: 2
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:10] SPEAKER_00
+There's an old soul in these dogs and they appreciate you in a way that a puppy can't.
+
+[0:00:13 → 0:00:18] SPEAKER_00
+Muffill is a senior dog rescue. We save senior dogs and find them fabulous new homes. We get dogs in all sorts of conditions. And because they're old they even have more
+
+[0:00:18 → 0:00:28] SPEAKER_00
+issues.
+
+[0:00:29 → 0:00:35] SPEAKER_00
+With the matching funds we got from the Subaru grant, we got to set up our own veterinarian team
+
+[0:00:35 → 0:00:40] SPEAKER_00
+because we don't want to see any dogs suffer once it steps through our doors.
+
+[0:00:41 → 0:00:44] SPEAKER_01
+I'm not sure that Ava rescued me or I rescued her.
+
+[0:00:44 → 0:01:05] SPEAKER_01
+My oldest granddaughter is now 12 and the younger one is 9. I watched them initially twice a week and I loved that as they were older and they have their various activities and friends. I don't babysit as much. I miss them already. It's very important for me to have somebody to take
+
+[0:01:05 → 0:01:11] SPEAKER_01
+care of. It's just my nature. I need to have that. So one night I was looking through
+
+[0:01:11 → 0:01:16] SPEAKER_01
+all the senior dogs that were available and I saw Ava and I thought, oh my God, this is it.
+
+[0:01:18 → 0:01:26] SPEAKER_01
+When I had read her bio, said she had a heart murmur, but when Sherry told me that she required heart surgery
+
+[0:01:26 → 0:01:31] SPEAKER_01
+I was pretty taken aback. They just really weren't sure that Ava would even
+
+[0:01:31 → 0:01:38] SPEAKER_01
+make it through the night. What Subaru did with CNN Heroes really allowed us to change our game.
+
+[0:01:39 → 0:01:45] SPEAKER_00
+Because we had our own vet, we could see what was going on and save that dog's life.
+
+[0:01:47 → 0:01:51] SPEAKER_00
+If I don't feel needed, then I don't feel loved.
+
+[0:01:51 → 0:01:53] SPEAKER_01
+But Ava needs me.
+
+[0:01:53 → 0:01:55] SPEAKER_01
+I need her, so therefore love exists.
+

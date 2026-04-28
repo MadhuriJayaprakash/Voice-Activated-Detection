@@ -1,0 +1,706 @@
+{
+  "duration": 84.0359375,
+  "filename": "jiqvr.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.5,
+      "duration_s": 46.175,
+      "energy_j": 2985.7732,
+      "energy_wh": 0.829381,
+      "ram_after_mb": 1331.3,
+      "ram_before_mb": 1310.3,
+      "ram_delta_mb": 21,
+      "ram_peak_mb": 1363.1,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 59.9,
+      "duration_s": 126.299,
+      "energy_j": 4917.6322,
+      "energy_wh": 1.366009,
+      "ram_after_mb": 1409.5,
+      "ram_before_mb": 1331.3,
+      "ram_delta_mb": 78.2,
+      "ram_peak_mb": 2861.1,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 54.6,
+      "peak_ram_mb": 2861.1,
+      "total_energy_j": 8023.1488,
+      "total_energy_wh": 2.228652
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.208,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 1245.6,
+      "ram_before_mb": 1245.6,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 1245.6,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 58.9,
+      "duration_s": 3.13,
+      "energy_j": 119.7434,
+      "energy_wh": 0.033262,
+      "ram_after_mb": 1310.3,
+      "ram_before_mb": 1245.6,
+      "ram_delta_mb": 64.6,
+      "ram_peak_mb": 1690.3,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 2,
+      "end": 2,
+      "end_time": "0:00:02",
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "Ask a question, please.",
+      "word_count": 4
+    },
+    {
+      "duration": 1,
+      "end": 3,
+      "end_time": "0:00:03",
+      "speaker": "SPEAKER_01",
+      "start": 2,
+      "start_time": "0:00:02",
+      "text": "Thank you, sir.",
+      "word_count": 3
+    },
+    {
+      "duration": 1,
+      "end": 4,
+      "end_time": "0:00:04",
+      "speaker": "SPEAKER_01",
+      "start": 3,
+      "start_time": "0:00:03",
+      "text": "What about Mr. Biden?",
+      "word_count": 4
+    },
+    {
+      "duration": 1,
+      "end": 5,
+      "end_time": "0:00:05",
+      "speaker": "SPEAKER_01",
+      "start": 4,
+      "start_time": "0:00:04",
+      "text": "What did you want about Biden?",
+      "word_count": 6
+    },
+    {
+      "duration": 2,
+      "end": 7,
+      "end_time": "0:00:07",
+      "speaker": "SPEAKER_01",
+      "start": 5,
+      "start_time": "0:00:05",
+      "text": "What did you want him to look into on Biden?",
+      "word_count": 10
+    },
+    {
+      "duration": 2,
+      "end": 8,
+      "end_time": "0:00:08",
+      "speaker": "SPEAKER_01",
+      "start": 6,
+      "start_time": "0:00:06",
+      "text": "Are you talking to me?",
+      "word_count": 5
+    },
+    {
+      "duration": 17.6,
+      "end": 25.6,
+      "end_time": "0:00:25",
+      "speaker": "SPEAKER_01",
+      "start": 8,
+      "start_time": "0:00:08",
+      "text": "Yeah, it was just a follow-up of what... The question, sir, was what did you want President Zelenski to do about Vice President Biden and his son Hunter?",
+      "word_count": 28
+    },
+    {
+      "duration": 2.84,
+      "end": 28.44,
+      "end_time": "0:00:28",
+      "speaker": "SPEAKER_00",
+      "start": 25.6,
+      "start_time": "0:00:25",
+      "text": "Are you talking to me?",
+      "word_count": 5
+    },
+    {
+      "duration": 2.52,
+      "end": 30.96,
+      "end_time": "0:00:30",
+      "speaker": "SPEAKER_00",
+      "start": 28.44,
+      "start_time": "0:00:28",
+      "text": "Yeah, I was just a follow-up of what I just asked you, sir.",
+      "word_count": 13
+    },
+    {
+      "duration": 1,
+      "end": 31.96,
+      "end_time": "0:00:31",
+      "speaker": "SPEAKER_00",
+      "start": 30.96,
+      "start_time": "0:00:30",
+      "text": "You ready?",
+      "word_count": 2
+    },
+    {
+      "duration": 2,
+      "end": 33.96,
+      "end_time": "0:00:33",
+      "speaker": "SPEAKER_00",
+      "start": 31.96,
+      "start_time": "0:00:31",
+      "text": "We have the President of Finland.",
+      "word_count": 6
+    },
+    {
+      "duration": 1,
+      "end": 34.96,
+      "end_time": "0:00:34",
+      "speaker": "SPEAKER_00",
+      "start": 33.96,
+      "start_time": "0:00:33",
+      "text": "Ask him a question.",
+      "word_count": 4
+    },
+    {
+      "duration": 1,
+      "end": 35.96,
+      "end_time": "0:00:35",
+      "speaker": "SPEAKER_00",
+      "start": 34.96,
+      "start_time": "0:00:34",
+      "text": "I have one for him.",
+      "word_count": 5
+    },
+    {
+      "duration": 1,
+      "end": 36.96,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 35.96,
+      "start_time": "0:00:35",
+      "text": "I just wanted to follow up on the one that I asked.",
+      "word_count": 12
+    },
+    {
+      "duration": 2,
+      "end": 38.96,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_00",
+      "start": 36.96,
+      "start_time": "0:00:36",
+      "text": "Did you hear me?",
+      "word_count": 4
+    },
+    {
+      "duration": 1,
+      "end": 39.96,
+      "end_time": "0:00:39",
+      "speaker": "SPEAKER_01",
+      "start": 38.96,
+      "start_time": "0:00:38",
+      "text": "Did you hear me?",
+      "word_count": 4
+    },
+    {
+      "duration": 2.52,
+      "end": 45.48,
+      "end_time": "0:00:45",
+      "speaker": "SPEAKER_01",
+      "start": 42.96,
+      "start_time": "0:00:42",
+      "text": ". I will. I've given you a long answer. Ask this gentleman a question.",
+      "word_count": 14
+    },
+    {
+      "duration": 1,
+      "end": 46.48,
+      "end_time": "0:00:46",
+      "speaker": "SPEAKER_01",
+      "start": 45.48,
+      "start_time": "0:00:45",
+      "text": "Don't be rude.",
+      "word_count": 3
+    },
+    {
+      "duration": 1,
+      "end": 47.48,
+      "end_time": "0:00:47",
+      "speaker": "SPEAKER_00",
+      "start": 46.48,
+      "start_time": "0:00:46",
+      "text": "No, sir.",
+      "word_count": 2
+    },
+    {
+      "duration": 1,
+      "end": 48.48,
+      "end_time": "0:00:48",
+      "speaker": "SPEAKER_00",
+      "start": 47.48,
+      "start_time": "0:00:47",
+      "text": "I don't want to be rude.",
+      "word_count": 6
+    },
+    {
+      "duration": 1.48,
+      "end": 44.4,
+      "end_time": "0:00:44",
+      "speaker": "SPEAKER_01",
+      "start": 42.92,
+      "start_time": "0:00:42",
+      "text": "Much of the media in this country",
+      "word_count": 7
+    },
+    {
+      "duration": 2.32,
+      "end": 46.72,
+      "end_time": "0:00:46",
+      "speaker": "SPEAKER_01",
+      "start": 44.4,
+      "start_time": "0:00:44",
+      "text": "is not just fake, it's corrupt.",
+      "word_count": 6
+    },
+    {
+      "duration": 2.64,
+      "end": 49.36,
+      "end_time": "0:00:49",
+      "speaker": "SPEAKER_00",
+      "start": 46.72,
+      "start_time": "0:00:46",
+      "text": "And you have some very fine people, too.",
+      "word_count": 8
+    },
+    {
+      "duration": 19.16,
+      "end": 68.52,
+      "end_time": "0:01:08",
+      "speaker": "SPEAKER_00",
+      "start": 49.36,
+      "start_time": "0:00:49",
+      "text": "Great journalists. the corrupt media because you're corrupt. Much of the media in this country is not just fake it's corrupt and you have some very fine people too.",
+      "word_count": 29
+    },
+    {
+      "duration": 5.8,
+      "end": 74.32,
+      "end_time": "0:01:14",
+      "speaker": "SPEAKER_01",
+      "start": 68.52,
+      "start_time": "0:01:08",
+      "text": "Great journalists, great reporters, but it to a large extent it's corrupt and",
+      "word_count": 13
+    },
+    {
+      "duration": 4.96,
+      "end": 79.28,
+      "end_time": "0:01:19",
+      "speaker": "SPEAKER_01",
+      "start": 74.32,
+      "start_time": "0:01:14",
+      "text": "it's fake. Ask the president of Finland to question please. Okay I'll move on now.",
+      "word_count": 15
+    },
+    {
+      "duration": 4.68,
+      "end": 83.96,
+      "end_time": "0:01:23",
+      "speaker": "SPEAKER_01",
+      "start": 79.28,
+      "start_time": "0:01:19",
+      "text": "Mr. President in your opening remarks you said...",
+      "word_count": 8
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 1.02,
+      "end": 1.15,
+      "start": 0.13,
+      "type": "speech"
+    },
+    {
+      "duration": 5.93,
+      "end": 7.61,
+      "start": 1.69,
+      "type": "speech"
+    },
+    {
+      "duration": 0.92,
+      "end": 8.99,
+      "start": 8.07,
+      "type": "speech"
+    },
+    {
+      "duration": 3.5,
+      "end": 13.27,
+      "start": 9.77,
+      "type": "speech"
+    },
+    {
+      "duration": 12.04,
+      "end": 25.76,
+      "start": 13.73,
+      "type": "speech"
+    },
+    {
+      "duration": 0.75,
+      "end": 28.26,
+      "start": 27.51,
+      "type": "speech"
+    },
+    {
+      "duration": 2.82,
+      "end": 31.5,
+      "start": 28.68,
+      "type": "speech"
+    },
+    {
+      "duration": 11.21,
+      "end": 43.32,
+      "start": 32.11,
+      "type": "speech"
+    },
+    {
+      "duration": 2.43,
+      "end": 46.24,
+      "start": 43.81,
+      "type": "speech"
+    },
+    {
+      "duration": 4.53,
+      "end": 51.21,
+      "start": 46.68,
+      "type": "speech"
+    },
+    {
+      "duration": 10.42,
+      "end": 62.52,
+      "start": 52.1,
+      "type": "speech"
+    },
+    {
+      "duration": 3.33,
+      "end": 66.17,
+      "start": 62.84,
+      "type": "speech"
+    },
+    {
+      "duration": 2.07,
+      "end": 68.72,
+      "start": 66.65,
+      "type": "speech"
+    },
+    {
+      "duration": 5.74,
+      "end": 75.08,
+      "start": 69.35,
+      "type": "speech"
+    },
+    {
+      "duration": 7.42,
+      "end": 82.96,
+      "start": 75.54,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 2,
+      "end": 2,
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "text": "Ask a question, please.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 3,
+      "speaker": "SPEAKER_01",
+      "start": 2,
+      "text": "Thank you, sir.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 4,
+      "speaker": "SPEAKER_01",
+      "start": 3,
+      "text": "What about Mr. Biden?",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 5,
+      "speaker": "SPEAKER_01",
+      "start": 4,
+      "text": "What did you want about Biden?",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 7,
+      "speaker": "SPEAKER_01",
+      "start": 5,
+      "text": "What did you want him to look into on Biden?",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 8,
+      "speaker": "SPEAKER_01",
+      "start": 6,
+      "text": "Are you talking to me?",
+      "type": "speech"
+    },
+    {
+      "duration": 17.6,
+      "end": 25.6,
+      "speaker": "SPEAKER_01",
+      "start": 8,
+      "text": "Yeah, it was just a follow-up of what... The question, sir, was what did you want President Zelenski to do about Vice President Biden and his son Hunter?",
+      "type": "speech"
+    },
+    {
+      "duration": 2.84,
+      "end": 28.44,
+      "speaker": "SPEAKER_00",
+      "start": 25.6,
+      "text": "Are you talking to me?",
+      "type": "speech"
+    },
+    {
+      "duration": 2.52,
+      "end": 30.96,
+      "speaker": "SPEAKER_00",
+      "start": 28.44,
+      "text": "Yeah, I was just a follow-up of what I just asked you, sir.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 31.96,
+      "speaker": "SPEAKER_00",
+      "start": 30.96,
+      "text": "You ready?",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 33.96,
+      "speaker": "SPEAKER_00",
+      "start": 31.96,
+      "text": "We have the President of Finland.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 34.96,
+      "speaker": "SPEAKER_00",
+      "start": 33.96,
+      "text": "Ask him a question.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 35.96,
+      "speaker": "SPEAKER_00",
+      "start": 34.96,
+      "text": "I have one for him.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 36.96,
+      "speaker": "SPEAKER_00",
+      "start": 35.96,
+      "text": "I just wanted to follow up on the one that I asked.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 38.96,
+      "speaker": "SPEAKER_00",
+      "start": 36.96,
+      "text": "Did you hear me?",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 39.96,
+      "speaker": "SPEAKER_01",
+      "start": 38.96,
+      "text": "Did you hear me?",
+      "type": "speech"
+    },
+    {
+      "duration": 1.48,
+      "end": 44.4,
+      "speaker": "SPEAKER_01",
+      "start": 42.92,
+      "text": "Much of the media in this country",
+      "type": "speech"
+    },
+    {
+      "duration": 2.52,
+      "end": 45.48,
+      "speaker": "SPEAKER_01",
+      "start": 42.96,
+      "text": ". I will. I've given you a long answer. Ask this gentleman a question.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.32,
+      "end": 46.72,
+      "speaker": "SPEAKER_01",
+      "start": 44.4,
+      "text": "is not just fake, it's corrupt.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 46.48,
+      "speaker": "SPEAKER_01",
+      "start": 45.48,
+      "text": "Don't be rude.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 47.48,
+      "speaker": "SPEAKER_00",
+      "start": 46.48,
+      "text": "No, sir.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.64,
+      "end": 49.36,
+      "speaker": "SPEAKER_00",
+      "start": 46.72,
+      "text": "And you have some very fine people, too.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 48.48,
+      "speaker": "SPEAKER_00",
+      "start": 47.48,
+      "text": "I don't want to be rude.",
+      "type": "speech"
+    },
+    {
+      "duration": 19.16,
+      "end": 68.52,
+      "speaker": "SPEAKER_00",
+      "start": 49.36,
+      "text": "Great journalists. the corrupt media because you're corrupt. Much of the media in this country is not just fake it's corrupt and you have some very fine people too.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.8,
+      "end": 74.32,
+      "speaker": "SPEAKER_01",
+      "start": 68.52,
+      "text": "Great journalists, great reporters, but it to a large extent it's corrupt and",
+      "type": "speech"
+    },
+    {
+      "duration": 4.96,
+      "end": 79.28,
+      "speaker": "SPEAKER_01",
+      "start": 74.32,
+      "text": "it's fake. Ask the president of Finland to question please. Okay I'll move on now.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.68,
+      "end": 83.96,
+      "speaker": "SPEAKER_01",
+      "start": 79.28,
+      "text": "Mr. President in your opening remarks you said...",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 84.036,
+    "model_load_diarization_s": 1.18,
+    "model_load_distil_whisper_s": 2.662,
+    "model_load_total_s": 4.184,
+    "model_load_vad_s": 0.339,
+    "pipeline_total_s": 175.819,
+    "real_time_factor": 2.092,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 99.5,
+        "duration_s": 55.286,
+        "energy_j": 3575.5841,
+        "energy_wh": 0.993218,
+        "ram_after_mb": 1325.4,
+        "ram_before_mb": 1339.9,
+        "ram_delta_mb": -14.4,
+        "ram_peak_mb": 1359,
+        "stage": "ASR (Distil-Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 60.1,
+        "duration_s": 165.896,
+        "energy_j": 6482.4939,
+        "energy_wh": 1.800693,
+        "ram_after_mb": 1395.3,
+        "ram_before_mb": 1325.4,
+        "ram_delta_mb": 69.8,
+        "ram_peak_mb": 2856.9,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 54.8,
+        "peak_ram_mb": 2856.9,
+        "total_energy_j": 10219.4039,
+        "total_energy_wh": 2.838724
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 1242.2,
+        "ram_before_mb": 1242.2,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 1242.2,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 59.4,
+        "duration_s": 4.176,
+        "energy_j": 161.3259,
+        "energy_wh": 0.044813,
+        "ram_after_mb": 1339.9,
+        "ram_before_mb": 1242.2,
+        "ram_delta_mb": 97.7,
+        "ram_peak_mb": 1615.8,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 46.175,
+    "stage_diarization_s": 126.299,
+    "stage_preprocessing_s": 0.208,
+    "stage_vad_s": 3.13
+  },
+  "unique_speakers_count": 2
+}

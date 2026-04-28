@@ -1,0 +1,736 @@
+{
+  "duration": 111.864,
+  "filename": "jsmbi.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.7,
+      "duration_s": 69.531,
+      "energy_j": 4504.374,
+      "energy_wh": 1.251215,
+      "ram_after_mb": 1319.7,
+      "ram_before_mb": 1400.5,
+      "ram_delta_mb": -80.8,
+      "ram_peak_mb": 1412.1,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 94.2,
+      "duration_s": 211.346,
+      "energy_j": 12942.0172,
+      "energy_wh": 3.595005,
+      "ram_after_mb": 1328.8,
+      "ram_before_mb": 1319.7,
+      "ram_delta_mb": 9.1,
+      "ram_peak_mb": 2866.6,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 64.7,
+      "peak_ram_mb": 2866.6,
+      "total_energy_j": 17621.4744,
+      "total_energy_wh": 4.894854
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.215,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 1407.4,
+      "ram_before_mb": 1407.4,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 1407.4,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 65,
+      "duration_s": 4.145,
+      "energy_j": 175.0832,
+      "energy_wh": 0.048634,
+      "ram_after_mb": 1400.5,
+      "ram_before_mb": 1407.4,
+      "ram_delta_mb": -6.8,
+      "ram_peak_mb": 1672.5,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 4,
+      "end": 4,
+      "end_time": "0:00:04",
+      "speaker": "SPEAKER_03",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "Residents and the mayor of Eureka are speaking out with disappointing tones as the",
+      "word_count": 14
+    },
+    {
+      "duration": 4.68,
+      "end": 8.68,
+      "end_time": "0:00:08",
+      "speaker": "SPEAKER_03",
+      "start": 4,
+      "start_time": "0:00:04",
+      "text": "Woodford County Zoning Board of Appeals gives a solar farm one last hurdle to",
+      "word_count": 14
+    },
+    {
+      "duration": 1.64,
+      "end": 10.32,
+      "end_time": "0:00:10",
+      "speaker": "SPEAKER_03",
+      "start": 8.68,
+      "start_time": "0:00:08",
+      "text": "jump before coming to town.",
+      "word_count": 5
+    },
+    {
+      "duration": 4.6,
+      "end": 14.92,
+      "end_time": "0:00:14",
+      "speaker": "SPEAKER_03",
+      "start": 10.32,
+      "start_time": "0:00:10",
+      "text": "WMD's Rebecca Brumfield joins us to show us where the solar farm would go and how",
+      "word_count": 16
+    },
+    {
+      "duration": 1.88,
+      "end": 16.8,
+      "end_time": "0:00:16",
+      "speaker": "SPEAKER_03",
+      "start": 14.92,
+      "start_time": "0:00:14",
+      "text": "it's sparking some frustrations with homeowners.",
+      "word_count": 6
+    },
+    {
+      "duration": 5.96,
+      "end": 23.76,
+      "end_time": "0:00:23",
+      "speaker": "SPEAKER_03",
+      "start": 17.8,
+      "start_time": "0:00:17",
+      "text": "Yeah, Lauren Eugene, an out-of-state solar company is one step away from being approved to bring that solar",
+      "word_count": 18
+    },
+    {
+      "duration": 4.24,
+      "end": 28,
+      "end_time": "0:00:28",
+      "speaker": "SPEAKER_02",
+      "start": 23.76,
+      "start_time": "0:00:23",
+      "text": "farm to the Lakeview Acre subdivision located right by Garrica Lake.",
+      "word_count": 11
+    },
+    {
+      "duration": 3.12,
+      "end": 31.12,
+      "end_time": "0:00:31",
+      "speaker": "SPEAKER_02",
+      "start": 28,
+      "start_time": "0:00:28",
+      "text": "Tuesday night's decision has left a lot of unrest.",
+      "word_count": 9
+    },
+    {
+      "duration": 3.76,
+      "end": 34.88,
+      "end_time": "0:00:34",
+      "speaker": "SPEAKER_00",
+      "start": 31.12,
+      "start_time": "0:00:31",
+      "text": "My kids play here.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.68,
+      "end": 36.56,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 34.88,
+      "start_time": "0:00:34",
+      "text": "This is entirely too close to them.",
+      "word_count": 7
+    },
+    {
+      "duration": 1.28,
+      "end": 37.84,
+      "end_time": "0:00:37",
+      "speaker": "SPEAKER_00",
+      "start": 36.56,
+      "start_time": "0:00:36",
+      "text": "A four to one vote.",
+      "word_count": 5
+    },
+    {
+      "duration": 2.48,
+      "end": 40.32,
+      "end_time": "0:00:40",
+      "speaker": "SPEAKER_01",
+      "start": 37.84,
+      "start_time": "0:00:37",
+      "text": "The issue is simply location.",
+      "word_count": 5
+    },
+    {
+      "duration": 4.4,
+      "end": 44.72,
+      "end_time": "0:00:44",
+      "speaker": "SPEAKER_02",
+      "start": 40.32,
+      "start_time": "0:00:40",
+      "text": "Leave Seoul America Energy of Atlanta one step away from turning this farmland.",
+      "word_count": 13
+    },
+    {
+      "duration": 6,
+      "end": 50.72,
+      "end_time": "0:00:50",
+      "speaker": "SPEAKER_01",
+      "start": 44.72,
+      "start_time": "0:00:44",
+      "text": "We don't know what it could do to our waterline, what it can do to the health of our city.",
+      "word_count": 20
+    },
+    {
+      "duration": 1,
+      "end": 51.72,
+      "end_time": "0:00:51",
+      "speaker": "SPEAKER_01",
+      "start": 50.72,
+      "start_time": "0:00:50",
+      "text": "Into a solar farm.",
+      "word_count": 4
+    },
+    {
+      "duration": 2.04,
+      "end": 53.76,
+      "end_time": "0:00:53",
+      "speaker": "SPEAKER_00",
+      "start": 51.72,
+      "start_time": "0:00:51",
+      "text": "It's great in a specific situation.",
+      "word_count": 6
+    },
+    {
+      "duration": 2.4,
+      "end": 56.16,
+      "end_time": "0:00:56",
+      "speaker": "SPEAKER_00",
+      "start": 53.76,
+      "start_time": "0:00:53",
+      "text": "I think it's great for the county to look into this.",
+      "word_count": 11
+    },
+    {
+      "duration": 2.4,
+      "end": 58.56,
+      "end_time": "0:00:58",
+      "speaker": "SPEAKER_00",
+      "start": 56.16,
+      "start_time": "0:00:56",
+      "text": "I think it's great to continue to develop.",
+      "word_count": 8
+    },
+    {
+      "duration": 2.44,
+      "end": 61,
+      "end_time": "0:01:01",
+      "speaker": "SPEAKER_00",
+      "start": 58.56,
+      "start_time": "0:00:58",
+      "text": "It's just not going to help our town to grow.",
+      "word_count": 10
+    },
+    {
+      "duration": 0.76,
+      "end": 61.76,
+      "end_time": "0:01:01",
+      "speaker": "SPEAKER_00",
+      "start": 61,
+      "start_time": "0:01:01",
+      "text": "It's not helping the safety.",
+      "word_count": 5
+    },
+    {
+      "duration": 6.88,
+      "end": 68.64,
+      "end_time": "0:01:08",
+      "speaker": "SPEAKER_00",
+      "start": 61.76,
+      "start_time": "0:01:01",
+      "text": "this close to a residential neighborhood. The Prather family built their dream home here with the intent of retiring.",
+      "word_count": 19
+    },
+    {
+      "duration": 1.6,
+      "end": 70.24,
+      "end_time": "0:01:10",
+      "speaker": "SPEAKER_02",
+      "start": 68.64,
+      "start_time": "0:01:08",
+      "text": "Now that's up in the air.",
+      "word_count": 6
+    },
+    {
+      "duration": 3.92,
+      "end": 74.16,
+      "end_time": "0:01:14",
+      "speaker": "SPEAKER_00",
+      "start": 70.24,
+      "start_time": "0:01:10",
+      "text": "If this was either here or we knew it was being proposed, we likely would not have built.",
+      "word_count": 18
+    },
+    {
+      "duration": 4.64,
+      "end": 78.8,
+      "end_time": "0:01:18",
+      "speaker": "SPEAKER_02",
+      "start": 74.16,
+      "start_time": "0:01:14",
+      "text": "Some people do support the $2 million 51-acre project, but those against the change",
+      "word_count": 14
+    },
+    {
+      "duration": 2,
+      "end": 80.8,
+      "end_time": "0:01:20",
+      "speaker": "SPEAKER_02",
+      "start": 78.8,
+      "start_time": "0:01:18",
+      "text": "say.",
+      "word_count": 1
+    },
+    {
+      "duration": 5.48,
+      "end": 86.28,
+      "end_time": "0:01:26",
+      "speaker": "SPEAKER_01",
+      "start": 80.8,
+      "start_time": "0:01:20",
+      "text": "In a county that is abundant, with undeveloped farmland. I find it very surprising",
+      "word_count": 14
+    },
+    {
+      "duration": 5.56,
+      "end": 91.84,
+      "end_time": "0:01:31",
+      "speaker": "SPEAKER_01",
+      "start": 86.28,
+      "start_time": "0:01:26",
+      "text": "actually ridiculous that they're even considering this plot of land next to",
+      "word_count": 12
+    },
+    {
+      "duration": 3.72,
+      "end": 95.56,
+      "end_time": "0:01:35",
+      "speaker": "SPEAKER_01",
+      "start": 91.84,
+      "start_time": "0:01:31",
+      "text": "our fastest growing neighborhood in our beautiful city. I love the idea would",
+      "word_count": 13
+    },
+    {
+      "duration": 5.52,
+      "end": 101.08,
+      "end_time": "0:01:41",
+      "speaker": "SPEAKER_00",
+      "start": 95.56,
+      "start_time": "0:01:35",
+      "text": "would support it just don't don't really support it in my back. I do not support it in my",
+      "word_count": 19
+    },
+    {
+      "duration": 6.42,
+      "end": 107.5,
+      "end_time": "0:01:47",
+      "speaker": "SPEAKER_00",
+      "start": 101.08,
+      "start_time": "0:01:41",
+      "text": "backyard. Now if this project passes through its final approval, it will likely begin in 2019.",
+      "word_count": 16
+    },
+    {
+      "duration": 4.3,
+      "end": 111.8,
+      "end_time": "0:01:51",
+      "speaker": "SPEAKER_02",
+      "start": 107.5,
+      "start_time": "0:01:47",
+      "text": "The next Woodford County Zoning Board of Appeals meeting will be held on August 21st.",
+      "word_count": 15
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 18.01,
+      "end": 18.4,
+      "start": 0.38,
+      "type": "speech"
+    },
+    {
+      "duration": 12.26,
+      "end": 30.99,
+      "start": 18.74,
+      "type": "speech"
+    },
+    {
+      "duration": 1.26,
+      "end": 34.34,
+      "start": 33.08,
+      "type": "speech"
+    },
+    {
+      "duration": 23.14,
+      "end": 57.85,
+      "start": 34.71,
+      "type": "speech"
+    },
+    {
+      "duration": 32.75,
+      "end": 91.13,
+      "start": 58.38,
+      "type": "speech"
+    },
+    {
+      "duration": 5.01,
+      "end": 96.46,
+      "start": 91.45,
+      "type": "speech"
+    },
+    {
+      "duration": 4.57,
+      "end": 101.62,
+      "start": 97.05,
+      "type": "speech"
+    },
+    {
+      "duration": 9.1,
+      "end": 111.86,
+      "start": 102.76,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 4,
+      "end": 4,
+      "speaker": "SPEAKER_03",
+      "start": 0,
+      "text": "Residents and the mayor of Eureka are speaking out with disappointing tones as the",
+      "type": "speech"
+    },
+    {
+      "duration": 4.68,
+      "end": 8.68,
+      "speaker": "SPEAKER_03",
+      "start": 4,
+      "text": "Woodford County Zoning Board of Appeals gives a solar farm one last hurdle to",
+      "type": "speech"
+    },
+    {
+      "duration": 1.64,
+      "end": 10.32,
+      "speaker": "SPEAKER_03",
+      "start": 8.68,
+      "text": "jump before coming to town.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.6,
+      "end": 14.92,
+      "speaker": "SPEAKER_03",
+      "start": 10.32,
+      "text": "WMD's Rebecca Brumfield joins us to show us where the solar farm would go and how",
+      "type": "speech"
+    },
+    {
+      "duration": 1.88,
+      "end": 16.8,
+      "speaker": "SPEAKER_03",
+      "start": 14.92,
+      "text": "it's sparking some frustrations with homeowners.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.96,
+      "end": 23.76,
+      "speaker": "SPEAKER_03",
+      "start": 17.8,
+      "text": "Yeah, Lauren Eugene, an out-of-state solar company is one step away from being approved to bring that solar",
+      "type": "speech"
+    },
+    {
+      "duration": 4.24,
+      "end": 28,
+      "speaker": "SPEAKER_02",
+      "start": 23.76,
+      "text": "farm to the Lakeview Acre subdivision located right by Garrica Lake.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.12,
+      "end": 31.12,
+      "speaker": "SPEAKER_02",
+      "start": 28,
+      "text": "Tuesday night's decision has left a lot of unrest.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.76,
+      "end": 34.88,
+      "speaker": "SPEAKER_00",
+      "start": 31.12,
+      "text": "My kids play here.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.68,
+      "end": 36.56,
+      "speaker": "SPEAKER_00",
+      "start": 34.88,
+      "text": "This is entirely too close to them.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.28,
+      "end": 37.84,
+      "speaker": "SPEAKER_00",
+      "start": 36.56,
+      "text": "A four to one vote.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.48,
+      "end": 40.32,
+      "speaker": "SPEAKER_01",
+      "start": 37.84,
+      "text": "The issue is simply location.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.4,
+      "end": 44.72,
+      "speaker": "SPEAKER_02",
+      "start": 40.32,
+      "text": "Leave Seoul America Energy of Atlanta one step away from turning this farmland.",
+      "type": "speech"
+    },
+    {
+      "duration": 6,
+      "end": 50.72,
+      "speaker": "SPEAKER_01",
+      "start": 44.72,
+      "text": "We don't know what it could do to our waterline, what it can do to the health of our city.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 51.72,
+      "speaker": "SPEAKER_01",
+      "start": 50.72,
+      "text": "Into a solar farm.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.04,
+      "end": 53.76,
+      "speaker": "SPEAKER_00",
+      "start": 51.72,
+      "text": "It's great in a specific situation.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.4,
+      "end": 56.16,
+      "speaker": "SPEAKER_00",
+      "start": 53.76,
+      "text": "I think it's great for the county to look into this.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.4,
+      "end": 58.56,
+      "speaker": "SPEAKER_00",
+      "start": 56.16,
+      "text": "I think it's great to continue to develop.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.44,
+      "end": 61,
+      "speaker": "SPEAKER_00",
+      "start": 58.56,
+      "text": "It's just not going to help our town to grow.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.76,
+      "end": 61.76,
+      "speaker": "SPEAKER_00",
+      "start": 61,
+      "text": "It's not helping the safety.",
+      "type": "speech"
+    },
+    {
+      "duration": 6.88,
+      "end": 68.64,
+      "speaker": "SPEAKER_00",
+      "start": 61.76,
+      "text": "this close to a residential neighborhood. The Prather family built their dream home here with the intent of retiring.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.6,
+      "end": 70.24,
+      "speaker": "SPEAKER_02",
+      "start": 68.64,
+      "text": "Now that's up in the air.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.92,
+      "end": 74.16,
+      "speaker": "SPEAKER_00",
+      "start": 70.24,
+      "text": "If this was either here or we knew it was being proposed, we likely would not have built.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.64,
+      "end": 78.8,
+      "speaker": "SPEAKER_02",
+      "start": 74.16,
+      "text": "Some people do support the $2 million 51-acre project, but those against the change",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 80.8,
+      "speaker": "SPEAKER_02",
+      "start": 78.8,
+      "text": "say.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.48,
+      "end": 86.28,
+      "speaker": "SPEAKER_01",
+      "start": 80.8,
+      "text": "In a county that is abundant, with undeveloped farmland. I find it very surprising",
+      "type": "speech"
+    },
+    {
+      "duration": 5.56,
+      "end": 91.84,
+      "speaker": "SPEAKER_01",
+      "start": 86.28,
+      "text": "actually ridiculous that they're even considering this plot of land next to",
+      "type": "speech"
+    },
+    {
+      "duration": 3.72,
+      "end": 95.56,
+      "speaker": "SPEAKER_01",
+      "start": 91.84,
+      "text": "our fastest growing neighborhood in our beautiful city. I love the idea would",
+      "type": "speech"
+    },
+    {
+      "duration": 5.52,
+      "end": 101.08,
+      "speaker": "SPEAKER_00",
+      "start": 95.56,
+      "text": "would support it just don't don't really support it in my back. I do not support it in my",
+      "type": "speech"
+    },
+    {
+      "duration": 6.42,
+      "end": 107.5,
+      "speaker": "SPEAKER_00",
+      "start": 101.08,
+      "text": "backyard. Now if this project passes through its final approval, it will likely begin in 2019.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.3,
+      "end": 111.8,
+      "speaker": "SPEAKER_02",
+      "start": 107.5,
+      "text": "The next Woodford County Zoning Board of Appeals meeting will be held on August 21st.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 111.864,
+    "model_load_diarization_s": 1.18,
+    "model_load_distil_whisper_s": 2.662,
+    "model_load_total_s": 4.184,
+    "model_load_vad_s": 0.339,
+    "pipeline_total_s": 285.24,
+    "real_time_factor": 2.55,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 99.5,
+        "duration_s": 46.175,
+        "energy_j": 2985.7732,
+        "energy_wh": 0.829381,
+        "ram_after_mb": 1331.3,
+        "ram_before_mb": 1310.3,
+        "ram_delta_mb": 21,
+        "ram_peak_mb": 1363.1,
+        "stage": "ASR (Distil-Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 59.9,
+        "duration_s": 126.299,
+        "energy_j": 4917.6322,
+        "energy_wh": 1.366009,
+        "ram_after_mb": 1409.5,
+        "ram_before_mb": 1331.3,
+        "ram_delta_mb": 78.2,
+        "ram_peak_mb": 2861.1,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 54.6,
+        "peak_ram_mb": 2861.1,
+        "total_energy_j": 8023.1488,
+        "total_energy_wh": 2.228652
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.208,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 1245.6,
+        "ram_before_mb": 1245.6,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 1245.6,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 58.9,
+        "duration_s": 3.13,
+        "energy_j": 119.7434,
+        "energy_wh": 0.033262,
+        "ram_after_mb": 1310.3,
+        "ram_before_mb": 1245.6,
+        "ram_delta_mb": 64.6,
+        "ram_peak_mb": 1690.3,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 69.531,
+    "stage_diarization_s": 211.346,
+    "stage_preprocessing_s": 0.215,
+    "stage_vad_s": 4.145
+  },
+  "unique_speakers_count": 4
+}

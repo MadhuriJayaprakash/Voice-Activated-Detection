@@ -1,0 +1,12 @@
+# Distil-Whisper Resource Usage Report
+# File: jsmbi.wav
+# Model: distil-whisper/distil-small.en
+# Audio Duration: 111.864s
+# RTF: 2.55x
+# Generated: 2026-04-27T18:40:41.475Z
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+"Preprocessing",0.215,1407.4,1407.4,0,1407.4,0,0,0
+"VAD",4.145,1407.4,1400.5,-6.8,1672.5,65,175.0832,0.048634
+"ASR (Distil-Whisper)",69.531,1400.5,1319.7,-80.8,1412.1,99.7,4504.374,1.251215
+"Diarization",211.346,1319.7,1328.8,9.1,2866.6,94.2,12942.0172,3.595005
+"Pipeline Total",285.24,"","","",2866.6,64.7,17621.4744,4.894854

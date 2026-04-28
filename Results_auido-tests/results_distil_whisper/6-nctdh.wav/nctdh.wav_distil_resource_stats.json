@@ -1,0 +1,70 @@
+{
+  "file": "nctdh.wav",
+  "model": "distil-whisper/distil-small.en",
+  "audio_duration_s": 122.16,
+  "real_time_factor": 2.647,
+  "generated": "2026-04-27T18:48:16.936Z",
+  "stages": {
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.208,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 1135.2,
+      "ram_before_mb": 1135.2,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 1135.2,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 97.5,
+      "duration_s": 8.547,
+      "energy_j": 541.7495,
+      "energy_wh": 0.150486,
+      "ram_after_mb": 1208.2,
+      "ram_before_mb": 1135.2,
+      "ram_delta_mb": 73,
+      "ram_peak_mb": 1481.2,
+      "stage": "VAD"
+    },
+    "asr": {
+      "cpu_avg_pct": 99.7,
+      "duration_s": 95.195,
+      "energy_j": 6171.4522,
+      "energy_wh": 1.714292,
+      "ram_after_mb": 1212.1,
+      "ram_before_mb": 1208.2,
+      "ram_delta_mb": 3.9,
+      "ram_peak_mb": 1250.8,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 85,
+      "duration_s": 219.382,
+      "energy_j": 12123.6419,
+      "energy_wh": 3.367678,
+      "ram_after_mb": 1334.5,
+      "ram_before_mb": 1212.1,
+      "ram_delta_mb": 122.4,
+      "ram_peak_mb": 2751.4,
+      "stage": "Diarization"
+    }
+  },
+  "pipeline_total": {
+    "avg_cpu_pct": 70.5,
+    "peak_ram_mb": 2751.4,
+    "total_energy_j": 18836.8436,
+    "total_energy_wh": 5.232456
+  },
+  "timing_s": {
+    "model_load_distil_whisper": 2.662,
+    "model_load_diarization": 1.18,
+    "model_load_vad": 0.339,
+    "model_load_total": 4.184,
+    "preprocessing": 0.208,
+    "vad": 8.547,
+    "asr": 95.195,
+    "diarization": 219.382,
+    "pipeline_total": 323.335
+  }
+}

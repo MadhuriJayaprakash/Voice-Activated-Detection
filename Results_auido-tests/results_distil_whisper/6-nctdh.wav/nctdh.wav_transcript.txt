@@ -1,0 +1,83 @@
+Distil-Whisper Transcript
+File: nctdh.wav
+Model: distil-whisper/distil-small.en
+Duration: 122.16s
+Speakers: 5
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:03] SPEAKER_00
+High-witness news reporter Dan Coob is live in the Sad Center in Dan.
+
+[0:00:02 → 0:00:26] SPEAKER_00
+I'm talking about Mayor Bloomberg. A billionaire who calls women fat broads and horse-faced lesbians.
+
+[0:00:26 → 0:00:29] SPEAKER_03
+And no, I'm not talking about Donald Trump, I'm talking about Mayor Bloomberg.
+
+[0:00:29 → 0:00:35] SPEAKER_01
+Peggy Rekula was eating lunch at the court diner in media trying to digest her first
+
+[0:00:35 → 0:00:36] SPEAKER_01
+exposure to Michael Bloomberg.
+
+[0:00:36 → 0:00:38] SPEAKER_01
+I don't hold out much hope for him.
+
+[0:00:38 → 0:00:43] SPEAKER_01
+One man we spoke with described the Democratic debate as a demolition derby.
+
+[0:00:43 → 0:00:45] SPEAKER_01
+Former Philadelphia mayor Michael Nutter is working on the
+
+[0:00:45 → 0:00:53] SPEAKER_01
+Bloomberg campaign. I would say not our best moment, but getting stronger. Like I said, first debate.
+
+[0:00:54 → 0:01:01] SPEAKER_02
+I'm sure for all the other candidates who have now been debating for eight months, you know, we probably don't
+
+[0:01:01 → 0:01:07] SPEAKER_02
+remember what that first, what those first debates are like for all of them.
+
+[0:01:07 → 0:01:09] SPEAKER_02
+And so we've got some ground to make up.
+
+[0:01:09 → 0:01:16] SPEAKER_02
+In the latest Quinnipiac poll released Thursday, every Democrat gained ground in a potential general election against President Trump.
+
+[0:01:16 → 0:01:22] SPEAKER_01
+But the Democrats, we spoke to, worry about electability among the six most likely candidates.
+
+[0:01:22 → 0:01:25] SPEAKER_01
+Who's a Democrat? You know, you got, Bloomberg was a Republican,
+
+[0:01:25 → 0:01:27] SPEAKER_04
+and you got the socialists,
+
+[0:01:27 → 0:01:29] SPEAKER_04
+and so, we'll say.
+
+[0:01:29 → 0:01:32] SPEAKER_04
+Mike Bloomberg, the storm,
+
+[0:01:32 → 0:01:37] SPEAKER_02
+and folks tried to land a couple different punches here and there.
+
+[0:01:37 → 0:01:41] SPEAKER_02
+Now, Bloomberg's first time on a ballot is not until Super Tuesday,
+
+[0:01:41 → 0:01:48] SPEAKER_01
+but he will be on the debate stage next week in South Carolina as well. Live in the Sat Center, Dan Coob, CBS 3, Eyewitness News.
+
+[0:01:48 → 0:01:49] SPEAKER_01
+All right Dan, thank you.
+
+[0:01:49 → 0:01:53] SPEAKER_00
+CBS News will co-host the next Democratic presidential debate in
+
+[0:01:53 → 0:01:57] SPEAKER_00
+Charleston, South Carolina, Gilking and Nora O'Donnell, will moderate. That is
+
+[0:01:57 → 0:02:01] SPEAKER_00
+Tuesday February 25th at 8 p.m. right here on CBS 3.
+

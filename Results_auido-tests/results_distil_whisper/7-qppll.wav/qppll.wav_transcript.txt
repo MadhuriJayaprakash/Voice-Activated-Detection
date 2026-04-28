@@ -1,0 +1,47 @@
+Distil-Whisper Transcript
+File: qppll.wav
+Model: distil-whisper/distil-small.en
+Duration: 70.3216875s
+Speakers: 1
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:05] SPEAKER_00
+How is the moment as we leave the European Union to reunite our country and allow
+
+[0:00:05 → 0:00:10] SPEAKER_00
+the warmth and natural affection that we all share for our European neighbours to find
+
+[0:00:10 → 0:00:16] SPEAKER_00
+renewed expression in one great new national project of building a deep, special and
+
+[0:00:16 → 0:00:22] SPEAKER_00
+democratically accountable partnership with those nations we are proud to call our closest friends?
+
+[0:00:22 → 0:00:29] SPEAKER_00
+The bill ensures that the implementation period must end on the 31st of December next year with no possibility of
+
+[0:00:29 → 0:00:34] SPEAKER_00
+an extension and it paves the way for a new agreement on our future
+
+[0:00:34 → 0:00:39] SPEAKER_00
+relationship with our European neighbours based on an ambitious free trade
+
+[0:00:39 → 0:00:47] SPEAKER_00
+agreement. Our aim is to provide a close friendship between sovereign equals, to promote our common
+
+[0:00:47 → 0:00:53] SPEAKER_00
+interests, inspired by pride in our European heritage and civilization.
+
+[0:00:53 → 0:00:58] SPEAKER_00
+I am absolutely determined that this great project will not be the project of one government
+
+[0:00:58 → 0:01:02] SPEAKER_00
+or one party, but of the British nation as a whole.
+
+[0:01:02 → 0:01:05] SPEAKER_00
+So Parliament, so Parliament, as I have said,
+
+[0:01:05 → 0:01:10] SPEAKER_00
+will be kept fully informed about the progress of these negotiations.
+

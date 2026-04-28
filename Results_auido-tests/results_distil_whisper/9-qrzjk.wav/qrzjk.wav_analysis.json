@@ -1,0 +1,334 @@
+{
+  "duration": 39.576,
+  "filename": "qrzjk.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.2,
+      "duration_s": 25.685,
+      "energy_j": 1655.6052,
+      "energy_wh": 0.45989,
+      "ram_after_mb": 1185.4,
+      "ram_before_mb": 1244.4,
+      "ram_delta_mb": -59,
+      "ram_peak_mb": 1244.4,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 99.5,
+      "duration_s": 67.845,
+      "energy_j": 4386.0797,
+      "energy_wh": 1.218355,
+      "ram_after_mb": 1375.4,
+      "ram_before_mb": 1185.4,
+      "ram_delta_mb": 190,
+      "ram_peak_mb": 2727.3,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 72.2,
+      "peak_ram_mb": 2727.3,
+      "total_energy_j": 6163.5403,
+      "total_energy_wh": 1.712094
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.207,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 1114.8,
+      "ram_before_mb": 1114.8,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 1114.8,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 90,
+      "duration_s": 2.083,
+      "energy_j": 121.8554,
+      "energy_wh": 0.033849,
+      "ram_after_mb": 1244.4,
+      "ram_before_mb": 1114.8,
+      "ram_delta_mb": 129.6,
+      "ram_peak_mb": 1404.1,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 4.52,
+      "end": 4.52,
+      "end_time": "0:00:04",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "And President Trump loves to talk about his TV ratings, if not his current approval",
+      "word_count": 15
+    },
+    {
+      "duration": 4.12,
+      "end": 9.64,
+      "end_time": "0:00:09",
+      "speaker": "SPEAKER_00",
+      "start": 5.52,
+      "start_time": "0:00:05",
+      "text": "So he must be pleased to know that 33 million people watch the prime time rollout of",
+      "word_count": 17
+    },
+    {
+      "duration": 2.2,
+      "end": 11.84,
+      "end_time": "0:00:11",
+      "speaker": "SPEAKER_00",
+      "start": 9.64,
+      "start_time": "0:00:09",
+      "text": "his Supreme Court pick, Neil Gorsuch.",
+      "word_count": 6
+    },
+    {
+      "duration": 1.76,
+      "end": 13.6,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_00",
+      "start": 11.84,
+      "start_time": "0:00:11",
+      "text": "But what do Americans think of the choice?",
+      "word_count": 8
+    },
+    {
+      "duration": 4.8,
+      "end": 18.4,
+      "end_time": "0:00:18",
+      "speaker": "SPEAKER_00",
+      "start": 13.6,
+      "start_time": "0:00:13",
+      "text": "Well, a brand new CNN poll shows that a plurality, 39%, were left with a positive",
+      "word_count": 16
+    },
+    {
+      "duration": 5.84,
+      "end": 24.24,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_00",
+      "start": 18.4,
+      "start_time": "0:00:18",
+      "text": "first impression that compares with 45% for President Obama's never confirmed pick, Judge Merrick Garland,",
+      "word_count": 15
+    },
+    {
+      "duration": 3.6,
+      "end": 27.84,
+      "end_time": "0:00:27",
+      "speaker": "SPEAKER_00",
+      "start": 24.24,
+      "start_time": "0:00:24",
+      "text": "and 54 for now Chief Justice John Roberts.",
+      "word_count": 8
+    },
+    {
+      "duration": 2.24,
+      "end": 30.08,
+      "end_time": "0:00:30",
+      "speaker": "SPEAKER_00",
+      "start": 27.84,
+      "start_time": "0:00:27",
+      "text": "But when it comes to confirming the new nominee,",
+      "word_count": 9
+    },
+    {
+      "duration": 2.48,
+      "end": 32.56,
+      "end_time": "0:00:32",
+      "speaker": "SPEAKER_00",
+      "start": 30.08,
+      "start_time": "0:00:30",
+      "text": "opinions are sharply divided along party lines.",
+      "word_count": 7
+    },
+    {
+      "duration": 3.52,
+      "end": 36.08,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 32.56,
+      "start_time": "0:00:32",
+      "text": "Just 22% of Democrats think the Senate should vote to confirm him,",
+      "word_count": 12
+    },
+    {
+      "duration": 2.8,
+      "end": 38.88,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_00",
+      "start": 36.08,
+      "start_time": "0:00:36",
+      "text": "while an overwhelming 84% of Republicans do.",
+      "word_count": 7
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 39,
+      "end": 39.01,
+      "start": 0.01,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 4.52,
+      "end": 4.52,
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "text": "And President Trump loves to talk about his TV ratings, if not his current approval",
+      "type": "speech"
+    },
+    {
+      "duration": 4.12,
+      "end": 9.64,
+      "speaker": "SPEAKER_00",
+      "start": 5.52,
+      "text": "So he must be pleased to know that 33 million people watch the prime time rollout of",
+      "type": "speech"
+    },
+    {
+      "duration": 2.2,
+      "end": 11.84,
+      "speaker": "SPEAKER_00",
+      "start": 9.64,
+      "text": "his Supreme Court pick, Neil Gorsuch.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.76,
+      "end": 13.6,
+      "speaker": "SPEAKER_00",
+      "start": 11.84,
+      "text": "But what do Americans think of the choice?",
+      "type": "speech"
+    },
+    {
+      "duration": 4.8,
+      "end": 18.4,
+      "speaker": "SPEAKER_00",
+      "start": 13.6,
+      "text": "Well, a brand new CNN poll shows that a plurality, 39%, were left with a positive",
+      "type": "speech"
+    },
+    {
+      "duration": 5.84,
+      "end": 24.24,
+      "speaker": "SPEAKER_00",
+      "start": 18.4,
+      "text": "first impression that compares with 45% for President Obama's never confirmed pick, Judge Merrick Garland,",
+      "type": "speech"
+    },
+    {
+      "duration": 3.6,
+      "end": 27.84,
+      "speaker": "SPEAKER_00",
+      "start": 24.24,
+      "text": "and 54 for now Chief Justice John Roberts.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.24,
+      "end": 30.08,
+      "speaker": "SPEAKER_00",
+      "start": 27.84,
+      "text": "But when it comes to confirming the new nominee,",
+      "type": "speech"
+    },
+    {
+      "duration": 2.48,
+      "end": 32.56,
+      "speaker": "SPEAKER_00",
+      "start": 30.08,
+      "text": "opinions are sharply divided along party lines.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.52,
+      "end": 36.08,
+      "speaker": "SPEAKER_00",
+      "start": 32.56,
+      "text": "Just 22% of Democrats think the Senate should vote to confirm him,",
+      "type": "speech"
+    },
+    {
+      "duration": 2.8,
+      "end": 38.88,
+      "speaker": "SPEAKER_00",
+      "start": 36.08,
+      "text": "while an overwhelming 84% of Republicans do.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 39.576,
+    "model_load_diarization_s": 1.18,
+    "model_load_distil_whisper_s": 2.662,
+    "model_load_total_s": 4.184,
+    "model_load_vad_s": 0.339,
+    "pipeline_total_s": 95.823,
+    "real_time_factor": 2.421,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 98.8,
+        "duration_s": 17.99,
+        "energy_j": 1155.4333,
+        "energy_wh": 0.320954,
+        "ram_after_mb": 1191.6,
+        "ram_before_mb": 1209.8,
+        "ram_delta_mb": -18.2,
+        "ram_peak_mb": 1215.5,
+        "stage": "ASR (Distil-Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 96.8,
+        "duration_s": 76.69,
+        "energy_j": 4824.249,
+        "energy_wh": 1.340069,
+        "ram_after_mb": 1227.3,
+        "ram_before_mb": 1191.6,
+        "ram_delta_mb": 35.7,
+        "ram_peak_mb": 2725.8,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 71.8,
+        "peak_ram_mb": 2725.8,
+        "total_energy_j": 6128.5868,
+        "total_energy_wh": 1.702385
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.208,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 1113.4,
+        "ram_before_mb": 1113.3,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 1113.4,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 91.7,
+        "duration_s": 2.499,
+        "energy_j": 148.9045,
+        "energy_wh": 0.041362,
+        "ram_after_mb": 1209.8,
+        "ram_before_mb": 1113.4,
+        "ram_delta_mb": 96.4,
+        "ram_peak_mb": 1480.7,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 25.685,
+    "stage_diarization_s": 67.845,
+    "stage_preprocessing_s": 0.207,
+    "stage_vad_s": 2.083
+  },
+  "unique_speakers_count": 1
+}

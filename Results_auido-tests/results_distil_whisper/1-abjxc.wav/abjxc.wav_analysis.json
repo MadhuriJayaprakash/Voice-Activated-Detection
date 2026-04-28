@@ -1,0 +1,216 @@
+{
+  "duration": 68.376,
+  "filename": "abjxc.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.4,
+      "duration_s": 34.681,
+      "energy_j": 2240.5233,
+      "energy_wh": 0.622368,
+      "ram_after_mb": 1313.1,
+      "ram_before_mb": 1365.3,
+      "ram_delta_mb": -52.2,
+      "ram_peak_mb": 1392.2,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 60.8,
+      "duration_s": 96.73,
+      "energy_j": 3822.2579,
+      "energy_wh": 1.061738,
+      "ram_after_mb": 1433.2,
+      "ram_before_mb": 1313.1,
+      "ram_delta_mb": 120.1,
+      "ram_peak_mb": 2851.5,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 58.3,
+      "peak_ram_mb": 2851.5,
+      "total_energy_j": 6178.5371,
+      "total_energy_wh": 1.71626
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 15.9,
+      "duration_s": 2.34,
+      "energy_j": 24.2436,
+      "energy_wh": 0.006734,
+      "ram_after_mb": 1872.1,
+      "ram_before_mb": 1812.1,
+      "ram_delta_mb": 59.9,
+      "ram_peak_mb": 1871.5,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 57.1,
+      "duration_s": 2.466,
+      "energy_j": 91.5123,
+      "energy_wh": 0.02542,
+      "ram_after_mb": 1365.3,
+      "ram_before_mb": 1872.1,
+      "ram_delta_mb": -506.8,
+      "ram_peak_mb": 1872.1,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 48,
+      "end": 48,
+      "end_time": "0:00:48",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "CNN has decided not to run a Donald Trump-endorsed campaign ad after the network decided it does not meet their standards. The 32nd advertisement paid for by Trump's campaign targeted Joe Biden's conduct toward Ukraine while he served as vice president, while also referring to CNN personalities Don Lemon, Chris Cuomo, and Jim Acosta as media lapdogs. A CNN spokesperson spoke to THR, saying the ad not meet the network's advertising standards, adding, in addition to disparaging CNN and its journalists, the ad makes assertions that have been proven demonstrably false by various news outlets, including CNN. However, despite CNN's rejection, the president posted the advertisement onto his Twitter page last week, along with the caption, I am draining the swamp. Now this is not the first time CNN has rejected a Trump campaign ad.",
+      "word_count": 135
+    },
+    {
+      "duration": 4,
+      "end": 52,
+      "end_time": "0:00:52",
+      "speaker": "SPEAKER_00",
+      "start": 48,
+      "start_time": "0:00:48",
+      "text": "Back in 2017, the network refused to run a Trump-approved ad called,",
+      "word_count": 12
+    },
+    {
+      "duration": 2,
+      "end": 54,
+      "end_time": "0:00:54",
+      "speaker": "SPEAKER_00",
+      "start": 52,
+      "start_time": "0:00:52",
+      "text": "Let President Trump do his job,",
+      "word_count": 6
+    },
+    {
+      "duration": 3,
+      "end": 57,
+      "end_time": "0:00:57",
+      "speaker": "SPEAKER_00",
+      "start": 54,
+      "start_time": "0:00:54",
+      "text": "which criticized the media and specifically called out Lemon,",
+      "word_count": 9
+    },
+    {
+      "duration": 2,
+      "end": 59,
+      "end_time": "0:00:59",
+      "speaker": "SPEAKER_00",
+      "start": 57,
+      "start_time": "0:00:57",
+      "text": "as well as Anderson Cooper.",
+      "word_count": 5
+    },
+    {
+      "duration": 2,
+      "end": 61,
+      "end_time": "0:01:01",
+      "speaker": "SPEAKER_00",
+      "start": 59,
+      "start_time": "0:00:59",
+      "text": "To stay up to date on this story, hit to THR.com,",
+      "word_count": 11
+    },
+    {
+      "duration": 3,
+      "end": 64,
+      "end_time": "0:01:04",
+      "speaker": "SPEAKER_00",
+      "start": 61,
+      "start_time": "0:01:01",
+      "text": "for the Hollywood reporter news, I may enjoy.",
+      "word_count": 8
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 7.08,
+      "end": 7.09,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 56.2,
+      "end": 64.86,
+      "start": 8.67,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 48,
+      "end": 48,
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "text": "CNN has decided not to run a Donald Trump-endorsed campaign ad after the network decided it does not meet their standards. The 32nd advertisement paid for by Trump's campaign targeted Joe Biden's conduct toward Ukraine while he served as vice president, while also referring to CNN personalities Don Lemon, Chris Cuomo, and Jim Acosta as media lapdogs. A CNN spokesperson spoke to THR, saying the ad not meet the network's advertising standards, adding, in addition to disparaging CNN and its journalists, the ad makes assertions that have been proven demonstrably false by various news outlets, including CNN. However, despite CNN's rejection, the president posted the advertisement onto his Twitter page last week, along with the caption, I am draining the swamp. Now this is not the first time CNN has rejected a Trump campaign ad.",
+      "type": "speech"
+    },
+    {
+      "duration": 4,
+      "end": 52,
+      "speaker": "SPEAKER_00",
+      "start": 48,
+      "text": "Back in 2017, the network refused to run a Trump-approved ad called,",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 54,
+      "speaker": "SPEAKER_00",
+      "start": 52,
+      "text": "Let President Trump do his job,",
+      "type": "speech"
+    },
+    {
+      "duration": 3,
+      "end": 57,
+      "speaker": "SPEAKER_00",
+      "start": 54,
+      "text": "which criticized the media and specifically called out Lemon,",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 59,
+      "speaker": "SPEAKER_00",
+      "start": 57,
+      "text": "as well as Anderson Cooper.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 61,
+      "speaker": "SPEAKER_00",
+      "start": 59,
+      "text": "To stay up to date on this story, hit to THR.com,",
+      "type": "speech"
+    },
+    {
+      "duration": 3,
+      "end": 64,
+      "speaker": "SPEAKER_00",
+      "start": 61,
+      "text": "for the Hollywood reporter news, I may enjoy.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 68.376,
+    "model_load_diarization_s": 1.221,
+    "model_load_distil_whisper_s": 2.86,
+    "model_load_total_s": 4.457,
+    "model_load_vad_s": 0.372,
+    "pipeline_total_s": 136.219,
+    "real_time_factor": 1.992,
+    "stage_asr_s": 34.681,
+    "stage_diarization_s": 96.73,
+    "stage_preprocessing_s": 2.34,
+    "stage_vad_s": 2.466
+  },
+  "unique_speakers_count": 1
+}

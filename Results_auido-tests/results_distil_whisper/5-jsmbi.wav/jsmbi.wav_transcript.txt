@@ -1,0 +1,101 @@
+Distil-Whisper Transcript
+File: jsmbi.wav
+Model: distil-whisper/distil-small.en
+Duration: 111.864s
+Speakers: 4
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:04] SPEAKER_03
+Residents and the mayor of Eureka are speaking out with disappointing tones as the
+
+[0:00:04 → 0:00:08] SPEAKER_03
+Woodford County Zoning Board of Appeals gives a solar farm one last hurdle to
+
+[0:00:08 → 0:00:10] SPEAKER_03
+jump before coming to town.
+
+[0:00:10 → 0:00:14] SPEAKER_03
+WMD's Rebecca Brumfield joins us to show us where the solar farm would go and how
+
+[0:00:14 → 0:00:16] SPEAKER_03
+it's sparking some frustrations with homeowners.
+
+[0:00:17 → 0:00:23] SPEAKER_03
+Yeah, Lauren Eugene, an out-of-state solar company is one step away from being approved to bring that solar
+
+[0:00:23 → 0:00:28] SPEAKER_02
+farm to the Lakeview Acre subdivision located right by Garrica Lake.
+
+[0:00:28 → 0:00:31] SPEAKER_02
+Tuesday night's decision has left a lot of unrest.
+
+[0:00:31 → 0:00:34] SPEAKER_00
+My kids play here.
+
+[0:00:34 → 0:00:36] SPEAKER_00
+This is entirely too close to them.
+
+[0:00:36 → 0:00:37] SPEAKER_00
+A four to one vote.
+
+[0:00:37 → 0:00:40] SPEAKER_01
+The issue is simply location.
+
+[0:00:40 → 0:00:44] SPEAKER_02
+Leave Seoul America Energy of Atlanta one step away from turning this farmland.
+
+[0:00:44 → 0:00:50] SPEAKER_01
+We don't know what it could do to our waterline, what it can do to the health of our city.
+
+[0:00:50 → 0:00:51] SPEAKER_01
+Into a solar farm.
+
+[0:00:51 → 0:00:53] SPEAKER_00
+It's great in a specific situation.
+
+[0:00:53 → 0:00:56] SPEAKER_00
+I think it's great for the county to look into this.
+
+[0:00:56 → 0:00:58] SPEAKER_00
+I think it's great to continue to develop.
+
+[0:00:58 → 0:01:01] SPEAKER_00
+It's just not going to help our town to grow.
+
+[0:01:01 → 0:01:01] SPEAKER_00
+It's not helping the safety.
+
+[0:01:01 → 0:01:08] SPEAKER_00
+this close to a residential neighborhood. The Prather family built their dream home here with the intent of retiring.
+
+[0:01:08 → 0:01:10] SPEAKER_02
+Now that's up in the air.
+
+[0:01:10 → 0:01:14] SPEAKER_00
+If this was either here or we knew it was being proposed, we likely would not have built.
+
+[0:01:14 → 0:01:18] SPEAKER_02
+Some people do support the $2 million 51-acre project, but those against the change
+
+[0:01:18 → 0:01:20] SPEAKER_02
+say.
+
+[0:01:20 → 0:01:26] SPEAKER_01
+In a county that is abundant, with undeveloped farmland. I find it very surprising
+
+[0:01:26 → 0:01:31] SPEAKER_01
+actually ridiculous that they're even considering this plot of land next to
+
+[0:01:31 → 0:01:35] SPEAKER_01
+our fastest growing neighborhood in our beautiful city. I love the idea would
+
+[0:01:35 → 0:01:41] SPEAKER_00
+would support it just don't don't really support it in my back. I do not support it in my
+
+[0:01:41 → 0:01:47] SPEAKER_00
+backyard. Now if this project passes through its final approval, it will likely begin in 2019.
+
+[0:01:47 → 0:01:51] SPEAKER_02
+The next Woodford County Zoning Board of Appeals meeting will be held on August 21st.
+

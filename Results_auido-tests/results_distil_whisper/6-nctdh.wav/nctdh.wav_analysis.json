@@ -1,0 +1,616 @@
+{
+  "duration": 122.16,
+  "filename": "nctdh.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.7,
+      "duration_s": 95.195,
+      "energy_j": 6171.4522,
+      "energy_wh": 1.714292,
+      "ram_after_mb": 1212.1,
+      "ram_before_mb": 1208.2,
+      "ram_delta_mb": 3.9,
+      "ram_peak_mb": 1250.8,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 85,
+      "duration_s": 219.382,
+      "energy_j": 12123.6419,
+      "energy_wh": 3.367678,
+      "ram_after_mb": 1334.5,
+      "ram_before_mb": 1212.1,
+      "ram_delta_mb": 122.4,
+      "ram_peak_mb": 2751.4,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 70.5,
+      "peak_ram_mb": 2751.4,
+      "total_energy_j": 18836.8436,
+      "total_energy_wh": 5.232456
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.208,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 1135.2,
+      "ram_before_mb": 1135.2,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 1135.2,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 97.5,
+      "duration_s": 8.547,
+      "energy_j": 541.7495,
+      "energy_wh": 0.150486,
+      "ram_after_mb": 1208.2,
+      "ram_before_mb": 1135.2,
+      "ram_delta_mb": 73,
+      "ram_peak_mb": 1481.2,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 3.2,
+      "end": 3.2,
+      "end_time": "0:00:03",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "High-witness news reporter Dan Coob is live in the Sad Center in Dan.",
+      "word_count": 13
+    },
+    {
+      "duration": 23.96,
+      "end": 26.08,
+      "end_time": "0:00:26",
+      "speaker": "SPEAKER_00",
+      "start": 2.12,
+      "start_time": "0:00:02",
+      "text": "I'm talking about Mayor Bloomberg. A billionaire who calls women fat broads and horse-faced lesbians.",
+      "word_count": 15
+    },
+    {
+      "duration": 3.8,
+      "end": 29.88,
+      "end_time": "0:00:29",
+      "speaker": "SPEAKER_03",
+      "start": 26.08,
+      "start_time": "0:00:26",
+      "text": "And no, I'm not talking about Donald Trump, I'm talking about Mayor Bloomberg.",
+      "word_count": 13
+    },
+    {
+      "duration": 5.16,
+      "end": 35.04,
+      "end_time": "0:00:35",
+      "speaker": "SPEAKER_01",
+      "start": 29.88,
+      "start_time": "0:00:29",
+      "text": "Peggy Rekula was eating lunch at the court diner in media trying to digest her first",
+      "word_count": 16
+    },
+    {
+      "duration": 1.4,
+      "end": 36.44,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_01",
+      "start": 35.04,
+      "start_time": "0:00:35",
+      "text": "exposure to Michael Bloomberg.",
+      "word_count": 4
+    },
+    {
+      "duration": 2.32,
+      "end": 38.76,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_01",
+      "start": 36.44,
+      "start_time": "0:00:36",
+      "text": "I don't hold out much hope for him.",
+      "word_count": 8
+    },
+    {
+      "duration": 4.24,
+      "end": 43,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_01",
+      "start": 38.76,
+      "start_time": "0:00:38",
+      "text": "One man we spoke with described the Democratic debate as a demolition derby.",
+      "word_count": 13
+    },
+    {
+      "duration": 2.84,
+      "end": 45.84,
+      "end_time": "0:00:45",
+      "speaker": "SPEAKER_01",
+      "start": 43,
+      "start_time": "0:00:43",
+      "text": "Former Philadelphia mayor Michael Nutter is working on the",
+      "word_count": 9
+    },
+    {
+      "duration": 7.68,
+      "end": 53.52,
+      "end_time": "0:00:53",
+      "speaker": "SPEAKER_01",
+      "start": 45.84,
+      "start_time": "0:00:45",
+      "text": "Bloomberg campaign. I would say not our best moment, but getting stronger. Like I said, first debate.",
+      "word_count": 17
+    },
+    {
+      "duration": 7.2,
+      "end": 61.52,
+      "end_time": "0:01:01",
+      "speaker": "SPEAKER_02",
+      "start": 54.32,
+      "start_time": "0:00:54",
+      "text": "I'm sure for all the other candidates who have now been debating for eight months, you know, we probably don't",
+      "word_count": 20
+    },
+    {
+      "duration": 5.48,
+      "end": 67,
+      "end_time": "0:01:07",
+      "speaker": "SPEAKER_02",
+      "start": 61.52,
+      "start_time": "0:01:01",
+      "text": "remember what that first, what those first debates are like for all of them.",
+      "word_count": 14
+    },
+    {
+      "duration": 2,
+      "end": 69,
+      "end_time": "0:01:09",
+      "speaker": "SPEAKER_02",
+      "start": 67,
+      "start_time": "0:01:07",
+      "text": "And so we've got some ground to make up.",
+      "word_count": 9
+    },
+    {
+      "duration": 7,
+      "end": 76,
+      "end_time": "0:01:16",
+      "speaker": "SPEAKER_02",
+      "start": 69,
+      "start_time": "0:01:09",
+      "text": "In the latest Quinnipiac poll released Thursday, every Democrat gained ground in a potential general election against President Trump.",
+      "word_count": 19
+    },
+    {
+      "duration": 6,
+      "end": 82,
+      "end_time": "0:01:22",
+      "speaker": "SPEAKER_01",
+      "start": 76,
+      "start_time": "0:01:16",
+      "text": "But the Democrats, we spoke to, worry about electability among the six most likely candidates.",
+      "word_count": 15
+    },
+    {
+      "duration": 3,
+      "end": 85,
+      "end_time": "0:01:25",
+      "speaker": "SPEAKER_01",
+      "start": 82,
+      "start_time": "0:01:22",
+      "text": "Who's a Democrat? You know, you got, Bloomberg was a Republican,",
+      "word_count": 11
+    },
+    {
+      "duration": 2,
+      "end": 87,
+      "end_time": "0:01:27",
+      "speaker": "SPEAKER_04",
+      "start": 85,
+      "start_time": "0:01:25",
+      "text": "and you got the socialists,",
+      "word_count": 5
+    },
+    {
+      "duration": 2,
+      "end": 89,
+      "end_time": "0:01:29",
+      "speaker": "SPEAKER_04",
+      "start": 87,
+      "start_time": "0:01:27",
+      "text": "and so, we'll say.",
+      "word_count": 4
+    },
+    {
+      "duration": 3,
+      "end": 92,
+      "end_time": "0:01:32",
+      "speaker": "SPEAKER_04",
+      "start": 89,
+      "start_time": "0:01:29",
+      "text": "Mike Bloomberg, the storm,",
+      "word_count": 4
+    },
+    {
+      "duration": 5,
+      "end": 97,
+      "end_time": "0:01:37",
+      "speaker": "SPEAKER_02",
+      "start": 92,
+      "start_time": "0:01:32",
+      "text": "and folks tried to land a couple different punches here and there.",
+      "word_count": 12
+    },
+    {
+      "duration": 4,
+      "end": 101,
+      "end_time": "0:01:41",
+      "speaker": "SPEAKER_02",
+      "start": 97,
+      "start_time": "0:01:37",
+      "text": "Now, Bloomberg's first time on a ballot is not until Super Tuesday,",
+      "word_count": 12
+    },
+    {
+      "duration": 7.08,
+      "end": 108.08,
+      "end_time": "0:01:48",
+      "speaker": "SPEAKER_01",
+      "start": 101,
+      "start_time": "0:01:41",
+      "text": "but he will be on the debate stage next week in South Carolina as well. Live in the Sat Center, Dan Coob, CBS 3, Eyewitness News.",
+      "word_count": 26
+    },
+    {
+      "duration": 1.64,
+      "end": 109.72,
+      "end_time": "0:01:49",
+      "speaker": "SPEAKER_01",
+      "start": 108.08,
+      "start_time": "0:01:48",
+      "text": "All right Dan, thank you.",
+      "word_count": 5
+    },
+    {
+      "duration": 3.76,
+      "end": 113.48,
+      "end_time": "0:01:53",
+      "speaker": "SPEAKER_00",
+      "start": 109.72,
+      "start_time": "0:01:49",
+      "text": "CBS News will co-host the next Democratic presidential debate in",
+      "word_count": 10
+    },
+    {
+      "duration": 4.16,
+      "end": 117.64,
+      "end_time": "0:01:57",
+      "speaker": "SPEAKER_00",
+      "start": 113.48,
+      "start_time": "0:01:53",
+      "text": "Charleston, South Carolina, Gilking and Nora O'Donnell, will moderate. That is",
+      "word_count": 11
+    },
+    {
+      "duration": 4.2,
+      "end": 121.84,
+      "end_time": "0:02:01",
+      "speaker": "SPEAKER_00",
+      "start": 117.64,
+      "start_time": "0:01:57",
+      "text": "Tuesday February 25th at 8 p.m. right here on CBS 3.",
+      "word_count": 11
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 16.57,
+      "end": 16.58,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 36.13,
+      "end": 53.62,
+      "start": 17.5,
+      "type": "speech"
+    },
+    {
+      "duration": 3.99,
+      "end": 58.02,
+      "start": 54.03,
+      "type": "speech"
+    },
+    {
+      "duration": 6.71,
+      "end": 65.14,
+      "start": 58.43,
+      "type": "speech"
+    },
+    {
+      "duration": 31.22,
+      "end": 97.04,
+      "start": 65.81,
+      "type": "speech"
+    },
+    {
+      "duration": 23.97,
+      "end": 122.16,
+      "start": 98.19,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 3.2,
+      "end": 3.2,
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "text": "High-witness news reporter Dan Coob is live in the Sad Center in Dan.",
+      "type": "speech"
+    },
+    {
+      "duration": 23.96,
+      "end": 26.08,
+      "speaker": "SPEAKER_00",
+      "start": 2.12,
+      "text": "I'm talking about Mayor Bloomberg. A billionaire who calls women fat broads and horse-faced lesbians.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.8,
+      "end": 29.88,
+      "speaker": "SPEAKER_03",
+      "start": 26.08,
+      "text": "And no, I'm not talking about Donald Trump, I'm talking about Mayor Bloomberg.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.16,
+      "end": 35.04,
+      "speaker": "SPEAKER_01",
+      "start": 29.88,
+      "text": "Peggy Rekula was eating lunch at the court diner in media trying to digest her first",
+      "type": "speech"
+    },
+    {
+      "duration": 1.4,
+      "end": 36.44,
+      "speaker": "SPEAKER_01",
+      "start": 35.04,
+      "text": "exposure to Michael Bloomberg.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.32,
+      "end": 38.76,
+      "speaker": "SPEAKER_01",
+      "start": 36.44,
+      "text": "I don't hold out much hope for him.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.24,
+      "end": 43,
+      "speaker": "SPEAKER_01",
+      "start": 38.76,
+      "text": "One man we spoke with described the Democratic debate as a demolition derby.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.84,
+      "end": 45.84,
+      "speaker": "SPEAKER_01",
+      "start": 43,
+      "text": "Former Philadelphia mayor Michael Nutter is working on the",
+      "type": "speech"
+    },
+    {
+      "duration": 7.68,
+      "end": 53.52,
+      "speaker": "SPEAKER_01",
+      "start": 45.84,
+      "text": "Bloomberg campaign. I would say not our best moment, but getting stronger. Like I said, first debate.",
+      "type": "speech"
+    },
+    {
+      "duration": 7.2,
+      "end": 61.52,
+      "speaker": "SPEAKER_02",
+      "start": 54.32,
+      "text": "I'm sure for all the other candidates who have now been debating for eight months, you know, we probably don't",
+      "type": "speech"
+    },
+    {
+      "duration": 5.48,
+      "end": 67,
+      "speaker": "SPEAKER_02",
+      "start": 61.52,
+      "text": "remember what that first, what those first debates are like for all of them.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 69,
+      "speaker": "SPEAKER_02",
+      "start": 67,
+      "text": "And so we've got some ground to make up.",
+      "type": "speech"
+    },
+    {
+      "duration": 7,
+      "end": 76,
+      "speaker": "SPEAKER_02",
+      "start": 69,
+      "text": "In the latest Quinnipiac poll released Thursday, every Democrat gained ground in a potential general election against President Trump.",
+      "type": "speech"
+    },
+    {
+      "duration": 6,
+      "end": 82,
+      "speaker": "SPEAKER_01",
+      "start": 76,
+      "text": "But the Democrats, we spoke to, worry about electability among the six most likely candidates.",
+      "type": "speech"
+    },
+    {
+      "duration": 3,
+      "end": 85,
+      "speaker": "SPEAKER_01",
+      "start": 82,
+      "text": "Who's a Democrat? You know, you got, Bloomberg was a Republican,",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 87,
+      "speaker": "SPEAKER_04",
+      "start": 85,
+      "text": "and you got the socialists,",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 89,
+      "speaker": "SPEAKER_04",
+      "start": 87,
+      "text": "and so, we'll say.",
+      "type": "speech"
+    },
+    {
+      "duration": 3,
+      "end": 92,
+      "speaker": "SPEAKER_04",
+      "start": 89,
+      "text": "Mike Bloomberg, the storm,",
+      "type": "speech"
+    },
+    {
+      "duration": 5,
+      "end": 97,
+      "speaker": "SPEAKER_02",
+      "start": 92,
+      "text": "and folks tried to land a couple different punches here and there.",
+      "type": "speech"
+    },
+    {
+      "duration": 4,
+      "end": 101,
+      "speaker": "SPEAKER_02",
+      "start": 97,
+      "text": "Now, Bloomberg's first time on a ballot is not until Super Tuesday,",
+      "type": "speech"
+    },
+    {
+      "duration": 7.08,
+      "end": 108.08,
+      "speaker": "SPEAKER_01",
+      "start": 101,
+      "text": "but he will be on the debate stage next week in South Carolina as well. Live in the Sat Center, Dan Coob, CBS 3, Eyewitness News.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.64,
+      "end": 109.72,
+      "speaker": "SPEAKER_01",
+      "start": 108.08,
+      "text": "All right Dan, thank you.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.76,
+      "end": 113.48,
+      "speaker": "SPEAKER_00",
+      "start": 109.72,
+      "text": "CBS News will co-host the next Democratic presidential debate in",
+      "type": "speech"
+    },
+    {
+      "duration": 4.16,
+      "end": 117.64,
+      "speaker": "SPEAKER_00",
+      "start": 113.48,
+      "text": "Charleston, South Carolina, Gilking and Nora O'Donnell, will moderate. That is",
+      "type": "speech"
+    },
+    {
+      "duration": 4.2,
+      "end": 121.84,
+      "speaker": "SPEAKER_00",
+      "start": 117.64,
+      "text": "Tuesday February 25th at 8 p.m. right here on CBS 3.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 122.16,
+    "model_load_diarization_s": 1.18,
+    "model_load_distil_whisper_s": 2.662,
+    "model_load_total_s": 4.184,
+    "model_load_vad_s": 0.339,
+    "pipeline_total_s": 323.335,
+    "real_time_factor": 2.647,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 99.7,
+        "duration_s": 69.531,
+        "energy_j": 4504.374,
+        "energy_wh": 1.251215,
+        "ram_after_mb": 1319.7,
+        "ram_before_mb": 1400.5,
+        "ram_delta_mb": -80.8,
+        "ram_peak_mb": 1412.1,
+        "stage": "ASR (Distil-Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 94.2,
+        "duration_s": 211.346,
+        "energy_j": 12942.0172,
+        "energy_wh": 3.595005,
+        "ram_after_mb": 1328.8,
+        "ram_before_mb": 1319.7,
+        "ram_delta_mb": 9.1,
+        "ram_peak_mb": 2866.6,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 64.7,
+        "peak_ram_mb": 2866.6,
+        "total_energy_j": 17621.4744,
+        "total_energy_wh": 4.894854
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.215,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 1407.4,
+        "ram_before_mb": 1407.4,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 1407.4,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 65,
+        "duration_s": 4.145,
+        "energy_j": 175.0832,
+        "energy_wh": 0.048634,
+        "ram_after_mb": 1400.5,
+        "ram_before_mb": 1407.4,
+        "ram_delta_mb": -6.8,
+        "ram_peak_mb": 1672.5,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 95.195,
+    "stage_diarization_s": 219.382,
+    "stage_preprocessing_s": 0.208,
+    "stage_vad_s": 8.547
+  },
+  "unique_speakers_count": 5
+}

@@ -1,0 +1,62 @@
+Distil-Whisper Transcript
+File: atgpi.wav
+Model: distil-whisper/distil-small.en
+Duration: 121.752s
+Speakers: 1
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:05] SPEAKER_00
+There's this. I have a little news that I'd like to give you as well and it has to do with this program.
+
+[0:00:05 → 0:00:13] SPEAKER_00
+I have been absolutely delighted for the last five years to be working with some of the most talented people in television news.
+
+[0:00:13 → 0:00:20] SPEAKER_00
+Just really stellar, stellar producers, writers, researchers, reporters, just remarkable people here at CNN.
+
+[0:00:20 → 0:00:24] SPEAKER_00
+And so it is really tough to tell you that I'm going to be leaving.
+
+[0:00:24 → 0:00:25] SPEAKER_00
+. Kind of. It's sort of weird you that I'm going to be leaving.
+
+[0:00:25 → 0:00:26] SPEAKER_00
+Kind of.
+
+[0:00:26 → 0:00:30] SPEAKER_00
+It's sort of weird, but I'm going to leave this time slot at 12 noon,
+
+[0:00:30 → 0:00:34] SPEAKER_00
+and I'm going to make the jump and follow my friends over at H.L.N.
+
+[0:00:34 → 0:00:36] SPEAKER_00
+We've already heard that Michaela Pereira has jumped over there,
+
+[0:00:36 → 0:00:38] SPEAKER_00
+Erica Hills over there, Robin Meade.
+
+[0:00:38 → 0:00:41] SPEAKER_00
+So I'm going to jump over to prime time on H.L.
+
+[0:00:41 → 0:00:43] SPEAKER_00
+, 8 p.
+
+[0:00:43 → 0:00:45] SPEAKER_00
+.. prime time on hle n eight p m in the fall super excited to do it we're going to
+
+[0:00:45 → 0:01:46] SPEAKER_00
+bring you know a really unique brand of social and legal issues oriented programming to that eight p m spot lots more news and details about it will follow but I just wanted to let you know what a privilege it's been at 12 noon to be with you every day and if you will just indulge me for a moment you see me all the time but You you don't see Christina or Sonia or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lainey and Tandhu and Dave, this is my family and every single day, it is a delight to get up at 4.30 in the morning and be with them and I say that honestly. So thank you for being here at 12 noon every day. every day. Still going to be here for a few more weeks. From the 23rd it'll be our last program here, but I'll be seeing you over on HLLN at 8 p.m. Very exciting time for us all here at CNN and HLLN. And I will still be doing a lot of stuff on CNN as well.. I'll be bringing legal analysis and I'll be guest representing
+
+[0:01:46 → 0:01:51] SPEAKER_00
+and talking about the stories of the day, the justice-oriented issues of the day over here
+
+[0:01:51 → 0:01:54] SPEAKER_00
+on CNN's programming. So I'm not going very far and I'll still be working with all
+
+[0:01:54 → 0:02:00] SPEAKER_00
+of these extraordinary people on a pretty regular basis. For now, that's it for today.
+
+[0:02:00 → 0:02:01] SPEAKER_00
+I've said enough.
+

@@ -1,0 +1,89 @@
+Distil-Whisper Transcript
+File: jiqvr.wav
+Model: distil-whisper/distil-small.en
+Duration: 84.0359375s
+Speakers: 2
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:02] SPEAKER_01
+Ask a question, please.
+
+[0:00:02 → 0:00:03] SPEAKER_01
+Thank you, sir.
+
+[0:00:03 → 0:00:04] SPEAKER_01
+What about Mr. Biden?
+
+[0:00:04 → 0:00:05] SPEAKER_01
+What did you want about Biden?
+
+[0:00:05 → 0:00:07] SPEAKER_01
+What did you want him to look into on Biden?
+
+[0:00:06 → 0:00:08] SPEAKER_01
+Are you talking to me?
+
+[0:00:08 → 0:00:25] SPEAKER_01
+Yeah, it was just a follow-up of what... The question, sir, was what did you want President Zelenski to do about Vice President Biden and his son Hunter?
+
+[0:00:25 → 0:00:28] SPEAKER_00
+Are you talking to me?
+
+[0:00:28 → 0:00:30] SPEAKER_00
+Yeah, I was just a follow-up of what I just asked you, sir.
+
+[0:00:30 → 0:00:31] SPEAKER_00
+You ready?
+
+[0:00:31 → 0:00:33] SPEAKER_00
+We have the President of Finland.
+
+[0:00:33 → 0:00:34] SPEAKER_00
+Ask him a question.
+
+[0:00:34 → 0:00:35] SPEAKER_00
+I have one for him.
+
+[0:00:35 → 0:00:36] SPEAKER_00
+I just wanted to follow up on the one that I asked.
+
+[0:00:36 → 0:00:38] SPEAKER_00
+Did you hear me?
+
+[0:00:38 → 0:00:39] SPEAKER_01
+Did you hear me?
+
+[0:00:42 → 0:00:45] SPEAKER_01
+. I will. I've given you a long answer. Ask this gentleman a question.
+
+[0:00:45 → 0:00:46] SPEAKER_01
+Don't be rude.
+
+[0:00:46 → 0:00:47] SPEAKER_00
+No, sir.
+
+[0:00:47 → 0:00:48] SPEAKER_00
+I don't want to be rude.
+
+[0:00:42 → 0:00:44] SPEAKER_01
+Much of the media in this country
+
+[0:00:44 → 0:00:46] SPEAKER_01
+is not just fake, it's corrupt.
+
+[0:00:46 → 0:00:49] SPEAKER_00
+And you have some very fine people, too.
+
+[0:00:49 → 0:01:08] SPEAKER_00
+Great journalists. the corrupt media because you're corrupt. Much of the media in this country is not just fake it's corrupt and you have some very fine people too.
+
+[0:01:08 → 0:01:14] SPEAKER_01
+Great journalists, great reporters, but it to a large extent it's corrupt and
+
+[0:01:14 → 0:01:19] SPEAKER_01
+it's fake. Ask the president of Finland to question please. Okay I'll move on now.
+
+[0:01:19 → 0:01:23] SPEAKER_01
+Mr. President in your opening remarks you said...
+

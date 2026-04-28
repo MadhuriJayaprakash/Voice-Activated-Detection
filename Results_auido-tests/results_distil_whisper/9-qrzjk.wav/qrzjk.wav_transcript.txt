@@ -1,0 +1,41 @@
+Distil-Whisper Transcript
+File: qrzjk.wav
+Model: distil-whisper/distil-small.en
+Duration: 39.576s
+Speakers: 1
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:04] SPEAKER_00
+And President Trump loves to talk about his TV ratings, if not his current approval
+
+[0:00:05 → 0:00:09] SPEAKER_00
+So he must be pleased to know that 33 million people watch the prime time rollout of
+
+[0:00:09 → 0:00:11] SPEAKER_00
+his Supreme Court pick, Neil Gorsuch.
+
+[0:00:11 → 0:00:13] SPEAKER_00
+But what do Americans think of the choice?
+
+[0:00:13 → 0:00:18] SPEAKER_00
+Well, a brand new CNN poll shows that a plurality, 39%, were left with a positive
+
+[0:00:18 → 0:00:24] SPEAKER_00
+first impression that compares with 45% for President Obama's never confirmed pick, Judge Merrick Garland,
+
+[0:00:24 → 0:00:27] SPEAKER_00
+and 54 for now Chief Justice John Roberts.
+
+[0:00:27 → 0:00:30] SPEAKER_00
+But when it comes to confirming the new nominee,
+
+[0:00:30 → 0:00:32] SPEAKER_00
+opinions are sharply divided along party lines.
+
+[0:00:32 → 0:00:36] SPEAKER_00
+Just 22% of Democrats think the Senate should vote to confirm him,
+
+[0:00:36 → 0:00:38] SPEAKER_00
+while an overwhelming 84% of Republicans do.
+
