@@ -1,0 +1,72 @@
+{
+  "file": "jiqvr.wav",
+  "timestamp": "2026-04-27T23:21:50",
+  "audio_duration_s": 84.036,
+  "real_time_factor": 1.606,
+  "stages": {
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.203,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 893.2,
+      "ram_before_mb": 893.1,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 893.2,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 59.5,
+      "duration_s": 2.702,
+      "energy_j": 104.4301,
+      "energy_wh": 0.029008,
+      "ram_after_mb": 1069.3,
+      "ram_before_mb": 893.2,
+      "ram_delta_mb": 176.1,
+      "ram_peak_mb": 1248.9,
+      "stage": "VAD"
+    },
+    "asr": {
+      "cpu_avg_pct": 89.3,
+      "duration_s": 25.349,
+      "energy_j": 1471.6135,
+      "energy_wh": 0.408782,
+      "ram_after_mb": 1212.4,
+      "ram_before_mb": 1069.3,
+      "ram_delta_mb": 143.1,
+      "ram_peak_mb": 1212.4,
+      "stage": "ASR (Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 57.2,
+      "duration_s": 106.505,
+      "energy_j": 3959.4107,
+      "energy_wh": 1.099836,
+      "ram_after_mb": 1047.2,
+      "ram_before_mb": 1212.4,
+      "ram_delta_mb": -165.1,
+      "ram_peak_mb": 2603.8,
+      "stage": "Diarization"
+    },
+    "combine": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.217,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 1047.2,
+      "ram_before_mb": 1047.2,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 1047.2,
+      "stage": "Combine"
+    }
+  },
+  "pipeline_total": {
+    "audio_duration_s": 84.036,
+    "avg_cpu_pct": 41.2,
+    "peak_ram_mb": 2603.8,
+    "rtf": 1.606,
+    "total_duration_s": 134.979,
+    "total_energy_j": 5535.4543,
+    "total_energy_wh": 1.537626
+  }
+}

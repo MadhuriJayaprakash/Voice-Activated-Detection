@@ -1,0 +1,87 @@
+{
+  "filename": "qpylu.wav",
+  "duration": 44.5126875,
+  "speakers": 2,
+  "segments": [
+    {
+      "duration": 6.44,
+      "end": 6.44,
+      "end_time": "0:00:06",
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "We, actually, actually, have no place in American society.",
+      "word_count": 9
+    },
+    {
+      "duration": 6.24,
+      "end": 13.08,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_01",
+      "start": 6.84,
+      "start_time": "0:00:06",
+      "text": "I want to assure you we've deployed the full resources of the FBI, the United States Secret Service,",
+      "word_count": 18
+    },
+    {
+      "duration": 3.32,
+      "end": 16.56,
+      "end_time": "0:00:16",
+      "speaker": "SPEAKER_01",
+      "start": 13.24,
+      "start_time": "0:00:13",
+      "text": "and they're working very closely with law enforcement officials.",
+      "word_count": 9
+    },
+    {
+      "duration": 7.7,
+      "end": 24.26,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_01",
+      "start": 16.56,
+      "start_time": "0:00:16",
+      "text": "We'll continue to monitor these investigations, and those responsible will be brought to justice.",
+      "word_count": 14
+    },
+    {
+      "duration": 2,
+      "end": 34.1,
+      "end_time": "0:00:34",
+      "speaker": "SPEAKER_02",
+      "start": 32.1,
+      "start_time": "0:00:32",
+      "text": "Hey there, I'm Chris Hayes from MSNBC.",
+      "word_count": 7
+    },
+    {
+      "duration": 1.9,
+      "end": 36.32,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_02",
+      "start": 34.42,
+      "start_time": "0:00:34",
+      "text": "Thanks for watching MSNBC on YouTube.",
+      "word_count": 6
+    },
+    {
+      "duration": 3.14,
+      "end": 39.46,
+      "end_time": "0:00:39",
+      "speaker": "SPEAKER_02",
+      "start": 36.32,
+      "start_time": "0:00:36",
+      "text": "If you want to keep up to date with the videos we're putting out, you can click subscribe",
+      "word_count": 18
+    },
+    {
+      "duration": 3.84,
+      "end": 43.3,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_02",
+      "start": 39.46,
+      "start_time": "0:00:39",
+      "text": "just below me, or click over on this list to see lots of other great videos.",
+      "word_count": 16
+    }
+  ]
+}

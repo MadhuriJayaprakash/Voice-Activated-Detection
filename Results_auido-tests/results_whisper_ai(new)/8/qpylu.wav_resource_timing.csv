@@ -1,0 +1,11 @@
+# File: qpylu.wav
+# Timestamp: 2026-04-27T23:37:16
+# Audio Duration (s): 44.513
+# Real-Time Factor: 1.459
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.215,796.8,796.9,0,796.9,0,0,0
+VAD,1.666,796.9,888,91.2,1101.4,57.3,62.0187,0.017227
+ASR (Whisper),10.794,888,1072,183.9,1072,89.7,629.5048,0.174862
+Diarization,52.054,1072,915.2,-156.8,2504.6,57.9,1959.8063,0.544391
+Combine,0.207,915.2,915.2,0,915.2,0,0,0
+TOTAL,64.937,,,,2504.6,41,2651.3298,0.73648

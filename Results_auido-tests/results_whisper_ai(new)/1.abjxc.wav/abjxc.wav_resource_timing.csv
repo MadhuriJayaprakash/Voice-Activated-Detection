@@ -1,0 +1,11 @@
+# File: abjxc.wav
+# Timestamp: 2026-04-27T22:35:59
+# Audio Duration (s): 68.376
+# Real-Time Factor: 1.621
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,2.369,758.8,815.9,57.1,819.8,17,26.1321,0.007259
+VAD,2.298,815.9,941,125.1,1170.1,59,88.1132,0.024476
+ASR (Whisper),21.771,941,1128,187,1128.4,80.4,1138.0251,0.316118
+Diarization,84.168,1128,1068.8,-59.2,2590.6,57.9,3169.8609,0.880517
+Combine,0.203,1068.8,1068.8,0,1068.8,0,0,0
+TOTAL,110.811,,,,2590.6,42.9,4422.1313,1.22837

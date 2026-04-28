@@ -1,0 +1,337 @@
+{
+  "filename": "jiqvr.wav",
+  "duration": 84.0359375,
+  "speakers": 2,
+  "segments": [
+    {
+      "duration": 2.62,
+      "end": 2.62,
+      "end_time": "0:00:02",
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "Ask a question. Thank you sir. Missing",
+      "word_count": 7
+    },
+    {
+      "duration": 3.72,
+      "end": 6.34,
+      "end_time": "0:00:06",
+      "speaker": "SPEAKER_01",
+      "start": 2.62,
+      "start_time": "0:00:02",
+      "text": "What about Mr. Biden? What did you want about Biden? What do you want him to look at you on Biden?",
+      "word_count": 21
+    },
+    {
+      "duration": 2.64,
+      "end": 9.3,
+      "end_time": "0:00:09",
+      "speaker": "SPEAKER_01",
+      "start": 6.66,
+      "start_time": "0:00:06",
+      "text": "Look Biden and his son are",
+      "word_count": 6
+    },
+    {
+      "duration": 6.6,
+      "end": 17.2,
+      "end_time": "0:00:17",
+      "speaker": "SPEAKER_01",
+      "start": 10.6,
+      "start_time": "0:00:10",
+      "text": "Stone called crooked and you know it his son walks out with millions of dollars the kid knows nothing",
+      "word_count": 19
+    },
+    {
+      "duration": 2.92,
+      "end": 20.12,
+      "end_time": "0:00:20",
+      "speaker": "SPEAKER_01",
+      "start": 17.2,
+      "start_time": "0:00:17",
+      "text": "You know it and so do we go ahead ask a question",
+      "word_count": 12
+    },
+    {
+      "duration": 5.5,
+      "end": 25.62,
+      "end_time": "0:00:25",
+      "speaker": "SPEAKER_01",
+      "start": 20.12,
+      "start_time": "0:00:20",
+      "text": "The question sir was what did you want president Salensky to do about president Biden and his son Hunter?",
+      "word_count": 19
+    },
+    {
+      "duration": 1.1,
+      "end": 28.24,
+      "end_time": "0:00:28",
+      "speaker": "SPEAKER_00",
+      "start": 27.14,
+      "start_time": "0:00:27",
+      "text": "Are you talking to me?",
+      "word_count": 5
+    },
+    {
+      "duration": 2.66,
+      "end": 30.9,
+      "end_time": "0:00:30",
+      "speaker": "SPEAKER_01",
+      "start": 28.24,
+      "start_time": "0:00:28",
+      "text": "Yeah, it was just a follow-up of what I just asked you sir.",
+      "word_count": 13
+    },
+    {
+      "duration": 2.66,
+      "end": 34.58,
+      "end_time": "0:00:34",
+      "speaker": "SPEAKER_00",
+      "start": 31.92,
+      "start_time": "0:00:31",
+      "text": "We have the President of Finland ask him a question.",
+      "word_count": 10
+    },
+    {
+      "duration": 0.6,
+      "end": 35.28,
+      "end_time": "0:00:35",
+      "speaker": "SPEAKER_00",
+      "start": 34.68,
+      "start_time": "0:00:34",
+      "text": "I have one for him.",
+      "word_count": 5
+    },
+    {
+      "duration": 1.88,
+      "end": 37.22,
+      "end_time": "0:00:37",
+      "speaker": "SPEAKER_00",
+      "start": 35.34,
+      "start_time": "0:00:35",
+      "text": "I just wanted to follow up on the one that I asked for.",
+      "word_count": 13
+    },
+    {
+      "duration": 0.62,
+      "end": 37.84,
+      "end_time": "0:00:37",
+      "speaker": "SPEAKER_00",
+      "start": 37.22,
+      "start_time": "0:00:37",
+      "text": "Did you hear me?",
+      "word_count": 4
+    },
+    {
+      "duration": 0.54,
+      "end": 38.78,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_00",
+      "start": 38.24,
+      "start_time": "0:00:38",
+      "text": "Did you hear me?",
+      "word_count": 4
+    },
+    {
+      "duration": 0.92,
+      "end": 40.14,
+      "end_time": "0:00:40",
+      "speaker": "SPEAKER_01",
+      "start": 39.22,
+      "start_time": "0:00:39",
+      "text": "Ask him a question.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.32,
+      "end": 42.4,
+      "end_time": "0:00:42",
+      "speaker": "SPEAKER_00",
+      "start": 41.08,
+      "start_time": "0:00:41",
+      "text": "I'm giving you a long answer.",
+      "word_count": 6
+    },
+    {
+      "duration": 1.64,
+      "end": 45.22,
+      "end_time": "0:00:45",
+      "speaker": "SPEAKER_01",
+      "start": 43.58,
+      "start_time": "0:00:43",
+      "text": "Ask this gentleman a question.",
+      "word_count": 5
+    },
+    {
+      "duration": 0.56,
+      "end": 45.98,
+      "end_time": "0:00:45",
+      "speaker": "SPEAKER_01",
+      "start": 45.42,
+      "start_time": "0:00:45",
+      "text": "Don't be rude.",
+      "word_count": 3
+    },
+    {
+      "duration": 1.08,
+      "end": 47.72,
+      "end_time": "0:00:47",
+      "speaker": "SPEAKER_00",
+      "start": 46.64,
+      "start_time": "0:00:46",
+      "text": "No sir, I don't want to be rude.",
+      "word_count": 8
+    },
+    {
+      "duration": 2.58,
+      "end": 50.4,
+      "end_time": "0:00:50",
+      "speaker": "SPEAKER_00",
+      "start": 47.82,
+      "start_time": "0:00:47",
+      "text": "I just wanted you to have a chance to answer the question that I asked you.",
+      "word_count": 16
+    },
+    {
+      "duration": 0.64,
+      "end": 51.06,
+      "end_time": "0:00:51",
+      "speaker": "SPEAKER_00",
+      "start": 50.42,
+      "start_time": "0:00:50",
+      "text": "I've answered everything.",
+      "word_count": 3
+    },
+    {
+      "duration": 1.08,
+      "end": 53.08,
+      "end_time": "0:00:53",
+      "speaker": "SPEAKER_01",
+      "start": 52,
+      "start_time": "0:00:52",
+      "text": "It's a whole hoax.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.46,
+      "end": 54.68,
+      "end_time": "0:00:54",
+      "speaker": "SPEAKER_01",
+      "start": 53.22,
+      "start_time": "0:00:53",
+      "text": "And you know who's playing into the hoax?",
+      "word_count": 8
+    },
+    {
+      "duration": 0.8,
+      "end": 55.58,
+      "end_time": "0:00:55",
+      "speaker": "SPEAKER_01",
+      "start": 54.78,
+      "start_time": "0:00:54",
+      "text": "People like you.",
+      "word_count": 3
+    },
+    {
+      "duration": 2.82,
+      "end": 58.4,
+      "end_time": "0:00:58",
+      "speaker": "SPEAKER_01",
+      "start": 55.58,
+      "start_time": "0:00:55",
+      "text": "and the fake news media that we have in this country.",
+      "word_count": 11
+    },
+    {
+      "duration": 2.88,
+      "end": 61.48,
+      "end_time": "0:01:01",
+      "speaker": "SPEAKER_01",
+      "start": 58.6,
+      "start_time": "0:00:58",
+      "text": "And I say, in many cases, the corrupt media,",
+      "word_count": 9
+    },
+    {
+      "duration": 0.78,
+      "end": 62.34,
+      "end_time": "0:01:02",
+      "speaker": "SPEAKER_01",
+      "start": 61.56,
+      "start_time": "0:01:01",
+      "text": "because you're corrupt.",
+      "word_count": 3
+    },
+    {
+      "duration": 2.48,
+      "end": 65.38,
+      "end_time": "0:01:05",
+      "speaker": "SPEAKER_01",
+      "start": 62.9,
+      "start_time": "0:01:02",
+      "text": "Much of the media in this country is not just fake.",
+      "word_count": 11
+    },
+    {
+      "duration": 1.84,
+      "end": 68.5,
+      "end_time": "0:01:08",
+      "speaker": "SPEAKER_01",
+      "start": 66.66,
+      "start_time": "0:01:06",
+      "text": "And you have some very fine people, too.",
+      "word_count": 8
+    },
+    {
+      "duration": 1.4,
+      "end": 70.7,
+      "end_time": "0:01:10",
+      "speaker": "SPEAKER_01",
+      "start": 69.3,
+      "start_time": "0:01:09",
+      "text": "Great journalists, great reporters.",
+      "word_count": 4
+    },
+    {
+      "duration": 3.96,
+      "end": 74.9,
+      "end_time": "0:01:14",
+      "speaker": "SPEAKER_01",
+      "start": 70.94,
+      "start_time": "0:01:10",
+      "text": "But to a large extent, it's corrupt and it's fake.",
+      "word_count": 10
+    },
+    {
+      "duration": 2.76,
+      "end": 78.28,
+      "end_time": "0:01:18",
+      "speaker": "SPEAKER_01",
+      "start": 75.52,
+      "start_time": "0:01:15",
+      "text": "Ask the President of Finland to question, please.",
+      "word_count": 8
+    },
+    {
+      "duration": 0.96,
+      "end": 79.52,
+      "end_time": "0:01:19",
+      "speaker": "SPEAKER_01",
+      "start": 78.56,
+      "start_time": "0:01:18",
+      "text": "Okay. I'll move on now.",
+      "word_count": 5
+    },
+    {
+      "duration": 2.3,
+      "end": 82.42,
+      "end_time": "0:01:22",
+      "speaker": "SPEAKER_00",
+      "start": 80.12,
+      "start_time": "0:01:20",
+      "text": "Mr. President, in your opening remarks,",
+      "word_count": 6
+    }
+  ]
+}

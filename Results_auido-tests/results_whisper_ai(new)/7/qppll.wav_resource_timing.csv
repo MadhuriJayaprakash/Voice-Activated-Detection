@@ -1,0 +1,11 @@
+# File: qppll.wav
+# Timestamp: 2026-04-27T23:33:30
+# Audio Duration (s): 70.322
+# Real-Time Factor: 1.529
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.207,912.7,912.8,0,912.7,0,0,0
+VAD,2.482,912.8,1039.8,127.1,1236.2,56.1,90.5507,0.025153
+ASR (Whisper),16.274,1039.8,1181.9,142.1,1183.9,89.3,944.5448,0.262374
+Diarization,88.328,1181.9,1183.8,1.9,2612.1,58.8,3377.7561,0.938266
+Combine,0.203,1183.8,1183.8,0,1183.8,0,0,0
+TOTAL,107.495,,,,2612.1,40.8,4412.8516,1.225793

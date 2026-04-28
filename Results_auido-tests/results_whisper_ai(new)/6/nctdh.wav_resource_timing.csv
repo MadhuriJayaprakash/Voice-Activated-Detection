@@ -1,0 +1,11 @@
+# File: nctdh.wav
+# Timestamp: 2026-04-27T23:29:10
+# Audio Duration (s): 122.16
+# Real-Time Factor: 1.674
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.207,903.8,903.9,0,903.9,0,0,0
+VAD,4.367,903.9,1098.5,194.7,1315.3,60.1,170.5653,0.047379
+ASR (Whisper),33.401,1098.5,1181.4,82.9,1181.2,89.4,1941.7217,0.539367
+Diarization,166.309,1181.4,1106.7,-74.7,2609.3,58.5,6322.0826,1.756134
+Combine,0.217,1106.7,1106.7,0,1106.7,0,0,0
+TOTAL,204.504,,,,2609.3,41.6,8434.3696,2.34288

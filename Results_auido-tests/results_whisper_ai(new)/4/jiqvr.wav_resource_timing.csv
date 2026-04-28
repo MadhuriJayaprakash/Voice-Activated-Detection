@@ -1,0 +1,11 @@
+# File: jiqvr.wav
+# Timestamp: 2026-04-27T23:21:50
+# Audio Duration (s): 84.036
+# Real-Time Factor: 1.606
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.203,893.1,893.2,0,893.2,0,0,0
+VAD,2.702,893.2,1069.3,176.1,1248.9,59.5,104.4301,0.029008
+ASR (Whisper),25.349,1069.3,1212.4,143.1,1212.4,89.3,1471.6135,0.408782
+Diarization,106.505,1212.4,1047.2,-165.1,2603.8,57.2,3959.4107,1.099836
+Combine,0.217,1047.2,1047.2,0,1047.2,0,0,0
+TOTAL,134.979,,,,2603.8,41.2,5535.4543,1.537626

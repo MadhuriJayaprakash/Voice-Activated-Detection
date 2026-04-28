@@ -1,0 +1,11 @@
+# File: wmori.wav
+# Timestamp: 2026-04-27T23:39:32
+# Audio Duration (s): 120.12
+# Real-Time Factor: 1.635
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.213,804.6,804.6,0,804.6,0,0,0
+VAD,4.345,804.6,872.1,67.5,1173.5,59.3,167.5084,0.04653
+ASR (Whisper),28.241,872.1,1091.7,219.6,1091.2,89.5,1642.104,0.45614
+Diarization,163.374,1091.7,929.2,-162.5,2519.7,59.4,6303.2596,1.750905
+Combine,0.214,929.2,929.2,0,929.2,0,0,0
+TOTAL,196.39,,,,2519.7,41.6,8112.872,2.253575

@@ -1,0 +1,137 @@
+{
+  "filename": "qppll.wav",
+  "duration": 70.3216875,
+  "speakers": 1,
+  "segments": [
+    {
+      "duration": 6.16,
+      "end": 6.16,
+      "end_time": "0:00:06",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "As the moment as we leave the European Union to reunite our country and allow the warmth and",
+      "word_count": 18
+    },
+    {
+      "duration": 6.42,
+      "end": 12.58,
+      "end_time": "0:00:12",
+      "speaker": "SPEAKER_00",
+      "start": 6.16,
+      "start_time": "0:00:06",
+      "text": "natural affection that we all share for our European neighbours to find renewed expression in one great",
+      "word_count": 17
+    },
+    {
+      "duration": 5.84,
+      "end": 18.42,
+      "end_time": "0:00:18",
+      "speaker": "SPEAKER_00",
+      "start": 12.58,
+      "start_time": "0:00:12",
+      "text": "new national project of building a deep, special and democratically accountable partnership",
+      "word_count": 12
+    },
+    {
+      "duration": 6.08,
+      "end": 24.5,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_00",
+      "start": 18.42,
+      "start_time": "0:00:18",
+      "text": "with those nations we are proud to call our closest friends. The Bill ensures that the implementation",
+      "word_count": 17
+    },
+    {
+      "duration": 4.96,
+      "end": 29.46,
+      "end_time": "0:00:29",
+      "speaker": "SPEAKER_00",
+      "start": 24.5,
+      "start_time": "0:00:24",
+      "text": "period must end on the 31st of December next year with no possibility of an",
+      "word_count": 15
+    },
+    {
+      "duration": 5.84,
+      "end": 35.3,
+      "end_time": "0:00:35",
+      "speaker": "SPEAKER_00",
+      "start": 29.46,
+      "start_time": "0:00:29",
+      "text": "extension and it paves the way for a new agreement on our future relationship",
+      "word_count": 14
+    },
+    {
+      "duration": 5.26,
+      "end": 40.56,
+      "end_time": "0:00:40",
+      "speaker": "SPEAKER_00",
+      "start": 35.3,
+      "start_time": "0:00:35",
+      "text": "with our European neighbours based on an ambitious free trade agreement. Our aim",
+      "word_count": 13
+    },
+    {
+      "duration": 7.3,
+      "end": 47.86,
+      "end_time": "0:00:47",
+      "speaker": "SPEAKER_00",
+      "start": 40.56,
+      "start_time": "0:00:40",
+      "text": "is to provide a close friendship between sovereign equals to promote our common",
+      "word_count": 13
+    },
+    {
+      "duration": 5.84,
+      "end": 53.7,
+      "end_time": "0:00:53",
+      "speaker": "SPEAKER_00",
+      "start": 47.86,
+      "start_time": "0:00:47",
+      "text": "interests inspired by pride in our European heritage and civilization. I am",
+      "word_count": 12
+    },
+    {
+      "duration": 4.54,
+      "end": 58.24,
+      "end_time": "0:00:58",
+      "speaker": "SPEAKER_00",
+      "start": 53.7,
+      "start_time": "0:00:53",
+      "text": "absolutely determined that this great project will not be the project of one",
+      "word_count": 13
+    },
+    {
+      "duration": 5.4,
+      "end": 63.64,
+      "end_time": "0:01:03",
+      "speaker": "SPEAKER_00",
+      "start": 58.24,
+      "start_time": "0:00:58",
+      "text": "government or one party but of the British nation as I hold. So Parliament, so",
+      "word_count": 15
+    },
+    {
+      "duration": 4.68,
+      "end": 68.32,
+      "end_time": "0:01:08",
+      "speaker": "SPEAKER_00",
+      "start": 63.64,
+      "start_time": "0:01:03",
+      "text": "Parliament as I have said will be kept fully informed about the progress of",
+      "word_count": 14
+    },
+    {
+      "duration": 0.9,
+      "end": 69.22,
+      "end_time": "0:01:09",
+      "speaker": "SPEAKER_00",
+      "start": 68.32,
+      "start_time": "0:01:08",
+      "text": "these negotiations.",
+      "word_count": 2
+    }
+  ]
+}

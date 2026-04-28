@@ -1,0 +1,11 @@
+# File: jsmbi.wav
+# Timestamp: 2026-04-27T23:25:03
+# Audio Duration (s): 111.864
+# Real-Time Factor: 1.704
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.21,1045.4,1045.4,0,1045.4,0,0,0
+VAD,3.96,1045.4,1006.3,-39.2,1268.5,57.6,148.3032,0.041195
+ASR (Whisper),31,1006.3,1181.4,175.2,1182.4,90.5,1823.2272,0.506452
+Diarization,155.272,1181.4,1099,-82.4,2607.3,58.8,5936.2147,1.648949
+Combine,0.215,1099,1099,0,1099,0,0,0
+TOTAL,190.66,,,,2607.3,41.4,7907.7451,2.196596
