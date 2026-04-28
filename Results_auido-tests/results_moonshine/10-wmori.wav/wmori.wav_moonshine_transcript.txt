@@ -1,0 +1,50 @@
+Moonshine ASR Transcript
+File: wmori.wav
+Model: usefulsensors/moonshine-base
+Duration: 120.12s
+Speakers: 2
+
+──────────────────────────────────────────────────
+
+[0:00:02 → 0:00:10] SPEAKER_00
+There's an old soul in these dogs, and they appreciate you in a way that a puppy can't.
+
+[0:00:16 → 0:00:29] SPEAKER_00
+My pill is a senior dog rescue. We save senior dogs and find them fabulous new homes. We get dogs in all sorts of conditions. And because they're old, they even have more issues.
+
+[0:00:29 → 0:00:40] SPEAKER_00
+With the matching funds we got from the Subaru Grant, we got to set up our own veterinarian team because we don't want to see any dog suffer once it steps through our doors.
+
+[0:00:41 → 0:00:44] SPEAKER_01
+I'm not sure that Ava rescued me or I rescued her
+
+[0:00:45 → 0:00:49] SPEAKER_01
+My oldest granddaughter is now 12 and the younger one is 9.
+
+[0:00:50 → 0:01:05] SPEAKER_01
+I watched them initially twice a week and I loved that. As they were older and they have their various activities and friends, I don't babysit as much. I miss them already. It's very important for me to have somebody to take care of.
+
+[0:01:06 → 0:01:16] SPEAKER_01
+It's just my nature. I need to have that. So one night I was looking through all the senior dogs that were available and I saw Ava and I thought, oh my God, this is it.
+
+[0:01:18 → 0:01:22] SPEAKER_01
+When I had read her bio, said she had a heart murmur.
+
+[0:01:22 → 0:01:27] SPEAKER_01
+But when Sherry told me that she required heart surgery, I was pretty taken aback.
+
+[0:01:28 → 0:01:29] SPEAKER_01
+They just really weren't
+
+[0:01:30 → 0:01:32] SPEAKER_01
+Ava would even make it through the night.
+
+[0:01:33 → 0:01:38] SPEAKER_00
+What Subaru did with CNN heroes really allowed us to change our game.
+
+[0:01:39 → 0:01:45] SPEAKER_00
+Because we had our own vet, we could see what was going on and save that dog's life.
+
+[0:01:47 → 0:01:55] SPEAKER_01
+If I don't feel needed, then I don't feel loved. But Ava needs me. I need her. So therefore love exists.
+

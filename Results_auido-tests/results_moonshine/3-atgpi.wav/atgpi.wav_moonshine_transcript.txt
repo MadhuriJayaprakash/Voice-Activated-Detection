@@ -1,0 +1,41 @@
+Moonshine ASR Transcript
+File: atgpi.wav
+Model: usefulsensors/moonshine-base
+Duration: 121.752s
+Speakers: 1
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:15] SPEAKER_00
+I have a little news that I'd like to give you as well, and it has to do with this program. I have been absolutely delighted for the last five years to be working with some of the most talented people in television news, just really stellar, stellar producers.
+
+[0:00:15 → 0:00:25] SPEAKER_00
+writers, researchers, reporters, just remarkable people here at CNN. And so it is really tough to tell you that I'm going to be leaving.
+
+[0:00:25 → 0:00:38] SPEAKER_00
+Kind of it's sort of weird but i'm going to leave this time flat at 12 noon and i'm going to make the jump and follow my friends over at hln you've already heard that Michaela Pereira's jumped over their earthy hills over their robin need
+
+[0:00:38 → 0:00:49] SPEAKER_00
+So I'm going to jump over to primetime on HLN, 8:00 PM in the fall. Super excited to do it. We're going to bring, you know, a really unique brand of social and legal issues oriented programming.
+
+[0:00:50 → 0:01:14] SPEAKER_00
+to that 8 p.m. spot. Lots more news and details about it will follow, but I just wanted to let you know what a privilege it's been at 12 noon to be with you every day. And if you will just indulge me for a moment, you see me all the time, but you don't see Christina or Sonia or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lamy and Tanju and Dave
+
+[0:01:14 → 0:01:22] SPEAKER_00
+This is my family and every single day it is a delight to get up at 4:30 in the morning and be with them and I say that honestly.
+
+[0:01:23 → 0:01:33] SPEAKER_00
+So thank you for being here at 12 noon every day. Still going to be here for a few more weeks. From the 23rd it will be our last program here, but I'll be seeing you over on HLN at 8:00 p.m.
+
+[0:01:34 → 0:01:39] SPEAKER_00
+very exciting time for us all here at CNN and HLN and I will still be doing a lot of stuff
+
+[0:01:39 → 0:01:41] SPEAKER_00
+On Cnn as well, I'll
+
+[0:01:42 → 0:01:58] SPEAKER_00
+legal analysis and I'll be representing and talking about the stories of the day, the justice oriented issues of the day over here on CNN's programming. So I'm not going very far and I'll still be working with all of these extraordinary people on a pretty regular basis. For now,
+
+[0:01:59 → 0:02:01] SPEAKER_00
+That's it for today. I've said enough.
+

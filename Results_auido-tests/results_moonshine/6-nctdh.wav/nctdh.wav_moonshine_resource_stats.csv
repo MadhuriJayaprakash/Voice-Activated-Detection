@@ -1,0 +1,12 @@
+# Moonshine Resource Usage Report
+# File: nctdh.wav
+# Model: usefulsensors/moonshine-base
+# Audio Duration: 122.16s
+# RTF: 2.345x
+# Generated: 2026-04-27T19:07:55.408Z
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+"Preprocessing",0.203,795.7,795.7,0,795.7,0,0,0
+"VAD",8.111,795.7,869.8,74,1165.5,96.9,510.6351,0.141843
+"ASR - Moonshine",41.211,869.8,888.1,18.3,904.6,99.5,2665.4693,0.740408
+"Diarization",236.979,888.1,1000.9,112.8,2479.3,94.6,14576.6991,4.049083
+"Pipeline Total",286.506,"","","",2479.3,72.8,17752.8035,4.931334

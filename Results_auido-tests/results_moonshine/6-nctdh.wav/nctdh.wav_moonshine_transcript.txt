@@ -1,0 +1,26 @@
+Moonshine ASR Transcript
+File: nctdh.wav
+Model: usefulsensors/moonshine-base
+Duration: 122.16s
+Speakers: 4
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:16] SPEAKER_01
+I went to sue supporter Dan Coop is live in the South Center in Dan. You learned the debate left some Democrats very concerned. Yeah, it was open season on former New York City Mayor Michael Bloomberg as the five other Democratic candidates took their first cracks at the billionaires politics in office and history as an employer.
+
+[0:00:17 → 0:00:53] SPEAKER_03
+I'd like to talk about who we're running against, a billionaire who calls women fat broads and horse-faced lesbians. And no, I'm not talking about Donald Trump. I'm talking about Mayor Bloomberg. Peggy Racula was eating lunch at the court diner in media trying to digest her first exposure to Michael Bloomberg. I don't hold out much hope for him. One man we spoke with described the Democratic debate as a demolition derby. Former Philadelphia mayor Michael Nutter is working on the Bloomberg campaign. I would say not our best moment, but getting stronger, like I said, first debate.
+
+[0:00:54 → 0:00:58] SPEAKER_02
+I'm sure for all the other candidates who have now been abating for eight months
+
+[0:00:58 → 0:01:05] SPEAKER_02
+Um, you know we, we probably don't remember what that first, uh, what those first debates or like.
+
+[0:01:05 → 0:01:37] SPEAKER_01
+for all of them. And so we've got some ground to make up. In the latest Quinnipiac poll released Thursday, every Democrat gained ground in a potential general election against President Trump. But the Democrats we spoke to worry about electability among the six most likely candidates. Who's a Democrat? You know, you got Bloomberg was a Republican and you got the socialists. And so we'll say. Mike Bloomberg weathered the storm and folks tried to, you know, land a couple of different punches here and there.
+
+[0:01:38 → 0:02:02] SPEAKER_00
+Now Bloomberg's first time on a ballot is not until Super Tuesday, but he will be on the debate stage next week in South Carolina as well. Live in the SAT Center, Dan Coob, CBS 3. Eyewitness News. All right, Dan, thank you. CBS News will co-host the next Democratic presidential debate in Charleston, South Carolina. Yale King and Nora O'Donnell will moderate. That is Tuesday, February 25th at 8 p.m. right here on CBS 3.
+

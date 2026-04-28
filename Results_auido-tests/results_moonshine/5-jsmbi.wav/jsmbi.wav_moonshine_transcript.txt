@@ -1,0 +1,32 @@
+Moonshine ASR Transcript
+File: jsmbi.wav
+Model: usefulsensors/moonshine-base
+Duration: 111.864s
+Speakers: 4
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:18] SPEAKER_03
+Residents and the mayor of Eureka are speaking out with disappointing tones as the Woodford County zoning Board of Appeals gives a solar farm one last hurdle to jump before coming to town. WNPD's Rebecca Brumfield joins us to show us where the solar farm would go and how it's sparking some frustrations with homeowners. Rebecca.
+
+[0:00:18 → 0:00:30] SPEAKER_02
+Yeah, Lauren Eugene and out of state solar company is one step away from being approved to bring that solar farm to the Lakeview Acres subdivision located right by Eureka Lake. Tuesday night's decision has left a lot of unrest.
+
+[0:00:33 → 0:00:34] SPEAKER_00
+My kids play here.
+
+[0:00:34 → 0:00:57] SPEAKER_01
+This is entirely too close to them. A 4:1 votes. The issue is simply location. Leave Sol America Energy of Atlanta one step away from turning this farmland. We don't know what it could do to our water line, what it can do to the health of our city, into a solar farm. It's a great in a specific situation. I think it's great for the county to look into this. I think it's great to continue to develop.
+
+[0:00:58 → 0:01:31] SPEAKER_01
+It's just not going to help our town to grow. It's not helping the safety. This close to a residential neighborhood. The Prayther family built their dream home here with the intent of retiring. Now that's of an ear. If this was either here or we knew it was being proposed, we likely would not have built. Some people do support the $2 million 51 acre project, but those against the change say. And in a county that is abundant with undeveloped farmland, I find it very surprising, actually ridiculous, that they're even considering this plot of land is
+
+[0:01:31 → 0:01:36] SPEAKER_01
+next to our fastest growing neighborhood in our beautiful city. I love the idea would would support it.
+
+[0:01:37 → 0:01:41] SPEAKER_00
+Just don't don't really support it in my back. I do not support it in my backyard.
+
+[0:01:42 → 0:01:51] SPEAKER_02
+Now, if this project passes through its final approval, it'll likely begin in 2019. The next Woodford County zoning Board of Appeals meeting will be held on August 21st.
+

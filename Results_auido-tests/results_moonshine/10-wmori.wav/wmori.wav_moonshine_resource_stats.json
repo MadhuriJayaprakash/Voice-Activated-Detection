@@ -1,0 +1,71 @@
+{
+  "file": "wmori.wav",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "audio_duration_s": 120.12,
+  "real_time_factor": 1.724,
+  "generated": "2026-04-27T19:21:40.661Z",
+  "stages": {
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 793.7,
+      "ram_before_mb": 793.7,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 793.7,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 60.9,
+      "duration_s": 4.215,
+      "energy_j": 166.8549,
+      "energy_wh": 0.046349,
+      "ram_after_mb": 901.1,
+      "ram_before_mb": 793.7,
+      "ram_delta_mb": 107.4,
+      "ram_peak_mb": 1190.9,
+      "stage": "VAD"
+    },
+    "asr": {
+      "cpu_avg_pct": 96.7,
+      "duration_s": 15.855,
+      "energy_j": 996.3584,
+      "energy_wh": 0.276766,
+      "ram_after_mb": 817.2,
+      "ram_before_mb": 901.1,
+      "ram_delta_mb": -83.9,
+      "ram_peak_mb": 914.6,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 62.1,
+      "duration_s": 186.795,
+      "energy_j": 7535.8569,
+      "energy_wh": 2.093294,
+      "ram_after_mb": 947.2,
+      "ram_before_mb": 817.2,
+      "ram_delta_mb": 130,
+      "ram_peak_mb": 2418.9,
+      "stage": "Diarization"
+    }
+  },
+  "pipeline_total": {
+    "avg_cpu_pct": 54.9,
+    "peak_ram_mb": 2418.9,
+    "total_energy_j": 8699.0702,
+    "total_energy_wh": 2.416409
+  },
+  "timing_s": {
+    "model_load_asr": 8.205,
+    "model_load_diarization": 1.815,
+    "model_load_vad": 0.413,
+    "model_load_total": 10.434,
+    "preprocessing": 0.201,
+    "vad": 4.215,
+    "asr": 15.855,
+    "diarization": 186.795,
+    "pipeline_total": 207.071
+  }
+}

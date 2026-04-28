@@ -1,0 +1,12 @@
+# Moonshine Resource Usage Report
+# File: qpylu.wav
+# Model: usefulsensors/moonshine-base
+# Audio Duration: 44.5126875s
+# RTF: 1.394x
+# Generated: 2026-04-27T19:13:55.344Z
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+"Preprocessing",0.201,799.3,799.3,0,799.3,0,0,0
+"VAD",1.609,799.3,935.3,136,1166.2,58.8,61.4642,0.017073
+"ASR - Moonshine",5.419,935.3,821.8,-113.5,939.9,95.3,335.598,0.093222
+"Diarization",54.824,821.8,923.5,101.6,2413.5,62,2208.0452,0.613346
+"Pipeline Total",62.055,"","","",2413.5,54,2605.1074,0.723641

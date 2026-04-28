@@ -1,0 +1,180 @@
+{
+  "duration": 68.376,
+  "filename": "abjxc.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.1,
+      "duration_s": 28.575,
+      "energy_j": 1841.3546,
+      "energy_wh": 0.511487,
+      "ram_after_mb": 914.5,
+      "ram_before_mb": 654.5,
+      "ram_delta_mb": 260,
+      "ram_peak_mb": 929,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 99.6,
+      "duration_s": 133.744,
+      "energy_j": 8662.6396,
+      "energy_wh": 2.406289,
+      "ram_after_mb": 1011.8,
+      "ram_before_mb": 914.5,
+      "ram_delta_mb": 97.3,
+      "ram_peak_mb": 2504.1,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 91.8,
+      "peak_ram_mb": 2504.1,
+      "total_energy_j": 11107.249,
+      "total_energy_wh": 3.085347
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 72.4,
+      "duration_s": 5.245,
+      "energy_j": 246.934,
+      "energy_wh": 0.068593,
+      "ram_after_mb": 586.6,
+      "ram_before_mb": 518.7,
+      "ram_delta_mb": 67.8,
+      "ram_peak_mb": 592.4,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 96.2,
+      "duration_s": 5.699,
+      "energy_j": 356.3208,
+      "energy_wh": 0.098978,
+      "ram_after_mb": 654.5,
+      "ram_before_mb": 586.6,
+      "ram_delta_mb": 67.9,
+      "ram_peak_mb": 917.5,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 7.08,
+      "end": 7.09,
+      "end_time": "0:00:07",
+      "speaker": "SPEAKER_00",
+      "start": 0.01,
+      "start_time": "0:00:00",
+      "text": "CNN has decided not to run a Donald Trump endorsed campaign ad after the network decided it does not meet their standards.",
+      "word_count": 22
+    },
+    {
+      "duration": 56.2,
+      "end": 64.86,
+      "end_time": "0:01:04",
+      "speaker": "SPEAKER_00",
+      "start": 8.67,
+      "start_time": "0:00:08",
+      "text": "The 32nd advertisement paid for by Trump's campaign, saying the ad does not meet the network's advertising standards, adding, In addition to disparaging CNN and its journalists, the ad makes assertions that have been proven demonstrably false by various news outlets, including CNN. However, despite CNN's rejection, the president posted the advertisement onto his Twitter page last week, along with the caption, I'm draining the swamp. Now, this is not the first time CNN has rejected a Trump campaign ad. Back in 2017, the network refused to run a Trump-approved ad called Let President Trump Do His Job, which criticized the media and specifically called out Lemon as well as Anderson Cooper. To stay up to date on this story, head to THR.com and until next time, to the Hollywood Reporter News, I'm Andrew Hood.",
+      "word_count": 135
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 7.08,
+      "end": 7.09,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 56.2,
+      "end": 64.86,
+      "start": 8.67,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 7.08,
+      "end": 7.09,
+      "speaker": "SPEAKER_00",
+      "start": 0.01,
+      "text": "CNN has decided not to run a Donald Trump endorsed campaign ad after the network decided it does not meet their standards.",
+      "type": "speech"
+    },
+    {
+      "duration": 56.2,
+      "end": 64.86,
+      "speaker": "SPEAKER_00",
+      "start": 8.67,
+      "text": "The 32nd advertisement paid for by Trump's campaign, saying the ad does not meet the network's advertising standards, adding, In addition to disparaging CNN and its journalists, the ad makes assertions that have been proven demonstrably false by various news outlets, including CNN. However, despite CNN's rejection, the president posted the advertisement onto his Twitter page last week, along with the caption, I'm draining the swamp. Now, this is not the first time CNN has rejected a Trump campaign ad. Back in 2017, the network refused to run a Trump-approved ad called Let President Trump Do His Job, which criticized the media and specifically called out Lemon as well as Anderson Cooper. To stay up to date on this story, head to THR.com and until next time, to the Hollywood Reporter News, I'm Andrew Hood.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 68.376,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 173.265,
+    "real_time_factor": 2.534,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 99.1,
+        "duration_s": 28.575,
+        "energy_j": 1841.3546,
+        "energy_wh": 0.511487,
+        "ram_after_mb": 914.5,
+        "ram_before_mb": 654.5,
+        "ram_delta_mb": 260,
+        "ram_peak_mb": 929,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 99.6,
+        "duration_s": 133.744,
+        "energy_j": 8662.6396,
+        "energy_wh": 2.406289,
+        "ram_after_mb": 1011.8,
+        "ram_before_mb": 914.5,
+        "ram_delta_mb": 97.3,
+        "ram_peak_mb": 2504.1,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 91.8,
+        "peak_ram_mb": 2504.1,
+        "total_energy_j": 11107.249,
+        "total_energy_wh": 3.085347
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 72.4,
+        "duration_s": 5.245,
+        "energy_j": 246.934,
+        "energy_wh": 0.068593,
+        "ram_after_mb": 586.6,
+        "ram_before_mb": 518.7,
+        "ram_delta_mb": 67.8,
+        "ram_peak_mb": 592.4,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 96.2,
+        "duration_s": 5.699,
+        "energy_j": 356.3208,
+        "energy_wh": 0.098978,
+        "ram_after_mb": 654.5,
+        "ram_before_mb": 586.6,
+        "ram_delta_mb": 67.9,
+        "ram_peak_mb": 917.5,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 28.575,
+    "stage_diarization_s": 133.744,
+    "stage_preprocessing_s": 5.245,
+    "stage_vad_s": 5.699
+  },
+  "unique_speakers_count": 1
+}

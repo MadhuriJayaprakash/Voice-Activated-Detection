@@ -1,0 +1,12 @@
+# Moonshine Resource Usage Report
+# File: ampme.wav
+# Model: usefulsensors/moonshine-base
+# Audio Duration: 148.32s
+# RTF: 2.176x
+# Generated: 2026-04-27T18:47:19.056Z
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+"Preprocessing",0.201,830.5,830.5,0,830.5,0,0,0
+"VAD",5.216,830.5,998.1,167.6,1247.4,62.1,210.5848,0.058496
+"ASR - Moonshine",27.693,998.1,941.4,-56.8,1012.2,98.4,1771.9379,0.492205
+"Diarization",289.585,941.4,876.8,-64.5,2695.2,93.8,17649.2202,4.902561
+"Pipeline Total",322.696,"","","",2695.2,63.6,19631.7429,5.453262

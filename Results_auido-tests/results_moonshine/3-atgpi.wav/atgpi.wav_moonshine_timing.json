@@ -1,0 +1,65 @@
+{
+  "audio_duration_s": 121.752,
+  "model_load_asr_s": 8.205,
+  "model_load_diarization_s": 1.815,
+  "model_load_total_s": 10.434,
+  "model_load_vad_s": 0.413,
+  "pipeline_total_s": 261.859,
+  "real_time_factor": 2.151,
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 98.5,
+      "duration_s": 21.482,
+      "energy_j": 1375.9377,
+      "energy_wh": 0.382205,
+      "ram_after_mb": 800.1,
+      "ram_before_mb": 857.9,
+      "ram_delta_mb": -57.7,
+      "ram_peak_mb": 870.3,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 94.3,
+      "duration_s": 235.961,
+      "energy_j": 14467.3075,
+      "energy_wh": 4.018697,
+      "ram_after_mb": 946,
+      "ram_before_mb": 800.1,
+      "ram_delta_mb": 145.9,
+      "ram_peak_mb": 2405.2,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 63.6,
+      "peak_ram_mb": 2405.2,
+      "total_energy_j": 16012.0319,
+      "total_energy_wh": 4.447787
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 776.7,
+      "ram_before_mb": 776.6,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 776.6,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 61.6,
+      "duration_s": 4.214,
+      "energy_j": 168.7867,
+      "energy_wh": 0.046885,
+      "ram_after_mb": 857.9,
+      "ram_before_mb": 776.7,
+      "ram_delta_mb": 81.2,
+      "ram_peak_mb": 1131.8,
+      "stage": "VAD"
+    }
+  },
+  "stage_asr_s": 21.482,
+  "stage_diarization_s": 235.961,
+  "stage_preprocessing_s": 0.201,
+  "stage_vad_s": 4.214
+}

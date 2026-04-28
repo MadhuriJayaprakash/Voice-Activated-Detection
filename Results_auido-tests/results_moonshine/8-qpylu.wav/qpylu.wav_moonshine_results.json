@@ -1,0 +1,300 @@
+{
+  "duration": 44.5126875,
+  "filename": "qpylu.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 95.3,
+      "duration_s": 5.419,
+      "energy_j": 335.598,
+      "energy_wh": 0.093222,
+      "ram_after_mb": 821.8,
+      "ram_before_mb": 935.3,
+      "ram_delta_mb": -113.5,
+      "ram_peak_mb": 939.9,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 62,
+      "duration_s": 54.824,
+      "energy_j": 2208.0452,
+      "energy_wh": 0.613346,
+      "ram_after_mb": 923.5,
+      "ram_before_mb": 821.8,
+      "ram_delta_mb": 101.6,
+      "ram_peak_mb": 2413.5,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 54,
+      "peak_ram_mb": 2413.5,
+      "total_energy_j": 2605.1074,
+      "total_energy_wh": 0.723641
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 799.3,
+      "ram_before_mb": 799.3,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 799.3,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 58.8,
+      "duration_s": 1.609,
+      "energy_j": 61.4642,
+      "energy_wh": 0.017073,
+      "ram_after_mb": 935.3,
+      "ram_before_mb": 799.3,
+      "ram_delta_mb": 136,
+      "ram_peak_mb": 1166.2,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 2.7,
+      "end": 2.71,
+      "end_time": "0:00:02",
+      "speaker": "SPEAKER_01",
+      "start": 0.01,
+      "start_time": "0:00:00",
+      "text": "Assembly acts are despicable.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.27,
+      "end": 4.68,
+      "end_time": "0:00:04",
+      "speaker": "SPEAKER_01",
+      "start": 3.4,
+      "start_time": "0:00:03",
+      "text": "And have no place.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.27,
+      "end": 6.51,
+      "end_time": "0:00:06",
+      "speaker": "SPEAKER_01",
+      "start": 5.24,
+      "start_time": "0:00:05",
+      "text": "In American society.",
+      "word_count": 3
+    },
+    {
+      "duration": 2.48,
+      "end": 9.84,
+      "end_time": "0:00:09",
+      "speaker": "SPEAKER_01",
+      "start": 7.36,
+      "start_time": "0:00:07",
+      "text": "I want to assure you we've deployed the full resources.",
+      "word_count": 10
+    },
+    {
+      "duration": 8.25,
+      "end": 19.06,
+      "end_time": "0:00:19",
+      "speaker": "SPEAKER_01",
+      "start": 10.81,
+      "start_time": "0:00:10",
+      "text": "Of the F B I, the United States Secret Service, and they're working very closely with law enforcement officials will continue to monitor these investigations.",
+      "word_count": 25
+    },
+    {
+      "duration": 4.11,
+      "end": 24.66,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_01",
+      "start": 20.55,
+      "start_time": "0:00:20",
+      "text": "And those responsible will be brought to justice.",
+      "word_count": 8
+    },
+    {
+      "duration": 10.92,
+      "end": 43.57,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_02",
+      "start": 32.66,
+      "start_time": "0:00:32",
+      "text": "Hey there, I'm Chris Hayes from MSNBC. Thanks for watching MSNBC on YouTube. If you want to keep up to date with the videos we're putting out, you can click subscribe just below me or click over on this list to see lots of other great videos.",
+      "word_count": 47
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 2.7,
+      "end": 2.71,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 4.68,
+      "start": 3.4,
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 6.51,
+      "start": 5.24,
+      "type": "speech"
+    },
+    {
+      "duration": 2.48,
+      "end": 9.84,
+      "start": 7.36,
+      "type": "speech"
+    },
+    {
+      "duration": 8.25,
+      "end": 19.06,
+      "start": 10.81,
+      "type": "speech"
+    },
+    {
+      "duration": 4.11,
+      "end": 24.66,
+      "start": 20.55,
+      "type": "speech"
+    },
+    {
+      "duration": 10.92,
+      "end": 43.57,
+      "start": 32.66,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 2.7,
+      "end": 2.71,
+      "speaker": "SPEAKER_01",
+      "start": 0.01,
+      "text": "Assembly acts are despicable.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 4.68,
+      "speaker": "SPEAKER_01",
+      "start": 3.4,
+      "text": "And have no place.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 6.51,
+      "speaker": "SPEAKER_01",
+      "start": 5.24,
+      "text": "In American society.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.48,
+      "end": 9.84,
+      "speaker": "SPEAKER_01",
+      "start": 7.36,
+      "text": "I want to assure you we've deployed the full resources.",
+      "type": "speech"
+    },
+    {
+      "duration": 8.25,
+      "end": 19.06,
+      "speaker": "SPEAKER_01",
+      "start": 10.81,
+      "text": "Of the F B I, the United States Secret Service, and they're working very closely with law enforcement officials will continue to monitor these investigations.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.11,
+      "end": 24.66,
+      "speaker": "SPEAKER_01",
+      "start": 20.55,
+      "text": "And those responsible will be brought to justice.",
+      "type": "speech"
+    },
+    {
+      "duration": 10.92,
+      "end": 43.57,
+      "speaker": "SPEAKER_02",
+      "start": 32.66,
+      "text": "Hey there, I'm Chris Hayes from MSNBC. Thanks for watching MSNBC on YouTube. If you want to keep up to date with the videos we're putting out, you can click subscribe just below me or click over on this list to see lots of other great videos.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 44.513,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 62.055,
+    "real_time_factor": 1.394,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 95.3,
+        "duration_s": 5.419,
+        "energy_j": 335.598,
+        "energy_wh": 0.093222,
+        "ram_after_mb": 821.8,
+        "ram_before_mb": 935.3,
+        "ram_delta_mb": -113.5,
+        "ram_peak_mb": 939.9,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 62,
+        "duration_s": 54.824,
+        "energy_j": 2208.0452,
+        "energy_wh": 0.613346,
+        "ram_after_mb": 923.5,
+        "ram_before_mb": 821.8,
+        "ram_delta_mb": 101.6,
+        "ram_peak_mb": 2413.5,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 54,
+        "peak_ram_mb": 2413.5,
+        "total_energy_j": 2605.1074,
+        "total_energy_wh": 0.723641
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 799.3,
+        "ram_before_mb": 799.3,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 799.3,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 58.8,
+        "duration_s": 1.609,
+        "energy_j": 61.4642,
+        "energy_wh": 0.017073,
+        "ram_after_mb": 935.3,
+        "ram_before_mb": 799.3,
+        "ram_delta_mb": 136,
+        "ram_peak_mb": 1166.2,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 5.419,
+    "stage_diarization_s": 54.824,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 1.609
+  },
+  "unique_speakers_count": 2
+}

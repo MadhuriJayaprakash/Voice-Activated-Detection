@@ -1,0 +1,29 @@
+Moonshine ASR Transcript
+File: qpylu.wav
+Model: usefulsensors/moonshine-base
+Duration: 44.5126875s
+Speakers: 2
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:02] SPEAKER_01
+Assembly acts are despicable.
+
+[0:00:03 → 0:00:04] SPEAKER_01
+And have no place.
+
+[0:00:05 → 0:00:06] SPEAKER_01
+In American society.
+
+[0:00:07 → 0:00:09] SPEAKER_01
+I want to assure you we've deployed the full resources.
+
+[0:00:10 → 0:00:19] SPEAKER_01
+Of the F B I, the United States Secret Service, and they're working very closely with law enforcement officials will continue to monitor these investigations.
+
+[0:00:20 → 0:00:24] SPEAKER_01
+And those responsible will be brought to justice.
+
+[0:00:32 → 0:00:43] SPEAKER_02
+Hey there, I'm Chris Hayes from MSNBC. Thanks for watching MSNBC on YouTube. If you want to keep up to date with the videos we're putting out, you can click subscribe just below me or click over on this list to see lots of other great videos.
+

@@ -1,0 +1,492 @@
+{
+  "duration": 84.0359375,
+  "filename": "jiqvr.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 97,
+      "duration_s": 14.85,
+      "energy_j": 936.5235,
+      "energy_wh": 0.260145,
+      "ram_after_mb": 816.9,
+      "ram_before_mb": 928.8,
+      "ram_delta_mb": -111.9,
+      "ram_peak_mb": 935,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 88.1,
+      "duration_s": 141.295,
+      "energy_j": 8089.846,
+      "energy_wh": 2.247179,
+      "ram_after_mb": 955,
+      "ram_before_mb": 816.9,
+      "ram_delta_mb": 138,
+      "ram_peak_mb": 2398.7,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 61.5,
+      "peak_ram_mb": 2398.7,
+      "total_energy_j": 9145.84,
+      "total_energy_wh": 2.54051
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.202,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 769.1,
+      "ram_before_mb": 769.1,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 769.1,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 61,
+      "duration_s": 3.012,
+      "energy_j": 119.4705,
+      "energy_wh": 0.033186,
+      "ram_after_mb": 928.8,
+      "ram_before_mb": 769.1,
+      "ram_delta_mb": 159.7,
+      "ram_peak_mb": 1077.8,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 1.02,
+      "end": 1.15,
+      "end_time": "0:00:01",
+      "speaker": "SPEAKER_01",
+      "start": 0.13,
+      "start_time": "0:00:00",
+      "text": "Ask a question.",
+      "word_count": 3
+    },
+    {
+      "duration": 5.93,
+      "end": 7.61,
+      "end_time": "0:00:07",
+      "speaker": "SPEAKER_01",
+      "start": 1.69,
+      "start_time": "0:00:01",
+      "text": "Thank you sir, miss me. What about us, your body? What did you want about Biden? What did you want to be looking to on Biden? Look Biden",
+      "word_count": 28
+    },
+    {
+      "duration": 0.92,
+      "end": 8.99,
+      "end_time": "0:00:08",
+      "speaker": "SPEAKER_01",
+      "start": 8.07,
+      "start_time": "0:00:08",
+      "text": "And his son.",
+      "word_count": 3
+    },
+    {
+      "duration": 3.5,
+      "end": 13.27,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_01",
+      "start": 9.77,
+      "start_time": "0:00:09",
+      "text": "Our stone cold crooked and you know it.",
+      "word_count": 8
+    },
+    {
+      "duration": 12.04,
+      "end": 25.76,
+      "end_time": "0:00:25",
+      "speaker": "SPEAKER_00",
+      "start": 13.73,
+      "start_time": "0:00:13",
+      "text": "His son walks out with millions of dollars. The kid knows nothing. You know it, and so do we go ahead. Ask a question. The question, sir, was what did you want President Zelensky to do about President Biden and his son Hunter?",
+      "word_count": 43
+    },
+    {
+      "duration": 0.75,
+      "end": 28.26,
+      "end_time": "0:00:28",
+      "speaker": "SPEAKER_00",
+      "start": 27.51,
+      "start_time": "0:00:27",
+      "text": "Are you talking",
+      "word_count": 3
+    },
+    {
+      "duration": 2.82,
+      "end": 31.5,
+      "end_time": "0:00:31",
+      "speaker": "SPEAKER_00",
+      "start": 28.68,
+      "start_time": "0:00:28",
+      "text": "Yeah, it was just a follow-up of what I just asked you, sir",
+      "word_count": 13
+    },
+    {
+      "duration": 11.21,
+      "end": 43.32,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_00",
+      "start": 32.11,
+      "start_time": "0:00:32",
+      "text": "We have the president of Finland. Ask him a question. I have one form. I just wanted to follow up on the one that I asked. Did you hear me? Did you hear me? Yes, ask him a question. I will, but I'm giving you a long answer. Ask.",
+      "word_count": 49
+    },
+    {
+      "duration": 2.43,
+      "end": 46.24,
+      "end_time": "0:00:46",
+      "speaker": "SPEAKER_01",
+      "start": 43.81,
+      "start_time": "0:00:43",
+      "text": "This gentleman a question. Don't be rude.",
+      "word_count": 7
+    },
+    {
+      "duration": 4.53,
+      "end": 51.21,
+      "end_time": "0:00:51",
+      "speaker": "SPEAKER_00",
+      "start": 46.68,
+      "start_time": "0:00:46",
+      "text": "No sir i don't want to be rude i just wanted you to have a chance to answer the question that i asked i think",
+      "word_count": 25
+    },
+    {
+      "duration": 10.42,
+      "end": 62.52,
+      "end_time": "0:01:02",
+      "speaker": "SPEAKER_01",
+      "start": 52.1,
+      "start_time": "0:00:52",
+      "text": "It's a whole hoax, and you know who's playing into the hoax. People like you and the fake news media that we have in this country, and I say, in many cases the corrupt media because you corrupt.",
+      "word_count": 38
+    },
+    {
+      "duration": 3.33,
+      "end": 66.17,
+      "end_time": "0:01:06",
+      "speaker": "SPEAKER_01",
+      "start": 62.84,
+      "start_time": "0:01:02",
+      "text": "Much of the media in this country is not just fake, it's corrupt.",
+      "word_count": 13
+    },
+    {
+      "duration": 2.07,
+      "end": 68.72,
+      "end_time": "0:01:08",
+      "speaker": "SPEAKER_01",
+      "start": 66.65,
+      "start_time": "0:01:06",
+      "text": "And you have to very fine people, too.",
+      "word_count": 8
+    },
+    {
+      "duration": 5.74,
+      "end": 75.08,
+      "end_time": "0:01:15",
+      "speaker": "SPEAKER_01",
+      "start": 69.35,
+      "start_time": "0:01:09",
+      "text": "Great journalists, great reporters, but it to a large extent it's corrupt and it's fake.",
+      "word_count": 15
+    },
+    {
+      "duration": 7.42,
+      "end": 82.96,
+      "end_time": "0:01:22",
+      "speaker": "SPEAKER_01",
+      "start": 75.54,
+      "start_time": "0:01:15",
+      "text": "Ask the president a fiddling the question, please. Ok, I'll move on now, Mr. President. In your opening remarks, you said.",
+      "word_count": 21
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 1.02,
+      "end": 1.15,
+      "start": 0.13,
+      "type": "speech"
+    },
+    {
+      "duration": 5.93,
+      "end": 7.61,
+      "start": 1.69,
+      "type": "speech"
+    },
+    {
+      "duration": 0.92,
+      "end": 8.99,
+      "start": 8.07,
+      "type": "speech"
+    },
+    {
+      "duration": 3.5,
+      "end": 13.27,
+      "start": 9.77,
+      "type": "speech"
+    },
+    {
+      "duration": 12.04,
+      "end": 25.76,
+      "start": 13.73,
+      "type": "speech"
+    },
+    {
+      "duration": 0.75,
+      "end": 28.26,
+      "start": 27.51,
+      "type": "speech"
+    },
+    {
+      "duration": 2.82,
+      "end": 31.5,
+      "start": 28.68,
+      "type": "speech"
+    },
+    {
+      "duration": 11.21,
+      "end": 43.32,
+      "start": 32.11,
+      "type": "speech"
+    },
+    {
+      "duration": 2.43,
+      "end": 46.24,
+      "start": 43.81,
+      "type": "speech"
+    },
+    {
+      "duration": 4.53,
+      "end": 51.21,
+      "start": 46.68,
+      "type": "speech"
+    },
+    {
+      "duration": 10.42,
+      "end": 62.52,
+      "start": 52.1,
+      "type": "speech"
+    },
+    {
+      "duration": 3.33,
+      "end": 66.17,
+      "start": 62.84,
+      "type": "speech"
+    },
+    {
+      "duration": 2.07,
+      "end": 68.72,
+      "start": 66.65,
+      "type": "speech"
+    },
+    {
+      "duration": 5.74,
+      "end": 75.08,
+      "start": 69.35,
+      "type": "speech"
+    },
+    {
+      "duration": 7.42,
+      "end": 82.96,
+      "start": 75.54,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 1.02,
+      "end": 1.15,
+      "speaker": "SPEAKER_01",
+      "start": 0.13,
+      "text": "Ask a question.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.93,
+      "end": 7.61,
+      "speaker": "SPEAKER_01",
+      "start": 1.69,
+      "text": "Thank you sir, miss me. What about us, your body? What did you want about Biden? What did you want to be looking to on Biden? Look Biden",
+      "type": "speech"
+    },
+    {
+      "duration": 0.92,
+      "end": 8.99,
+      "speaker": "SPEAKER_01",
+      "start": 8.07,
+      "text": "And his son.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.5,
+      "end": 13.27,
+      "speaker": "SPEAKER_01",
+      "start": 9.77,
+      "text": "Our stone cold crooked and you know it.",
+      "type": "speech"
+    },
+    {
+      "duration": 12.04,
+      "end": 25.76,
+      "speaker": "SPEAKER_00",
+      "start": 13.73,
+      "text": "His son walks out with millions of dollars. The kid knows nothing. You know it, and so do we go ahead. Ask a question. The question, sir, was what did you want President Zelensky to do about President Biden and his son Hunter?",
+      "type": "speech"
+    },
+    {
+      "duration": 0.75,
+      "end": 28.26,
+      "speaker": "SPEAKER_00",
+      "start": 27.51,
+      "text": "Are you talking",
+      "type": "speech"
+    },
+    {
+      "duration": 2.82,
+      "end": 31.5,
+      "speaker": "SPEAKER_00",
+      "start": 28.68,
+      "text": "Yeah, it was just a follow-up of what I just asked you, sir",
+      "type": "speech"
+    },
+    {
+      "duration": 11.21,
+      "end": 43.32,
+      "speaker": "SPEAKER_00",
+      "start": 32.11,
+      "text": "We have the president of Finland. Ask him a question. I have one form. I just wanted to follow up on the one that I asked. Did you hear me? Did you hear me? Yes, ask him a question. I will, but I'm giving you a long answer. Ask.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.43,
+      "end": 46.24,
+      "speaker": "SPEAKER_01",
+      "start": 43.81,
+      "text": "This gentleman a question. Don't be rude.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.53,
+      "end": 51.21,
+      "speaker": "SPEAKER_00",
+      "start": 46.68,
+      "text": "No sir i don't want to be rude i just wanted you to have a chance to answer the question that i asked i think",
+      "type": "speech"
+    },
+    {
+      "duration": 10.42,
+      "end": 62.52,
+      "speaker": "SPEAKER_01",
+      "start": 52.1,
+      "text": "It's a whole hoax, and you know who's playing into the hoax. People like you and the fake news media that we have in this country, and I say, in many cases the corrupt media because you corrupt.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.33,
+      "end": 66.17,
+      "speaker": "SPEAKER_01",
+      "start": 62.84,
+      "text": "Much of the media in this country is not just fake, it's corrupt.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.07,
+      "end": 68.72,
+      "speaker": "SPEAKER_01",
+      "start": 66.65,
+      "text": "And you have to very fine people, too.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.74,
+      "end": 75.08,
+      "speaker": "SPEAKER_01",
+      "start": 69.35,
+      "text": "Great journalists, great reporters, but it to a large extent it's corrupt and it's fake.",
+      "type": "speech"
+    },
+    {
+      "duration": 7.42,
+      "end": 82.96,
+      "speaker": "SPEAKER_01",
+      "start": 75.54,
+      "text": "Ask the president a fiddling the question, please. Ok, I'll move on now, Mr. President. In your opening remarks, you said.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 84.036,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 159.365,
+    "real_time_factor": 1.896,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 97,
+        "duration_s": 14.85,
+        "energy_j": 936.5235,
+        "energy_wh": 0.260145,
+        "ram_after_mb": 816.9,
+        "ram_before_mb": 928.8,
+        "ram_delta_mb": -111.9,
+        "ram_peak_mb": 935,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 88.1,
+        "duration_s": 141.295,
+        "energy_j": 8089.846,
+        "energy_wh": 2.247179,
+        "ram_after_mb": 955,
+        "ram_before_mb": 816.9,
+        "ram_delta_mb": 138,
+        "ram_peak_mb": 2398.7,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 61.5,
+        "peak_ram_mb": 2398.7,
+        "total_energy_j": 9145.84,
+        "total_energy_wh": 2.54051
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.202,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 769.1,
+        "ram_before_mb": 769.1,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 769.1,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 61,
+        "duration_s": 3.012,
+        "energy_j": 119.4705,
+        "energy_wh": 0.033186,
+        "ram_after_mb": 928.8,
+        "ram_before_mb": 769.1,
+        "ram_delta_mb": 159.7,
+        "ram_peak_mb": 1077.8,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 14.85,
+    "stage_diarization_s": 141.295,
+    "stage_preprocessing_s": 0.202,
+    "stage_vad_s": 3.012
+  },
+  "unique_speakers_count": 2
+}

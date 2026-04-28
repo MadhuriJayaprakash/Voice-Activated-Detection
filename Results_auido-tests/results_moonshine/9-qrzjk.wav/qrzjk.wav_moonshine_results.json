@@ -1,0 +1,156 @@
+{
+  "duration": 39.576,
+  "filename": "qrzjk.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 97.6,
+      "duration_s": 10.439,
+      "energy_j": 661.9472,
+      "energy_wh": 0.183874,
+      "ram_after_mb": 874.9,
+      "ram_before_mb": 919.9,
+      "ram_delta_mb": -45.1,
+      "ram_peak_mb": 919.9,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 61.6,
+      "duration_s": 43.22,
+      "energy_j": 1731.6899,
+      "energy_wh": 0.481025,
+      "ram_after_mb": 1092.1,
+      "ram_before_mb": 874.9,
+      "ram_delta_mb": 217.2,
+      "ram_peak_mb": 2628.9,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 52.8,
+      "peak_ram_mb": 2628.9,
+      "total_energy_j": 2441.2886,
+      "total_energy_wh": 0.678136
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 787.4,
+      "ram_before_mb": 787.2,
+      "ram_delta_mb": 0.1,
+      "ram_peak_mb": 787.3,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 52.1,
+      "duration_s": 1.406,
+      "energy_j": 47.6515,
+      "energy_wh": 0.013237,
+      "ram_after_mb": 919.9,
+      "ram_before_mb": 787.4,
+      "ram_delta_mb": 132.5,
+      "ram_peak_mb": 1111.3,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 39,
+      "end": 39.01,
+      "end_time": "0:00:39",
+      "speaker": "SPEAKER_00",
+      "start": 0.01,
+      "start_time": "0:00:00",
+      "text": "And President Trump loves to talk about his TV ratings, if not his current approval rating. So he must be pleased to know that 33 million people watched the primetime rollout of his Supreme Court pick Neil Gorsuch. But what do Americans think of the choice? Well, a brand new CNN poll shows that a plurality, 39%, were left with a positive first impression. That compares with 45% for President Obama's never-confirmed pick, Judge Merrick Garland, and 54% for now-chief justice, John Roberts. But when it comes to confirming the new nominee, opinions are sharply divided along party lines. Just 22% of Democrats think the Senate should vote to confirm him while an overwhelming 84% of Republicans do.",
+      "word_count": 118
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 39,
+      "end": 39.01,
+      "start": 0.01,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 39,
+      "end": 39.01,
+      "speaker": "SPEAKER_00",
+      "start": 0.01,
+      "text": "And President Trump loves to talk about his TV ratings, if not his current approval rating. So he must be pleased to know that 33 million people watched the primetime rollout of his Supreme Court pick Neil Gorsuch. But what do Americans think of the choice? Well, a brand new CNN poll shows that a plurality, 39%, were left with a positive first impression. That compares with 45% for President Obama's never-confirmed pick, Judge Merrick Garland, and 54% for now-chief justice, John Roberts. But when it comes to confirming the new nominee, opinions are sharply divided along party lines. Just 22% of Democrats think the Senate should vote to confirm him while an overwhelming 84% of Republicans do.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 39.576,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 55.268,
+    "real_time_factor": 1.397,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 97.6,
+        "duration_s": 10.439,
+        "energy_j": 661.9472,
+        "energy_wh": 0.183874,
+        "ram_after_mb": 874.9,
+        "ram_before_mb": 919.9,
+        "ram_delta_mb": -45.1,
+        "ram_peak_mb": 919.9,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 61.6,
+        "duration_s": 43.22,
+        "energy_j": 1731.6899,
+        "energy_wh": 0.481025,
+        "ram_after_mb": 1092.1,
+        "ram_before_mb": 874.9,
+        "ram_delta_mb": 217.2,
+        "ram_peak_mb": 2628.9,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 52.8,
+        "peak_ram_mb": 2628.9,
+        "total_energy_j": 2441.2886,
+        "total_energy_wh": 0.678136
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 787.4,
+        "ram_before_mb": 787.2,
+        "ram_delta_mb": 0.1,
+        "ram_peak_mb": 787.3,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 52.1,
+        "duration_s": 1.406,
+        "energy_j": 47.6515,
+        "energy_wh": 0.013237,
+        "ram_after_mb": 919.9,
+        "ram_before_mb": 787.4,
+        "ram_delta_mb": 132.5,
+        "ram_peak_mb": 1111.3,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 10.439,
+    "stage_diarization_s": 43.22,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 1.406
+  },
+  "unique_speakers_count": 1
+}

@@ -1,0 +1,402 @@
+{
+  "duration": 121.752,
+  "filename": "atgpi.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 98.5,
+      "duration_s": 21.482,
+      "energy_j": 1375.9377,
+      "energy_wh": 0.382205,
+      "ram_after_mb": 800.1,
+      "ram_before_mb": 857.9,
+      "ram_delta_mb": -57.7,
+      "ram_peak_mb": 870.3,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 94.3,
+      "duration_s": 235.961,
+      "energy_j": 14467.3075,
+      "energy_wh": 4.018697,
+      "ram_after_mb": 946,
+      "ram_before_mb": 800.1,
+      "ram_delta_mb": 145.9,
+      "ram_peak_mb": 2405.2,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 63.6,
+      "peak_ram_mb": 2405.2,
+      "total_energy_j": 16012.0319,
+      "total_energy_wh": 4.447787
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 776.7,
+      "ram_before_mb": 776.6,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 776.6,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 61.6,
+      "duration_s": 4.214,
+      "energy_j": 168.7867,
+      "energy_wh": 0.046885,
+      "ram_after_mb": 857.9,
+      "ram_before_mb": 776.7,
+      "ram_delta_mb": 81.2,
+      "ram_peak_mb": 1131.8,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 14.19,
+      "end": 15.19,
+      "end_time": "0:00:15",
+      "speaker": "SPEAKER_00",
+      "start": 0.99,
+      "start_time": "0:00:00",
+      "text": "I have a little news that I'd like to give you as well, and it has to do with this program. I have been absolutely delighted for the last five years to be working with some of the most talented people in television news, just really stellar, stellar producers.",
+      "word_count": 49
+    },
+    {
+      "duration": 9.71,
+      "end": 25.32,
+      "end_time": "0:00:25",
+      "speaker": "SPEAKER_00",
+      "start": 15.61,
+      "start_time": "0:00:15",
+      "text": "writers, researchers, reporters, just remarkable people here at CNN. And so it is really tough to tell you that I'm going to be leaving.",
+      "word_count": 24
+    },
+    {
+      "duration": 12.61,
+      "end": 38.45,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_00",
+      "start": 25.83,
+      "start_time": "0:00:25",
+      "text": "Kind of it's sort of weird but i'm going to leave this time flat at 12 noon and i'm going to make the jump and follow my friends over at hln you've already heard that Michaela Pereira's jumped over their earthy hills over their robin need",
+      "word_count": 46
+    },
+    {
+      "duration": 10.7,
+      "end": 49.58,
+      "end_time": "0:00:49",
+      "speaker": "SPEAKER_00",
+      "start": 38.89,
+      "start_time": "0:00:38",
+      "text": "So I'm going to jump over to primetime on HLN, 8:00 PM in the fall. Super excited to do it. We're going to bring, you know, a really unique brand of social and legal issues oriented programming.",
+      "word_count": 37
+    },
+    {
+      "duration": 24.43,
+      "end": 74.51,
+      "end_time": "0:01:14",
+      "speaker": "SPEAKER_00",
+      "start": 50.08,
+      "start_time": "0:00:50",
+      "text": "to that 8 p.m. spot. Lots more news and details about it will follow, but I just wanted to let you know what a privilege it's been at 12 noon to be with you every day. And if you will just indulge me for a moment, you see me all the time, but you don't see Christina or Sonia or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lamy and Tanju and Dave",
+      "word_count": 79
+    },
+    {
+      "duration": 7.45,
+      "end": 82.4,
+      "end_time": "0:01:22",
+      "speaker": "SPEAKER_00",
+      "start": 74.95,
+      "start_time": "0:01:14",
+      "text": "This is my family and every single day it is a delight to get up at 4:30 in the morning and be with them and I say that honestly.",
+      "word_count": 29
+    },
+    {
+      "duration": 10.63,
+      "end": 93.83,
+      "end_time": "0:01:33",
+      "speaker": "SPEAKER_00",
+      "start": 83.2,
+      "start_time": "0:01:23",
+      "text": "So thank you for being here at 12 noon every day. Still going to be here for a few more weeks. From the 23rd it will be our last program here, but I'll be seeing you over on HLN at 8:00 p.m.",
+      "word_count": 42
+    },
+    {
+      "duration": 5.35,
+      "end": 99.52,
+      "end_time": "0:01:39",
+      "speaker": "SPEAKER_00",
+      "start": 94.17,
+      "start_time": "0:01:34",
+      "text": "very exciting time for us all here at CNN and HLN and I will still be doing a lot of stuff",
+      "word_count": 21
+    },
+    {
+      "duration": 1.63,
+      "end": 101.62,
+      "end_time": "0:01:41",
+      "speaker": "SPEAKER_00",
+      "start": 99.99,
+      "start_time": "0:01:39",
+      "text": "On Cnn as well, I'll",
+      "word_count": 5
+    },
+    {
+      "duration": 16.66,
+      "end": 118.87,
+      "end_time": "0:01:58",
+      "speaker": "SPEAKER_00",
+      "start": 102.22,
+      "start_time": "0:01:42",
+      "text": "legal analysis and I'll be representing and talking about the stories of the day, the justice oriented issues of the day over here on CNN's programming. So I'm not going very far and I'll still be working with all of these extraordinary people on a pretty regular basis. For now,",
+      "word_count": 50
+    },
+    {
+      "duration": 2.55,
+      "end": 121.74,
+      "end_time": "0:02:01",
+      "speaker": "SPEAKER_00",
+      "start": 119.19,
+      "start_time": "0:01:59",
+      "text": "That's it for today. I've said enough.",
+      "word_count": 7
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 0.51,
+      "end": 0.52,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 14.19,
+      "end": 15.19,
+      "start": 0.99,
+      "type": "speech"
+    },
+    {
+      "duration": 9.71,
+      "end": 25.32,
+      "start": 15.61,
+      "type": "speech"
+    },
+    {
+      "duration": 12.61,
+      "end": 38.45,
+      "start": 25.83,
+      "type": "speech"
+    },
+    {
+      "duration": 10.7,
+      "end": 49.58,
+      "start": 38.89,
+      "type": "speech"
+    },
+    {
+      "duration": 24.43,
+      "end": 74.51,
+      "start": 50.08,
+      "type": "speech"
+    },
+    {
+      "duration": 7.45,
+      "end": 82.4,
+      "start": 74.95,
+      "type": "speech"
+    },
+    {
+      "duration": 10.63,
+      "end": 93.83,
+      "start": 83.2,
+      "type": "speech"
+    },
+    {
+      "duration": 5.35,
+      "end": 99.52,
+      "start": 94.17,
+      "type": "speech"
+    },
+    {
+      "duration": 1.63,
+      "end": 101.62,
+      "start": 99.99,
+      "type": "speech"
+    },
+    {
+      "duration": 16.66,
+      "end": 118.87,
+      "start": 102.22,
+      "type": "speech"
+    },
+    {
+      "duration": 2.55,
+      "end": 121.74,
+      "start": 119.19,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 14.19,
+      "end": 15.19,
+      "speaker": "SPEAKER_00",
+      "start": 0.99,
+      "text": "I have a little news that I'd like to give you as well, and it has to do with this program. I have been absolutely delighted for the last five years to be working with some of the most talented people in television news, just really stellar, stellar producers.",
+      "type": "speech"
+    },
+    {
+      "duration": 9.71,
+      "end": 25.32,
+      "speaker": "SPEAKER_00",
+      "start": 15.61,
+      "text": "writers, researchers, reporters, just remarkable people here at CNN. And so it is really tough to tell you that I'm going to be leaving.",
+      "type": "speech"
+    },
+    {
+      "duration": 12.61,
+      "end": 38.45,
+      "speaker": "SPEAKER_00",
+      "start": 25.83,
+      "text": "Kind of it's sort of weird but i'm going to leave this time flat at 12 noon and i'm going to make the jump and follow my friends over at hln you've already heard that Michaela Pereira's jumped over their earthy hills over their robin need",
+      "type": "speech"
+    },
+    {
+      "duration": 10.7,
+      "end": 49.58,
+      "speaker": "SPEAKER_00",
+      "start": 38.89,
+      "text": "So I'm going to jump over to primetime on HLN, 8:00 PM in the fall. Super excited to do it. We're going to bring, you know, a really unique brand of social and legal issues oriented programming.",
+      "type": "speech"
+    },
+    {
+      "duration": 24.43,
+      "end": 74.51,
+      "speaker": "SPEAKER_00",
+      "start": 50.08,
+      "text": "to that 8 p.m. spot. Lots more news and details about it will follow, but I just wanted to let you know what a privilege it's been at 12 noon to be with you every day. And if you will just indulge me for a moment, you see me all the time, but you don't see Christina or Sonia or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lamy and Tanju and Dave",
+      "type": "speech"
+    },
+    {
+      "duration": 7.45,
+      "end": 82.4,
+      "speaker": "SPEAKER_00",
+      "start": 74.95,
+      "text": "This is my family and every single day it is a delight to get up at 4:30 in the morning and be with them and I say that honestly.",
+      "type": "speech"
+    },
+    {
+      "duration": 10.63,
+      "end": 93.83,
+      "speaker": "SPEAKER_00",
+      "start": 83.2,
+      "text": "So thank you for being here at 12 noon every day. Still going to be here for a few more weeks. From the 23rd it will be our last program here, but I'll be seeing you over on HLN at 8:00 p.m.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.35,
+      "end": 99.52,
+      "speaker": "SPEAKER_00",
+      "start": 94.17,
+      "text": "very exciting time for us all here at CNN and HLN and I will still be doing a lot of stuff",
+      "type": "speech"
+    },
+    {
+      "duration": 1.63,
+      "end": 101.62,
+      "speaker": "SPEAKER_00",
+      "start": 99.99,
+      "text": "On Cnn as well, I'll",
+      "type": "speech"
+    },
+    {
+      "duration": 16.66,
+      "end": 118.87,
+      "speaker": "SPEAKER_00",
+      "start": 102.22,
+      "text": "legal analysis and I'll be representing and talking about the stories of the day, the justice oriented issues of the day over here on CNN's programming. So I'm not going very far and I'll still be working with all of these extraordinary people on a pretty regular basis. For now,",
+      "type": "speech"
+    },
+    {
+      "duration": 2.55,
+      "end": 121.74,
+      "speaker": "SPEAKER_00",
+      "start": 119.19,
+      "text": "That's it for today. I've said enough.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 121.752,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 261.859,
+    "real_time_factor": 2.151,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 98.5,
+        "duration_s": 21.482,
+        "energy_j": 1375.9377,
+        "energy_wh": 0.382205,
+        "ram_after_mb": 800.1,
+        "ram_before_mb": 857.9,
+        "ram_delta_mb": -57.7,
+        "ram_peak_mb": 870.3,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 94.3,
+        "duration_s": 235.961,
+        "energy_j": 14467.3075,
+        "energy_wh": 4.018697,
+        "ram_after_mb": 946,
+        "ram_before_mb": 800.1,
+        "ram_delta_mb": 145.9,
+        "ram_peak_mb": 2405.2,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 63.6,
+        "peak_ram_mb": 2405.2,
+        "total_energy_j": 16012.0319,
+        "total_energy_wh": 4.447787
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 776.7,
+        "ram_before_mb": 776.6,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 776.6,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 61.6,
+        "duration_s": 4.214,
+        "energy_j": 168.7867,
+        "energy_wh": 0.046885,
+        "ram_after_mb": 857.9,
+        "ram_before_mb": 776.7,
+        "ram_delta_mb": 81.2,
+        "ram_peak_mb": 1131.8,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 21.482,
+    "stage_diarization_s": 235.961,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 4.214
+  },
+  "unique_speakers_count": 1
+}

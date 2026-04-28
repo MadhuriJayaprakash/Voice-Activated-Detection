@@ -1,0 +1,204 @@
+{
+  "duration": 70.3216875,
+  "filename": "qppll.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 98.2,
+      "duration_s": 13.26,
+      "energy_j": 846.5657,
+      "energy_wh": 0.235157,
+      "ram_after_mb": 885.8,
+      "ram_before_mb": 925.6,
+      "ram_delta_mb": -39.8,
+      "ram_peak_mb": 925.6,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 61.6,
+      "duration_s": 92.381,
+      "energy_j": 3699.717,
+      "energy_wh": 1.027699,
+      "ram_after_mb": 1079.9,
+      "ram_before_mb": 885.8,
+      "ram_delta_mb": 194.1,
+      "ram_peak_mb": 2631.3,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 55.5,
+      "peak_ram_mb": 2631.3,
+      "total_energy_j": 4651.7173,
+      "total_energy_wh": 1.292143
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 802.7,
+      "ram_before_mb": 802.7,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 802.7,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 62.1,
+      "duration_s": 2.613,
+      "energy_j": 105.4346,
+      "energy_wh": 0.029287,
+      "ram_after_mb": 925.6,
+      "ram_before_mb": 802.7,
+      "ram_delta_mb": 122.9,
+      "ram_peak_mb": 1163.7,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 44.26,
+      "end": 44.27,
+      "end_time": "0:00:44",
+      "speaker": "SPEAKER_00",
+      "start": 0.01,
+      "start_time": "0:00:00",
+      "text": "As the moment as we leave the European Union to reunite our country and allow the warmth and natural affection that we all share for our European neighbours to find renewed expression in one great new national project of building a deep, special and democratically accountable partnership with those nations we are proud to call our closest friends. The bill ensures that the implementation period must end on the 31st of December next year with no possibility of an extension. And it paves the way for a new agreement on our future relationship with our European neighbours based on an ambitious free trade agreement. Our aim is to provide a close friendship.",
+      "word_count": 112
+    },
+    {
+      "duration": 1.29,
+      "end": 46.14,
+      "end_time": "0:00:46",
+      "speaker": "SPEAKER_00",
+      "start": 44.85,
+      "start_time": "0:00:44",
+      "text": "Between sovereign equals",
+      "word_count": 3
+    },
+    {
+      "duration": 22.51,
+      "end": 69.57,
+      "end_time": "0:01:09",
+      "speaker": "SPEAKER_00",
+      "start": 47.05,
+      "start_time": "0:00:47",
+      "text": "to promote our common interests inspired by pride in our European heritage and civilization. I am absolutely determined that this great project will not be the project of one government or one party, but of the British nation as a whole. So Parliament, so Parliament, as I have said, will be kept fully informed about the progress of these negotiations.",
+      "word_count": 60
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 44.26,
+      "end": 44.27,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 1.29,
+      "end": 46.14,
+      "start": 44.85,
+      "type": "speech"
+    },
+    {
+      "duration": 22.51,
+      "end": 69.57,
+      "start": 47.05,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 44.26,
+      "end": 44.27,
+      "speaker": "SPEAKER_00",
+      "start": 0.01,
+      "text": "As the moment as we leave the European Union to reunite our country and allow the warmth and natural affection that we all share for our European neighbours to find renewed expression in one great new national project of building a deep, special and democratically accountable partnership with those nations we are proud to call our closest friends. The bill ensures that the implementation period must end on the 31st of December next year with no possibility of an extension. And it paves the way for a new agreement on our future relationship with our European neighbours based on an ambitious free trade agreement. Our aim is to provide a close friendship.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.29,
+      "end": 46.14,
+      "speaker": "SPEAKER_00",
+      "start": 44.85,
+      "text": "Between sovereign equals",
+      "type": "speech"
+    },
+    {
+      "duration": 22.51,
+      "end": 69.57,
+      "speaker": "SPEAKER_00",
+      "start": 47.05,
+      "text": "to promote our common interests inspired by pride in our European heritage and civilization. I am absolutely determined that this great project will not be the project of one government or one party, but of the British nation as a whole. So Parliament, so Parliament, as I have said, will be kept fully informed about the progress of these negotiations.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 70.322,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 108.457,
+    "real_time_factor": 1.542,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 98.2,
+        "duration_s": 13.26,
+        "energy_j": 846.5657,
+        "energy_wh": 0.235157,
+        "ram_after_mb": 885.8,
+        "ram_before_mb": 925.6,
+        "ram_delta_mb": -39.8,
+        "ram_peak_mb": 925.6,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 61.6,
+        "duration_s": 92.381,
+        "energy_j": 3699.717,
+        "energy_wh": 1.027699,
+        "ram_after_mb": 1079.9,
+        "ram_before_mb": 885.8,
+        "ram_delta_mb": 194.1,
+        "ram_peak_mb": 2631.3,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 55.5,
+        "peak_ram_mb": 2631.3,
+        "total_energy_j": 4651.7173,
+        "total_energy_wh": 1.292143
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 802.7,
+        "ram_before_mb": 802.7,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 802.7,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 62.1,
+        "duration_s": 2.613,
+        "energy_j": 105.4346,
+        "energy_wh": 0.029287,
+        "ram_after_mb": 925.6,
+        "ram_before_mb": 802.7,
+        "ram_delta_mb": 122.9,
+        "ram_peak_mb": 1163.7,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 13.26,
+    "stage_diarization_s": 92.381,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 2.613
+  },
+  "unique_speakers_count": 1
+}

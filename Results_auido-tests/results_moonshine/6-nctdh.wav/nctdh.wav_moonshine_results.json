@@ -1,0 +1,276 @@
+{
+  "duration": 122.16,
+  "filename": "nctdh.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.5,
+      "duration_s": 41.211,
+      "energy_j": 2665.4693,
+      "energy_wh": 0.740408,
+      "ram_after_mb": 888.1,
+      "ram_before_mb": 869.8,
+      "ram_delta_mb": 18.3,
+      "ram_peak_mb": 904.6,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 94.6,
+      "duration_s": 236.979,
+      "energy_j": 14576.6991,
+      "energy_wh": 4.049083,
+      "ram_after_mb": 1000.9,
+      "ram_before_mb": 888.1,
+      "ram_delta_mb": 112.8,
+      "ram_peak_mb": 2479.3,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 72.8,
+      "peak_ram_mb": 2479.3,
+      "total_energy_j": 17752.8035,
+      "total_energy_wh": 4.931334
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.203,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 795.7,
+      "ram_before_mb": 795.7,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 795.7,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 96.9,
+      "duration_s": 8.111,
+      "energy_j": 510.6351,
+      "energy_wh": 0.141843,
+      "ram_after_mb": 869.8,
+      "ram_before_mb": 795.7,
+      "ram_delta_mb": 74,
+      "ram_peak_mb": 1165.5,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 16.57,
+      "end": 16.58,
+      "end_time": "0:00:16",
+      "speaker": "SPEAKER_01",
+      "start": 0.01,
+      "start_time": "0:00:00",
+      "text": "I went to sue supporter Dan Coop is live in the South Center in Dan. You learned the debate left some Democrats very concerned. Yeah, it was open season on former New York City Mayor Michael Bloomberg as the five other Democratic candidates took their first cracks at the billionaires politics in office and history as an employer.",
+      "word_count": 58
+    },
+    {
+      "duration": 36.13,
+      "end": 53.62,
+      "end_time": "0:00:53",
+      "speaker": "SPEAKER_03",
+      "start": 17.5,
+      "start_time": "0:00:17",
+      "text": "I'd like to talk about who we're running against, a billionaire who calls women fat broads and horse-faced lesbians. And no, I'm not talking about Donald Trump. I'm talking about Mayor Bloomberg. Peggy Racula was eating lunch at the court diner in media trying to digest her first exposure to Michael Bloomberg. I don't hold out much hope for him. One man we spoke with described the Democratic debate as a demolition derby. Former Philadelphia mayor Michael Nutter is working on the Bloomberg campaign. I would say not our best moment, but getting stronger, like I said, first debate.",
+      "word_count": 99
+    },
+    {
+      "duration": 3.99,
+      "end": 58.02,
+      "end_time": "0:00:58",
+      "speaker": "SPEAKER_02",
+      "start": 54.03,
+      "start_time": "0:00:54",
+      "text": "I'm sure for all the other candidates who have now been abating for eight months",
+      "word_count": 15
+    },
+    {
+      "duration": 6.71,
+      "end": 65.14,
+      "end_time": "0:01:05",
+      "speaker": "SPEAKER_02",
+      "start": 58.43,
+      "start_time": "0:00:58",
+      "text": "Um, you know we, we probably don't remember what that first, uh, what those first debates or like.",
+      "word_count": 18
+    },
+    {
+      "duration": 31.22,
+      "end": 97.04,
+      "end_time": "0:01:37",
+      "speaker": "SPEAKER_01",
+      "start": 65.81,
+      "start_time": "0:01:05",
+      "text": "for all of them. And so we've got some ground to make up. In the latest Quinnipiac poll released Thursday, every Democrat gained ground in a potential general election against President Trump. But the Democrats we spoke to worry about electability among the six most likely candidates. Who's a Democrat? You know, you got Bloomberg was a Republican and you got the socialists. And so we'll say. Mike Bloomberg weathered the storm and folks tried to, you know, land a couple of different punches here and there.",
+      "word_count": 87
+    },
+    {
+      "duration": 23.97,
+      "end": 122.16,
+      "end_time": "0:02:02",
+      "speaker": "SPEAKER_00",
+      "start": 98.19,
+      "start_time": "0:01:38",
+      "text": "Now Bloomberg's first time on a ballot is not until Super Tuesday, but he will be on the debate stage next week in South Carolina as well. Live in the SAT Center, Dan Coob, CBS 3. Eyewitness News. All right, Dan, thank you. CBS News will co-host the next Democratic presidential debate in Charleston, South Carolina. Yale King and Nora O'Donnell will moderate. That is Tuesday, February 25th at 8 p.m. right here on CBS 3.",
+      "word_count": 76
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 16.57,
+      "end": 16.58,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 36.13,
+      "end": 53.62,
+      "start": 17.5,
+      "type": "speech"
+    },
+    {
+      "duration": 3.99,
+      "end": 58.02,
+      "start": 54.03,
+      "type": "speech"
+    },
+    {
+      "duration": 6.71,
+      "end": 65.14,
+      "start": 58.43,
+      "type": "speech"
+    },
+    {
+      "duration": 31.22,
+      "end": 97.04,
+      "start": 65.81,
+      "type": "speech"
+    },
+    {
+      "duration": 23.97,
+      "end": 122.16,
+      "start": 98.19,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 16.57,
+      "end": 16.58,
+      "speaker": "SPEAKER_01",
+      "start": 0.01,
+      "text": "I went to sue supporter Dan Coop is live in the South Center in Dan. You learned the debate left some Democrats very concerned. Yeah, it was open season on former New York City Mayor Michael Bloomberg as the five other Democratic candidates took their first cracks at the billionaires politics in office and history as an employer.",
+      "type": "speech"
+    },
+    {
+      "duration": 36.13,
+      "end": 53.62,
+      "speaker": "SPEAKER_03",
+      "start": 17.5,
+      "text": "I'd like to talk about who we're running against, a billionaire who calls women fat broads and horse-faced lesbians. And no, I'm not talking about Donald Trump. I'm talking about Mayor Bloomberg. Peggy Racula was eating lunch at the court diner in media trying to digest her first exposure to Michael Bloomberg. I don't hold out much hope for him. One man we spoke with described the Democratic debate as a demolition derby. Former Philadelphia mayor Michael Nutter is working on the Bloomberg campaign. I would say not our best moment, but getting stronger, like I said, first debate.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.99,
+      "end": 58.02,
+      "speaker": "SPEAKER_02",
+      "start": 54.03,
+      "text": "I'm sure for all the other candidates who have now been abating for eight months",
+      "type": "speech"
+    },
+    {
+      "duration": 6.71,
+      "end": 65.14,
+      "speaker": "SPEAKER_02",
+      "start": 58.43,
+      "text": "Um, you know we, we probably don't remember what that first, uh, what those first debates or like.",
+      "type": "speech"
+    },
+    {
+      "duration": 31.22,
+      "end": 97.04,
+      "speaker": "SPEAKER_01",
+      "start": 65.81,
+      "text": "for all of them. And so we've got some ground to make up. In the latest Quinnipiac poll released Thursday, every Democrat gained ground in a potential general election against President Trump. But the Democrats we spoke to worry about electability among the six most likely candidates. Who's a Democrat? You know, you got Bloomberg was a Republican and you got the socialists. And so we'll say. Mike Bloomberg weathered the storm and folks tried to, you know, land a couple of different punches here and there.",
+      "type": "speech"
+    },
+    {
+      "duration": 23.97,
+      "end": 122.16,
+      "speaker": "SPEAKER_00",
+      "start": 98.19,
+      "text": "Now Bloomberg's first time on a ballot is not until Super Tuesday, but he will be on the debate stage next week in South Carolina as well. Live in the SAT Center, Dan Coob, CBS 3. Eyewitness News. All right, Dan, thank you. CBS News will co-host the next Democratic presidential debate in Charleston, South Carolina. Yale King and Nora O'Donnell will moderate. That is Tuesday, February 25th at 8 p.m. right here on CBS 3.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 122.16,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 286.506,
+    "real_time_factor": 2.345,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 99.5,
+        "duration_s": 41.211,
+        "energy_j": 2665.4693,
+        "energy_wh": 0.740408,
+        "ram_after_mb": 888.1,
+        "ram_before_mb": 869.8,
+        "ram_delta_mb": 18.3,
+        "ram_peak_mb": 904.6,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 94.6,
+        "duration_s": 236.979,
+        "energy_j": 14576.6991,
+        "energy_wh": 4.049083,
+        "ram_after_mb": 1000.9,
+        "ram_before_mb": 888.1,
+        "ram_delta_mb": 112.8,
+        "ram_peak_mb": 2479.3,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 72.8,
+        "peak_ram_mb": 2479.3,
+        "total_energy_j": 17752.8035,
+        "total_energy_wh": 4.931334
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.203,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 795.7,
+        "ram_before_mb": 795.7,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 795.7,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 96.9,
+        "duration_s": 8.111,
+        "energy_j": 510.6351,
+        "energy_wh": 0.141843,
+        "ram_after_mb": 869.8,
+        "ram_before_mb": 795.7,
+        "ram_delta_mb": 74,
+        "ram_peak_mb": 1165.5,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 41.211,
+    "stage_diarization_s": 236.979,
+    "stage_preprocessing_s": 0.203,
+    "stage_vad_s": 8.111
+  },
+  "unique_speakers_count": 4
+}

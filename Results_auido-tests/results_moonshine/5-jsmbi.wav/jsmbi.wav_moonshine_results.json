@@ -1,0 +1,324 @@
+{
+  "duration": 111.864,
+  "filename": "jsmbi.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 98.6,
+      "duration_s": 21.47,
+      "energy_j": 1375.7619,
+      "energy_wh": 0.382156,
+      "ram_after_mb": 877.9,
+      "ram_before_mb": 927.8,
+      "ram_delta_mb": -49.9,
+      "ram_peak_mb": 939.6,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 83.5,
+      "duration_s": 181.95,
+      "energy_j": 9871.7759,
+      "energy_wh": 2.74216,
+      "ram_after_mb": 986.9,
+      "ram_before_mb": 877.9,
+      "ram_delta_mb": 109,
+      "ram_peak_mb": 2636.9,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 61.3,
+      "peak_ram_mb": 2636.9,
+      "total_energy_j": 11412.5211,
+      "total_energy_wh": 3.170145
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 779.6,
+      "ram_before_mb": 779.5,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 779.5,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 63.2,
+      "duration_s": 4.015,
+      "energy_j": 164.9833,
+      "energy_wh": 0.045829,
+      "ram_after_mb": 927.8,
+      "ram_before_mb": 779.6,
+      "ram_delta_mb": 148.2,
+      "ram_peak_mb": 1096.2,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 18.01,
+      "end": 18.4,
+      "end_time": "0:00:18",
+      "speaker": "SPEAKER_03",
+      "start": 0.38,
+      "start_time": "0:00:00",
+      "text": "Residents and the mayor of Eureka are speaking out with disappointing tones as the Woodford County zoning Board of Appeals gives a solar farm one last hurdle to jump before coming to town. WNPD's Rebecca Brumfield joins us to show us where the solar farm would go and how it's sparking some frustrations with homeowners. Rebecca.",
+      "word_count": 56
+    },
+    {
+      "duration": 12.26,
+      "end": 30.99,
+      "end_time": "0:00:30",
+      "speaker": "SPEAKER_02",
+      "start": 18.74,
+      "start_time": "0:00:18",
+      "text": "Yeah, Lauren Eugene and out of state solar company is one step away from being approved to bring that solar farm to the Lakeview Acres subdivision located right by Eureka Lake. Tuesday night's decision has left a lot of unrest.",
+      "word_count": 40
+    },
+    {
+      "duration": 1.26,
+      "end": 34.34,
+      "end_time": "0:00:34",
+      "speaker": "SPEAKER_00",
+      "start": 33.08,
+      "start_time": "0:00:33",
+      "text": "My kids play here.",
+      "word_count": 4
+    },
+    {
+      "duration": 23.14,
+      "end": 57.85,
+      "end_time": "0:00:57",
+      "speaker": "SPEAKER_01",
+      "start": 34.71,
+      "start_time": "0:00:34",
+      "text": "This is entirely too close to them. A 4:1 votes. The issue is simply location. Leave Sol America Energy of Atlanta one step away from turning this farmland. We don't know what it could do to our water line, what it can do to the health of our city, into a solar farm. It's a great in a specific situation. I think it's great for the county to look into this. I think it's great to continue to develop.",
+      "word_count": 79
+    },
+    {
+      "duration": 32.75,
+      "end": 91.13,
+      "end_time": "0:01:31",
+      "speaker": "SPEAKER_01",
+      "start": 58.38,
+      "start_time": "0:00:58",
+      "text": "It's just not going to help our town to grow. It's not helping the safety. This close to a residential neighborhood. The Prayther family built their dream home here with the intent of retiring. Now that's of an ear. If this was either here or we knew it was being proposed, we likely would not have built. Some people do support the $2 million 51 acre project, but those against the change say. And in a county that is abundant with undeveloped farmland, I find it very surprising, actually ridiculous, that they're even considering this plot of land is",
+      "word_count": 99
+    },
+    {
+      "duration": 5.01,
+      "end": 96.46,
+      "end_time": "0:01:36",
+      "speaker": "SPEAKER_01",
+      "start": 91.45,
+      "start_time": "0:01:31",
+      "text": "next to our fastest growing neighborhood in our beautiful city. I love the idea would would support it.",
+      "word_count": 18
+    },
+    {
+      "duration": 4.57,
+      "end": 101.62,
+      "end_time": "0:01:41",
+      "speaker": "SPEAKER_00",
+      "start": 97.05,
+      "start_time": "0:01:37",
+      "text": "Just don't don't really support it in my back. I do not support it in my backyard.",
+      "word_count": 17
+    },
+    {
+      "duration": 9.1,
+      "end": 111.86,
+      "end_time": "0:01:51",
+      "speaker": "SPEAKER_02",
+      "start": 102.76,
+      "start_time": "0:01:42",
+      "text": "Now, if this project passes through its final approval, it'll likely begin in 2019. The next Woodford County zoning Board of Appeals meeting will be held on August 21st.",
+      "word_count": 29
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 18.01,
+      "end": 18.4,
+      "start": 0.38,
+      "type": "speech"
+    },
+    {
+      "duration": 12.26,
+      "end": 30.99,
+      "start": 18.74,
+      "type": "speech"
+    },
+    {
+      "duration": 1.26,
+      "end": 34.34,
+      "start": 33.08,
+      "type": "speech"
+    },
+    {
+      "duration": 23.14,
+      "end": 57.85,
+      "start": 34.71,
+      "type": "speech"
+    },
+    {
+      "duration": 32.75,
+      "end": 91.13,
+      "start": 58.38,
+      "type": "speech"
+    },
+    {
+      "duration": 5.01,
+      "end": 96.46,
+      "start": 91.45,
+      "type": "speech"
+    },
+    {
+      "duration": 4.57,
+      "end": 101.62,
+      "start": 97.05,
+      "type": "speech"
+    },
+    {
+      "duration": 9.1,
+      "end": 111.86,
+      "start": 102.76,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 18.01,
+      "end": 18.4,
+      "speaker": "SPEAKER_03",
+      "start": 0.38,
+      "text": "Residents and the mayor of Eureka are speaking out with disappointing tones as the Woodford County zoning Board of Appeals gives a solar farm one last hurdle to jump before coming to town. WNPD's Rebecca Brumfield joins us to show us where the solar farm would go and how it's sparking some frustrations with homeowners. Rebecca.",
+      "type": "speech"
+    },
+    {
+      "duration": 12.26,
+      "end": 30.99,
+      "speaker": "SPEAKER_02",
+      "start": 18.74,
+      "text": "Yeah, Lauren Eugene and out of state solar company is one step away from being approved to bring that solar farm to the Lakeview Acres subdivision located right by Eureka Lake. Tuesday night's decision has left a lot of unrest.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.26,
+      "end": 34.34,
+      "speaker": "SPEAKER_00",
+      "start": 33.08,
+      "text": "My kids play here.",
+      "type": "speech"
+    },
+    {
+      "duration": 23.14,
+      "end": 57.85,
+      "speaker": "SPEAKER_01",
+      "start": 34.71,
+      "text": "This is entirely too close to them. A 4:1 votes. The issue is simply location. Leave Sol America Energy of Atlanta one step away from turning this farmland. We don't know what it could do to our water line, what it can do to the health of our city, into a solar farm. It's a great in a specific situation. I think it's great for the county to look into this. I think it's great to continue to develop.",
+      "type": "speech"
+    },
+    {
+      "duration": 32.75,
+      "end": 91.13,
+      "speaker": "SPEAKER_01",
+      "start": 58.38,
+      "text": "It's just not going to help our town to grow. It's not helping the safety. This close to a residential neighborhood. The Prayther family built their dream home here with the intent of retiring. Now that's of an ear. If this was either here or we knew it was being proposed, we likely would not have built. Some people do support the $2 million 51 acre project, but those against the change say. And in a county that is abundant with undeveloped farmland, I find it very surprising, actually ridiculous, that they're even considering this plot of land is",
+      "type": "speech"
+    },
+    {
+      "duration": 5.01,
+      "end": 96.46,
+      "speaker": "SPEAKER_01",
+      "start": 91.45,
+      "text": "next to our fastest growing neighborhood in our beautiful city. I love the idea would would support it.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.57,
+      "end": 101.62,
+      "speaker": "SPEAKER_00",
+      "start": 97.05,
+      "text": "Just don't don't really support it in my back. I do not support it in my backyard.",
+      "type": "speech"
+    },
+    {
+      "duration": 9.1,
+      "end": 111.86,
+      "speaker": "SPEAKER_02",
+      "start": 102.76,
+      "text": "Now, if this project passes through its final approval, it'll likely begin in 2019. The next Woodford County zoning Board of Appeals meeting will be held on August 21st.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 111.864,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 207.638,
+    "real_time_factor": 1.856,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 98.6,
+        "duration_s": 21.47,
+        "energy_j": 1375.7619,
+        "energy_wh": 0.382156,
+        "ram_after_mb": 877.9,
+        "ram_before_mb": 927.8,
+        "ram_delta_mb": -49.9,
+        "ram_peak_mb": 939.6,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 83.5,
+        "duration_s": 181.95,
+        "energy_j": 9871.7759,
+        "energy_wh": 2.74216,
+        "ram_after_mb": 986.9,
+        "ram_before_mb": 877.9,
+        "ram_delta_mb": 109,
+        "ram_peak_mb": 2636.9,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 61.3,
+        "peak_ram_mb": 2636.9,
+        "total_energy_j": 11412.5211,
+        "total_energy_wh": 3.170145
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 779.6,
+        "ram_before_mb": 779.5,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 779.5,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 63.2,
+        "duration_s": 4.015,
+        "energy_j": 164.9833,
+        "energy_wh": 0.045829,
+        "ram_after_mb": 927.8,
+        "ram_before_mb": 779.6,
+        "ram_delta_mb": 148.2,
+        "ram_peak_mb": 1096.2,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 21.47,
+    "stage_diarization_s": 181.95,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 4.015
+  },
+  "unique_speakers_count": 4
+}

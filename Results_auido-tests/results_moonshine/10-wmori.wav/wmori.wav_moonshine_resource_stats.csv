@@ -1,0 +1,12 @@
+# Moonshine Resource Usage Report
+# File: wmori.wav
+# Model: usefulsensors/moonshine-base
+# Audio Duration: 120.12s
+# RTF: 1.724x
+# Generated: 2026-04-27T19:21:38.409Z
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+"Preprocessing",0.201,793.7,793.7,0,793.7,0,0,0
+"VAD",4.215,793.7,901.1,107.4,1190.9,60.9,166.8549,0.046349
+"ASR - Moonshine",15.855,901.1,817.2,-83.9,914.6,96.7,996.3584,0.276766
+"Diarization",186.795,817.2,947.2,130,2418.9,62.1,7535.8569,2.093294
+"Pipeline Total",207.071,"","","",2418.9,54.9,8699.0702,2.416409

@@ -1,0 +1,17 @@
+Moonshine ASR Transcript
+File: qppll.wav
+Model: usefulsensors/moonshine-base
+Duration: 70.3216875s
+Speakers: 1
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:44] SPEAKER_00
+As the moment as we leave the European Union to reunite our country and allow the warmth and natural affection that we all share for our European neighbours to find renewed expression in one great new national project of building a deep, special and democratically accountable partnership with those nations we are proud to call our closest friends. The bill ensures that the implementation period must end on the 31st of December next year with no possibility of an extension. And it paves the way for a new agreement on our future relationship with our European neighbours based on an ambitious free trade agreement. Our aim is to provide a close friendship.
+
+[0:00:44 → 0:00:46] SPEAKER_00
+Between sovereign equals
+
+[0:00:47 → 0:01:09] SPEAKER_00
+to promote our common interests inspired by pride in our European heritage and civilization. I am absolutely determined that this great project will not be the project of one government or one party, but of the British nation as a whole. So Parliament, so Parliament, as I have said, will be kept fully informed about the progress of these negotiations.
+

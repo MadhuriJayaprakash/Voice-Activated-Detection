@@ -1,0 +1,468 @@
+{
+  "duration": 120.12,
+  "filename": "wmori.wav",
+  "language": "en",
+  "model": "usefulsensors/moonshine-base",
+  "model_size": "base",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 96.7,
+      "duration_s": 15.855,
+      "energy_j": 996.3584,
+      "energy_wh": 0.276766,
+      "ram_after_mb": 817.2,
+      "ram_before_mb": 901.1,
+      "ram_delta_mb": -83.9,
+      "ram_peak_mb": 914.6,
+      "stage": "ASR (Moonshine)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 62.1,
+      "duration_s": 186.795,
+      "energy_j": 7535.8569,
+      "energy_wh": 2.093294,
+      "ram_after_mb": 947.2,
+      "ram_before_mb": 817.2,
+      "ram_delta_mb": 130,
+      "ram_peak_mb": 2418.9,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 54.9,
+      "peak_ram_mb": 2418.9,
+      "total_energy_j": 8699.0702,
+      "total_energy_wh": 2.416409
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 793.7,
+      "ram_before_mb": 793.7,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 793.7,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 60.9,
+      "duration_s": 4.215,
+      "energy_j": 166.8549,
+      "energy_wh": 0.046349,
+      "ram_after_mb": 901.1,
+      "ram_before_mb": 793.7,
+      "ram_delta_mb": 107.4,
+      "ram_peak_mb": 1190.9,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 7.52,
+      "end": 10.13,
+      "end_time": "0:00:10",
+      "speaker": "SPEAKER_00",
+      "start": 2.61,
+      "start_time": "0:00:02",
+      "text": "There's an old soul in these dogs, and they appreciate you in a way that a puppy can't.",
+      "word_count": 18
+    },
+    {
+      "duration": 12.22,
+      "end": 29.07,
+      "end_time": "0:00:29",
+      "speaker": "SPEAKER_00",
+      "start": 16.85,
+      "start_time": "0:00:16",
+      "text": "My pill is a senior dog rescue. We save senior dogs and find them fabulous new homes. We get dogs in all sorts of conditions. And because they're old, they even have more issues.",
+      "word_count": 34
+    },
+    {
+      "duration": 10.88,
+      "end": 40.6,
+      "end_time": "0:00:40",
+      "speaker": "SPEAKER_00",
+      "start": 29.72,
+      "start_time": "0:00:29",
+      "text": "With the matching funds we got from the Subaru Grant, we got to set up our own veterinarian team because we don't want to see any dog suffer once it steps through our doors.",
+      "word_count": 34
+    },
+    {
+      "duration": 3.01,
+      "end": 44.78,
+      "end_time": "0:00:44",
+      "speaker": "SPEAKER_01",
+      "start": 41.77,
+      "start_time": "0:00:41",
+      "text": "I'm not sure that Ava rescued me or I rescued her",
+      "word_count": 11
+    },
+    {
+      "duration": 3.84,
+      "end": 49.72,
+      "end_time": "0:00:49",
+      "speaker": "SPEAKER_01",
+      "start": 45.88,
+      "start_time": "0:00:45",
+      "text": "My oldest granddaughter is now 12 and the younger one is 9.",
+      "word_count": 12
+    },
+    {
+      "duration": 15.28,
+      "end": 65.88,
+      "end_time": "0:01:05",
+      "speaker": "SPEAKER_01",
+      "start": 50.6,
+      "start_time": "0:00:50",
+      "text": "I watched them initially twice a week and I loved that. As they were older and they have their various activities and friends, I don't babysit as much. I miss them already. It's very important for me to have somebody to take care of.",
+      "word_count": 44
+    },
+    {
+      "duration": 10.1,
+      "end": 76.46,
+      "end_time": "0:01:16",
+      "speaker": "SPEAKER_01",
+      "start": 66.36,
+      "start_time": "0:01:06",
+      "text": "It's just my nature. I need to have that. So one night I was looking through all the senior dogs that were available and I saw Ava and I thought, oh my God, this is it.",
+      "word_count": 36
+    },
+    {
+      "duration": 3.43,
+      "end": 82.25,
+      "end_time": "0:01:22",
+      "speaker": "SPEAKER_01",
+      "start": 78.82,
+      "start_time": "0:01:18",
+      "text": "When I had read her bio, said she had a heart murmur.",
+      "word_count": 12
+    },
+    {
+      "duration": 5.16,
+      "end": 87.77,
+      "end_time": "0:01:27",
+      "speaker": "SPEAKER_01",
+      "start": 82.61,
+      "start_time": "0:01:22",
+      "text": "But when Sherry told me that she required heart surgery, I was pretty taken aback.",
+      "word_count": 15
+    },
+    {
+      "duration": 1.34,
+      "end": 89.97,
+      "end_time": "0:01:29",
+      "speaker": "SPEAKER_01",
+      "start": 88.63,
+      "start_time": "0:01:28",
+      "text": "They just really weren't",
+      "word_count": 4
+    },
+    {
+      "duration": 2.31,
+      "end": 92.61,
+      "end_time": "0:01:32",
+      "speaker": "SPEAKER_01",
+      "start": 90.3,
+      "start_time": "0:01:30",
+      "text": "Ava would even make it through the night.",
+      "word_count": 8
+    },
+    {
+      "duration": 5.04,
+      "end": 98.82,
+      "end_time": "0:01:38",
+      "speaker": "SPEAKER_00",
+      "start": 93.78,
+      "start_time": "0:01:33",
+      "text": "What Subaru did with CNN heroes really allowed us to change our game.",
+      "word_count": 13
+    },
+    {
+      "duration": 5.28,
+      "end": 105.24,
+      "end_time": "0:01:45",
+      "speaker": "SPEAKER_00",
+      "start": 99.96,
+      "start_time": "0:01:39",
+      "text": "Because we had our own vet, we could see what was going on and save that dog's life.",
+      "word_count": 18
+    },
+    {
+      "duration": 8.74,
+      "end": 115.88,
+      "end_time": "0:01:55",
+      "speaker": "SPEAKER_01",
+      "start": 107.14,
+      "start_time": "0:01:47",
+      "text": "If I don't feel needed, then I don't feel loved. But Ava needs me. I need her. So therefore love exists.",
+      "word_count": 21
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 7.52,
+      "end": 10.13,
+      "start": 2.61,
+      "type": "speech"
+    },
+    {
+      "duration": 12.22,
+      "end": 29.07,
+      "start": 16.85,
+      "type": "speech"
+    },
+    {
+      "duration": 10.88,
+      "end": 40.6,
+      "start": 29.72,
+      "type": "speech"
+    },
+    {
+      "duration": 3.01,
+      "end": 44.78,
+      "start": 41.77,
+      "type": "speech"
+    },
+    {
+      "duration": 3.84,
+      "end": 49.72,
+      "start": 45.88,
+      "type": "speech"
+    },
+    {
+      "duration": 15.28,
+      "end": 65.88,
+      "start": 50.6,
+      "type": "speech"
+    },
+    {
+      "duration": 10.1,
+      "end": 76.46,
+      "start": 66.36,
+      "type": "speech"
+    },
+    {
+      "duration": 3.43,
+      "end": 82.25,
+      "start": 78.82,
+      "type": "speech"
+    },
+    {
+      "duration": 5.16,
+      "end": 87.77,
+      "start": 82.61,
+      "type": "speech"
+    },
+    {
+      "duration": 1.34,
+      "end": 89.97,
+      "start": 88.63,
+      "type": "speech"
+    },
+    {
+      "duration": 2.31,
+      "end": 92.61,
+      "start": 90.3,
+      "type": "speech"
+    },
+    {
+      "duration": 5.04,
+      "end": 98.82,
+      "start": 93.78,
+      "type": "speech"
+    },
+    {
+      "duration": 5.28,
+      "end": 105.24,
+      "start": 99.96,
+      "type": "speech"
+    },
+    {
+      "duration": 8.74,
+      "end": 115.88,
+      "start": 107.14,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 7.52,
+      "end": 10.13,
+      "speaker": "SPEAKER_00",
+      "start": 2.61,
+      "text": "There's an old soul in these dogs, and they appreciate you in a way that a puppy can't.",
+      "type": "speech"
+    },
+    {
+      "duration": 12.22,
+      "end": 29.07,
+      "speaker": "SPEAKER_00",
+      "start": 16.85,
+      "text": "My pill is a senior dog rescue. We save senior dogs and find them fabulous new homes. We get dogs in all sorts of conditions. And because they're old, they even have more issues.",
+      "type": "speech"
+    },
+    {
+      "duration": 10.88,
+      "end": 40.6,
+      "speaker": "SPEAKER_00",
+      "start": 29.72,
+      "text": "With the matching funds we got from the Subaru Grant, we got to set up our own veterinarian team because we don't want to see any dog suffer once it steps through our doors.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.01,
+      "end": 44.78,
+      "speaker": "SPEAKER_01",
+      "start": 41.77,
+      "text": "I'm not sure that Ava rescued me or I rescued her",
+      "type": "speech"
+    },
+    {
+      "duration": 3.84,
+      "end": 49.72,
+      "speaker": "SPEAKER_01",
+      "start": 45.88,
+      "text": "My oldest granddaughter is now 12 and the younger one is 9.",
+      "type": "speech"
+    },
+    {
+      "duration": 15.28,
+      "end": 65.88,
+      "speaker": "SPEAKER_01",
+      "start": 50.6,
+      "text": "I watched them initially twice a week and I loved that. As they were older and they have their various activities and friends, I don't babysit as much. I miss them already. It's very important for me to have somebody to take care of.",
+      "type": "speech"
+    },
+    {
+      "duration": 10.1,
+      "end": 76.46,
+      "speaker": "SPEAKER_01",
+      "start": 66.36,
+      "text": "It's just my nature. I need to have that. So one night I was looking through all the senior dogs that were available and I saw Ava and I thought, oh my God, this is it.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.43,
+      "end": 82.25,
+      "speaker": "SPEAKER_01",
+      "start": 78.82,
+      "text": "When I had read her bio, said she had a heart murmur.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.16,
+      "end": 87.77,
+      "speaker": "SPEAKER_01",
+      "start": 82.61,
+      "text": "But when Sherry told me that she required heart surgery, I was pretty taken aback.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.34,
+      "end": 89.97,
+      "speaker": "SPEAKER_01",
+      "start": 88.63,
+      "text": "They just really weren't",
+      "type": "speech"
+    },
+    {
+      "duration": 2.31,
+      "end": 92.61,
+      "speaker": "SPEAKER_01",
+      "start": 90.3,
+      "text": "Ava would even make it through the night.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.04,
+      "end": 98.82,
+      "speaker": "SPEAKER_00",
+      "start": 93.78,
+      "text": "What Subaru did with CNN heroes really allowed us to change our game.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.28,
+      "end": 105.24,
+      "speaker": "SPEAKER_00",
+      "start": 99.96,
+      "text": "Because we had our own vet, we could see what was going on and save that dog's life.",
+      "type": "speech"
+    },
+    {
+      "duration": 8.74,
+      "end": 115.88,
+      "speaker": "SPEAKER_01",
+      "start": 107.14,
+      "text": "If I don't feel needed, then I don't feel loved. But Ava needs me. I need her. So therefore love exists.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 120.12,
+    "model_load_asr_s": 8.205,
+    "model_load_diarization_s": 1.815,
+    "model_load_total_s": 10.434,
+    "model_load_vad_s": 0.413,
+    "pipeline_total_s": 207.071,
+    "real_time_factor": 1.724,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 96.7,
+        "duration_s": 15.855,
+        "energy_j": 996.3584,
+        "energy_wh": 0.276766,
+        "ram_after_mb": 817.2,
+        "ram_before_mb": 901.1,
+        "ram_delta_mb": -83.9,
+        "ram_peak_mb": 914.6,
+        "stage": "ASR (Moonshine)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 62.1,
+        "duration_s": 186.795,
+        "energy_j": 7535.8569,
+        "energy_wh": 2.093294,
+        "ram_after_mb": 947.2,
+        "ram_before_mb": 817.2,
+        "ram_delta_mb": 130,
+        "ram_peak_mb": 2418.9,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 54.9,
+        "peak_ram_mb": 2418.9,
+        "total_energy_j": 8699.0702,
+        "total_energy_wh": 2.416409
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 793.7,
+        "ram_before_mb": 793.7,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 793.7,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 60.9,
+        "duration_s": 4.215,
+        "energy_j": 166.8549,
+        "energy_wh": 0.046349,
+        "ram_after_mb": 901.1,
+        "ram_before_mb": 793.7,
+        "ram_delta_mb": 107.4,
+        "ram_peak_mb": 1190.9,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 15.855,
+    "stage_diarization_s": 186.795,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 4.215
+  },
+  "unique_speakers_count": 2
+}
