@@ -1,0 +1,11 @@
+# File: ampme.wav
+# Timestamp: 2026-04-27T22:43:12
+# Audio Duration (s): 148.32
+# Real-Time Factor: 1.669
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.203,883.6,883.6,0,883.6,0,0,0
+VAD,5.166,883.6,1059.2,175.6,1295.1,59.9,201.0309,0.055842
+ASR (Whisper),43.426,1059.2,1198.7,139.5,1199.2,90.2,2545.6193,0.707116
+Diarization,198.512,1198.7,1049.9,-148.8,2594,58.7,7568.3231,2.102312
+Combine,0.217,1049.9,1049.9,0,1049.9,0,0,0
+TOTAL,247.525,,,,2594,41.8,10314.9733,2.86527

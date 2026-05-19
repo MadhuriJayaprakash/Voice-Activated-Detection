@@ -1,0 +1,474 @@
+{
+  "duration": 121.752,
+  "filename": "atgpi.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 99.6,
+      "duration_s": 68.845,
+      "energy_j": 4455.7005,
+      "energy_wh": 1.237695,
+      "ram_after_mb": 1317.5,
+      "ram_before_mb": 1405.8,
+      "ram_delta_mb": -88.2,
+      "ram_peak_mb": 1427.2,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 60.9,
+      "duration_s": 182.715,
+      "energy_j": 7236.1958,
+      "energy_wh": 2.010054,
+      "ram_after_mb": 1447.6,
+      "ram_before_mb": 1317.5,
+      "ram_delta_mb": 130.1,
+      "ram_peak_mb": 2852.3,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 59.4,
+      "peak_ram_mb": 2852.3,
+      "total_energy_j": 11895.3091,
+      "total_energy_wh": 3.304253
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 16.7,
+      "duration_s": 2.332,
+      "energy_j": 25.3606,
+      "energy_wh": 0.007045,
+      "ram_after_mb": 1871.5,
+      "ram_before_mb": 1812.1,
+      "ram_delta_mb": 59.3,
+      "ram_peak_mb": 1876.9,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 60.2,
+      "duration_s": 4.55,
+      "energy_j": 178.0522,
+      "energy_wh": 0.049459,
+      "ram_after_mb": 1405.8,
+      "ram_before_mb": 1871.5,
+      "ram_delta_mb": -465.7,
+      "ram_peak_mb": 1871.5,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 5,
+      "end": 5,
+      "end_time": "0:00:05",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "There's this. I have a little news that I'd like to give you as well and it has to do with this program.",
+      "word_count": 23
+    },
+    {
+      "duration": 8,
+      "end": 13,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_00",
+      "start": 5,
+      "start_time": "0:00:05",
+      "text": "I have been absolutely delighted for the last five years to be working with some of the most talented people in television news.",
+      "word_count": 23
+    },
+    {
+      "duration": 7,
+      "end": 20,
+      "end_time": "0:00:20",
+      "speaker": "SPEAKER_00",
+      "start": 13,
+      "start_time": "0:00:13",
+      "text": "Just really stellar, stellar producers, writers, researchers, reporters, just remarkable people here at CNN.",
+      "word_count": 14
+    },
+    {
+      "duration": 4,
+      "end": 24,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_00",
+      "start": 20,
+      "start_time": "0:00:20",
+      "text": "And so it is really tough to tell you that I'm going to be leaving.",
+      "word_count": 15
+    },
+    {
+      "duration": 1,
+      "end": 25,
+      "end_time": "0:00:25",
+      "speaker": "SPEAKER_00",
+      "start": 24,
+      "start_time": "0:00:24",
+      "text": ". Kind of. It's sort of weird you that I'm going to be leaving.",
+      "word_count": 14
+    },
+    {
+      "duration": 1,
+      "end": 26,
+      "end_time": "0:00:26",
+      "speaker": "SPEAKER_00",
+      "start": 25,
+      "start_time": "0:00:25",
+      "text": "Kind of.",
+      "word_count": 2
+    },
+    {
+      "duration": 4,
+      "end": 30,
+      "end_time": "0:00:30",
+      "speaker": "SPEAKER_00",
+      "start": 26,
+      "start_time": "0:00:26",
+      "text": "It's sort of weird, but I'm going to leave this time slot at 12 noon,",
+      "word_count": 15
+    },
+    {
+      "duration": 4,
+      "end": 34,
+      "end_time": "0:00:34",
+      "speaker": "SPEAKER_00",
+      "start": 30,
+      "start_time": "0:00:30",
+      "text": "and I'm going to make the jump and follow my friends over at H.L.N.",
+      "word_count": 14
+    },
+    {
+      "duration": 2,
+      "end": 36,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 34,
+      "start_time": "0:00:34",
+      "text": "We've already heard that Michaela Pereira has jumped over there,",
+      "word_count": 10
+    },
+    {
+      "duration": 2,
+      "end": 38,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_00",
+      "start": 36,
+      "start_time": "0:00:36",
+      "text": "Erica Hills over there, Robin Meade.",
+      "word_count": 6
+    },
+    {
+      "duration": 3,
+      "end": 41,
+      "end_time": "0:00:41",
+      "speaker": "SPEAKER_00",
+      "start": 38,
+      "start_time": "0:00:38",
+      "text": "So I'm going to jump over to prime time on H.L.",
+      "word_count": 11
+    },
+    {
+      "duration": 2,
+      "end": 43,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_00",
+      "start": 41,
+      "start_time": "0:00:41",
+      "text": ", 8 p.",
+      "word_count": 3
+    },
+    {
+      "duration": 2.04,
+      "end": 45.04,
+      "end_time": "0:00:45",
+      "speaker": "SPEAKER_00",
+      "start": 43,
+      "start_time": "0:00:43",
+      "text": ".. prime time on hle n eight p m in the fall super excited to do it we're going to",
+      "word_count": 20
+    },
+    {
+      "duration": 61.08,
+      "end": 106.12,
+      "end_time": "0:01:46",
+      "speaker": "SPEAKER_00",
+      "start": 45.04,
+      "start_time": "0:00:45",
+      "text": "bring you know a really unique brand of social and legal issues oriented programming to that eight p m spot lots more news and details about it will follow but I just wanted to let you know what a privilege it's been at 12 noon to be with you every day and if you will just indulge me for a moment you see me all the time but You you don't see Christina or Sonia or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lainey and Tandhu and Dave, this is my family and every single day, it is a delight to get up at 4.30 in the morning and be with them and I say that honestly. So thank you for being here at 12 noon every day. every day. Still going to be here for a few more weeks. From the 23rd it'll be our last program here, but I'll be seeing you over on HLLN at 8 p.m. Very exciting time for us all here at CNN and HLLN. And I will still be doing a lot of stuff on CNN as well.. I'll be bringing legal analysis and I'll be guest representing",
+      "word_count": 202
+    },
+    {
+      "duration": 5.04,
+      "end": 111.16,
+      "end_time": "0:01:51",
+      "speaker": "SPEAKER_00",
+      "start": 106.12,
+      "start_time": "0:01:46",
+      "text": "and talking about the stories of the day, the justice-oriented issues of the day over here",
+      "word_count": 16
+    },
+    {
+      "duration": 3.68,
+      "end": 114.84,
+      "end_time": "0:01:54",
+      "speaker": "SPEAKER_00",
+      "start": 111.16,
+      "start_time": "0:01:51",
+      "text": "on CNN's programming. So I'm not going very far and I'll still be working with all",
+      "word_count": 16
+    },
+    {
+      "duration": 5.44,
+      "end": 120.28,
+      "end_time": "0:02:00",
+      "speaker": "SPEAKER_00",
+      "start": 114.84,
+      "start_time": "0:01:54",
+      "text": "of these extraordinary people on a pretty regular basis. For now, that's it for today.",
+      "word_count": 15
+    },
+    {
+      "duration": 1.4,
+      "end": 121.68,
+      "end_time": "0:02:01",
+      "speaker": "SPEAKER_00",
+      "start": 120.28,
+      "start_time": "0:02:00",
+      "text": "I've said enough.",
+      "word_count": 3
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 0.51,
+      "end": 0.52,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 14.19,
+      "end": 15.19,
+      "start": 0.99,
+      "type": "speech"
+    },
+    {
+      "duration": 9.71,
+      "end": 25.32,
+      "start": 15.61,
+      "type": "speech"
+    },
+    {
+      "duration": 12.61,
+      "end": 38.45,
+      "start": 25.83,
+      "type": "speech"
+    },
+    {
+      "duration": 10.7,
+      "end": 49.58,
+      "start": 38.89,
+      "type": "speech"
+    },
+    {
+      "duration": 24.43,
+      "end": 74.51,
+      "start": 50.08,
+      "type": "speech"
+    },
+    {
+      "duration": 7.45,
+      "end": 82.4,
+      "start": 74.95,
+      "type": "speech"
+    },
+    {
+      "duration": 10.63,
+      "end": 93.83,
+      "start": 83.2,
+      "type": "speech"
+    },
+    {
+      "duration": 5.35,
+      "end": 99.52,
+      "start": 94.17,
+      "type": "speech"
+    },
+    {
+      "duration": 1.63,
+      "end": 101.62,
+      "start": 99.99,
+      "type": "speech"
+    },
+    {
+      "duration": 16.66,
+      "end": 118.87,
+      "start": 102.22,
+      "type": "speech"
+    },
+    {
+      "duration": 2.55,
+      "end": 121.74,
+      "start": 119.19,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 5,
+      "end": 5,
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "text": "There's this. I have a little news that I'd like to give you as well and it has to do with this program.",
+      "type": "speech"
+    },
+    {
+      "duration": 8,
+      "end": 13,
+      "speaker": "SPEAKER_00",
+      "start": 5,
+      "text": "I have been absolutely delighted for the last five years to be working with some of the most talented people in television news.",
+      "type": "speech"
+    },
+    {
+      "duration": 7,
+      "end": 20,
+      "speaker": "SPEAKER_00",
+      "start": 13,
+      "text": "Just really stellar, stellar producers, writers, researchers, reporters, just remarkable people here at CNN.",
+      "type": "speech"
+    },
+    {
+      "duration": 4,
+      "end": 24,
+      "speaker": "SPEAKER_00",
+      "start": 20,
+      "text": "And so it is really tough to tell you that I'm going to be leaving.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 25,
+      "speaker": "SPEAKER_00",
+      "start": 24,
+      "text": ". Kind of. It's sort of weird you that I'm going to be leaving.",
+      "type": "speech"
+    },
+    {
+      "duration": 1,
+      "end": 26,
+      "speaker": "SPEAKER_00",
+      "start": 25,
+      "text": "Kind of.",
+      "type": "speech"
+    },
+    {
+      "duration": 4,
+      "end": 30,
+      "speaker": "SPEAKER_00",
+      "start": 26,
+      "text": "It's sort of weird, but I'm going to leave this time slot at 12 noon,",
+      "type": "speech"
+    },
+    {
+      "duration": 4,
+      "end": 34,
+      "speaker": "SPEAKER_00",
+      "start": 30,
+      "text": "and I'm going to make the jump and follow my friends over at H.L.N.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 36,
+      "speaker": "SPEAKER_00",
+      "start": 34,
+      "text": "We've already heard that Michaela Pereira has jumped over there,",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 38,
+      "speaker": "SPEAKER_00",
+      "start": 36,
+      "text": "Erica Hills over there, Robin Meade.",
+      "type": "speech"
+    },
+    {
+      "duration": 3,
+      "end": 41,
+      "speaker": "SPEAKER_00",
+      "start": 38,
+      "text": "So I'm going to jump over to prime time on H.L.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 43,
+      "speaker": "SPEAKER_00",
+      "start": 41,
+      "text": ", 8 p.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.04,
+      "end": 45.04,
+      "speaker": "SPEAKER_00",
+      "start": 43,
+      "text": ".. prime time on hle n eight p m in the fall super excited to do it we're going to",
+      "type": "speech"
+    },
+    {
+      "duration": 61.08,
+      "end": 106.12,
+      "speaker": "SPEAKER_00",
+      "start": 45.04,
+      "text": "bring you know a really unique brand of social and legal issues oriented programming to that eight p m spot lots more news and details about it will follow but I just wanted to let you know what a privilege it's been at 12 noon to be with you every day and if you will just indulge me for a moment you see me all the time but You you don't see Christina or Sonia or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lainey and Tandhu and Dave, this is my family and every single day, it is a delight to get up at 4.30 in the morning and be with them and I say that honestly. So thank you for being here at 12 noon every day. every day. Still going to be here for a few more weeks. From the 23rd it'll be our last program here, but I'll be seeing you over on HLLN at 8 p.m. Very exciting time for us all here at CNN and HLLN. And I will still be doing a lot of stuff on CNN as well.. I'll be bringing legal analysis and I'll be guest representing",
+      "type": "speech"
+    },
+    {
+      "duration": 5.04,
+      "end": 111.16,
+      "speaker": "SPEAKER_00",
+      "start": 106.12,
+      "text": "and talking about the stories of the day, the justice-oriented issues of the day over here",
+      "type": "speech"
+    },
+    {
+      "duration": 3.68,
+      "end": 114.84,
+      "speaker": "SPEAKER_00",
+      "start": 111.16,
+      "text": "on CNN's programming. So I'm not going very far and I'll still be working with all",
+      "type": "speech"
+    },
+    {
+      "duration": 5.44,
+      "end": 120.28,
+      "speaker": "SPEAKER_00",
+      "start": 114.84,
+      "text": "of these extraordinary people on a pretty regular basis. For now, that's it for today.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.4,
+      "end": 121.68,
+      "speaker": "SPEAKER_00",
+      "start": 120.28,
+      "text": "I've said enough.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 121.752,
+    "model_load_diarization_s": 1.18,
+    "model_load_distil_whisper_s": 2.662,
+    "model_load_total_s": 4.184,
+    "model_load_vad_s": 0.339,
+    "pipeline_total_s": 258.445,
+    "real_time_factor": 2.123,
+    "stage_asr_s": 68.845,
+    "stage_diarization_s": 182.715,
+    "stage_preprocessing_s": 2.332,
+    "stage_vad_s": 4.55
+  },
+  "unique_speakers_count": 1
+}

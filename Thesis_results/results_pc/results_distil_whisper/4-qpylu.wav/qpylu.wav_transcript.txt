@@ -1,0 +1,23 @@
+Distil-Whisper Transcript
+File: qpylu.wav
+Model: distil-whisper/distil-small.en
+Duration: 44.5126875s
+Speakers: 1
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:07] SPEAKER_01
+Thirdly, acts are despicable and have no place in American society.
+
+[0:00:07 → 0:00:12] SPEAKER_01
+I want to assure you we've deployed the full resources of the FBI, the United States
+
+[0:00:12 → 0:00:16] SPEAKER_01
+Secret Service, and they're working very closely with law enforcement officials.
+
+[0:00:16 → 0:00:25] SPEAKER_01
+We'll continue to monitor these investigations, and those responsible will be brought to justice.
+
+[0:00:25 → 0:00:27] Unknown
+Thank you.
+

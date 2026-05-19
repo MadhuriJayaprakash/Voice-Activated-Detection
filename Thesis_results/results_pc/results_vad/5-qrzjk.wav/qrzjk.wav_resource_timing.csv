@@ -1,0 +1,11 @@
+# File: qrzjk.wav
+# Timestamp: 2026-04-28T00:02:55
+# Audio Duration (s): 39.576
+# Real-Time Factor: 1.539
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.204,754.5,754.6,0.1,754.5,0,0,0
+VAD,1.445,754.6,885.7,131.1,1067.9,50.3,47.2103,0.013114
+ASR (Whisper),11.861,885.7,1032.8,147.1,1032.7,91.6,705.9177,0.196088
+Diarization,47.175,1032.8,1048.1,15.4,2446.9,80.1,2456.851,0.682459
+Combine,0.217,1048.1,1048.1,0,1048.1,0,0,0
+TOTAL,60.905,,,,2446.9,44.4,3209.979,0.891661

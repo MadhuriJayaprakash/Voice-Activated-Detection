@@ -1,0 +1,11 @@
+# File: atgpi.wav
+# Timestamp: 2026-04-27T23:17:11
+# Audio Duration (s): 121.752
+# Real-Time Factor: 1.647
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+Preprocessing,0.204,884.4,884.4,0,884.4,0,0,0
+VAD,4.36,884.4,1007.7,123.3,1295.9,63.4,179.6608,0.049906
+ASR (Whisper),34.037,1007.7,1165.2,157.6,1165.2,90.8,2009.5181,0.558199
+Diarization,161.674,1165.2,1071.4,-93.8,2594.2,58.2,6119.2495,1.699792
+Combine,0.203,1071.4,1071.4,0,1071.4,0,0,0
+TOTAL,200.48,,,,2594.2,42.5,8308.4284,2.307897

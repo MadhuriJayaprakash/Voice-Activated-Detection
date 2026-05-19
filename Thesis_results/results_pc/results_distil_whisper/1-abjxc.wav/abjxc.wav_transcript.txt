@@ -1,0 +1,29 @@
+Distil-Whisper Transcript
+File: abjxc.wav
+Model: distil-whisper/distil-small.en
+Duration: 68.376s
+Speakers: 1
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:48] SPEAKER_00
+CNN has decided not to run a Donald Trump-endorsed campaign ad after the network decided it does not meet their standards. The 32nd advertisement paid for by Trump's campaign targeted Joe Biden's conduct toward Ukraine while he served as vice president, while also referring to CNN personalities Don Lemon, Chris Cuomo, and Jim Acosta as media lapdogs. A CNN spokesperson spoke to THR, saying the ad not meet the network's advertising standards, adding, in addition to disparaging CNN and its journalists, the ad makes assertions that have been proven demonstrably false by various news outlets, including CNN. However, despite CNN's rejection, the president posted the advertisement onto his Twitter page last week, along with the caption, I am draining the swamp. Now this is not the first time CNN has rejected a Trump campaign ad.
+
+[0:00:48 → 0:00:52] SPEAKER_00
+Back in 2017, the network refused to run a Trump-approved ad called,
+
+[0:00:52 → 0:00:54] SPEAKER_00
+Let President Trump do his job,
+
+[0:00:54 → 0:00:57] SPEAKER_00
+which criticized the media and specifically called out Lemon,
+
+[0:00:57 → 0:00:59] SPEAKER_00
+as well as Anderson Cooper.
+
+[0:00:59 → 0:01:01] SPEAKER_00
+To stay up to date on this story, hit to THR.com,
+
+[0:01:01 → 0:01:04] SPEAKER_00
+for the Hollywood reporter news, I may enjoy.
+
