@@ -1,0 +1,407 @@
+{
+  "duration": 68.376,
+  "filename": "abjxc.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 86.8,
+      "duration_s": 50.225,
+      "energy_j": 2834.6191,
+      "energy_wh": 0.787394,
+      "ram_after_mb": 1039.2,
+      "ram_before_mb": 1015.8,
+      "ram_delta_mb": 23.4,
+      "ram_peak_mb": 1142.2,
+      "stage": "ASR (Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 92.1,
+      "duration_s": 411.919,
+      "energy_j": 24646.609,
+      "energy_wh": 6.84628,
+      "ram_after_mb": 1307.9,
+      "ram_before_mb": 1039.2,
+      "ram_delta_mb": 268.7,
+      "ram_peak_mb": 6063.3,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 65.2,
+      "peak_ram_mb": 6063.3,
+      "total_energy_j": 28017.3801,
+      "total_energy_wh": 7.782605
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 933.8,
+      "ram_before_mb": 909.6,
+      "ram_delta_mb": 24.2,
+      "ram_peak_mb": 909.6,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 81.8,
+      "duration_s": 10.078,
+      "energy_j": 536.152,
+      "energy_wh": 0.148931,
+      "ram_after_mb": 1015.8,
+      "ram_before_mb": 933.8,
+      "ram_delta_mb": 82,
+      "ram_peak_mb": 2023.8,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 5.52,
+      "end": 5.52,
+      "end_time": "0:00:05",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "CNN has decided not to run a Donald Trump endorsed campaign ad after the network decided it",
+      "word_count": 17
+    },
+    {
+      "duration": 1.32,
+      "end": 6.84,
+      "end_time": "0:00:06",
+      "speaker": "SPEAKER_00",
+      "start": 5.52,
+      "start_time": "0:00:05",
+      "text": "does not meet their standards.",
+      "word_count": 5
+    },
+    {
+      "duration": 4.96,
+      "end": 13.72,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_00",
+      "start": 8.76,
+      "start_time": "0:00:08",
+      "text": "The 32nd Advertisement paid for by Trump's campaign targeted Joe Biden's conduct toward",
+      "word_count": 13
+    },
+    {
+      "duration": 5.26,
+      "end": 18.98,
+      "end_time": "0:00:18",
+      "speaker": "SPEAKER_00",
+      "start": 13.72,
+      "start_time": "0:00:13",
+      "text": "Ukraine while he served as Vice President, while also referring to CNN personalities, Don Lemon,",
+      "word_count": 15
+    },
+    {
+      "duration": 2.82,
+      "end": 22.2,
+      "end_time": "0:00:22",
+      "speaker": "SPEAKER_00",
+      "start": 19.38,
+      "start_time": "0:00:19",
+      "text": "Chris Cuomo, and Jim Acosta as media laptops.",
+      "word_count": 8
+    },
+    {
+      "duration": 4.46,
+      "end": 27.42,
+      "end_time": "0:00:27",
+      "speaker": "SPEAKER_00",
+      "start": 22.96,
+      "start_time": "0:00:22",
+      "text": "A CNN spokesperson spoke to THR saying the ad does not meet the network's advertising",
+      "word_count": 15
+    },
+    {
+      "duration": 5.28,
+      "end": 32.7,
+      "end_time": "0:00:32",
+      "speaker": "SPEAKER_00",
+      "start": 27.42,
+      "start_time": "0:00:27",
+      "text": "standards adding, in addition to disparaging CNN and its journalists, the ad makes assertions",
+      "word_count": 14
+    },
+    {
+      "duration": 4.18,
+      "end": 36.88,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 32.7,
+      "start_time": "0:00:32",
+      "text": "that have been proven demonstrably false by various news outlets, including CNN.",
+      "word_count": 12
+    },
+    {
+      "duration": 3.98,
+      "end": 41.24,
+      "end_time": "0:00:41",
+      "speaker": "SPEAKER_00",
+      "start": 37.26,
+      "start_time": "0:00:37",
+      "text": "However, despite CNN's rejection, the president posted the advertisement onto his Twitter",
+      "word_count": 12
+    },
+    {
+      "duration": 3.26,
+      "end": 44.5,
+      "end_time": "0:00:44",
+      "speaker": "SPEAKER_00",
+      "start": 41.24,
+      "start_time": "0:00:41",
+      "text": "page last week, along with the caption, I'm draining this while.",
+      "word_count": 11
+    },
+    {
+      "duration": 3.68,
+      "end": 48.54,
+      "end_time": "0:00:48",
+      "speaker": "SPEAKER_00",
+      "start": 44.86,
+      "start_time": "0:00:44",
+      "text": "Now, this is not the first time CNN has rejected a Trump campaign ad.",
+      "word_count": 14
+    },
+    {
+      "duration": 4.74,
+      "end": 53.5,
+      "end_time": "0:00:53",
+      "speaker": "SPEAKER_00",
+      "start": 48.76,
+      "start_time": "0:00:48",
+      "text": "Back in 2017, the network refused to run a Trump approved ad called, let President Trump",
+      "word_count": 16
+    },
+    {
+      "duration": 5.1,
+      "end": 58.6,
+      "end_time": "0:00:58",
+      "speaker": "SPEAKER_00",
+      "start": 53.5,
+      "start_time": "0:00:53",
+      "text": "his job, which criticized the media and specifically called out Lemon as well as Anderson Cooper.",
+      "word_count": 16
+    },
+    {
+      "duration": 4.18,
+      "end": 63.38,
+      "end_time": "0:01:03",
+      "speaker": "SPEAKER_00",
+      "start": 59.2,
+      "start_time": "0:00:59",
+      "text": "Stay up to date on the story, hit the THR.com, and until next time, the Hollywood Reporter",
+      "word_count": 17
+    },
+    {
+      "duration": 0.9,
+      "end": 64.28,
+      "end_time": "0:01:04",
+      "speaker": "SPEAKER_00",
+      "start": 63.38,
+      "start_time": "0:01:03",
+      "text": "News, I'm Hedgehog.",
+      "word_count": 3
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 7.08,
+      "end": 7.09,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 56.2,
+      "end": 64.86,
+      "start": 8.67,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 5.52,
+      "end": 5.52,
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "text": "CNN has decided not to run a Donald Trump endorsed campaign ad after the network decided it",
+      "type": "speech"
+    },
+    {
+      "duration": 1.32,
+      "end": 6.84,
+      "speaker": "SPEAKER_00",
+      "start": 5.52,
+      "text": "does not meet their standards.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.96,
+      "end": 13.72,
+      "speaker": "SPEAKER_00",
+      "start": 8.76,
+      "text": "The 32nd Advertisement paid for by Trump's campaign targeted Joe Biden's conduct toward",
+      "type": "speech"
+    },
+    {
+      "duration": 5.26,
+      "end": 18.98,
+      "speaker": "SPEAKER_00",
+      "start": 13.72,
+      "text": "Ukraine while he served as Vice President, while also referring to CNN personalities, Don Lemon,",
+      "type": "speech"
+    },
+    {
+      "duration": 2.82,
+      "end": 22.2,
+      "speaker": "SPEAKER_00",
+      "start": 19.38,
+      "text": "Chris Cuomo, and Jim Acosta as media laptops.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.46,
+      "end": 27.42,
+      "speaker": "SPEAKER_00",
+      "start": 22.96,
+      "text": "A CNN spokesperson spoke to THR saying the ad does not meet the network's advertising",
+      "type": "speech"
+    },
+    {
+      "duration": 5.28,
+      "end": 32.7,
+      "speaker": "SPEAKER_00",
+      "start": 27.42,
+      "text": "standards adding, in addition to disparaging CNN and its journalists, the ad makes assertions",
+      "type": "speech"
+    },
+    {
+      "duration": 4.18,
+      "end": 36.88,
+      "speaker": "SPEAKER_00",
+      "start": 32.7,
+      "text": "that have been proven demonstrably false by various news outlets, including CNN.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.98,
+      "end": 41.24,
+      "speaker": "SPEAKER_00",
+      "start": 37.26,
+      "text": "However, despite CNN's rejection, the president posted the advertisement onto his Twitter",
+      "type": "speech"
+    },
+    {
+      "duration": 3.26,
+      "end": 44.5,
+      "speaker": "SPEAKER_00",
+      "start": 41.24,
+      "text": "page last week, along with the caption, I'm draining this while.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.68,
+      "end": 48.54,
+      "speaker": "SPEAKER_00",
+      "start": 44.86,
+      "text": "Now, this is not the first time CNN has rejected a Trump campaign ad.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.74,
+      "end": 53.5,
+      "speaker": "SPEAKER_00",
+      "start": 48.76,
+      "text": "Back in 2017, the network refused to run a Trump approved ad called, let President Trump",
+      "type": "speech"
+    },
+    {
+      "duration": 5.1,
+      "end": 58.6,
+      "speaker": "SPEAKER_00",
+      "start": 53.5,
+      "text": "his job, which criticized the media and specifically called out Lemon as well as Anderson Cooper.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.18,
+      "end": 63.38,
+      "speaker": "SPEAKER_00",
+      "start": 59.2,
+      "text": "Stay up to date on the story, hit the THR.com, and until next time, the Hollywood Reporter",
+      "type": "speech"
+    },
+    {
+      "duration": 0.9,
+      "end": 64.28,
+      "speaker": "SPEAKER_00",
+      "start": 63.38,
+      "text": "News, I'm Hedgehog.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 68.376,
+    "pipeline_total_s": 472.427,
+    "real_time_factor": 6.909,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 86.8,
+        "duration_s": 50.225,
+        "energy_j": 2834.6191,
+        "energy_wh": 0.787394,
+        "ram_after_mb": 1039.2,
+        "ram_before_mb": 1015.8,
+        "ram_delta_mb": 23.4,
+        "ram_peak_mb": 1142.2,
+        "stage": "ASR (Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 92.1,
+        "duration_s": 411.919,
+        "energy_j": 24646.609,
+        "energy_wh": 6.84628,
+        "ram_after_mb": 1307.9,
+        "ram_before_mb": 1039.2,
+        "ram_delta_mb": 268.7,
+        "ram_peak_mb": 6063.3,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 65.2,
+        "peak_ram_mb": 6063.3,
+        "total_energy_j": 28017.3801,
+        "total_energy_wh": 7.782605
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 933.8,
+        "ram_before_mb": 909.6,
+        "ram_delta_mb": 24.2,
+        "ram_peak_mb": 909.6,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 81.8,
+        "duration_s": 10.078,
+        "energy_j": 536.152,
+        "energy_wh": 0.148931,
+        "ram_after_mb": 1015.8,
+        "ram_before_mb": 933.8,
+        "ram_delta_mb": 82,
+        "ram_peak_mb": 2023.8,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 50.225,
+    "stage_diarization_s": 411.919,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 10.078
+  },
+  "unique_speakers_count": 1
+}

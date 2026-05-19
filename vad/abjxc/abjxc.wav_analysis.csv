@@ -1,0 +1,38 @@
+=== SUMMARY ===
+Filename,Duration (s),Speech (s),Silence (s),Speakers,Segments
+abjxc.wav,68.4,63.3,5.1,1,15
+
+=== PIPELINE TIMING ===
+Stage,Time (s)
+Preprocessing,0.201
+VAD,10.078
+ASR (Whisper),50.225
+Diarization,411.919
+Total,472.427
+Real-Time Factor,6.909
+
+=== RESOURCE USAGE ===
+Stage,Time (s),Peak RAM (MB),CPU Avg (%),Energy (J)
+Preprocessing,0.201,909.6,0,0
+VAD,10.078,2023.8,81.8,536.152
+ASR (Whisper),50.225,1142.2,86.8,2834.6191
+Diarization,411.919,6063.3,92.1,24646.609
+TOTAL,472.427,6063.3,65.2,28017.3801
+
+=== TRANSCRIPT ===
+#,Speaker,Start (s),End (s),Duration (s),Word Count,Text
+1,SPEAKER_00,0,5.52,5.52,17,CNN has decided not to run a Donald Trump endorsed campaign ad after the network decided it
+2,SPEAKER_00,5.52,6.84,1.32,5,does not meet their standards.
+3,SPEAKER_00,8.76,13.72,4.96,13,The 32nd Advertisement paid for by Trump's campaign targeted Joe Biden's conduct toward
+4,SPEAKER_00,13.72,18.98,5.26,15,"Ukraine while he served as Vice President, while also referring to CNN personalities, Don Lemon,"
+5,SPEAKER_00,19.38,22.2,2.82,8,"Chris Cuomo, and Jim Acosta as media laptops."
+6,SPEAKER_00,22.96,27.42,4.46,15,A CNN spokesperson spoke to THR saying the ad does not meet the network's advertising
+7,SPEAKER_00,27.42,32.7,5.28,14,"standards adding, in addition to disparaging CNN and its journalists, the ad makes assertions"
+8,SPEAKER_00,32.7,36.88,4.18,12,"that have been proven demonstrably false by various news outlets, including CNN."
+9,SPEAKER_00,37.26,41.24,3.98,12,"However, despite CNN's rejection, the president posted the advertisement onto his Twitter"
+10,SPEAKER_00,41.24,44.5,3.26,11,"page last week, along with the caption, I'm draining this while."
+11,SPEAKER_00,44.86,48.54,3.68,14,"Now, this is not the first time CNN has rejected a Trump campaign ad."
+12,SPEAKER_00,48.76,53.5,4.74,16,"Back in 2017, the network refused to run a Trump approved ad called, let President Trump"
+13,SPEAKER_00,53.5,58.6,5.1,16,"his job, which criticized the media and specifically called out Lemon as well as Anderson Cooper."
+14,SPEAKER_00,59.2,63.38,4.18,17,"Stay up to date on the story, hit the THR.com, and until next time, the Hollywood Reporter"
+15,SPEAKER_00,63.38,64.28,0.9,3,"News, I'm Hedgehog."

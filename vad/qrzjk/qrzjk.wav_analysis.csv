@@ -1,0 +1,34 @@
+=== SUMMARY ===
+Filename,Duration (s),Speech (s),Silence (s),Speakers,Segments
+qrzjk.wav,39.6,39.0,0.6,1,11
+
+=== PIPELINE TIMING ===
+Stage,Time (s)
+Preprocessing,1.467
+VAD,4.639
+ASR (Whisper),37.85
+Diarization,216.244
+Total,260.203
+Real-Time Factor,6.575
+
+=== RESOURCE USAGE ===
+Stage,Time (s),Peak RAM (MB),CPU Avg (%),Energy (J)
+Preprocessing,1.467,786.1,36.6,34.8783
+VAD,4.639,1746.4,76.4,230.3581
+ASR (Whisper),37.85,1038.7,79.9,1966.6224
+Diarization,216.244,5887.1,91.1,12805.9078
+TOTAL,260.203,5887.1,71,15037.7666
+
+=== TRANSCRIPT ===
+#,Speaker,Start (s),End (s),Duration (s),Word Count,Text
+1,SPEAKER_00,0,4.88,4.88,16,And President Trump loves to talk about his TV ratings if not his current approval ratings.
+2,SPEAKER_00,5.22,9.78,4.56,18,So he must be pleased to know that 33 million people watched the prime time roll out of
+3,SPEAKER_00,9.78,11.38,1.6,6,his Supreme Court pick Neil Gorsuch.
+4,SPEAKER_00,11.86,13.44,1.58,8,But what do Americans think of the choice?
+5,SPEAKER_00,13.76,19.22,5.46,18,"Well, a brand new CNN poll shows that a plurality, 39%, or left with a positive first impression"
+6,SPEAKER_00,19.22,24.26,5.04,13,"that compares with 45% for President Obama's never confirmed pick, Judge Merrick Garland"
+7,SPEAKER_00,24.26,27.76,3.5,8,and 54% for now chief justice John Roberts.
+8,SPEAKER_00,28,29.72,1.72,9,"But when it comes to confirming the new nominee,"
+9,SPEAKER_00,30.26,32.56,2.3,7,"opinions are sharply divided along party lines,"
+10,SPEAKER_00,32.82,35.26,2.44,9,just 22% of Democrats think the Senate should vote
+11,SPEAKER_00,35.26,38.86,3.6,10,to confirm him while an overwhelming 84% of Republicans do.

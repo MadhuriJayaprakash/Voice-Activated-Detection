@@ -1,0 +1,31 @@
+=== SUMMARY ===
+Filename,Duration (s),Speech (s),Silence (s),Speakers,Segments
+qpylu.wav,44.5,31.0,13.5,2,8
+
+=== PIPELINE TIMING ===
+Stage,Time (s)
+Preprocessing,0.201
+VAD,5.042
+ASR (Whisper),29.823
+Diarization,212.166
+Total,247.236
+Real-Time Factor,5.554
+
+=== RESOURCE USAGE ===
+Stage,Time (s),Peak RAM (MB),CPU Avg (%),Energy (J)
+Preprocessing,0.201,964.8,0,0
+VAD,5.042,2043.7,79.6,260.8136
+ASR (Whisper),29.823,1068,88.4,1713.1204
+Diarization,212.166,5871.7,93.6,12903.1711
+TOTAL,247.236,5871.7,65.4,14877.1051
+
+=== TRANSCRIPT ===
+#,Speaker,Start (s),End (s),Duration (s),Word Count,Text
+1,SPEAKER_01,0,6.54,6.54,11,fully acts are despicable and have no place in American society.
+2,SPEAKER_01,7.58,13.2,5.62,18,"I want to assure you we've deployed the full resources of the FBI, the United States Secret Service,"
+3,SPEAKER_01,13.32,16,2.68,9,and they're working very closely with law enforcement officials.
+4,SPEAKER_01,16.9,18.78,1.88,6,"We'll continue to monitor these investigations,"
+5,SPEAKER_01,20.66,24.32,3.66,8,and those responsible will be brought to justice.
+6,SPEAKER_02,33.32,36.44,3.12,6,Thanks for watching MSNBC on YouTube.
+7,SPEAKER_02,36.62,40.48,3.86,18,"If you want to keep up to date with the videos you can click subscribe, just below me."
+8,SPEAKER_02,40.74,43.42,2.68,13,Or click over on this list to see lots of other great videos.
