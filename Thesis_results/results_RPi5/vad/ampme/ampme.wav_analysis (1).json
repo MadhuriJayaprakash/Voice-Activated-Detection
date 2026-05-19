@@ -1,0 +1,1229 @@
+{
+  "duration": 148.32,
+  "filename": "ampme.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 87,
+      "duration_s": 234.113,
+      "energy_j": 13233.4678,
+      "energy_wh": 3.675963,
+      "ram_after_mb": 1160.8,
+      "ram_before_mb": 1118.5,
+      "ram_delta_mb": 42.3,
+      "ram_peak_mb": 1343.1,
+      "stage": "ASR (Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 92,
+      "duration_s": 960.173,
+      "energy_j": 57407.08,
+      "energy_wh": 15.946411,
+      "ram_after_mb": 1185.4,
+      "ram_before_mb": 1160.8,
+      "ram_delta_mb": 24.6,
+      "ram_peak_mb": 6127.1,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 68.8,
+      "peak_ram_mb": 6127.1,
+      "total_energy_j": 71722.8305,
+      "total_energy_wh": 19.923008
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 13.6,
+      "duration_s": 0.402,
+      "energy_j": 3.5568,
+      "energy_wh": 0.000988,
+      "ram_after_mb": 1073.8,
+      "ram_before_mb": 1055.8,
+      "ram_delta_mb": 18,
+      "ram_peak_mb": 1073.8,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 82.4,
+      "duration_s": 20.147,
+      "energy_j": 1078.7259,
+      "energy_wh": 0.299646,
+      "ram_after_mb": 1118.5,
+      "ram_before_mb": 1073.8,
+      "ram_delta_mb": 44.7,
+      "ram_peak_mb": 2178.8,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 4.18,
+      "end": 4.18,
+      "end_time": "0:00:04",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "Katrina Pearson has been all over TV saying outrageous things.",
+      "word_count": 10
+    },
+    {
+      "duration": 4.92,
+      "end": 9.48,
+      "end_time": "0:00:09",
+      "speaker": "SPEAKER_00",
+      "start": 4.56,
+      "start_time": "0:00:04",
+      "text": "Now to be fair to her, she's out there as a surrogate for Donald Trump.",
+      "word_count": 15
+    },
+    {
+      "duration": 1.08,
+      "end": 11.1,
+      "end_time": "0:00:11",
+      "speaker": "SPEAKER_00",
+      "start": 10.02,
+      "start_time": "0:00:10",
+      "text": "It's a thankless job.",
+      "word_count": 4
+    },
+    {
+      "duration": 4.2,
+      "end": 16.1,
+      "end_time": "0:00:16",
+      "speaker": "SPEAKER_00",
+      "start": 11.9,
+      "start_time": "0:00:11",
+      "text": "The guy is a giant flip flopper, says one crazy thing after another.",
+      "word_count": 13
+    },
+    {
+      "duration": 2.98,
+      "end": 19.62,
+      "end_time": "0:00:19",
+      "speaker": "SPEAKER_00",
+      "start": 16.64,
+      "start_time": "0:00:16",
+      "text": "So now he flipped flopped on his central issue, immigration.",
+      "word_count": 10
+    },
+    {
+      "duration": 2.36,
+      "end": 22.46,
+      "end_time": "0:00:22",
+      "speaker": "SPEAKER_00",
+      "start": 20.1,
+      "start_time": "0:00:20",
+      "text": "Before they got to go, we're going to kick them out, we're going to build a wall.",
+      "word_count": 17
+    },
+    {
+      "duration": 2.18,
+      "end": 24.74,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_00",
+      "start": 22.56,
+      "start_time": "0:00:22",
+      "text": "Now he says they can stay if they pay a little bit of taxes,",
+      "word_count": 14
+    },
+    {
+      "duration": 4.14,
+      "end": 29.16,
+      "end_time": "0:00:29",
+      "speaker": "SPEAKER_00",
+      "start": 25.02,
+      "start_time": "0:00:25",
+      "text": "which by the way is no different than any of his Republican opponents in the primary.",
+      "word_count": 16
+    },
+    {
+      "duration": 3.1,
+      "end": 32.26,
+      "end_time": "0:00:32",
+      "speaker": "SPEAKER_00",
+      "start": 29.16,
+      "start_time": "0:00:29",
+      "text": "And he lit into them during the privacy.",
+      "word_count": 8
+    },
+    {
+      "duration": 1.36,
+      "end": 33.62,
+      "end_time": "0:00:33",
+      "speaker": "SPEAKER_00",
+      "start": 32.26,
+      "start_time": "0:00:32",
+      "text": "Oh yeah, just pay a little bit of tax.",
+      "word_count": 9
+    },
+    {
+      "duration": 1.24,
+      "end": 35.04,
+      "end_time": "0:00:35",
+      "speaker": "SPEAKER_00",
+      "start": 33.8,
+      "start_time": "0:00:33",
+      "text": "Oh yeah, that's amnesty.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.04,
+      "end": 36.4,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 35.36,
+      "start_time": "0:00:35",
+      "text": "Now he's like, no, I'm well, no.",
+      "word_count": 7
+    },
+    {
+      "duration": 3.06,
+      "end": 39.74,
+      "end_time": "0:00:39",
+      "speaker": "SPEAKER_00",
+      "start": 36.68,
+      "start_time": "0:00:36",
+      "text": "It's not amnesty as such, as such, right?",
+      "word_count": 8
+    },
+    {
+      "duration": 2.12,
+      "end": 42.28,
+      "end_time": "0:00:42",
+      "speaker": "SPEAKER_00",
+      "start": 40.16,
+      "start_time": "0:00:40",
+      "text": "So what the hell is Katrina Pearson going to say about it?",
+      "word_count": 12
+    },
+    {
+      "duration": 1.16,
+      "end": 43.6,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_00",
+      "start": 42.44,
+      "start_time": "0:00:42",
+      "text": "Well, this is funny.",
+      "word_count": 4
+    },
+    {
+      "duration": 1.88,
+      "end": 47.18,
+      "end_time": "0:00:47",
+      "speaker": "SPEAKER_01",
+      "start": 45.3,
+      "start_time": "0:00:45",
+      "text": "He hasn't changed his position on immigration.",
+      "word_count": 7
+    },
+    {
+      "duration": 2.04,
+      "end": 49.4,
+      "end_time": "0:00:49",
+      "speaker": "SPEAKER_01",
+      "start": 47.36,
+      "start_time": "0:00:47",
+      "text": "He's changed the words that he is saying.",
+      "word_count": 8
+    },
+    {
+      "duration": 1.58,
+      "end": 51.36,
+      "end_time": "0:00:51",
+      "speaker": "SPEAKER_01",
+      "start": 49.78,
+      "start_time": "0:00:49",
+      "text": "What he has always said from the beginning,",
+      "word_count": 8
+    },
+    {
+      "duration": 0.52,
+      "end": 51.88,
+      "end_time": "0:00:51",
+      "speaker": "SPEAKER_01",
+      "start": 51.36,
+      "start_time": "0:00:51",
+      "text": "he has changed.",
+      "word_count": 3
+    },
+    {
+      "duration": 0.82,
+      "end": 52.76,
+      "end_time": "0:00:52",
+      "speaker": "SPEAKER_01",
+      "start": 51.94,
+      "start_time": "0:00:51",
+      "text": "Is that he does not?",
+      "word_count": 5
+    },
+    {
+      "duration": 2.08,
+      "end": 55.28,
+      "end_time": "0:00:55",
+      "speaker": "SPEAKER_01",
+      "start": 53.2,
+      "start_time": "0:00:53",
+      "text": "That he, no, there's not a different message.",
+      "word_count": 8
+    },
+    {
+      "duration": 2.28,
+      "end": 57.56,
+      "end_time": "0:00:57",
+      "speaker": "SPEAKER_01",
+      "start": 55.28,
+      "start_time": "0:00:55",
+      "text": "He's using different words to give that message.",
+      "word_count": 8
+    },
+    {
+      "duration": 3.18,
+      "end": 60.74,
+      "end_time": "0:01:00",
+      "speaker": "SPEAKER_01",
+      "start": 57.56,
+      "start_time": "0:00:57",
+      "text": "because everyone on the news is saying that he's a bigot.",
+      "word_count": 11
+    },
+    {
+      "duration": 1.12,
+      "end": 64.32,
+      "end_time": "0:01:04",
+      "speaker": "SPEAKER_00",
+      "start": 63.2,
+      "start_time": "0:01:03",
+      "text": "That was funny.",
+      "word_count": 3
+    },
+    {
+      "duration": 2,
+      "end": 67.2,
+      "end_time": "0:01:07",
+      "speaker": "SPEAKER_00",
+      "start": 65.2,
+      "start_time": "0:01:05",
+      "text": "No, no, it's not a different message.",
+      "word_count": 7
+    },
+    {
+      "duration": 0.92,
+      "end": 68.42,
+      "end_time": "0:01:08",
+      "speaker": "SPEAKER_00",
+      "start": 67.5,
+      "start_time": "0:01:07",
+      "text": "It's different words.",
+      "word_count": 3
+    },
+    {
+      "duration": 2.6,
+      "end": 71.88,
+      "end_time": "0:01:11",
+      "speaker": "SPEAKER_00",
+      "start": 69.28,
+      "start_time": "0:01:09",
+      "text": "Now, those different words say the exact opposite",
+      "word_count": 8
+    },
+    {
+      "duration": 5.82,
+      "end": 77.7,
+      "end_time": "0:01:17",
+      "speaker": "SPEAKER_00",
+      "start": 71.88,
+      "start_time": "0:01:11",
+      "text": "of the earlier words, but still not a different message.",
+      "word_count": 10
+    },
+    {
+      "duration": 0.94,
+      "end": 80.04,
+      "end_time": "0:01:20",
+      "speaker": "SPEAKER_00",
+      "start": 79.1,
+      "start_time": "0:01:19",
+      "text": "Different words.",
+      "word_count": 2
+    },
+    {
+      "duration": 2.86,
+      "end": 83.6,
+      "end_time": "0:01:23",
+      "speaker": "SPEAKER_00",
+      "start": 80.74,
+      "start_time": "0:01:20",
+      "text": "Hey, if you're a Trump supporter, come on.",
+      "word_count": 8
+    },
+    {
+      "duration": 0.86,
+      "end": 84.68,
+      "end_time": "0:01:24",
+      "speaker": "SPEAKER_00",
+      "start": 83.82,
+      "start_time": "0:01:23",
+      "text": "You really believe her?",
+      "word_count": 4
+    },
+    {
+      "duration": 0.84,
+      "end": 86.58,
+      "end_time": "0:01:26",
+      "speaker": "SPEAKER_00",
+      "start": 85.74,
+      "start_time": "0:01:25",
+      "text": "No, seriously.",
+      "word_count": 2
+    },
+    {
+      "duration": 4.16,
+      "end": 90.74,
+      "end_time": "0:01:30",
+      "speaker": "SPEAKER_00",
+      "start": 86.58,
+      "start_time": "0:01:26",
+      "text": "you look at that guy yeah he nailed it man i mean he was going to kick him out",
+      "word_count": 19
+    },
+    {
+      "duration": 2.44,
+      "end": 93.18,
+      "end_time": "0:01:33",
+      "speaker": "SPEAKER_00",
+      "start": 90.74,
+      "start_time": "0:01:30",
+      "text": "but he's not anymore but that's because it's just different words",
+      "word_count": 11
+    },
+    {
+      "duration": 0.86,
+      "end": 95.46,
+      "end_time": "0:01:35",
+      "speaker": "SPEAKER_00",
+      "start": 94.6,
+      "start_time": "0:01:34",
+      "text": "and maybe",
+      "word_count": 2
+    },
+    {
+      "duration": 3.8,
+      "end": 100.56,
+      "end_time": "0:01:40",
+      "speaker": "SPEAKER_00",
+      "start": 96.76,
+      "start_time": "0:01:36",
+      "text": "maybe you're that shallow and you believe anything he says",
+      "word_count": 10
+    },
+    {
+      "duration": 3.52,
+      "end": 104.9,
+      "end_time": "0:01:44",
+      "speaker": "SPEAKER_00",
+      "start": 101.38,
+      "start_time": "0:01:41",
+      "text": "but uh... i'm pretty sure that most of you are not buying it",
+      "word_count": 13
+    },
+    {
+      "duration": 1.7,
+      "end": 106.6,
+      "end_time": "0:01:46",
+      "speaker": "SPEAKER_00",
+      "start": 104.9,
+      "start_time": "0:01:44",
+      "text": "including the trump supporters",
+      "word_count": 4
+    },
+    {
+      "duration": 3.72,
+      "end": 110.32,
+      "end_time": "0:01:50",
+      "speaker": "SPEAKER_00",
+      "start": 106.6,
+      "start_time": "0:01:46",
+      "text": "i think today are a little to a lot pissed",
+      "word_count": 10
+    },
+    {
+      "duration": 2.2,
+      "end": 112.52,
+      "end_time": "0:01:52",
+      "speaker": "SPEAKER_00",
+      "start": 110.32,
+      "start_time": "0:01:50",
+      "text": "that he's waffling and flip-flopping",
+      "word_count": 5
+    },
+    {
+      "duration": 1.96,
+      "end": 115.02,
+      "end_time": "0:01:55",
+      "speaker": "SPEAKER_00",
+      "start": 113.06,
+      "start_time": "0:01:53",
+      "text": "on the biggest issue he had",
+      "word_count": 6
+    },
+    {
+      "duration": 1.16,
+      "end": 116.18,
+      "end_time": "0:01:56",
+      "speaker": "SPEAKER_00",
+      "start": 115.02,
+      "start_time": "0:01:55",
+      "text": "And you know why?",
+      "word_count": 4
+    },
+    {
+      "duration": 1.1,
+      "end": 117.46,
+      "end_time": "0:01:57",
+      "speaker": "SPEAKER_00",
+      "start": 116.36,
+      "start_time": "0:01:56",
+      "text": "Because of what she said at the end.",
+      "word_count": 8
+    },
+    {
+      "duration": 1.82,
+      "end": 119.64,
+      "end_time": "0:01:59",
+      "speaker": "SPEAKER_00",
+      "start": 117.82,
+      "start_time": "0:01:57",
+      "text": "Because most people see him as a bigot.",
+      "word_count": 8
+    },
+    {
+      "duration": 1.74,
+      "end": 122.06,
+      "end_time": "0:02:02",
+      "speaker": "SPEAKER_00",
+      "start": 120.32,
+      "start_time": "0:02:00",
+      "text": "So if you want to win an election,",
+      "word_count": 8
+    },
+    {
+      "duration": 2.32,
+      "end": 125,
+      "end_time": "0:02:05",
+      "speaker": "SPEAKER_00",
+      "start": 122.68,
+      "start_time": "0:02:02",
+      "text": "it helps to have most people on your side,",
+      "word_count": 9
+    },
+    {
+      "duration": 0.82,
+      "end": 125.98,
+      "end_time": "0:02:05",
+      "speaker": "SPEAKER_00",
+      "start": 125.16,
+      "start_time": "0:02:05",
+      "text": "not against you.",
+      "word_count": 3
+    },
+    {
+      "duration": 2.12,
+      "end": 128.46,
+      "end_time": "0:02:08",
+      "speaker": "SPEAKER_00",
+      "start": 126.34,
+      "start_time": "0:02:06",
+      "text": "So now he's abandoning you guys,",
+      "word_count": 6
+    },
+    {
+      "duration": 2.7,
+      "end": 131.52,
+      "end_time": "0:02:11",
+      "speaker": "SPEAKER_00",
+      "start": 128.82,
+      "start_time": "0:02:08",
+      "text": "because he thinks you guys look like bigots too.",
+      "word_count": 9
+    },
+    {
+      "duration": 1.42,
+      "end": 133.5,
+      "end_time": "0:02:13",
+      "speaker": "SPEAKER_00",
+      "start": 132.08,
+      "start_time": "0:02:12",
+      "text": "And he's got to win an election.",
+      "word_count": 7
+    },
+    {
+      "duration": 0.86,
+      "end": 134.74,
+      "end_time": "0:02:14",
+      "speaker": "SPEAKER_00",
+      "start": 133.88,
+      "start_time": "0:02:13",
+      "text": "So hey, base.",
+      "word_count": 3
+    },
+    {
+      "duration": 0.7,
+      "end": 136.14,
+      "end_time": "0:02:16",
+      "speaker": "SPEAKER_00",
+      "start": 135.44,
+      "start_time": "0:02:15",
+      "text": "I'll see you later.",
+      "word_count": 4
+    },
+    {
+      "duration": 3.24,
+      "end": 139.88,
+      "end_time": "0:02:19",
+      "speaker": "SPEAKER_00",
+      "start": 136.64,
+      "start_time": "0:02:16",
+      "text": "But bye-bye, doesn't mean I don't like you anymore.",
+      "word_count": 9
+    },
+    {
+      "duration": 1.04,
+      "end": 141.44,
+      "end_time": "0:02:21",
+      "speaker": "SPEAKER_00",
+      "start": 140.4,
+      "start_time": "0:02:20",
+      "text": "It's just different words.",
+      "word_count": 4
+    },
+    {
+      "duration": 2.16,
+      "end": 144.5,
+      "end_time": "0:02:24",
+      "speaker": "SPEAKER_01",
+      "start": 142.34,
+      "start_time": "0:02:22",
+      "text": "To catch our awesome post game shows,",
+      "word_count": 7
+    },
+    {
+      "duration": 1.36,
+      "end": 145.86,
+      "end_time": "0:02:25",
+      "speaker": "SPEAKER_01",
+      "start": 144.5,
+      "start_time": "0:02:24",
+      "text": "Join and become a member.",
+      "word_count": 5
+    },
+    {
+      "duration": 1.68,
+      "end": 147.84,
+      "end_time": "0:02:27",
+      "speaker": "SPEAKER_01",
+      "start": 146.16,
+      "start_time": "0:02:26",
+      "text": "tytnetwork.com slash join.",
+      "word_count": 3
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 7.35,
+      "end": 7.36,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 36.54,
+      "end": 44.24,
+      "start": 7.7,
+      "type": "speech"
+    },
+    {
+      "duration": 15.37,
+      "end": 60.79,
+      "start": 45.42,
+      "type": "speech"
+    },
+    {
+      "duration": 12.34,
+      "end": 75.78,
+      "start": 63.44,
+      "type": "speech"
+    },
+    {
+      "duration": 1.39,
+      "end": 78.02,
+      "start": 76.63,
+      "type": "speech"
+    },
+    {
+      "duration": 1.17,
+      "end": 80.33,
+      "start": 79.16,
+      "type": "speech"
+    },
+    {
+      "duration": 3.4,
+      "end": 84.75,
+      "start": 81.35,
+      "type": "speech"
+    },
+    {
+      "duration": 7.57,
+      "end": 93.27,
+      "start": 85.7,
+      "type": "speech"
+    },
+    {
+      "duration": 0.76,
+      "end": 95.75,
+      "start": 94.98,
+      "type": "speech"
+    },
+    {
+      "duration": 23.02,
+      "end": 119.74,
+      "start": 96.71,
+      "type": "speech"
+    },
+    {
+      "duration": 2.07,
+      "end": 122.44,
+      "start": 120.37,
+      "type": "speech"
+    },
+    {
+      "duration": 19.1,
+      "end": 141.88,
+      "start": 122.78,
+      "type": "speech"
+    },
+    {
+      "duration": 5.5,
+      "end": 148.11,
+      "start": 142.61,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 4.18,
+      "end": 4.18,
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "text": "Katrina Pearson has been all over TV saying outrageous things.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.92,
+      "end": 9.48,
+      "speaker": "SPEAKER_00",
+      "start": 4.56,
+      "text": "Now to be fair to her, she's out there as a surrogate for Donald Trump.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.08,
+      "end": 11.1,
+      "speaker": "SPEAKER_00",
+      "start": 10.02,
+      "text": "It's a thankless job.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.2,
+      "end": 16.1,
+      "speaker": "SPEAKER_00",
+      "start": 11.9,
+      "text": "The guy is a giant flip flopper, says one crazy thing after another.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.98,
+      "end": 19.62,
+      "speaker": "SPEAKER_00",
+      "start": 16.64,
+      "text": "So now he flipped flopped on his central issue, immigration.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.36,
+      "end": 22.46,
+      "speaker": "SPEAKER_00",
+      "start": 20.1,
+      "text": "Before they got to go, we're going to kick them out, we're going to build a wall.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.18,
+      "end": 24.74,
+      "speaker": "SPEAKER_00",
+      "start": 22.56,
+      "text": "Now he says they can stay if they pay a little bit of taxes,",
+      "type": "speech"
+    },
+    {
+      "duration": 4.14,
+      "end": 29.16,
+      "speaker": "SPEAKER_00",
+      "start": 25.02,
+      "text": "which by the way is no different than any of his Republican opponents in the primary.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.1,
+      "end": 32.26,
+      "speaker": "SPEAKER_00",
+      "start": 29.16,
+      "text": "And he lit into them during the privacy.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.36,
+      "end": 33.62,
+      "speaker": "SPEAKER_00",
+      "start": 32.26,
+      "text": "Oh yeah, just pay a little bit of tax.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.24,
+      "end": 35.04,
+      "speaker": "SPEAKER_00",
+      "start": 33.8,
+      "text": "Oh yeah, that's amnesty.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.04,
+      "end": 36.4,
+      "speaker": "SPEAKER_00",
+      "start": 35.36,
+      "text": "Now he's like, no, I'm well, no.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.06,
+      "end": 39.74,
+      "speaker": "SPEAKER_00",
+      "start": 36.68,
+      "text": "It's not amnesty as such, as such, right?",
+      "type": "speech"
+    },
+    {
+      "duration": 2.12,
+      "end": 42.28,
+      "speaker": "SPEAKER_00",
+      "start": 40.16,
+      "text": "So what the hell is Katrina Pearson going to say about it?",
+      "type": "speech"
+    },
+    {
+      "duration": 1.16,
+      "end": 43.6,
+      "speaker": "SPEAKER_00",
+      "start": 42.44,
+      "text": "Well, this is funny.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.88,
+      "end": 47.18,
+      "speaker": "SPEAKER_01",
+      "start": 45.3,
+      "text": "He hasn't changed his position on immigration.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.04,
+      "end": 49.4,
+      "speaker": "SPEAKER_01",
+      "start": 47.36,
+      "text": "He's changed the words that he is saying.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.58,
+      "end": 51.36,
+      "speaker": "SPEAKER_01",
+      "start": 49.78,
+      "text": "What he has always said from the beginning,",
+      "type": "speech"
+    },
+    {
+      "duration": 0.52,
+      "end": 51.88,
+      "speaker": "SPEAKER_01",
+      "start": 51.36,
+      "text": "he has changed.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.82,
+      "end": 52.76,
+      "speaker": "SPEAKER_01",
+      "start": 51.94,
+      "text": "Is that he does not?",
+      "type": "speech"
+    },
+    {
+      "duration": 2.08,
+      "end": 55.28,
+      "speaker": "SPEAKER_01",
+      "start": 53.2,
+      "text": "That he, no, there's not a different message.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.28,
+      "end": 57.56,
+      "speaker": "SPEAKER_01",
+      "start": 55.28,
+      "text": "He's using different words to give that message.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.18,
+      "end": 60.74,
+      "speaker": "SPEAKER_01",
+      "start": 57.56,
+      "text": "because everyone on the news is saying that he's a bigot.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.12,
+      "end": 64.32,
+      "speaker": "SPEAKER_00",
+      "start": 63.2,
+      "text": "That was funny.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 67.2,
+      "speaker": "SPEAKER_00",
+      "start": 65.2,
+      "text": "No, no, it's not a different message.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.92,
+      "end": 68.42,
+      "speaker": "SPEAKER_00",
+      "start": 67.5,
+      "text": "It's different words.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.6,
+      "end": 71.88,
+      "speaker": "SPEAKER_00",
+      "start": 69.28,
+      "text": "Now, those different words say the exact opposite",
+      "type": "speech"
+    },
+    {
+      "duration": 5.82,
+      "end": 77.7,
+      "speaker": "SPEAKER_00",
+      "start": 71.88,
+      "text": "of the earlier words, but still not a different message.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.94,
+      "end": 80.04,
+      "speaker": "SPEAKER_00",
+      "start": 79.1,
+      "text": "Different words.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.86,
+      "end": 83.6,
+      "speaker": "SPEAKER_00",
+      "start": 80.74,
+      "text": "Hey, if you're a Trump supporter, come on.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.86,
+      "end": 84.68,
+      "speaker": "SPEAKER_00",
+      "start": 83.82,
+      "text": "You really believe her?",
+      "type": "speech"
+    },
+    {
+      "duration": 0.84,
+      "end": 86.58,
+      "speaker": "SPEAKER_00",
+      "start": 85.74,
+      "text": "No, seriously.",
+      "type": "speech"
+    },
+    {
+      "duration": 4.16,
+      "end": 90.74,
+      "speaker": "SPEAKER_00",
+      "start": 86.58,
+      "text": "you look at that guy yeah he nailed it man i mean he was going to kick him out",
+      "type": "speech"
+    },
+    {
+      "duration": 2.44,
+      "end": 93.18,
+      "speaker": "SPEAKER_00",
+      "start": 90.74,
+      "text": "but he's not anymore but that's because it's just different words",
+      "type": "speech"
+    },
+    {
+      "duration": 0.86,
+      "end": 95.46,
+      "speaker": "SPEAKER_00",
+      "start": 94.6,
+      "text": "and maybe",
+      "type": "speech"
+    },
+    {
+      "duration": 3.8,
+      "end": 100.56,
+      "speaker": "SPEAKER_00",
+      "start": 96.76,
+      "text": "maybe you're that shallow and you believe anything he says",
+      "type": "speech"
+    },
+    {
+      "duration": 3.52,
+      "end": 104.9,
+      "speaker": "SPEAKER_00",
+      "start": 101.38,
+      "text": "but uh... i'm pretty sure that most of you are not buying it",
+      "type": "speech"
+    },
+    {
+      "duration": 1.7,
+      "end": 106.6,
+      "speaker": "SPEAKER_00",
+      "start": 104.9,
+      "text": "including the trump supporters",
+      "type": "speech"
+    },
+    {
+      "duration": 3.72,
+      "end": 110.32,
+      "speaker": "SPEAKER_00",
+      "start": 106.6,
+      "text": "i think today are a little to a lot pissed",
+      "type": "speech"
+    },
+    {
+      "duration": 2.2,
+      "end": 112.52,
+      "speaker": "SPEAKER_00",
+      "start": 110.32,
+      "text": "that he's waffling and flip-flopping",
+      "type": "speech"
+    },
+    {
+      "duration": 1.96,
+      "end": 115.02,
+      "speaker": "SPEAKER_00",
+      "start": 113.06,
+      "text": "on the biggest issue he had",
+      "type": "speech"
+    },
+    {
+      "duration": 1.16,
+      "end": 116.18,
+      "speaker": "SPEAKER_00",
+      "start": 115.02,
+      "text": "And you know why?",
+      "type": "speech"
+    },
+    {
+      "duration": 1.1,
+      "end": 117.46,
+      "speaker": "SPEAKER_00",
+      "start": 116.36,
+      "text": "Because of what she said at the end.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.82,
+      "end": 119.64,
+      "speaker": "SPEAKER_00",
+      "start": 117.82,
+      "text": "Because most people see him as a bigot.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.74,
+      "end": 122.06,
+      "speaker": "SPEAKER_00",
+      "start": 120.32,
+      "text": "So if you want to win an election,",
+      "type": "speech"
+    },
+    {
+      "duration": 2.32,
+      "end": 125,
+      "speaker": "SPEAKER_00",
+      "start": 122.68,
+      "text": "it helps to have most people on your side,",
+      "type": "speech"
+    },
+    {
+      "duration": 0.82,
+      "end": 125.98,
+      "speaker": "SPEAKER_00",
+      "start": 125.16,
+      "text": "not against you.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.12,
+      "end": 128.46,
+      "speaker": "SPEAKER_00",
+      "start": 126.34,
+      "text": "So now he's abandoning you guys,",
+      "type": "speech"
+    },
+    {
+      "duration": 2.7,
+      "end": 131.52,
+      "speaker": "SPEAKER_00",
+      "start": 128.82,
+      "text": "because he thinks you guys look like bigots too.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.42,
+      "end": 133.5,
+      "speaker": "SPEAKER_00",
+      "start": 132.08,
+      "text": "And he's got to win an election.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.86,
+      "end": 134.74,
+      "speaker": "SPEAKER_00",
+      "start": 133.88,
+      "text": "So hey, base.",
+      "type": "speech"
+    },
+    {
+      "duration": 0.7,
+      "end": 136.14,
+      "speaker": "SPEAKER_00",
+      "start": 135.44,
+      "text": "I'll see you later.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.24,
+      "end": 139.88,
+      "speaker": "SPEAKER_00",
+      "start": 136.64,
+      "text": "But bye-bye, doesn't mean I don't like you anymore.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.04,
+      "end": 141.44,
+      "speaker": "SPEAKER_00",
+      "start": 140.4,
+      "text": "It's just different words.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.16,
+      "end": 144.5,
+      "speaker": "SPEAKER_01",
+      "start": 142.34,
+      "text": "To catch our awesome post game shows,",
+      "type": "speech"
+    },
+    {
+      "duration": 1.36,
+      "end": 145.86,
+      "speaker": "SPEAKER_01",
+      "start": 144.5,
+      "text": "Join and become a member.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.68,
+      "end": 147.84,
+      "speaker": "SPEAKER_01",
+      "start": 146.16,
+      "text": "tytnetwork.com slash join.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 148.32,
+    "pipeline_total_s": 1214.84,
+    "real_time_factor": 8.191,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 87,
+        "duration_s": 234.113,
+        "energy_j": 13233.4678,
+        "energy_wh": 3.675963,
+        "ram_after_mb": 1160.8,
+        "ram_before_mb": 1118.5,
+        "ram_delta_mb": 42.3,
+        "ram_peak_mb": 1343.1,
+        "stage": "ASR (Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 92,
+        "duration_s": 960.173,
+        "energy_j": 57407.08,
+        "energy_wh": 15.946411,
+        "ram_after_mb": 1185.4,
+        "ram_before_mb": 1160.8,
+        "ram_delta_mb": 24.6,
+        "ram_peak_mb": 6127.1,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 68.8,
+        "peak_ram_mb": 6127.1,
+        "total_energy_j": 71722.8305,
+        "total_energy_wh": 19.923008
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 13.6,
+        "duration_s": 0.402,
+        "energy_j": 3.5568,
+        "energy_wh": 0.000988,
+        "ram_after_mb": 1073.8,
+        "ram_before_mb": 1055.8,
+        "ram_delta_mb": 18,
+        "ram_peak_mb": 1073.8,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 82.4,
+        "duration_s": 20.147,
+        "energy_j": 1078.7259,
+        "energy_wh": 0.299646,
+        "ram_after_mb": 1118.5,
+        "ram_before_mb": 1073.8,
+        "ram_delta_mb": 44.7,
+        "ram_peak_mb": 2178.8,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 234.113,
+    "stage_diarization_s": 960.173,
+    "stage_preprocessing_s": 0.402,
+    "stage_vad_s": 20.147
+  },
+  "unique_speakers_count": 2
+}

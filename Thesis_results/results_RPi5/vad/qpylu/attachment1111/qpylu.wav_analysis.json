@@ -1,0 +1,311 @@
+{
+  "duration": 44.5126875,
+  "filename": "qpylu.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 88.4,
+      "duration_s": 29.823,
+      "energy_j": 1713.1204,
+      "energy_wh": 0.475867,
+      "ram_after_mb": 965,
+      "ram_before_mb": 965,
+      "ram_delta_mb": 0.1,
+      "ram_peak_mb": 1068,
+      "stage": "ASR (Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 93.6,
+      "duration_s": 212.166,
+      "energy_j": 12903.1711,
+      "energy_wh": 3.584214,
+      "ram_after_mb": 1157.5,
+      "ram_before_mb": 965,
+      "ram_delta_mb": 192.4,
+      "ram_peak_mb": 5871.7,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 65.4,
+      "peak_ram_mb": 5871.7,
+      "total_energy_j": 14877.1051,
+      "total_energy_wh": 4.132529
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.201,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 964.8,
+      "ram_before_mb": 964.8,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 964.8,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 79.6,
+      "duration_s": 5.042,
+      "energy_j": 260.8136,
+      "energy_wh": 0.072448,
+      "ram_after_mb": 965,
+      "ram_before_mb": 964.8,
+      "ram_delta_mb": 0.1,
+      "ram_peak_mb": 2043.7,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 6.54,
+      "end": 6.54,
+      "end_time": "0:00:06",
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "fully acts are despicable and have no place in American society.",
+      "word_count": 11
+    },
+    {
+      "duration": 5.62,
+      "end": 13.2,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_01",
+      "start": 7.58,
+      "start_time": "0:00:07",
+      "text": "I want to assure you we've deployed the full resources of the FBI, the United States Secret Service,",
+      "word_count": 18
+    },
+    {
+      "duration": 2.68,
+      "end": 16,
+      "end_time": "0:00:16",
+      "speaker": "SPEAKER_01",
+      "start": 13.32,
+      "start_time": "0:00:13",
+      "text": "and they're working very closely with law enforcement officials.",
+      "word_count": 9
+    },
+    {
+      "duration": 1.88,
+      "end": 18.78,
+      "end_time": "0:00:18",
+      "speaker": "SPEAKER_01",
+      "start": 16.9,
+      "start_time": "0:00:16",
+      "text": "We'll continue to monitor these investigations,",
+      "word_count": 6
+    },
+    {
+      "duration": 3.66,
+      "end": 24.32,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_01",
+      "start": 20.66,
+      "start_time": "0:00:20",
+      "text": "and those responsible will be brought to justice.",
+      "word_count": 8
+    },
+    {
+      "duration": 3.12,
+      "end": 36.44,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_02",
+      "start": 33.32,
+      "start_time": "0:00:33",
+      "text": "Thanks for watching MSNBC on YouTube.",
+      "word_count": 6
+    },
+    {
+      "duration": 3.86,
+      "end": 40.48,
+      "end_time": "0:00:40",
+      "speaker": "SPEAKER_02",
+      "start": 36.62,
+      "start_time": "0:00:36",
+      "text": "If you want to keep up to date with the videos you can click subscribe, just below me.",
+      "word_count": 18
+    },
+    {
+      "duration": 2.68,
+      "end": 43.42,
+      "end_time": "0:00:43",
+      "speaker": "SPEAKER_02",
+      "start": 40.74,
+      "start_time": "0:00:40",
+      "text": "Or click over on this list to see lots of other great videos.",
+      "word_count": 13
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 2.7,
+      "end": 2.71,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 4.68,
+      "start": 3.4,
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 6.51,
+      "start": 5.24,
+      "type": "speech"
+    },
+    {
+      "duration": 2.48,
+      "end": 9.84,
+      "start": 7.36,
+      "type": "speech"
+    },
+    {
+      "duration": 8.25,
+      "end": 19.06,
+      "start": 10.81,
+      "type": "speech"
+    },
+    {
+      "duration": 4.11,
+      "end": 24.66,
+      "start": 20.55,
+      "type": "speech"
+    },
+    {
+      "duration": 10.92,
+      "end": 43.57,
+      "start": 32.66,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 6.54,
+      "end": 6.54,
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "text": "fully acts are despicable and have no place in American society.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.62,
+      "end": 13.2,
+      "speaker": "SPEAKER_01",
+      "start": 7.58,
+      "text": "I want to assure you we've deployed the full resources of the FBI, the United States Secret Service,",
+      "type": "speech"
+    },
+    {
+      "duration": 2.68,
+      "end": 16,
+      "speaker": "SPEAKER_01",
+      "start": 13.32,
+      "text": "and they're working very closely with law enforcement officials.",
+      "type": "speech"
+    },
+    {
+      "duration": 1.88,
+      "end": 18.78,
+      "speaker": "SPEAKER_01",
+      "start": 16.9,
+      "text": "We'll continue to monitor these investigations,",
+      "type": "speech"
+    },
+    {
+      "duration": 3.66,
+      "end": 24.32,
+      "speaker": "SPEAKER_01",
+      "start": 20.66,
+      "text": "and those responsible will be brought to justice.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.12,
+      "end": 36.44,
+      "speaker": "SPEAKER_02",
+      "start": 33.32,
+      "text": "Thanks for watching MSNBC on YouTube.",
+      "type": "speech"
+    },
+    {
+      "duration": 3.86,
+      "end": 40.48,
+      "speaker": "SPEAKER_02",
+      "start": 36.62,
+      "text": "If you want to keep up to date with the videos you can click subscribe, just below me.",
+      "type": "speech"
+    },
+    {
+      "duration": 2.68,
+      "end": 43.42,
+      "speaker": "SPEAKER_02",
+      "start": 40.74,
+      "text": "Or click over on this list to see lots of other great videos.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "audio_duration_s": 44.513,
+    "pipeline_total_s": 247.236,
+    "real_time_factor": 5.554,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 88.4,
+        "duration_s": 29.823,
+        "energy_j": 1713.1204,
+        "energy_wh": 0.475867,
+        "ram_after_mb": 965,
+        "ram_before_mb": 965,
+        "ram_delta_mb": 0.1,
+        "ram_peak_mb": 1068,
+        "stage": "ASR (Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 93.6,
+        "duration_s": 212.166,
+        "energy_j": 12903.1711,
+        "energy_wh": 3.584214,
+        "ram_after_mb": 1157.5,
+        "ram_before_mb": 965,
+        "ram_delta_mb": 192.4,
+        "ram_peak_mb": 5871.7,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 65.4,
+        "peak_ram_mb": 5871.7,
+        "total_energy_j": 14877.1051,
+        "total_energy_wh": 4.132529
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.201,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 964.8,
+        "ram_before_mb": 964.8,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 964.8,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 79.6,
+        "duration_s": 5.042,
+        "energy_j": 260.8136,
+        "energy_wh": 0.072448,
+        "ram_after_mb": 965,
+        "ram_before_mb": 964.8,
+        "ram_delta_mb": 0.1,
+        "ram_peak_mb": 2043.7,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 29.823,
+    "stage_diarization_s": 212.166,
+    "stage_preprocessing_s": 0.201,
+    "stage_vad_s": 5.042
+  },
+  "unique_speakers_count": 2
+}

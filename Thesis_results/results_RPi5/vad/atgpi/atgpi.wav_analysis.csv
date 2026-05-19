@@ -1,0 +1,47 @@
+=== SUMMARY ===
+Filename,Duration (s),Speech (s),Silence (s),Speakers,Segments
+atgpi.wav,121.8,116.4,5.3,1,24
+
+=== PIPELINE TIMING ===
+Stage,Time (s)
+Preprocessing,1.67
+VAD,14.122
+ASR (Whisper),135.162
+Diarization,733.517
+Total,884.476
+Real-Time Factor,7.265
+
+=== RESOURCE USAGE ===
+Stage,Time (s),Peak RAM (MB),CPU Avg (%),Energy (J)
+Preprocessing,1.67,926.8,34.6,37.5388
+VAD,14.122,2113.5,81.3,745.8836
+ASR (Whisper),135.162,1225.5,91,7994.9941
+Diarization,733.517,6103.5,92.5,44085.4627
+TOTAL,884.476,6103.5,74.8,52863.8792
+
+=== TRANSCRIPT ===
+#,Speaker,Start (s),End (s),Duration (s),Word Count,Text
+1,SPEAKER_00,0,4.5,4.5,23,There's this. I have a little news that I'd like to give you as well and it has to do with this program.
+2,SPEAKER_00,4.84,12.7,7.86,23,I have been absolutely delighted for the last five years to be working with some of the most talented people in television news.
+3,SPEAKER_00,12.86,19.8,6.94,14,"Just really stellar, stellar producers, writers, researchers, reporters, just remarkable people here at CNN."
+4,SPEAKER_00,20.58,24.86,4.28,15,And so it is really tough to tell you that I'm going to be leaving.
+5,SPEAKER_00,25.64,30.36,4.72,19,"kind of. It's sort of weird, but I'm going to leave this time slot at 12 noon, and I'm"
+6,SPEAKER_00,30.36,34.66,4.3,16,going to make the jump and follow my friends over at HLN. We've already heard that
+7,SPEAKER_00,34.66,39.24,4.58,15,"Michaela Perera has jumped over there, Erica Hills over there, Robin Need. So I'm going"
+8,SPEAKER_00,39.24,45,5.76,19,to jump over to Primetime on HLN 8 PM in the fall. Super excited to do it. We're going
+9,SPEAKER_00,45,50.4,5.4,15,to bring a really unique brand of social and legal issues oriented programming to that
+10,SPEAKER_00,50.4,55.6,5.2,18,"eight p.m. spot. Lots more news and details about it will follow, but I just wanted to let"
+11,SPEAKER_00,55.6,60.24,4.64,19,you know what a privilege it's been at 12 noon to be with you every day. And if you
+12,SPEAKER_00,60.24,64.06,3.82,18,"will just indulge me for a moment, you see me all the time, but you don't see Christina"
+13,SPEAKER_00,64.06,73.06,9,19,or Sanya or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lamy and
+14,SPEAKER_00,73.06,79.74,6.68,20,Tandu and Dave. This is my family. And every single day it is a delight to get up at 430
+15,SPEAKER_00,79.74,84.92,5.18,18,in the morning and be with them and I say that honestly. So thank you for being here
+16,SPEAKER_00,84.92,89.22,4.3,20,at 12 noon every day. Still going to be here for a few more weeks from the 23rd it will
+17,SPEAKER_00,89.22,95.04,5.82,19,be our last program here but I'll be seeing you over on HLN at 8 p.m. very exciting time
+18,SPEAKER_00,95.04,100.98,5.94,22,for us all here at CNN and HLN and I will still be doing a lot of stuff on CNN as well.
+19,SPEAKER_00,101.14,107.44,6.3,14,I'll be bringing legal analysis and I'll be guest representing and talking about the
+20,SPEAKER_00,107.44,112.06,4.62,17,"the stories of the day, the justice oriented issues of the day over here on CNN's programming."
+21,SPEAKER_00,112.22,116.68,4.46,17,So I'm not going very far and I'll still be working with all of these extraordinary people
+22,SPEAKER_00,116.68,117.88,1.2,5,on a pretty regular basis.
+23,SPEAKER_00,118.3,120.24,1.94,6,"For now, that's it for today."
+24,SPEAKER_00,120.5,121.18,0.68,3,I've said enough.
