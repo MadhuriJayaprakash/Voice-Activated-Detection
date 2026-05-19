@@ -1,0 +1,12 @@
+# Distil-Whisper Resource Usage Report
+# File: qrzjk.wav
+# Model: distil-whisper/distil-small.en
+# Audio Duration: 39.576s
+# RTF: 2.421x
+# Generated: 2026-04-27T18:59:46.479Z
+Stage,Time (s),RAM Before (MB),RAM After (MB),RAM Delta (MB),Peak RAM (MB),CPU Avg (%),Energy (J),Energy (Wh)
+"Preprocessing",0.207,1114.8,1114.8,0,1114.8,0,0,0
+"VAD",2.083,1114.8,1244.4,129.6,1404.1,90,121.8554,0.033849
+"ASR (Distil-Whisper)",25.685,1244.4,1185.4,-59,1244.4,99.2,1655.6052,0.45989
+"Diarization",67.845,1185.4,1375.4,190,2727.3,99.5,4386.0797,1.218355
+"Pipeline Total",95.823,"","","",2727.3,72.2,6163.5403,1.712094

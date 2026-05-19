@@ -1,0 +1,157 @@
+{
+  "filename": "abjxc.wav",
+  "duration": 68.376,
+  "speakers": 1,
+  "segments": [
+    {
+      "duration": 5.14,
+      "end": 5.14,
+      "end_time": "0:00:05",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "CNN has decided not to run a Donald Trump endorsed campaign ad after the network decided",
+      "word_count": 16
+    },
+    {
+      "duration": 1.72,
+      "end": 6.86,
+      "end_time": "0:00:06",
+      "speaker": "SPEAKER_00",
+      "start": 5.14,
+      "start_time": "0:00:05",
+      "text": "it does not meet their standards.",
+      "word_count": 6
+    },
+    {
+      "duration": 5.44,
+      "end": 13.58,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_00",
+      "start": 8.14,
+      "start_time": "0:00:08",
+      "text": "The 32nd advertisement paid for by Trump's campaign targeted Joe Biden's conduct toward",
+      "word_count": 13
+    },
+    {
+      "duration": 4.92,
+      "end": 18.5,
+      "end_time": "0:00:18",
+      "speaker": "SPEAKER_00",
+      "start": 13.58,
+      "start_time": "0:00:13",
+      "text": "Ukraine while he served as vice president, while also referring to CNN personalities Don",
+      "word_count": 14
+    },
+    {
+      "duration": 3.78,
+      "end": 22.28,
+      "end_time": "0:00:22",
+      "speaker": "SPEAKER_00",
+      "start": 18.5,
+      "start_time": "0:00:18",
+      "text": "Lemon, Chris Cuomo, and Jim Acosta as media lap dogs.",
+      "word_count": 10
+    },
+    {
+      "duration": 4.58,
+      "end": 27.38,
+      "end_time": "0:00:27",
+      "speaker": "SPEAKER_00",
+      "start": 22.8,
+      "start_time": "0:00:22",
+      "text": "A CNN spokesperson spoke to THR saying the ad does not meet the network's advertising",
+      "word_count": 15
+    },
+    {
+      "duration": 5.26,
+      "end": 32.64,
+      "end_time": "0:00:32",
+      "speaker": "SPEAKER_00",
+      "start": 27.38,
+      "start_time": "0:00:27",
+      "text": "standards, adding, in addition to disparaging CNN and its journalists, the ad makes assertions",
+      "word_count": 14
+    },
+    {
+      "duration": 4.1,
+      "end": 36.74,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 32.64,
+      "start_time": "0:00:32",
+      "text": "that have been proven demonstrably false by various news outlets, including CNN.",
+      "word_count": 12
+    },
+    {
+      "duration": 4.38,
+      "end": 41.42,
+      "end_time": "0:00:41",
+      "speaker": "SPEAKER_00",
+      "start": 37.04,
+      "start_time": "0:00:37",
+      "text": "However, despite CNN's rejection, the president posted the advertisement onto his Twitter page",
+      "word_count": 13
+    },
+    {
+      "duration": 5.18,
+      "end": 46.6,
+      "end_time": "0:00:46",
+      "speaker": "SPEAKER_00",
+      "start": 41.42,
+      "start_time": "0:00:41",
+      "text": "last week, along with the caption, I'm draining the swamp. Now, this is not the first time CNN has",
+      "word_count": 19
+    },
+    {
+      "duration": 5.7,
+      "end": 52.3,
+      "end_time": "0:00:52",
+      "speaker": "SPEAKER_00",
+      "start": 46.6,
+      "start_time": "0:00:46",
+      "text": "rejected a Trump campaign ad. Back in 2017, the network refused to run a Trump-approved ad called",
+      "word_count": 17
+    },
+    {
+      "duration": 4.8,
+      "end": 57.1,
+      "end_time": "0:00:57",
+      "speaker": "SPEAKER_00",
+      "start": 52.3,
+      "start_time": "0:00:52",
+      "text": "left President Trump do his job, which criticized the media and specifically called out lemon",
+      "word_count": 15
+    },
+    {
+      "duration": 1.34,
+      "end": 58.44,
+      "end_time": "0:00:58",
+      "speaker": "SPEAKER_00",
+      "start": 57.1,
+      "start_time": "0:00:57",
+      "text": "as well as Anderson Cooper.",
+      "word_count": 5
+    },
+    {
+      "duration": 4.42,
+      "end": 63.24,
+      "end_time": "0:01:03",
+      "speaker": "SPEAKER_00",
+      "start": 58.82,
+      "start_time": "0:00:58",
+      "text": "To stay up to date on this story, hit the THR.com and until next time for The Hollywood Reporter",
+      "word_count": 19
+    },
+    {
+      "duration": 0.98,
+      "end": 64.22,
+      "end_time": "0:01:04",
+      "speaker": "SPEAKER_00",
+      "start": 63.24,
+      "start_time": "0:01:03",
+      "text": "News, I'm Aheadjoy.",
+      "word_count": 3
+    }
+  ]
+}

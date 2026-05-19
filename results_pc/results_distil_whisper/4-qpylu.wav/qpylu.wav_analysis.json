@@ -1,0 +1,262 @@
+{
+  "duration": 44.5126875,
+  "filename": "qpylu.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 98.8,
+      "duration_s": 17.99,
+      "energy_j": 1155.4333,
+      "energy_wh": 0.320954,
+      "ram_after_mb": 1191.6,
+      "ram_before_mb": 1209.8,
+      "ram_delta_mb": -18.2,
+      "ram_peak_mb": 1215.5,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 96.8,
+      "duration_s": 76.69,
+      "energy_j": 4824.249,
+      "energy_wh": 1.340069,
+      "ram_after_mb": 1227.3,
+      "ram_before_mb": 1191.6,
+      "ram_delta_mb": 35.7,
+      "ram_peak_mb": 2725.8,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 71.8,
+      "peak_ram_mb": 2725.8,
+      "total_energy_j": 6128.5868,
+      "total_energy_wh": 1.702385
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 0,
+      "duration_s": 0.208,
+      "energy_j": 0,
+      "energy_wh": 0,
+      "ram_after_mb": 1113.4,
+      "ram_before_mb": 1113.3,
+      "ram_delta_mb": 0,
+      "ram_peak_mb": 1113.4,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 91.7,
+      "duration_s": 2.499,
+      "energy_j": 148.9045,
+      "energy_wh": 0.041362,
+      "ram_after_mb": 1209.8,
+      "ram_before_mb": 1113.4,
+      "ram_delta_mb": 96.4,
+      "ram_peak_mb": 1480.7,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 7.36,
+      "end": 7.36,
+      "end_time": "0:00:07",
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "Thirdly, acts are despicable and have no place in American society.",
+      "word_count": 11
+    },
+    {
+      "duration": 5.04,
+      "end": 12.4,
+      "end_time": "0:00:12",
+      "speaker": "SPEAKER_01",
+      "start": 7.36,
+      "start_time": "0:00:07",
+      "text": "I want to assure you we've deployed the full resources of the FBI, the United States",
+      "word_count": 16
+    },
+    {
+      "duration": 4.4,
+      "end": 16.8,
+      "end_time": "0:00:16",
+      "speaker": "SPEAKER_01",
+      "start": 12.4,
+      "start_time": "0:00:12",
+      "text": "Secret Service, and they're working very closely with law enforcement officials.",
+      "word_count": 11
+    },
+    {
+      "duration": 8.2,
+      "end": 25,
+      "end_time": "0:00:25",
+      "speaker": "SPEAKER_01",
+      "start": 16.8,
+      "start_time": "0:00:16",
+      "text": "We'll continue to monitor these investigations, and those responsible will be brought to justice.",
+      "word_count": 14
+    },
+    {
+      "duration": 2,
+      "end": 27,
+      "end_time": "0:00:27",
+      "speaker": "Unknown",
+      "start": 25,
+      "start_time": "0:00:25",
+      "text": "Thank you.",
+      "word_count": 2
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 2.7,
+      "end": 2.71,
+      "start": 0.01,
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 4.68,
+      "start": 3.4,
+      "type": "speech"
+    },
+    {
+      "duration": 1.27,
+      "end": 6.51,
+      "start": 5.24,
+      "type": "speech"
+    },
+    {
+      "duration": 2.48,
+      "end": 9.84,
+      "start": 7.36,
+      "type": "speech"
+    },
+    {
+      "duration": 8.25,
+      "end": 19.06,
+      "start": 10.81,
+      "type": "speech"
+    },
+    {
+      "duration": 4.11,
+      "end": 24.66,
+      "start": 20.55,
+      "type": "speech"
+    },
+    {
+      "duration": 10.92,
+      "end": 43.57,
+      "start": 32.66,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 7.36,
+      "end": 7.36,
+      "speaker": "SPEAKER_01",
+      "start": 0,
+      "text": "Thirdly, acts are despicable and have no place in American society.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.04,
+      "end": 12.4,
+      "speaker": "SPEAKER_01",
+      "start": 7.36,
+      "text": "I want to assure you we've deployed the full resources of the FBI, the United States",
+      "type": "speech"
+    },
+    {
+      "duration": 4.4,
+      "end": 16.8,
+      "speaker": "SPEAKER_01",
+      "start": 12.4,
+      "text": "Secret Service, and they're working very closely with law enforcement officials.",
+      "type": "speech"
+    },
+    {
+      "duration": 8.2,
+      "end": 25,
+      "speaker": "SPEAKER_01",
+      "start": 16.8,
+      "text": "We'll continue to monitor these investigations, and those responsible will be brought to justice.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 27,
+      "speaker": "Unknown",
+      "start": 25,
+      "text": "Thank you.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 44.513,
+    "model_load_diarization_s": 1.18,
+    "model_load_distil_whisper_s": 2.662,
+    "model_load_total_s": 4.184,
+    "model_load_vad_s": 0.339,
+    "pipeline_total_s": 97.389,
+    "real_time_factor": 2.188,
+    "resource_stats": {
+      "asr": {
+        "cpu_avg_pct": 99.6,
+        "duration_s": 50.848,
+        "energy_j": 3290.9155,
+        "energy_wh": 0.914143,
+        "ram_after_mb": 1202.2,
+        "ram_before_mb": 1220.6,
+        "ram_delta_mb": -18.5,
+        "ram_peak_mb": 1239.5,
+        "stage": "ASR (Distil-Whisper)"
+      },
+      "diarization": {
+        "cpu_avg_pct": 98.7,
+        "duration_s": 144.468,
+        "energy_j": 9271.3136,
+        "energy_wh": 2.575365,
+        "ram_after_mb": 1356.4,
+        "ram_before_mb": 1202.2,
+        "ram_delta_mb": 154.2,
+        "ram_peak_mb": 2720.8,
+        "stage": "Diarization"
+      },
+      "pipeline_total": {
+        "avg_cpu_pct": 73.2,
+        "peak_ram_mb": 2720.8,
+        "total_energy_j": 12821.0896,
+        "total_energy_wh": 3.561414
+      },
+      "preprocessing": {
+        "cpu_avg_pct": 0,
+        "duration_s": 0.21,
+        "energy_j": 0,
+        "energy_wh": 0,
+        "ram_after_mb": 1135.5,
+        "ram_before_mb": 1135.4,
+        "ram_delta_mb": 0,
+        "ram_peak_mb": 1135.4,
+        "stage": "Preprocessing"
+      },
+      "vad": {
+        "cpu_avg_pct": 94.7,
+        "duration_s": 4.206,
+        "energy_j": 258.8605,
+        "energy_wh": 0.071906,
+        "ram_after_mb": 1220.6,
+        "ram_before_mb": 1135.5,
+        "ram_delta_mb": 85.2,
+        "ram_peak_mb": 1520.9,
+        "stage": "VAD"
+      }
+    },
+    "stage_asr_s": 17.99,
+    "stage_diarization_s": 76.69,
+    "stage_preprocessing_s": 0.208,
+    "stage_vad_s": 2.499
+  },
+  "unique_speakers_count": 1
+}

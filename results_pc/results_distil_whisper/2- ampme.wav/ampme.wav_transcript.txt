@@ -1,0 +1,65 @@
+Distil-Whisper Transcript
+File: ampme.wav
+Model: distil-whisper/distil-small.en
+Duration: 148.32s
+Speakers: 2
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:04] SPEAKER_00
+Katrina Pearson has been all over TV saying outrageous things.
+
+[0:00:04 → 0:00:25] SPEAKER_00
+Now to be fair to her, she's out there as a surrogate for Donald Trump. It's a thankless job. The guy is a giant flip-loper, says one crazy thing after another. So now he flip-flopped on his central issue, immigration. Before they got to go, we're going to kick them out, we're build a wall now he says they can stay if they pay a little bit of taxes
+
+[0:00:25 → 0:00:28] SPEAKER_00
+which by the way is no different than any of his republican opponents in the
+
+[0:00:29 → 0:00:30] SPEAKER_00
+and he
+
+[0:00:30 → 0:00:33] SPEAKER_00
+lead into them during the private so yeah just pay a little bit of a little bit of
+
+[0:00:33 → 0:00:35] SPEAKER_00
+a tax oh yeah that's amnesty
+
+[0:00:35 → 0:00:38] SPEAKER_00
+now he's like now well now it's not amnesty
+
+[0:00:38 → 0:00:45] SPEAKER_00
+as such as such right so what the what the hell is Katrina Pearson going to say about it? Well, this is funny. Let's watch.
+
+[0:00:45 → 0:00:47] SPEAKER_01
+He hasn't changed his position on immigration.
+
+[0:00:42 → 0:00:47] SPEAKER_00
+No, no, it's not a different message, it's different words.
+
+[0:00:47 → 0:01:09] SPEAKER_01
+Now those different... that he's a bigot. That was funny. No, no, it's not a different message, it's different words.
+
+[0:01:09 → 0:01:17] SPEAKER_00
+Now those different words say the exact opposite of the earlier words, but still, not a different
+
+[0:01:17 → 0:01:21] SPEAKER_00
+message, different words.
+
+[0:01:21 → 0:01:23] SPEAKER_00
+Hey, if you're a Trump supporter, come on.
+
+[0:01:23 → 0:02:06] SPEAKER_00
+You really believe her? No, seriously. Do you look at and go, yeah, he nailed it, man. I mean, he was going to kick him out, but he's not anymore, but that's because it's just different words. And maybe, maybe you're that shallow and you believe anything he says. But I'm pretty sure that most of you are not buying it, including the Trump supporters, who I think today are a little to a lot pissed, that he's waffling and flip-flopping on the biggest issue he had, and you know why? Because of what she said at the end, because most people see him as a bigot. So if you want to win an election, it helps to have most people on your side, not against you.
+
+[0:02:06 → 0:02:12] SPEAKER_00
+So now he's abandoning you guys because he thinks you guys look like bigots too.
+
+[0:02:12 → 0:02:16] SPEAKER_00
+And he's got to win an election. So hey, base, I'll see you later.
+
+[0:02:16 → 0:02:22] SPEAKER_00
+But bye-bye! Doesn't mean I don't like you anymore. It's just different works.
+
+[0:02:22 → 0:02:26] SPEAKER_01
+To catch our awesome post game shows, join and become a member.
+

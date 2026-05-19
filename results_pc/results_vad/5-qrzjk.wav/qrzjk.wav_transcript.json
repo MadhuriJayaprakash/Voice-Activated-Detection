@@ -1,0 +1,107 @@
+{
+  "filename": "qrzjk.wav",
+  "duration": 39.576,
+  "speakers": 1,
+  "segments": [
+    {
+      "duration": 4.76,
+      "end": 4.76,
+      "end_time": "0:00:04",
+      "speaker": "SPEAKER_00",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "And President Trump loves to talk about his TV ratings, if not his current approval rating.",
+      "word_count": 16
+    },
+    {
+      "duration": 4.46,
+      "end": 9.42,
+      "end_time": "0:00:09",
+      "speaker": "SPEAKER_00",
+      "start": 4.96,
+      "start_time": "0:00:04",
+      "text": "So he must be pleased to know that 33 million people watched the prime time roll out of his",
+      "word_count": 19
+    },
+    {
+      "duration": 1.86,
+      "end": 11.28,
+      "end_time": "0:00:11",
+      "speaker": "SPEAKER_00",
+      "start": 9.42,
+      "start_time": "0:00:09",
+      "text": "Supreme Court pick, Neil Gorsuch.",
+      "word_count": 5
+    },
+    {
+      "duration": 1.56,
+      "end": 13.32,
+      "end_time": "0:00:13",
+      "speaker": "SPEAKER_00",
+      "start": 11.76,
+      "start_time": "0:00:11",
+      "text": "But what do Americans think of the choice?",
+      "word_count": 8
+    },
+    {
+      "duration": 5.64,
+      "end": 19.18,
+      "end_time": "0:00:19",
+      "speaker": "SPEAKER_00",
+      "start": 13.54,
+      "start_time": "0:00:13",
+      "text": "Well, a brand new CNN poll shows that a plurality, 39%, were left with a positive first impression",
+      "word_count": 18
+    },
+    {
+      "duration": 5,
+      "end": 24.18,
+      "end_time": "0:00:24",
+      "speaker": "SPEAKER_00",
+      "start": 19.18,
+      "start_time": "0:00:19",
+      "text": "that compares with 45% for President Obama's never confirmed pick, Judge Marik Garland,",
+      "word_count": 13
+    },
+    {
+      "duration": 3.38,
+      "end": 27.62,
+      "end_time": "0:00:27",
+      "speaker": "SPEAKER_00",
+      "start": 24.24,
+      "start_time": "0:00:24",
+      "text": "and 54% for now chief justice, John Roberts.",
+      "word_count": 8
+    },
+    {
+      "duration": 4.52,
+      "end": 32.14,
+      "end_time": "0:00:32",
+      "speaker": "SPEAKER_00",
+      "start": 27.62,
+      "start_time": "0:00:27",
+      "text": "But when it comes to confirming the new nominee, opinions are sharply divided along party",
+      "word_count": 15
+    },
+    {
+      "duration": 4.32,
+      "end": 36.78,
+      "end_time": "0:00:36",
+      "speaker": "SPEAKER_00",
+      "start": 32.46,
+      "start_time": "0:00:32",
+      "text": "Just 22 percent of Democrats think the Senate should vote to confirm him while an overwhelming",
+      "word_count": 16
+    },
+    {
+      "duration": 2,
+      "end": 38.78,
+      "end_time": "0:00:38",
+      "speaker": "SPEAKER_00",
+      "start": 36.78,
+      "start_time": "0:00:36",
+      "text": "84 percent of Republicans do.",
+      "word_count": 5
+    }
+  ]
+}
