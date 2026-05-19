@@ -1,0 +1,35 @@
+\section{Web Application Architecture}
+
+The Flask web application is the orchestration layer that connects the user’s browser to the speech processing pipeline. The internal architecture is organised around four URL routes, a background model-loading mechanism, and a set of Jinja2 templates for rendering HTML responses.
+
+\subsection{URL Routes and Request Handling}
+
+Flask maps incoming HTTP requests to Python functions through URL routes. There are four routes defined in the application, each handling a specific phase of the user interaction. Understanding these routes is equivalent to understanding the complete conversational flow between the browser and the server.
+
+
+
+
+\subsection{Model Loading and State Management}
+
+The three neural models are stored (VAD, ASD, and ASR) as module-level variables in models.py. Because Python’s module system guarantees that a module is imported and initialised only once per interpreter process, these variables are effectively process-wide singletons: every call to the pipeline functions sees the same already-loaded model objects. This singleton pattern is the simplest possible approach to keeping model weights in memory across multiple requests without a dedicated caching layer or a database.
+
+
+Model loading is performed in a background thread launched at server startup. Python's \texttt{threading.Thread} class is used to run the loading function asynchronously so that the Flask development server can begin serving HTTP requests, specifically the \texttt{/loading\_status} polling endpoint, while the models are still being transferred from disk to RAM.
+
+A thread-safe boolean flag, \texttt{models\_loaded}, is set to \texttt{True} once all three models are successfully instantiated. The \texttt{/loading\_status} route reads this flag and returns its current state to the browser. Once the flag becomes \texttt{True}, the upload form becomes active and the user can submit audio files.
+
+
+A thread lock, \texttt{threading.Lock}, protects the \texttt{models\_loaded} flag from race conditions in the unlikely event that two HTTP requests arrive simultaneously during the loading window. After loading completes, no further thread synchronisation is required because the model objects are read-only during inference. PyTorch's \texttt{forward()} method for a CPU model with no gradient computation using \texttt{torch.no\_grad()} can be safely called from any thread without modifying the model's internal state.
+
+
+
+\subsection{Template Architecture and Rendering}
+
+The three Jinja2 HTML templates (index.html, loading.html, and results.html) share a common base layout through Jinja2’s template inheritance mechanism. A base.html file defines the page skeleton: the HTML head section with the CSS link, the navigation header, and the footer and exposes a content block that each child template fills with its specific content. This means that changes to the site-wide styling or navigation need to be made only once in base.html and are automatically reflected in all three pages.
+
+
+The results.html template is the most complex of the three. It receives a Python dictionary from the Flask route containing: the speaker-attributed transcript as a list of speaker turn objects; summary statistics (total speakers, speech duration, silence duration, per-speaker percentage); the resource-profiling data (stage-by-stage processing time, CPU utilisation, RAM consumption); and the file paths of the exported CSV, JSON, and RTTM files available for download. The Jinja2 template iterates over the speaker turns and renders each one as a formatted block with the speaker label and their attributed text, using CSS classes to visually distinguish between different speakers through colour coding.
+
+\subsection{User Interface Walkthrough}
+
+The figures below illustrate the complete user interaction flow through the web interface. \textbf{Figure} \ref{fig_9} shows the upload page (index.html), where the user selects an audio file via a drag-and-drop area and optionally sets minimum and maximum speaker count constraints before submission. The system information bar confirms the active compute device, CUDA availability, and model loading status. \textbf{Figure} \ref{fig_10} shows the same page during active processing, where the submit button transitions to an "Identifying Speakers..." state, providing visual feedback that the backend pipeline is running. \textbf{Figure} \ref{fig_11} shows the Analysis Results page (results.html), presenting a summary panel with total duration, speech time, silence time, detected speaker count, and segment count, followed by the speaker-attributed transcript rendered as individual timestamped utterance blocks. \textbf{Figure} \ref{fig_12} shows the Download Results section at the bottom of the results page, offering one-click export in CSV, JSON, and RTTM formats for downstream evaluation.
