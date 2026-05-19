@@ -1,0 +1,68 @@
+Distil-Whisper Transcript
+File: atgpi.wav
+Model: distil-whisper/distil-small.en
+Duration: 121.752s
+Speakers: 0
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:05] Unknown
+There's this. I have a little news that I'd like to give you as well and it has to do with this program.
+
+[0:00:05 → 0:00:13] Unknown
+I have been absolutely delighted for the last five years to be working with some of the most talented people in television news.
+
+[0:00:13 → 0:00:20] Unknown
+Just really stellar, stellar producers, writers, researchers, reporters, just remarkable people here at CNN.
+
+[0:00:20 → 0:00:25] Unknown
+And so it is really tough to tell you that I'm going to be leaving.
+
+[0:00:25 → 0:00:26] Unknown
+Kind of.
+
+[0:00:26 → 0:00:46] Unknown
+It's sort of weird, but I'm going to leave this time slot at 12 noon, and I'm going to make the jump and follow my friends over at H.L.N. We've already heard that Michaela Pereira has jumped over there, Erica Hills over there, Robin Meade. So I'm going to jump over to prime time on H.L. 8 p.m. in the fall. Super excited to do it. We're going to bring, you know, a really unique
+
+[0:00:45 → 0:00:50] Unknown
+know, a really unique brand of social and legal issues oriented programming to that 8 p.m.
+
+[0:00:50 → 0:00:55] Unknown
+spot. Lots more news and details about it will follow, but I just wanted to let you know what
+
+[0:00:55 → 0:01:01] Unknown
+a privilege it's been at 12 noon to be with you every day. And if you will just indulge me for a moment,
+
+[0:01:01 → 0:01:26] Unknown
+you see me all the time, but you don't see Christina or Sanya or Lindsay or Robin or Chris or Scotty or Gus and Alex and Ariel and Lainey and Tanju and Dave, this is my family and every single day, it is a delight to get up at 4.30 in the morning and be with them and I say that honestly. So thank you for being here at 12 noon every day.
+
+[0:01:26 → 0:01:28] Unknown
+Still going to be here for a few more weeks.
+
+[0:01:28 → 0:01:30] Unknown
+From the 23rd it'll be our last program here,
+
+[0:01:30 → 0:01:34] Unknown
+but I'll be seeing you over on HLLN at 8 p.m.
+
+[0:01:34 → 0:01:37] Unknown
+Very exciting time for us all here at CNN and HLLN,
+
+[0:01:37 → 0:01:41] Unknown
+and I will still be doing a lot of stuff on CNN as well.
+
+[0:01:41 → 0:01:46] Unknown
+, I'll be bringing legal analysis and I'll be guest representing
+
+[0:01:46 → 0:01:51] Unknown
+and talking about the stories of the day, the justice-oriented issues of the day over here
+
+[0:01:51 → 0:01:54] Unknown
+on CNN's programming. So I'm not going very far and I'll still be working with all
+
+[0:01:54 → 0:02:00] Unknown
+of these extraordinary people on a pretty regular basis. For now, that's it for today.
+
+[0:02:00 → 0:02:01] Unknown
+I've said enough.
+

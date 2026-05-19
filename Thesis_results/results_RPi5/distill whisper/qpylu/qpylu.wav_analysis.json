@@ -1,0 +1,318 @@
+{
+  "duration": 44.5126875,
+  "filename": "qpylu.wav",
+  "resource_stats": {
+    "asr": {
+      "cpu_avg_pct": 92,
+      "duration_s": 68.601,
+      "energy_j": 504.9312,
+      "energy_wh": 0.140259,
+      "ram_after_mb": 1813.2,
+      "ram_before_mb": 1414.1,
+      "ram_delta_mb": 399.2,
+      "ram_peak_mb": 1832.9,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 94.6,
+      "duration_s": 129.683,
+      "energy_j": 980.968,
+      "energy_wh": 0.272491,
+      "ram_after_mb": 2439.9,
+      "ram_before_mb": 1813.2,
+      "ram_delta_mb": 626.6,
+      "ram_peak_mb": 3907.4,
+      "stage": "Diarization"
+    },
+    "pipeline_total": {
+      "avg_cpu_pct": 77,
+      "peak_ram_mb": 3907.4,
+      "total_energy_j": 1524.0189,
+      "total_energy_wh": 0.423339
+    },
+    "preprocessing": {
+      "cpu_avg_pct": 35.5,
+      "duration_s": 2.187,
+      "energy_j": 6.2057,
+      "energy_wh": 0.001724,
+      "ram_after_mb": 1382.6,
+      "ram_before_mb": 1260.8,
+      "ram_delta_mb": 121.7,
+      "ram_peak_mb": 1368.6,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 86.1,
+      "duration_s": 4.633,
+      "energy_j": 31.914,
+      "energy_wh": 0.008865,
+      "ram_after_mb": 1414.1,
+      "ram_before_mb": 1382.6,
+      "ram_delta_mb": 31.5,
+      "ram_peak_mb": 1791.5,
+      "stage": "VAD"
+    }
+  },
+  "segments": [
+    {
+      "duration": 7.36,
+      "end": 7.36,
+      "end_time": "0:00:07",
+      "speaker": "Unknown",
+      "start": 0,
+      "start_time": "0:00:00",
+      "text": "Thirdly, acts are despicable and have no place in American society.",
+      "word_count": 11
+    },
+    {
+      "duration": 5.04,
+      "end": 12.4,
+      "end_time": "0:00:12",
+      "speaker": "Unknown",
+      "start": 7.36,
+      "start_time": "0:00:07",
+      "text": "I want to assure you we've deployed the full resources of the FBI, the United States",
+      "word_count": 16
+    },
+    {
+      "duration": 4.4,
+      "end": 16.8,
+      "end_time": "0:00:16",
+      "speaker": "Unknown",
+      "start": 12.4,
+      "start_time": "0:00:12",
+      "text": "Secret Service, and they're working very closely with law enforcement officials.",
+      "word_count": 11
+    },
+    {
+      "duration": 8.2,
+      "end": 25,
+      "end_time": "0:00:25",
+      "speaker": "Unknown",
+      "start": 16.8,
+      "start_time": "0:00:16",
+      "text": "We'll continue to monitor these investigations, and those responsible will be brought to justice.",
+      "word_count": 14
+    },
+    {
+      "duration": 5,
+      "end": 30,
+      "end_time": "0:00:30",
+      "speaker": "Unknown",
+      "start": 25,
+      "start_time": "0:00:25",
+      "text": "Thank you.",
+      "word_count": 2
+    },
+    {
+      "duration": 2,
+      "end": 32,
+      "end_time": "0:00:32",
+      "speaker": "Unknown",
+      "start": 30,
+      "start_time": "0:00:30",
+      "text": "Hey.",
+      "word_count": 1
+    },
+    {
+      "duration": 2,
+      "end": 34,
+      "end_time": "0:00:34",
+      "speaker": "Unknown",
+      "start": 32,
+      "start_time": "0:00:32",
+      "text": "Hey there, I'm Chris Hayes from MS NBC.",
+      "word_count": 8
+    },
+    {
+      "duration": 2,
+      "end": 36,
+      "end_time": "0:00:36",
+      "speaker": "Unknown",
+      "start": 34,
+      "start_time": "0:00:34",
+      "text": "Thanks for watching MS NBC on YouTube.",
+      "word_count": 7
+    },
+    {
+      "duration": 2,
+      "end": 38,
+      "end_time": "0:00:38",
+      "speaker": "Unknown",
+      "start": 36,
+      "start_time": "0:00:36",
+      "text": "If you want to keep up to date with the videos we're putting out,",
+      "word_count": 14
+    },
+    {
+      "duration": 2,
+      "end": 40,
+      "end_time": "0:00:40",
+      "speaker": "Unknown",
+      "start": 38,
+      "start_time": "0:00:38",
+      "text": "you can click subscribe just below me,",
+      "word_count": 7
+    },
+    {
+      "duration": 3,
+      "end": 43,
+      "end_time": "0:00:43",
+      "speaker": "Unknown",
+      "start": 40,
+      "start_time": "0:00:40",
+      "text": "or click over on this list to see lots of other great videos.",
+      "word_count": 13
+    }
+  ],
+  "silence_segments": [],
+  "speech_segments": [
+    {
+      "duration": 2.68,
+      "end": 2.71,
+      "start": 0.03,
+      "type": "speech"
+    },
+    {
+      "duration": 1.28,
+      "end": 4.71,
+      "start": 3.42,
+      "type": "speech"
+    },
+    {
+      "duration": 1.28,
+      "end": 6.53,
+      "start": 5.25,
+      "type": "speech"
+    },
+    {
+      "duration": 2.48,
+      "end": 9.84,
+      "start": 7.35,
+      "type": "speech"
+    },
+    {
+      "duration": 8.25,
+      "end": 19.05,
+      "start": 10.8,
+      "type": "speech"
+    },
+    {
+      "duration": 4.1,
+      "end": 24.65,
+      "start": 20.55,
+      "type": "speech"
+    },
+    {
+      "duration": 10.9,
+      "end": 43.55,
+      "start": 32.65,
+      "type": "speech"
+    }
+  ],
+  "timeline": [
+    {
+      "duration": 7.36,
+      "end": 7.36,
+      "speaker": "Unknown",
+      "start": 0,
+      "text": "Thirdly, acts are despicable and have no place in American society.",
+      "type": "speech"
+    },
+    {
+      "duration": 5.04,
+      "end": 12.4,
+      "speaker": "Unknown",
+      "start": 7.36,
+      "text": "I want to assure you we've deployed the full resources of the FBI, the United States",
+      "type": "speech"
+    },
+    {
+      "duration": 4.4,
+      "end": 16.8,
+      "speaker": "Unknown",
+      "start": 12.4,
+      "text": "Secret Service, and they're working very closely with law enforcement officials.",
+      "type": "speech"
+    },
+    {
+      "duration": 8.2,
+      "end": 25,
+      "speaker": "Unknown",
+      "start": 16.8,
+      "text": "We'll continue to monitor these investigations, and those responsible will be brought to justice.",
+      "type": "speech"
+    },
+    {
+      "duration": 5,
+      "end": 30,
+      "speaker": "Unknown",
+      "start": 25,
+      "text": "Thank you.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 32,
+      "speaker": "Unknown",
+      "start": 30,
+      "text": "Hey.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 34,
+      "speaker": "Unknown",
+      "start": 32,
+      "text": "Hey there, I'm Chris Hayes from MS NBC.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 36,
+      "speaker": "Unknown",
+      "start": 34,
+      "text": "Thanks for watching MS NBC on YouTube.",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 38,
+      "speaker": "Unknown",
+      "start": 36,
+      "text": "If you want to keep up to date with the videos we're putting out,",
+      "type": "speech"
+    },
+    {
+      "duration": 2,
+      "end": 40,
+      "speaker": "Unknown",
+      "start": 38,
+      "text": "you can click subscribe just below me,",
+      "type": "speech"
+    },
+    {
+      "duration": 3,
+      "end": 43,
+      "speaker": "Unknown",
+      "start": 40,
+      "text": "or click over on this list to see lots of other great videos.",
+      "type": "speech"
+    }
+  ],
+  "timing": {
+    "asr_model": "distil-whisper/distil-small.en",
+    "audio_duration_s": 44.513,
+    "model_load_diarization_s": 1.102,
+    "model_load_distil_whisper_s": 3.751,
+    "model_load_total_s": 5.296,
+    "model_load_vad_s": 0.193,
+    "pipeline_total_s": 205.107,
+    "real_time_factor": 4.608,
+    "stage_asr_s": 68.601,
+    "stage_diarization_s": 129.683,
+    "stage_preprocessing_s": 2.187,
+    "stage_vad_s": 4.633
+  },
+  "unique_speakers_count": 0
+}

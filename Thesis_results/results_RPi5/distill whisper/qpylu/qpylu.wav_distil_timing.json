@@ -1,0 +1,14 @@
+{
+  "asr_model": "distil-whisper/distil-small.en",
+  "audio_duration_s": 44.513,
+  "model_load_diarization_s": 1.102,
+  "model_load_distil_whisper_s": 3.751,
+  "model_load_total_s": 5.296,
+  "model_load_vad_s": 0.193,
+  "pipeline_total_s": 205.107,
+  "real_time_factor": 4.608,
+  "stage_asr_s": 68.601,
+  "stage_diarization_s": 129.683,
+  "stage_preprocessing_s": 2.187,
+  "stage_vad_s": 4.633
+}

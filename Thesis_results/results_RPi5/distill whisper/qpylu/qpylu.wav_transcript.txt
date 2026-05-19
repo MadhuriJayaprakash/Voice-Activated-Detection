@@ -1,0 +1,41 @@
+Distil-Whisper Transcript
+File: qpylu.wav
+Model: distil-whisper/distil-small.en
+Duration: 44.5126875s
+Speakers: 0
+
+──────────────────────────────────────────────────
+
+[0:00:00 → 0:00:07] Unknown
+Thirdly, acts are despicable and have no place in American society.
+
+[0:00:07 → 0:00:12] Unknown
+I want to assure you we've deployed the full resources of the FBI, the United States
+
+[0:00:12 → 0:00:16] Unknown
+Secret Service, and they're working very closely with law enforcement officials.
+
+[0:00:16 → 0:00:25] Unknown
+We'll continue to monitor these investigations, and those responsible will be brought to justice.
+
+[0:00:25 → 0:00:30] Unknown
+Thank you.
+
+[0:00:30 → 0:00:32] Unknown
+Hey.
+
+[0:00:32 → 0:00:34] Unknown
+Hey there, I'm Chris Hayes from MS NBC.
+
+[0:00:34 → 0:00:36] Unknown
+Thanks for watching MS NBC on YouTube.
+
+[0:00:36 → 0:00:38] Unknown
+If you want to keep up to date with the videos we're putting out,
+
+[0:00:38 → 0:00:40] Unknown
+you can click subscribe just below me,
+
+[0:00:40 → 0:00:43] Unknown
+or click over on this list to see lots of other great videos.
+

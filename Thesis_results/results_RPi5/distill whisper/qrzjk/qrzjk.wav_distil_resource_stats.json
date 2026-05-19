@@ -1,0 +1,70 @@
+{
+  "file": "qrzjk.wav",
+  "model": "distil-whisper/distil-small.en",
+  "audio_duration_s": 39.576,
+  "real_time_factor": 5.277,
+  "generated": "2026-05-05T12:47:27.113Z",
+  "stages": {
+    "preprocessing": {
+      "cpu_avg_pct": 34.6,
+      "duration_s": 2.1,
+      "energy_j": 5.8119,
+      "energy_wh": 0.001614,
+      "ram_after_mb": 1381.3,
+      "ram_before_mb": 1262.9,
+      "ram_delta_mb": 118.4,
+      "ram_peak_mb": 1381.4,
+      "stage": "Preprocessing"
+    },
+    "vad": {
+      "cpu_avg_pct": 81.4,
+      "duration_s": 3.623,
+      "energy_j": 23.5945,
+      "energy_wh": 0.006554,
+      "ram_after_mb": 1442.4,
+      "ram_before_mb": 1381.3,
+      "ram_delta_mb": 61,
+      "ram_peak_mb": 1785.9,
+      "stage": "VAD"
+    },
+    "asr": {
+      "cpu_avg_pct": 85.3,
+      "duration_s": 89.004,
+      "energy_j": 607.5905,
+      "energy_wh": 0.168775,
+      "ram_after_mb": 1822.6,
+      "ram_before_mb": 1442.4,
+      "ram_delta_mb": 380.2,
+      "ram_peak_mb": 1824.4,
+      "stage": "ASR (Distil-Whisper)"
+    },
+    "diarization": {
+      "cpu_avg_pct": 92.2,
+      "duration_s": 114.131,
+      "energy_j": 841.3797,
+      "energy_wh": 0.233717,
+      "ram_after_mb": 3482.9,
+      "ram_before_mb": 1822.6,
+      "ram_delta_mb": 1660.3,
+      "ram_peak_mb": 3901.5,
+      "stage": "Diarization"
+    }
+  },
+  "pipeline_total": {
+    "avg_cpu_pct": 73.4,
+    "peak_ram_mb": 3901.5,
+    "total_energy_j": 1478.3766,
+    "total_energy_wh": 0.41066
+  },
+  "timing_s": {
+    "model_load_distil_whisper": 3.744,
+    "model_load_diarization": 1.091,
+    "model_load_vad": 0.201,
+    "model_load_total": 5.284,
+    "preprocessing": 2.1,
+    "vad": 3.623,
+    "asr": 89.004,
+    "diarization": 114.131,
+    "pipeline_total": 208.86
+  }
+}
